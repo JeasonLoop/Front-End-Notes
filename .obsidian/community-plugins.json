@@ -3,5 +3,11 @@
   "execute-code",
   "markdown-prettifier",
   "obsidian-react-components",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "obsidian-git",
+  "calendar",
+  "obsidian-auto-link-title",
+  "surfing",
+  "obsidian-banners",
+  "obsidian-code-block-enhancer"
 ]

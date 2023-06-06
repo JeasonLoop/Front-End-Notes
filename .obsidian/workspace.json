@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝Notes/浏览器工作原理.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,12 +64,20 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "52fcb47e22959944",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 269.5
   },
   "right": {
     "id": "4b8626adeef8cdce",
@@ -85,8 +93,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝Notes/浏览器工作原理.md",
-                "collapseAll": false,
+                "file": "README.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📝Notes/浏览器工作原理.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,15 +133,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝Notes/浏览器工作原理.md"
+                "file": "README.md"
               }
             }
+          },
+          {
+            "id": "e3c59a9f35fc72bb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 313.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -148,49 +165,52 @@
   },
   "active": "6ea988c406084b1c",
   "lastOpenFiles": [
-    "📝Notes/🐸技术课程收集.md",
-    "未命名看板.md",
-    "🎃网址收集/3️⃣ 摸鱼.md",
-    "🎃网址收集/2️⃣ 工具轮子.md",
-    "🎃网址收集/1️⃣ 文档文章.md",
-    "未命名.canvas",
-    "📟开发收集/🛠️实用工具函数.md",
-    "🎃网址收集",
-    "📝Notes/⌚React/HOC高阶组件.md",
-    "📟开发收集",
+    "📟开发收集/🍃Code Fragment.md",
+    "README.md",
+    "未命名.md",
+    "🎃网址收集/1.文档文章.md",
+    "📝Notes/🍂原生JS/JS基础&高级语法笔记.md",
+    "📝Notes/🍂原生JS/同步异步函数.md",
+    "📝Notes/🍂原生JS/原型链解析.md",
+    "📝Notes/💿计算机网络/浏览器工作原理.md",
     "📝Notes/⌚React/Diff.md",
+    "📝Notes/📃其余分类笔记",
+    "📝Notes/🍂原生JS",
+    "📝Notes/未命名.md",
     "📝Notes/assets/Pasted image 20230605155801.png",
     "📝Notes/assets/Pasted image 20230605155752.png",
     "📝Notes/assets/Pasted image 20230605155728.png",
     "📝Notes/assets/Pasted image 20230605155715.png",
+    "📝Notes/assets/Pasted image 20230605151654.png",
+    "📝Notes/assets/Pasted image 20230605151622.png",
+    "📝Notes/assets/Pasted image 20230605151601.png",
+    "📝Notes/assets/Pasted image 20230605151537.png",
+    "📝Notes/assets/Pasted image 20230605151522.png",
+    "📝Notes/assets/Pasted image 20230605151512.png",
+    "📝Notes/assets",
+    "📝Notes/🐸技术课程收集.md",
+    "🎃网址收集/2.工具轮子.md",
+    "📟开发收集/🛠️实用工具函数.md",
+    "🎃网址收集/3.摸鱼.md",
+    "🎃网址收集/2️⃣ 工具轮子.md",
+    "🎃网址收集/1️⃣ 文档文章.md",
+    "未命名看板.md",
+    "未命名.canvas",
+    "🎃网址收集",
+    "📝Notes/⌚React/HOC高阶组件.md",
+    "📟开发收集",
     "📝Notes/⌚React/useRef存取状态.md",
     "📝Notes/⌚React/useCallBack&useMemo.md",
     "📝Notes/⌚React/Redux.md",
     "📖读书笔记",
     "📝Notes/💿计算机网络/HTTP&HTTPS.md",
     "📝Notes/⌚React",
-    "📝Notes/未命名.md",
     "📝Notes/💿计算机网络/TCP三次握手.md",
     "📝Notes/💿计算机网络/BOM属性对象方法.md",
     "📝Notes/💿计算机网络/浏览器缓存.md",
     "📝Notes/💿计算机网络/访问URL的背后.md",
-    "📝Notes/🦚Vue/Vue2/基础语法学习.md",
     "📝Notes/💿计算机网络",
     "📝Notes/🦚Vue/Vue2",
-    "📝Notes/🦚Vue/Vue3.md",
-    "📝Notes/🦚Vue/Vue2.md",
-    "📝Notes/原型链解析.md",
-    "📝Notes/🦚Vue",
-    "📝Notes/同步异步函数.md",
-    "📝Notes/浏览器工作原理.md",
-    "📝Notes/assets/Pasted image 20230605151512.png",
-    "📝Notes/assets",
-    "📝Notes/assets/Pasted image 20230605151522.png",
-    "📝Notes/assets/Pasted image 20230605151601.png",
-    "📝Notes/assets/Pasted image 20230605151654.png",
-    "📝Notes/assets/Pasted image 20230605151622.png",
-    "📝Notes/assets/Pasted image 20230605151537.png",
-    "📝Notes",
-    "未命名.md"
+    "📝Notes/🦚Vue"
   ]
 }
