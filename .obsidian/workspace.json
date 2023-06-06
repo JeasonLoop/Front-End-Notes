@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "954ce924db246fec",
+    "type": "split",
+    "children": [
+      {
+        "id": "35da0dc8631f5ddf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ea988c406084b1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📝Notes/浏览器工作原理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7e7b0a613762c27",
+    "type": "split",
+    "children": [
+      {
+        "id": "c35cf1eab9bf0e0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a30716b644ee639",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0f30afe84ee15237",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c8bded92a620bc55",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4b8626adeef8cdce",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d0e70b2fad157d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93cb5fafe538674c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "📝Notes/浏览器工作原理.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3523498b2c568f39",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "📝Notes/浏览器工作原理.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e8b218aa82d27452",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "782b136425f0216f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "📝Notes/浏览器工作原理.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "6ea988c406084b1c",
+  "lastOpenFiles": [
+    "📝Notes/🐸技术课程收集.md",
+    "未命名看板.md",
+    "🎃网址收集/3️⃣ 摸鱼.md",
+    "🎃网址收集/2️⃣ 工具轮子.md",
+    "🎃网址收集/1️⃣ 文档文章.md",
+    "未命名.canvas",
+    "📟开发收集/🛠️实用工具函数.md",
+    "🎃网址收集",
+    "📝Notes/⌚React/HOC高阶组件.md",
+    "📟开发收集",
+    "📝Notes/⌚React/Diff.md",
+    "📝Notes/assets/Pasted image 20230605155801.png",
+    "📝Notes/assets/Pasted image 20230605155752.png",
+    "📝Notes/assets/Pasted image 20230605155728.png",
+    "📝Notes/assets/Pasted image 20230605155715.png",
+    "📝Notes/⌚React/useRef存取状态.md",
+    "📝Notes/⌚React/useCallBack&useMemo.md",
+    "📝Notes/⌚React/Redux.md",
+    "📖读书笔记",
+    "📝Notes/💿计算机网络/HTTP&HTTPS.md",
+    "📝Notes/⌚React",
+    "📝Notes/未命名.md",
+    "📝Notes/💿计算机网络/TCP三次握手.md",
+    "📝Notes/💿计算机网络/BOM属性对象方法.md",
+    "📝Notes/💿计算机网络/浏览器缓存.md",
+    "📝Notes/💿计算机网络/访问URL的背后.md",
+    "📝Notes/🦚Vue/Vue2/基础语法学习.md",
+    "📝Notes/💿计算机网络",
+    "📝Notes/🦚Vue/Vue2",
+    "📝Notes/🦚Vue/Vue3.md",
+    "📝Notes/🦚Vue/Vue2.md",
+    "📝Notes/原型链解析.md",
+    "📝Notes/🦚Vue",
+    "📝Notes/同步异步函数.md",
+    "📝Notes/浏览器工作原理.md",
+    "📝Notes/assets/Pasted image 20230605151512.png",
+    "📝Notes/assets",
+    "📝Notes/assets/Pasted image 20230605151522.png",
+    "📝Notes/assets/Pasted image 20230605151601.png",
+    "📝Notes/assets/Pasted image 20230605151654.png",
+    "📝Notes/assets/Pasted image 20230605151622.png",
+    "📝Notes/assets/Pasted image 20230605151537.png",
+    "📝Notes",
+    "未命名.md"
+  ]
+}
