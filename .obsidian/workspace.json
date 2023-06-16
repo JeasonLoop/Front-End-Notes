@@ -4,18 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "35da0dc8631f5ddf",
+        "id": "f95cfd188dbc88c9",
         "type": "tabs",
         "children": [
           {
-            "id": "6ea988c406084b1c",
+            "id": "5a5f835b29f7071d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "📟开发收集/弹幕组件开发.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "0dcf8535377c57b8",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://juejin.cn/frontend"
               }
             }
           }
@@ -88,35 +98,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "93cb5fafe538674c",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "README.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "3523498b2c568f39",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "README.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "e8b218aa82d27452",
             "type": "leaf",
             "state": {
@@ -133,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "📟开发收集/弹幕组件开发.md"
               }
             }
           },
@@ -144,13 +125,50 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "e0f812e1b4200591",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "36b6cad3fb1d1a18",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "📟开发收集/弹幕组件开发.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "be5d30137e513d8f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "📟开发收集/弹幕组件开发.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
+    "width": 463.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -163,35 +181,38 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6ea988c406084b1c",
+  "active": "4a30716b644ee639",
   "lastOpenFiles": [
+    "📟开发收集/弹幕组件开发.md",
     "📟开发收集/🍃Code Fragment.md",
-    "README.md",
-    "未命名.md",
+    "📟开发收集/🛠️实用工具函数.md",
+    "📟开发收集/未命名",
     "🎃网址收集/1.文档文章.md",
     "📝Notes/🍂原生JS/JS基础&高级语法笔记.md",
-    "📝Notes/🍂原生JS/同步异步函数.md",
-    "📝Notes/🍂原生JS/原型链解析.md",
-    "📝Notes/💿计算机网络/浏览器工作原理.md",
+    "📝Notes/assets/Pasted image 20230609141755.png",
+    "📝Notes/assets/Pasted image 20230609141709.png",
+    "📝Notes/assets/Pasted image 20230609141637.png",
+    "📝Notes/assets/Pasted image 20230609141213.png",
+    "📝Notes/assets/Pasted image 20230609141135.png",
+    "📝Notes/assets/Pasted image 20230609140800.png",
+    "📝Notes/assets/Pasted image 20230609135553.png",
+    "📝Notes/assets/Pasted image 20230609135548.png",
+    "📝Notes/⌚React/React技术揭秘笔记.md",
+    "📝Notes/assets/Pasted image 20230608142040.png",
+    "🎃网址收集/2.工具轮子.md",
     "📝Notes/⌚React/Diff.md",
+    "📝Notes/🍂原生JS/原型链解析.md",
+    "🎃网址收集/3.摸鱼.md",
+    "📝Notes/🐸技术课程收集.md",
+    "README.md",
+    "未命名.md",
+    "📝Notes/🍂原生JS/同步异步函数.md",
+    "📝Notes/💿计算机网络/浏览器工作原理.md",
     "📝Notes/📃其余分类笔记",
     "📝Notes/🍂原生JS",
     "📝Notes/未命名.md",
     "📝Notes/assets/Pasted image 20230605155801.png",
-    "📝Notes/assets/Pasted image 20230605155752.png",
-    "📝Notes/assets/Pasted image 20230605155728.png",
-    "📝Notes/assets/Pasted image 20230605155715.png",
-    "📝Notes/assets/Pasted image 20230605151654.png",
-    "📝Notes/assets/Pasted image 20230605151622.png",
-    "📝Notes/assets/Pasted image 20230605151601.png",
-    "📝Notes/assets/Pasted image 20230605151537.png",
-    "📝Notes/assets/Pasted image 20230605151522.png",
-    "📝Notes/assets/Pasted image 20230605151512.png",
     "📝Notes/assets",
-    "📝Notes/🐸技术课程收集.md",
-    "🎃网址收集/2.工具轮子.md",
-    "📟开发收集/🛠️实用工具函数.md",
-    "🎃网址收集/3.摸鱼.md",
     "🎃网址收集/2️⃣ 工具轮子.md",
     "🎃网址收集/1️⃣ 文档文章.md",
     "未命名看板.md",
@@ -207,10 +228,7 @@
     "📝Notes/⌚React",
     "📝Notes/💿计算机网络/TCP三次握手.md",
     "📝Notes/💿计算机网络/BOM属性对象方法.md",
-    "📝Notes/💿计算机网络/浏览器缓存.md",
-    "📝Notes/💿计算机网络/访问URL的背后.md",
     "📝Notes/💿计算机网络",
-    "📝Notes/🦚Vue/Vue2",
-    "📝Notes/🦚Vue"
+    "📝Notes/🦚Vue/Vue2"
   ]
 }
