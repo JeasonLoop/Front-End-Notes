@@ -11,10 +11,14 @@
             "id": "76b1c90af95590cc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Nest/02-核心概念.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "02-核心概念"
             }
           }
         ]
@@ -76,12 +80,22 @@
             "state": {
               "type": "surfing-tab-tree",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "surfing-tab-tree"
             }
           },
           {
             "id": "9285dfdd1716021f",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "surfing-tab-tree"
+            }
+          },
+          {
+            "id": "56e20134c384ce98",
             "type": "leaf",
             "state": {
               "type": "surfing-tab-tree",
@@ -139,8 +153,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -149,8 +163,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "git-history-view"
             }
           },
           {
@@ -196,17 +210,39 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "surfing:surfing-bookmark-manager": false,
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "surfing:surfing-bookmark-manager": false
     }
   },
-  "active": "4a30716b644ee639",
+  "active": "76b1c90af95590cc",
   "lastOpenFiles": [
+    "Nest/01-快速开始.md",
+    "Nest/19-部署.md",
+    "Nest/18-测试.md",
+    "Nest/17-配置管理.md",
+    "Nest/16-项目结构.md",
+    "Nest/15-文件上传.md",
+    "Nest/08-拦截器.md",
+    "Nest/14-认证授权.md",
+    "Nest/11-RESTful-API.md",
+    "Nest/13-微服务.md",
+    "Nest/05-异常处理.md",
+    "Nest/12-WebSocket.md",
+    "Nest/10-MongoDB集成.md",
+    "Nest/09-TypeORM集成.md",
+    "Nest/07-守卫.md",
+    "Nest/06-管道.md",
+    "Nest/03-依赖注入.md",
+    "Nest/02-核心概念.md",
+    "Nest/04-中间件.md",
+    "Nest/README.md",
+    "Nest",
     "FrontEndNotes/源码",
     "FrontEndNotes/服务器",
     "FrontEndNotes/AI",
@@ -220,29 +256,10 @@
     "📝Notes/⭐WEB前端大师课笔记/CH1.事件循环.md",
     "📝Notes/⭐WEB前端大师课笔记/CH2.浏览器渲染原理.md",
     "📝Notes/⌚React/useRef存取状态.md",
-    "📝Notes/⌚React/useCallBack&useMemo.md",
-    "📝Notes/⌚React/Redux.md",
-    "📝Notes/⌚React/HOC高阶组件.md",
-    "📝Notes/⌚React/Diff.md",
-    "📝Notes/🦚Vue/Vue2/基础语法学习.md",
-    "📝Notes/🐸技术课程收集.md",
-    "📝Notes/3-1面试复盘.md",
-    "📝Notes/阿里巴巴二面准备.md",
-    "📝Notes/5.19面试准备.md",
-    "📝Notes/阿里 okki saas销售 面试准备.md",
-    "Ai方向/提示词工程指南/prompts.md",
-    "Ai方向/提示词工程指南/提示词使用工具收集.md",
-    "Ai方向/未命名.md",
-    "Ai方向/提示词工程指南/Prompt提示工程从零到一：构建高质量AI提示词技巧与实战.md",
-    "Ai方向/提示词工程指南/Prompt调优.md",
     "Pasted image 20250421141452.png",
     "Pasted image 20250421141447.png",
-    "📟开发收集/🍃Code Fragment.md",
-    "Ai方向/提示词工程指南.md",
     "Ai方向/提示词工程指南",
     "Ai方向",
-    "🎃网址收集/1.文档文章.md",
-    "📟开发收集/🛠️实用工具函数.md",
     "Pasted image 20240316193928.png",
     "Pasted image 20240316193951.png",
     "📝Notes/assets/Pasted image 20240309164146.png",
@@ -251,8 +268,6 @@
     "📝Notes/assets/Pasted image 20240309162939.png",
     "📝Notes/assets/Pasted image 20240309162849.png",
     "📝Notes/assets/Pasted image 20240309162600.png",
-    "📝Notes/⭐WEB前端大师课笔记",
-    "📟开发收集/未命名",
     "未命名.canvas"
   ]
 }
