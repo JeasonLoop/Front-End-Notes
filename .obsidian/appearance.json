@@ -1,9 +1,11 @@
 {
-  "accentColor": "#954fc4",
-  "cssTheme": "Mammoth",
-  "baseFontSize": 16,
+  "cssTheme": "Blue Topaz",
+  "nativeMenus": false,
   "theme": "obsidian",
-  "interfaceFontFamily": "Cascadia Mono",
-  "textFontFamily": "Cascadia Mono",
-  "monospaceFontFamily": "Cascadia Mono"
+  "accentColor": "#00466b",
+  "enabledCssSnippets": [
+    "nav-folder-title-icon",
+    "hide-build-folders"
+  ],
+  "translucency": true
 }

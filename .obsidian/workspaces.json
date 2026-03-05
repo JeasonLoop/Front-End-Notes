@@ -1,0 +1,242 @@
+{
+  "workspaces": {
+    "重学": {
+      "main": {
+        "id": "17185545f7c8d1cc",
+        "type": "split",
+        "children": [
+          {
+            "id": "ab63dca813a5d0c1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ccc1524090d6a3df",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://freegeektime.com/100023201/78884/",
+                    "title": "JavaScript类型：关于类型，有哪些你不知道的细节？ - 极客时间已完结课程限时免费阅读",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "JavaScript类型：关于类型，有哪些你不知道的细节？ - 极客时间已完结课程限时免费阅读"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "05fb93f0d41dfb32",
+        "type": "split",
+        "children": [
+          {
+            "id": "dddd3d328ede567a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b76d5d4c5f29b876",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": true
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "5c53eb3decbcd3ad",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              },
+              {
+                "id": "30be7aca9a73ace4",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "ngnix",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "21fefd9d31313cb1",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              },
+              {
+                "id": "547e2cc35a5c25f2",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 266.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "9ec9dc92d8196544",
+        "type": "split",
+        "children": [
+          {
+            "id": "ffef919d0a9f365d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cc089dfc51082da7",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "大纲"
+                }
+              },
+              {
+                "id": "70999e069002e33c",
+                "type": "leaf",
+                "state": {
+                  "type": "mxmind-view",
+                  "state": {},
+                  "icon": "network",
+                  "title": "Mxmind"
+                }
+              },
+              {
+                "id": "2d8b45923dba1000",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "反向链接"
+                }
+              },
+              {
+                "id": "b05309cfe1d2ecf3",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": true,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-going-out",
+                  "title": "出链"
+                }
+              },
+              {
+                "id": "ffc7586e1facca5c",
+                "type": "leaf",
+                "state": {
+                  "type": "thino_view",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "插件不再活动"
+                }
+              },
+              {
+                "id": "f907bcb412dfe0ea",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
+                }
+              },
+              {
+                "id": "a564317c6d1bddf2",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://www.notion.so/10732ee5ecaa4568843c0b2cc6bdd213",
+                    "title": "重学前端",
+                    "mode": "webview"
+                  },
+                  "pinned": true,
+                  "icon": "globe-2",
+                  "title": "重学前端"
+                }
+              }
+            ],
+            "currentTab": 6
+          }
+        ],
+        "direction": "horizontal",
+        "width": 419.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "workspaces:管理工作区布局": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "obsidian-kanban:创建新看板": false,
+          "obsidian-memos:Thino": false,
+          "mxmind:Mxmind": false,
+          "obsidian-git:Open Git source control": false
+        }
+      },
+      "active": "ccc1524090d6a3df",
+      "mtime": "2025-08-13T09:10:12+08:00"
+    }
+  },
+  "active": "重学"
+}

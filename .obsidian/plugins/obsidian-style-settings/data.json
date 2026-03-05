@@ -1,0 +1,17 @@
+{
+  "blue-topaz-theme@@background-settings-workplace-background-image": false,
+  "blue-topaz-theme@@background-image-settings-switch": false,
+  "blue-topaz-theme@@background-notebook-liked-switch": true,
+  "blue-topaz-theme@@notebook-liked-markdown-page-options": "notebook-liked-markdown-page-grid-notebook-1",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-default",
+  "blue-topaz-theme@@left-ribbon-style": "bt-bubble-ribbon",
+  "blue-topaz-theme@@bt-status-on": false,
+  "blue-topaz-theme@@scrollbar-style-option": "remove-scrollbars",
+  "blue-topaz-theme@@toggle-header-bottom-line": false,
+  "blue-topaz-theme@@toggle-divider-lines": false,
+  "blue-topaz-theme@@tab-title-bar-position": false,
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-material-palenight",
+  "blue-topaz-theme@@search-bar-style-option": "default-search-bar",
+  "blue-topaz-theme@@view-button-front": true,
+  "blue-topaz-theme@@plain-file-title": true
+}

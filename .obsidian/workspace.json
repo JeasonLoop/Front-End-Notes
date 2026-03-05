@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "954ce924db246fec",
+    "id": "17185545f7c8d1cc",
     "type": "split",
     "children": [
       {
-        "id": "9f3df8dfcb6726ad",
+        "id": "472b3326b0532a65",
         "type": "tabs",
         "children": [
           {
-            "id": "76b1c90af95590cc",
+            "id": "f2e77e3db25855b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/Go/01-基础入门/安装与环境配置.md",
-                "mode": "source",
+                "file": "服务器/Docker部署前端项目教程.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "安装与环境配置"
+              "title": "Docker部署前端项目教程"
             }
           }
         ]
@@ -27,36 +27,51 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c7e7b0a613762c27",
+    "id": "05fb93f0d41dfb32",
     "type": "split",
     "children": [
       {
-        "id": "c35cf1eab9bf0e0e",
+        "id": "dddd3d328ede567a",
         "type": "tabs",
         "children": [
           {
-            "id": "4a30716b644ee639",
+            "id": "b76d5d4c5f29b876",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
             }
           },
           {
-            "id": "0f30afe84ee15237",
+            "id": "5c53eb3decbcd3ad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "30be7aca9a73ace4",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -65,7 +80,7 @@
             }
           },
           {
-            "id": "c8bded92a620bc55",
+            "id": "21fefd9d31313cb1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -75,66 +90,31 @@
             }
           },
           {
-            "id": "52fcb47e22959944",
+            "id": "547e2cc35a5c25f2",
             "type": "leaf",
             "state": {
-              "type": "surfing-tab-tree",
+              "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "surfing-tab-tree"
-            }
-          },
-          {
-            "id": "9285dfdd1716021f",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "surfing-tab-tree"
-            }
-          },
-          {
-            "id": "56e20134c384ce98",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {},
-              "icon": "chrome",
-              "title": "Surfing Tab Tree"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 366.5
   },
   "right": {
-    "id": "4b8626adeef8cdce",
+    "id": "9ec9dc92d8196544",
     "type": "split",
     "children": [
       {
-        "id": "8d0e70b2fad157d7",
+        "id": "ffef919d0a9f365d",
         "type": "tabs",
         "children": [
           {
-            "id": "e8b218aa82d27452",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
-            "id": "782b136425f0216f",
+            "id": "497559b544654cd9",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -148,32 +128,91 @@
             }
           },
           {
-            "id": "e3c59a9f35fc72bb",
+            "id": "a0673c520d79544c",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/muliminty/project/Muliminty-Note",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": null
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "终端：zsh"
             }
           },
           {
-            "id": "e0f812e1b4200591",
+            "id": "a8b63ca7492536c8",
             "type": "leaf",
             "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-history-view"
+              "type": "webviewer",
+              "state": {
+                "url": "https://chat.deepseek.com/a/chat/s/35339312-95bf-48fa-898a-ad20e07c238b",
+                "title": "LLM定义及特点详解 - DeepSeek",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "LLM定义及特点详解 - DeepSeek"
             }
           },
           {
-            "id": "36b6cad3fb1d1a18",
+            "id": "daa12a1d7b2c9b3b",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.doubao.com/chat/36801127097407746",
+                "title": "Docker技术大神 - 豆包",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Docker技术大神 - 豆包"
+            }
+          },
+          {
+            "id": "926de4536f5b42e3",
+            "type": "leaf",
+            "state": {
+              "type": "comment-view",
+              "state": {},
+              "icon": "highlighter",
+              "title": "HiNote"
+            }
+          },
+          {
+            "id": "d0264aa59c381266",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝Notes/💿计算机网络/访问URL的背后.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,21 +222,34 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "访问URL的背后 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
-            "id": "be5d30137e513d8f",
+            "id": "13889cca736e6edd",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📝Notes/💿计算机网络/访问URL的背后.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "访问URL的背后 的出链列表"
+              "title": "出链"
+            }
+          },
+          {
+            "id": "9eb766e1a7efd0ea",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           }
         ],
@@ -205,69 +257,79 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "surfing:surfing-bookmark-manager": false
+      "bases:新建数据库": true,
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": true,
+      "canvas:新建白板": true,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
+      "workspaces:管理工作区布局": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-kanban:创建新看板": false,
+      "mxmind:Mxmind": true,
+      "obsidian-git:Open Git source control": true,
+      "hi-note:HiNote": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "76b1c90af95590cc",
+  "active": "f2e77e3db25855b1",
   "lastOpenFiles": [
-    "CodeBlock/工具函数.md",
-    "前端/JS/02-this绑定和上下文.md",
-    "前端/JS/11-模块化和打包.md",
-    "前端/JS/10-内存管理和性能优化.md",
-    "前端/JS/09-设计模式.md",
-    "前端/JS/08-元编程和反射.md",
-    "前端/JS/07-ES6+新特性详解.md",
-    "前端/JS/03-原型和继承.md",
-    "前端/JS/01-闭包和作用域.md",
-    "Nest/10-MongoDB集成.md",
-    "前端/JS/12-错误处理和调试.md",
-    "前端/JS/06-函数式编程.md",
-    "前端/JS/05-事件循环和并发.md",
-    "前端/JS/04-异步编程详解.md",
-    "前端/JS/README.md",
-    "前端/JS",
-    "前端/React",
-    "后端/Go",
-    "后端/Java",
-    "前端/Vue",
-    "CodeBlock",
-    "服务器",
-    "后端",
-    "前端",
-    "Nest/09-TypeORM集成.md",
-    "Nest/02-核心概念.md",
+    "Nest/04-中间件.md",
+    "Nest/06-管道.md",
+    "Nest/03-依赖注入.md",
     "Nest/01-快速开始.md",
-    "Nest/19-部署.md",
-    "Nest/18-测试.md",
-    "Nest/17-配置管理.md",
-    "Nest/16-项目结构.md",
-    "Nest/15-文件上传.md",
-    "Nest/08-拦截器.md",
-    "Nest/14-认证授权.md",
-    "Nest/11-RESTful-API.md",
-    "Nest",
-    "Pasted image 20250421141452.png",
-    "Pasted image 20250421141447.png",
-    "Pasted image 20240316193928.png",
-    "Pasted image 20240316193951.png",
-    "📝Notes/assets/Pasted image 20240309164146.png",
-    "📝Notes/assets/Pasted image 20240224140903.png",
-    "📝Notes/assets/Pasted image 20240309164134.png",
-    "📝Notes/assets/Pasted image 20240309162939.png",
-    "📝Notes/assets/Pasted image 20240309162849.png",
-    "📝Notes/assets/Pasted image 20240309162600.png",
-    "未命名.canvas"
+    "服务器/Docker部署前端项目教程.md",
+    "前端/JS/08-元编程和反射.md",
+    "前端/JS/09-设计模式.md",
+    "前端/React/03-状态管理.md",
+    "前端/React/04-路由管理.md",
+    "前端/React/05-性能优化.md",
+    "前端/React/06-最佳实践.md",
+    "前端/React/01-基础入门.md",
+    "CodeBlock/工具函数.md",
+    "前端/React/02-Hooks.md",
+    "00-前端体系/01-基础入门/TypeScript/01-基础类型.md",
+    "00-前端体系/01-基础入门/TypeScript/!MOC-TypeScript.md",
+    "00-经验技巧/HTTPS 配置指南（腾讯云证书）.md",
+    "03-服务端/02-Web服务器/nginx/03-核心功能/虚拟主机配置.md",
+    "03-服务端/04-部署与运维/云平台部署/腾讯云部署.md",
+    "书籍/overreacted/jsx-over-the-wire/index.md",
+    "05-AI CODEING/AI生成文档与注释.md",
+    "06-BLOG/别再焦虑被AI替代！.md",
+    "05-AI CODEING/TDD.md",
+    "00-前端体系/05-高级应用/部署与发布/!MOC-部署与发布.md",
+    "Clippings/怎么成为一个 ai agent 工程师？ - Finalchemist 的回答.md",
+    "Clippings",
+    "00-经验技巧/claude code 技能推荐.md",
+    "06-BLOG/专栏/🔥 GitHub 热门项目推荐",
+    "未命名 1",
+    "06-BLOG/专栏",
+    "06-BLOG",
+    "数据库.base",
+    "05-AI CODEING",
+    "01-计算机基础/06-数据库/01-SQL基础",
+    "01-计算机基础/06-数据库",
+    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/07-迁移升级",
+    "未命名.canvas",
+    "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
+    "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
+    "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/async-process-model.png",
+    "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/async-await使用同步方式写异步代码/img/coroutine-switch.png",
+    "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/async-await使用同步方式写异步代码/img/coroutine-execute-process.png",
+    "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/async-await使用同步方式写异步代码/img/async-await-execute-process.png",
+    "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/消息队列和事件循环：页面是怎么活起来的/img/thread-import-event-loop.png",
+    "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/消息队列和事件循环：页面是怎么活起来的/img/task-execute-long.png",
+    "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/消息队列和事件循环：页面是怎么活起来的/img/thread-execute-process.png",
+    "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/消息队列和事件循环：页面是怎么活起来的/img/notify-render-thread.png",
+    "00-前端/00-核心/JavaScript/知识图谱.canvas",
+    "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",
+    "未命名 1.canvas",
+    "未命名 2.canvas"
   ]
 }

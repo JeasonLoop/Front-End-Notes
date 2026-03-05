@@ -1,13 +1,16 @@
 [
-  "dataview",
-  "execute-code",
-  "markdown-prettifier",
-  "obsidian-react-components",
+  "obsidian-excalidraw-plugin",
   "obsidian-kanban",
-  "obsidian-git",
-  "calendar",
+  "obsidian-annotator",
+  "obsidian-linter",
   "obsidian-auto-link-title",
-  "surfing",
-  "obsidian-banners",
-  "obsidian-code-block-enhancer"
+  "copilot",
+  "mxmind",
+  "xmind-viewer",
+  "obsidian-copy-block-link",
+  "obsidian-git",
+  "hi-note",
+  "highlightr-plugin",
+  "obsidian-style-settings",
+  "terminal"
 ]

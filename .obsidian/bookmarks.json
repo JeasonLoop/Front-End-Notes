@@ -1,9 +1,14 @@
 {
   "items": [
     {
-      "type": "file",
-      "ctime": 1686031383108,
-      "path": "📝Notes/🍂原生JS/JS基础&高级语法笔记.md"
+      "type": "folder",
+      "ctime": 1770082651121,
+      "path": "03-服务端/04-部署与运维/容器化/Docker"
+    },
+    {
+      "type": "folder",
+      "ctime": 1770082767441,
+      "path": "03-服务端/02-Web服务器/nginx"
     }
   ]
 }
