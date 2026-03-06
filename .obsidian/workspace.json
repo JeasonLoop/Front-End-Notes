@@ -8,17 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f2e77e3db25855b1",
+            "id": "f3b0945c56e56097",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "服务器/Docker部署前端项目教程.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Docker部署前端项目教程"
+              "title": "新标签页"
             }
           }
         ]
@@ -128,48 +124,6 @@
             }
           },
           {
-            "id": "a0673c520d79544c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/muliminty/project/Muliminty-Note",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "终端：zsh"
-            }
-          },
-          {
             "id": "a8b63ca7492536c8",
             "type": "leaf",
             "state": {
@@ -253,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -278,44 +232,44 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f2e77e3db25855b1",
+  "active": "f3b0945c56e56097",
   "lastOpenFiles": [
-    "Nest/04-中间件.md",
-    "Nest/06-管道.md",
-    "Nest/03-依赖注入.md",
-    "Nest/01-快速开始.md",
-    "服务器/Docker部署前端项目教程.md",
-    "前端/JS/08-元编程和反射.md",
-    "前端/JS/09-设计模式.md",
-    "前端/React/03-状态管理.md",
-    "前端/React/04-路由管理.md",
-    "前端/React/05-性能优化.md",
-    "前端/React/06-最佳实践.md",
-    "前端/React/01-基础入门.md",
-    "CodeBlock/工具函数.md",
-    "前端/React/02-Hooks.md",
-    "00-前端体系/01-基础入门/TypeScript/01-基础类型.md",
-    "00-前端体系/01-基础入门/TypeScript/!MOC-TypeScript.md",
-    "00-经验技巧/HTTPS 配置指南（腾讯云证书）.md",
-    "03-服务端/02-Web服务器/nginx/03-核心功能/虚拟主机配置.md",
-    "03-服务端/04-部署与运维/云平台部署/腾讯云部署.md",
-    "书籍/overreacted/jsx-over-the-wire/index.md",
-    "05-AI CODEING/AI生成文档与注释.md",
-    "06-BLOG/别再焦虑被AI替代！.md",
-    "05-AI CODEING/TDD.md",
-    "00-前端体系/05-高级应用/部署与发布/!MOC-部署与发布.md",
-    "Clippings/怎么成为一个 ai agent 工程师？ - Finalchemist 的回答.md",
-    "Clippings",
-    "00-经验技巧/claude code 技能推荐.md",
-    "06-BLOG/专栏/🔥 GitHub 热门项目推荐",
-    "未命名 1",
-    "06-BLOG/专栏",
-    "06-BLOG",
-    "数据库.base",
-    "05-AI CODEING",
-    "01-计算机基础/06-数据库/01-SQL基础",
-    "01-计算机基础/06-数据库",
-    "00-前端体系/03-工程化实践/工具链与构建/01-打包工具/Gulp/07-迁移升级",
+    "后端/Java/07-数据库操作/MyBatis入门.md",
+    "后端/Java/07-数据库操作/JDBC基础.md",
+    "后端/Go/03-Web开发/中间件.md",
+    "后端/Go/03-Web开发/路由处理.md",
+    "后端/Go/03-Web开发/Gin-框架.md",
+    "后端/Java/03-高级特性/集合-List.md",
+    "后端/Java/02-面向对象/枚举.md",
+    "后端/Java/02-面向对象/内部类.md",
+    "后端/Java/02-面向对象/接口与抽象类.md",
+    "后端/Java/02-面向对象/继承与多态.md",
+    "后端/Go/02-核心特性/同步原语.md",
+    "后端/Go/02-核心特性/Select-语句.md",
+    "后端/Go/02-核心特性/错误处理机制.md",
+    "后端/Go/02-核心特性/Channel-通道.md",
+    "后端/Java/02-面向对象/类与对象.md",
+    "后端/Java/01-基础入门/IO流.md",
+    "后端/Java/01-基础入门/异常处理.md",
+    "后端/Java/01-基础入门/数组与字符串.md",
+    "后端/Java/01-基础入门/函数与方法.md",
+    "后端/Java/01-基础入门/控制结构.md",
+    "后端/Java/01-基础入门/数据类型与变量.md",
+    "后端/Java/01-基础入门/基础语法.md",
+    "后端/Java/01-基础入门/安装与环境配置.md",
+    "后端/Java/01-基础入门/Java-简介与特点.md",
+    "后端/Go/04-数据库操作",
+    "后端/Java/10-实践项目",
+    "后端/Java/09-微服务与进阶",
+    "后端/Java/08-安全认证",
+    "后端/Java/07-数据库操作",
+    "后端/Java/06-Spring MVC",
+    "后端/Java/05-Spring Boot",
+    "后端/Java/04-Spring核心",
+    "后端/Java/03-高级特性",
+    "后端/Java/02-面向对象",
+    "后端/Java/!MOC-Java.md",
+    "后端/Go/06-实践项目/第一个-HTTP-服务.md",
     "未命名.canvas",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/return-back-outer.png",
     "public/书籍/BrowserPrinciple-main/浏览器中的页面循环系统/使用Promise告别回调函数/img/pack-request-process.png",
