@@ -1,0 +1,723 @@
+{
+  "notes": [
+    {
+      "slug": "服务器-docker部署前端项目教程",
+      "title": "Docker 部署前端项目教程",
+      "category": "后端",
+      "description": "Docker 是一个开源的应用容器引擎，可以让开发者打包应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 或 Windows 操作系统上。",
+      "tags": [],
+      "file": "/notes/服务器-docker部署前端项目教程.md"
+    },
+    {
+      "slug": "后端-go-01-基础入门-安装与环境配置",
+      "title": "Go 安装与环境配置",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-go-01-基础入门-安装与环境配置.md"
+    },
+    {
+      "slug": "后端-go-01-基础入门-包与模块",
+      "title": "Go 包与模块",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-go-01-基础入门-包与模块.md"
+    },
+    {
+      "slug": "后端-go-01-基础入门-函数",
+      "title": "Go 函数",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-go-01-基础入门-函数.md"
+    },
+    {
+      "slug": "后端-go-01-基础入门-基础语法",
+      "title": "Go 基础语法",
+      "category": "后端",
+      "description": "1. 包声明：package main - 声明包名",
+      "tags": [],
+      "file": "/notes/后端-go-01-基础入门-基础语法.md"
+    },
+    {
+      "slug": "后端-go-01-基础入门-接口",
+      "title": "Go 接口",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-go-01-基础入门-接口.md"
+    },
+    {
+      "slug": "后端-go-01-基础入门-结构体与方法",
+      "title": "Go 结构体与方法",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-go-01-基础入门-结构体与方法.md"
+    },
+    {
+      "slug": "后端-go-01-基础入门-控制结构",
+      "title": "Go 控制结构",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-go-01-基础入门-控制结构.md"
+    },
+    {
+      "slug": "后端-go-01-基础入门-数据类型与变量",
+      "title": "Go 数据类型与变量",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-go-01-基础入门-数据类型与变量.md"
+    },
+    {
+      "slug": "后端-go-01-基础入门-go-简介与特点",
+      "title": "Go 简介与特点",
+      "category": "后端",
+      "description": "Go（又称 Golang）是 Google 在 2009 年开发的编程语言，由 Robert Griesemer、Rob Pike 和 Ken Thompson 设计。Go 是一门编译型、并发型、具有垃圾回收功能的编程语言。",
+      "tags": [],
+      "file": "/notes/后端-go-01-基础入门-go-简介与特点.md"
+    },
+    {
+      "slug": "后端-go-02-核心特性-错误处理机制",
+      "title": "错误处理机制",
+      "category": "后端",
+      "description": "Go 语言采用显式的错误处理机制，与 Java 的异常处理和 JavaScript 的 try-catch 不同。",
+      "tags": [],
+      "file": "/notes/后端-go-02-核心特性-错误处理机制.md"
+    },
+    {
+      "slug": "后端-go-02-核心特性-同步原语",
+      "title": "同步原语",
+      "category": "后端",
+      "description": "Go 提供了多种同步原语用于协调 goroutine 之间的访问和操作。",
+      "tags": [],
+      "file": "/notes/后端-go-02-核心特性-同步原语.md"
+    },
+    {
+      "slug": "后端-go-02-核心特性-channel-通道",
+      "title": "Channel 通道",
+      "category": "后端",
+      "description": "Channel 是 Go 语言中 goroutine 之间通信的主要方式，遵循 \"不要通过共享内存来通信，而要通过通信来共享内存\" 的设计理念。",
+      "tags": [],
+      "file": "/notes/后端-go-02-核心特性-channel-通道.md"
+    },
+    {
+      "slug": "后端-go-02-核心特性-goroutine-协程",
+      "title": "Goroutine 协程",
+      "category": "后端",
+      "description": "Goroutine 是 Go 语言并发编程的核心，它是轻量级线程，由 Go 运行时管理。",
+      "tags": [],
+      "file": "/notes/后端-go-02-核心特性-goroutine-协程.md"
+    },
+    {
+      "slug": "后端-go-02-核心特性-select-语句",
+      "title": "Select 语句",
+      "category": "后端",
+      "description": "Select 是 Go 语言中用于处理多个 channel 操作的控制结构，类似于 switch 但专门用于 channel 通信。",
+      "tags": [],
+      "file": "/notes/后端-go-02-核心特性-select-语句.md"
+    },
+    {
+      "slug": "后端-go-03-web开发-路由处理",
+      "title": "路由处理",
+      "category": "后端",
+      "description": "| Go (Gin) | Java (Spring MVC) | 说明 |",
+      "tags": [],
+      "file": "/notes/后端-go-03-web开发-路由处理.md"
+    },
+    {
+      "slug": "后端-go-03-web开发-中间件",
+      "title": "中间件",
+      "category": "后端",
+      "description": "中间件是在请求和响应之间处理逻辑的函数，可以执行日志、认证、CORS 等操作。",
+      "tags": [],
+      "file": "/notes/后端-go-03-web开发-中间件.md"
+    },
+    {
+      "slug": "后端-go-03-web开发-gin-框架",
+      "title": "Gin 框架",
+      "category": "后端",
+      "description": "Gin 是一个高性能的 Go Web 框架，具有类似 Martini 的 API 性能，支持中间件、JSON 验证等特性。",
+      "tags": [],
+      "file": "/notes/后端-go-03-web开发-gin-框架.md"
+    },
+    {
+      "slug": "后端-go-03-web开发-http-服务基础",
+      "title": "HTTP 服务基础",
+      "category": "后端",
+      "description": "Go 标准库提供了强大的 net/http 包，可以轻松创建 HTTP 服务器。",
+      "tags": [],
+      "file": "/notes/后端-go-03-web开发-http-服务基础.md"
+    },
+    {
+      "slug": "后端-go-05-企业架构-微服务基础",
+      "title": "Go 微服务基础",
+      "category": "后端",
+      "description": "微服务架构是将单体应用拆分成多个小型、独立的服务，每个服务负责特定的业务功能。",
+      "tags": [],
+      "file": "/notes/后端-go-05-企业架构-微服务基础.md"
+    },
+    {
+      "slug": "后端-go-06-实践项目-第一个-http-服务",
+      "title": "第一个 HTTP 服务",
+      "category": "后端",
+      "description": "这是 Go 语言入门实践的第一个项目，我们将从零开始搭建一个简单的 HTTP 服务器。",
+      "tags": [],
+      "file": "/notes/后端-go-06-实践项目-第一个-http-服务.md"
+    },
+    {
+      "slug": "后端-go-moc-go",
+      "title": "Go 知识体系（Go）",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-go-moc-go.md"
+    },
+    {
+      "slug": "后端-java-01-基础入门-安装与环境配置",
+      "title": "安装与环境配置",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-java-01-基础入门-安装与环境配置.md"
+    },
+    {
+      "slug": "后端-java-01-基础入门-函数与方法",
+      "title": "函数与方法",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-java-01-基础入门-函数与方法.md"
+    },
+    {
+      "slug": "后端-java-01-基础入门-基础语法",
+      "title": "基础语法",
+      "category": "后端",
+      "description": "| 类型 | 大小 | 默认值 | 范围 | 说明 |",
+      "tags": [],
+      "file": "/notes/后端-java-01-基础入门-基础语法.md"
+    },
+    {
+      "slug": "后端-java-01-基础入门-控制结构",
+      "title": "控制结构",
+      "category": "后端",
+      "description": "| JavaScript | Java | 说明 |",
+      "tags": [],
+      "file": "/notes/后端-java-01-基础入门-控制结构.md"
+    },
+    {
+      "slug": "后端-java-01-基础入门-数据类型与变量",
+      "title": "数据类型与变量",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-java-01-基础入门-数据类型与变量.md"
+    },
+    {
+      "slug": "后端-java-01-基础入门-数组与字符串",
+      "title": "数组与字符串",
+      "category": "后端",
+      "description": "| JavaScript | Java | 说明 |",
+      "tags": [],
+      "file": "/notes/后端-java-01-基础入门-数组与字符串.md"
+    },
+    {
+      "slug": "后端-java-01-基础入门-异常处理",
+      "title": "异常处理",
+      "category": "后端",
+      "description": "| JavaScript | Java | 说明 |",
+      "tags": [],
+      "file": "/notes/后端-java-01-基础入门-异常处理.md"
+    },
+    {
+      "slug": "后端-java-01-基础入门-io流",
+      "title": "IO流",
+      "category": "后端",
+      "description": "| JavaScript | Java | 说明 |",
+      "tags": [],
+      "file": "/notes/后端-java-01-基础入门-io流.md"
+    },
+    {
+      "slug": "后端-java-01-基础入门-java-简介与特点",
+      "title": "Java 简介与特点",
+      "category": "后端",
+      "description": "Java 是一种广泛使用的面向对象编程语言，由 Sun Microsystems（现 Oracle）于 1995 年发布。它具有\"一次编写，到处运行\"的特性。",
+      "tags": [],
+      "file": "/notes/后端-java-01-基础入门-java-简介与特点.md"
+    },
+    {
+      "slug": "后端-java-02-面向对象-继承与多态",
+      "title": "继承与多态",
+      "category": "后端",
+      "description": "Java 使用 extends 关键字实现继承，单继承机制。",
+      "tags": [],
+      "file": "/notes/后端-java-02-面向对象-继承与多态.md"
+    },
+    {
+      "slug": "后端-java-02-面向对象-接口与抽象类",
+      "title": "接口与抽象类",
+      "category": "后端",
+      "description": "接口是 Java 中定义行为契约的方式，一个类可以实现多个接口。",
+      "tags": [],
+      "file": "/notes/后端-java-02-面向对象-接口与抽象类.md"
+    },
+    {
+      "slug": "后端-java-02-面向对象-类与对象",
+      "title": "类与对象",
+      "category": "后端",
+      "description": "| 修饰符 | 同一类 | 同一包 | 子类 | 其他包 |",
+      "tags": [],
+      "file": "/notes/后端-java-02-面向对象-类与对象.md"
+    },
+    {
+      "slug": "后端-java-02-面向对象-枚举",
+      "title": "枚举",
+      "category": "后端",
+      "description": "枚举是一种特殊的类，用于定义一组有限的常量。",
+      "tags": [],
+      "file": "/notes/后端-java-02-面向对象-枚举.md"
+    },
+    {
+      "slug": "后端-java-02-面向对象-内部类",
+      "title": "内部类",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-java-02-面向对象-内部类.md"
+    },
+    {
+      "slug": "后端-java-03-高级特性-集合-list",
+      "title": "集合 List",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-java-03-高级特性-集合-list.md"
+    },
+    {
+      "slug": "后端-java-07-数据库操作-jdbc基础",
+      "title": "JDBC 基础",
+      "category": "后端",
+      "description": "JDBC（Java Database Connectivity）是 Java 程序与数据库交互的标准 API。",
+      "tags": [],
+      "file": "/notes/后端-java-07-数据库操作-jdbc基础.md"
+    },
+    {
+      "slug": "后端-java-07-数据库操作-mybatis入门",
+      "title": "MyBatis 入门",
+      "category": "后端",
+      "description": "MyBatis 是一款优秀的持久层框架，支持自定义 SQL、存储过程和高级映射。",
+      "tags": [],
+      "file": "/notes/后端-java-07-数据库操作-mybatis入门.md"
+    },
+    {
+      "slug": "后端-java-moc-java",
+      "title": "Java 知识体系",
+      "category": "后端",
+      "tags": [],
+      "file": "/notes/后端-java-moc-java.md"
+    },
+    {
+      "slug": "开发经验-当我们聊前端架构我们在聊什么",
+      "title": "当我们聊前端架构，我们在聊什么",
+      "category": "经验教程",
+      "description": "最近几年「前端架构」这个词提得越来越多，刚入行的朋友可能会觉得很虚，我聊聊我的理解。\r",
+      "tags": [],
+      "file": "/notes/开发经验-当我们聊前端架构我们在聊什么.md"
+    },
+    {
+      "slug": "开发经验-网址书签收集",
+      "title": "网址书签收集",
+      "category": "经验教程",
+      "description": "> 从浏览器书签导出整理，按原文件夹分类保存。\r",
+      "tags": [],
+      "file": "/notes/开发经验-网址书签收集.md"
+    },
+    {
+      "slug": "开发经验-中高阶前端必懂闭包其实并不难",
+      "title": "中高阶前端必懂：闭包其实并不难",
+      "category": "经验教程",
+      "description": "闭包这个词，刚学 JS 的时候觉得好玄乎，面试也经常问，工作几年回头看，其实没那么复杂，整理一下我的理解。\r",
+      "tags": [],
+      "file": "/notes/开发经验-中高阶前端必懂闭包其实并不难.md"
+    },
+    {
+      "slug": "开发经验-ai辅助开发一年体验总结",
+      "title": "AI 辅助开发一年体验总结",
+      "category": "经验教程",
+      "description": "用 AI 写代码快一年了，从最开始的半信半疑，到现在离开 AI 有点不太习惯，这里聊聊我的真实感受。\r",
+      "tags": [],
+      "file": "/notes/开发经验-ai辅助开发一年体验总结.md"
+    },
+    {
+      "slug": "开发经验-css现代布局containerqueries真香",
+      "title": "CSS 现代布局：Container Queries 真香",
+      "category": "经验教程",
+      "description": "CSS 这些年发展真快，好多以前不好做的布局，现在原生支持了。Container Queries 就是一个，用了一段时间，真心香。\r",
+      "tags": [],
+      "file": "/notes/开发经验-css现代布局containerqueries真香.md"
+    },
+    {
+      "slug": "开发经验-react性能优化从理论到实战",
+      "title": "React 性能优化：从理论到实战",
+      "category": "经验教程",
+      "description": "做 React 开发也有几年了，性能优化做过不少，整理一套从入门到精通的实战经验。\r",
+      "tags": [],
+      "file": "/notes/开发经验-react性能优化从理论到实战.md"
+    },
+    {
+      "slug": "开发经验-typescript进阶用好类型体操提升代码质量",
+      "title": "TypeScript 进阶：用好类型体操提升代码质量",
+      "category": "经验教程",
+      "description": "用 TypeScript 也有几年了，从最开始的 any 大法好，到现在尽量给所有代码都加上类型，这里聊聊我对类型体操的理解。\r",
+      "tags": [],
+      "file": "/notes/开发经验-typescript进阶用好类型体操提升代码质量.md"
+    },
+    {
+      "slug": "开发经验-vibecoding我是如何用ai写代码的",
+      "title": "Vibe Coding：我是如何用 AI 写代码的",
+      "category": "经验教程",
+      "description": "最近 Vibe Coding 这个词挺火的，其实我已经这么干快一年了，分享一下我的工作流。\r",
+      "tags": [],
+      "file": "/notes/开发经验-vibecoding我是如何用ai写代码的.md"
+    },
+    {
+      "slug": "前端-js-01-闭包和作用域",
+      "title": "JavaScript 闭包和作用域",
+      "category": "前端",
+      "description": "作用域是指变量、函数和对象的可访问性范围。JavaScript 有三种作用域：",
+      "tags": [],
+      "file": "/notes/前端-js-01-闭包和作用域.md"
+    },
+    {
+      "slug": "前端-js-02-this绑定和上下文",
+      "title": "JavaScript this 绑定和上下文",
+      "category": "前端",
+      "description": "this 是 JavaScript 中的一个关键字，它指向当前执行上下文的对象。this 的值不是静态的，而是在函数被调用时动态确定的。",
+      "tags": [],
+      "file": "/notes/前端-js-02-this绑定和上下文.md"
+    },
+    {
+      "slug": "前端-js-03-原型和继承",
+      "title": "JavaScript 原型和继承",
+      "category": "前端",
+      "description": "每个 JavaScript 对象都有一个指向另一个对象的内部链接，这个对象就是原型（prototype）。当我们访问对象的属性时，如果对象本身没有该属性，JavaScript 会沿着原型链向上查找。",
+      "tags": [],
+      "file": "/notes/前端-js-03-原型和继承.md"
+    },
+    {
+      "slug": "前端-js-04-异步编程详解",
+      "title": "JavaScript 异步编程详解",
+      "category": "前端",
+      "description": "JavaScript 是单线程的，如果所有操作都是同步的，会导致阻塞，用户体验差。",
+      "tags": [],
+      "file": "/notes/前端-js-04-异步编程详解.md"
+    },
+    {
+      "slug": "前端-js-05-事件循环和并发",
+      "title": "JavaScript 事件循环和并发",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-js-05-事件循环和并发.md"
+    },
+    {
+      "slug": "前端-js-06-函数式编程",
+      "title": "JavaScript 函数式编程",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-js-06-函数式编程.md"
+    },
+    {
+      "slug": "前端-js-07-es6-新特性详解",
+      "title": "JavaScript ES6+ 新特性详解",
+      "category": "前端",
+      "description": "1. 变量声明：let、const（块作用域）",
+      "tags": [],
+      "file": "/notes/前端-js-07-es6-新特性详解.md"
+    },
+    {
+      "slug": "前端-js-08-元编程和反射",
+      "title": "JavaScript 元编程和反射",
+      "category": "前端",
+      "description": "元编程（Metaprogramming）是指编写能够操作其他程序的程序，或者编写能够操作自身的程序。",
+      "tags": [],
+      "file": "/notes/前端-js-08-元编程和反射.md"
+    },
+    {
+      "slug": "前端-js-09-设计模式",
+      "title": "JavaScript 设计模式",
+      "category": "前端",
+      "description": "设计模式是解决常见问题的可重用方案。JavaScript 中常用的设计模式包括：",
+      "tags": [],
+      "file": "/notes/前端-js-09-设计模式.md"
+    },
+    {
+      "slug": "前端-js-10-内存管理和性能优化",
+      "title": "JavaScript 内存管理和性能优化",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-js-10-内存管理和性能优化.md"
+    },
+    {
+      "slug": "前端-js-11-模块化和打包",
+      "title": "JavaScript 模块化和打包",
+      "category": "前端",
+      "description": "模块化是将代码分割成独立、可重用的模块。JavaScript 有多种模块系统：",
+      "tags": [],
+      "file": "/notes/前端-js-11-模块化和打包.md"
+    },
+    {
+      "slug": "前端-js-12-错误处理和调试",
+      "title": "JavaScript 错误处理和调试",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-js-12-错误处理和调试.md"
+    },
+    {
+      "slug": "前端-js-readme",
+      "title": "JavaScript 高级教程",
+      "category": "前端",
+      "description": "这是一个全面的 JavaScript 高级教程集合，涵盖从基础到进阶的各个主题。",
+      "tags": [],
+      "file": "/notes/前端-js-readme.md"
+    },
+    {
+      "slug": "前端-react-01-基础入门",
+      "title": "React 基础入门",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-react-01-基础入门.md"
+    },
+    {
+      "slug": "前端-react-02-hooks",
+      "title": "React Hooks",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-react-02-hooks.md"
+    },
+    {
+      "slug": "前端-react-03-状态管理",
+      "title": "React 状态管理",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-react-03-状态管理.md"
+    },
+    {
+      "slug": "前端-react-04-路由管理",
+      "title": "React Router 路由管理",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-react-04-路由管理.md"
+    },
+    {
+      "slug": "前端-react-05-性能优化",
+      "title": "React 性能优化",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-react-05-性能优化.md"
+    },
+    {
+      "slug": "前端-react-06-最佳实践",
+      "title": "React 最佳实践",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-react-06-最佳实践.md"
+    },
+    {
+      "slug": "前端-react-readme",
+      "title": "React 教程",
+      "category": "前端",
+      "description": "这是一个 React 学习教程集合，包含从基础到进阶的完整学习路径。\r",
+      "tags": [],
+      "file": "/notes/前端-react-readme.md"
+    },
+    {
+      "slug": "前端-vue-01-基础入门",
+      "title": "Vue 3 基础入门",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-vue-01-基础入门.md"
+    },
+    {
+      "slug": "前端-vue-02-组件系统",
+      "title": "Vue 组件系统",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-vue-02-组件系统.md"
+    },
+    {
+      "slug": "前端-vue-03-响应式原理",
+      "title": "Vue 响应式原理",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-vue-03-响应式原理.md"
+    },
+    {
+      "slug": "前端-vue-04-composition-api",
+      "title": "Vue Composition API",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-vue-04-composition-api.md"
+    },
+    {
+      "slug": "前端-vue-05-路由管理",
+      "title": "Vue Router 路由管理",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-vue-05-路由管理.md"
+    },
+    {
+      "slug": "前端-vue-06-状态管理",
+      "title": "Vue 状态管理 - Pinia",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-vue-06-状态管理.md"
+    },
+    {
+      "slug": "前端-vue-07-最佳实践",
+      "title": "Vue 最佳实践",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/前端-vue-07-最佳实践.md"
+    },
+    {
+      "slug": "前端-vue-readme",
+      "title": "Vue.js 教程",
+      "category": "前端",
+      "description": "这是一个 Vue.js 学习教程集合，包含从基础到进阶的完整学习路径。\r",
+      "tags": [],
+      "file": "/notes/前端-vue-readme.md"
+    },
+    {
+      "slug": "网址收集-1-文档文章",
+      "title": "1.文档文章",
+      "category": "其他",
+      "tags": [],
+      "file": "/notes/网址收集-1-文档文章.md"
+    },
+    {
+      "slug": "网址收集-2-工具轮子",
+      "title": "2.工具轮子",
+      "category": "其他",
+      "description": "-   React-Select 轻便选择器\r",
+      "tags": [],
+      "file": "/notes/网址收集-2-工具轮子.md"
+    },
+    {
+      "slug": "网址收集-3-摸鱼",
+      "title": "3.摸鱼",
+      "category": "其他",
+      "description": "-   |低端影视|https://ddys.tv/|\r",
+      "tags": [],
+      "file": "/notes/网址收集-3-摸鱼.md"
+    },
+    {
+      "slug": "codeblock-工具函数",
+      "title": "前端实用工具函数集合",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/codeblock-工具函数.md"
+    },
+    {
+      "slug": "notes-计算机网络-访问url的背后",
+      "title": "访问URL的背后",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/notes-计算机网络-访问url的背后.md"
+    },
+    {
+      "slug": "notes-计算机网络-浏览器工作原理",
+      "title": "**多进程结构的浏览器**",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/notes-计算机网络-浏览器工作原理.md"
+    },
+    {
+      "slug": "notes-计算机网络-浏览器缓存",
+      "title": "浏览器缓存",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/notes-计算机网络-浏览器缓存.md"
+    },
+    {
+      "slug": "notes-计算机网络-bom属性对象方法",
+      "title": "BOM属性对象方法",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/notes-计算机网络-bom属性对象方法.md"
+    },
+    {
+      "slug": "notes-计算机网络-http-https",
+      "title": "HTTP&HTTPS",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/notes-计算机网络-http-https.md"
+    },
+    {
+      "slug": "notes-计算机网络-tcp三次握手",
+      "title": "TCP三次握手",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/notes-计算机网络-tcp三次握手.md"
+    },
+    {
+      "slug": "notes-技术课程收集",
+      "title": "🐸技术课程收集",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/notes-技术课程收集.md"
+    },
+    {
+      "slug": "notes-原生js-同步异步函数",
+      "title": "同步异步函数",
+      "category": "前端",
+      "description": "!(https://cdn.nlark.com/yuque/0/2023/png/32650608/1679907692018-0c260d11-7204-4c35-8859-882ccd7cede5.png)\r",
+      "tags": [],
+      "file": "/notes/notes-原生js-同步异步函数.md"
+    },
+    {
+      "slug": "notes-原生js-原型链解析",
+      "title": "原型链解析",
+      "category": "前端",
+      "description": "初步尝试，我们涉及到原型链的知识，要先从一个构造函数开始讲起\r",
+      "tags": [],
+      "file": "/notes/notes-原生js-原型链解析.md"
+    },
+    {
+      "slug": "notes-原生js-js基础-高级语法笔记",
+      "title": "JS基础&高级语法笔记",
+      "category": "前端",
+      "description": "对于对象的便利 我们通常可以使用Object.keys(),Object.entries(),Object.getOwnPropertyNames(),其中Object.keys()与Object.getOwnPropertyNames()效果是一样的，但是后者可以 ==返回不可枚举的属性名称==\r",
+      "tags": [],
+      "file": "/notes/notes-原生js-js基础-高级语法笔记.md"
+    },
+    {
+      "slug": "notes-react-diff",
+      "title": "Diff",
+      "category": "前端",
+      "description": "计算出Virtual DOM中真正变化的部分，并只针对该部分进行原生DOM操作，而非重新渲染整个页面。React用 三大策略 将O(n^3)复杂度 转化为 O(n)复杂度\r",
+      "tags": [],
+      "file": "/notes/notes-react-diff.md"
+    },
+    {
+      "slug": "notes-react-hoc高阶组件",
+      "title": "HOC高阶组件",
+      "category": "前端",
+      "tags": [],
+      "file": "/notes/notes-react-hoc高阶组件.md"
+    },
+    {
+      "slug": "notes-react-redux",
+      "title": "Redux",
+      "category": "前端",
+      "description": "首先在最外层容器中，把所有内容包裹在 Provider 组件中，将之前创建的 store 作为 prop 传给 Provider。\r",
+      "tags": [],
+      "file": "/notes/notes-react-redux.md"
+    },
+    {
+      "slug": "notes-react-usecallback-usememo",
+      "title": "useCallBack&useMemo",
+      "category": "前端",
+      "description": "最近在重构公司的类组件项目，同时也在进行hook的重新学习，useCallback 与 useMemo是hook中针对渲染以及缓存的两个内置hooks，主要的功能是对函数和计算结果进行缓存来判断是否需要重新渲染。\r",
+      "tags": [],
+      "file": "/notes/notes-react-usecallback-usememo.md"
+    },
+    {
+      "slug": "notes-react-useref存取状态",
+      "title": "useRef存取状态",
+      "category": "前端",
+      "description": "正常我们为在使用react-hook的时候使用最多的应该是useState,但是在某些应用场景下，我们需要拿到更新完毕的state的最新的值\r",
+      "tags": [],
+      "file": "/notes/notes-react-useref存取状态.md"
+    }
+  ]
+}

@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Bash(cd:*)",
+      "Bash(find:*)",
+      "Bash(npm run:*)",
+      "Bash(python:*)",
+      "Bash(cat:*)"
     ]
   }
 }

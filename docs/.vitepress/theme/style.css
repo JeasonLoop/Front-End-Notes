@@ -1,0 +1,45 @@
+/**
+ * VitePress 主题变量覆盖
+ * 定义博客的品牌色和排版风格
+ */
+
+/* ========================================
+   品牌色系 - 紫蓝渐变风格
+   ======================================== */
+:root {
+  /* 主色调 - Indigo/Violet 系 */
+  --vp-c-brand-1: #6366f1;
+  --vp-c-brand-2: #818cf8;
+  --vp-c-brand-3: #a5b4fc;
+  --vp-c-brand-soft: rgba(99, 102, 241, 0.12);
+
+  /* 背景色 */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f8f9ff;
+  --vp-c-bg-mute: #f1f3fe;
+
+  /* 边框 */
+  --vp-c-border: #e5e7eb;
+
+  /* 代码块 */
+  --vp-code-font-size: 0.9em;
+  --vp-code-block-bg: #1a1b26;
+
+  /* 布局 */
+  --vp-layout-max-width: 1440px;
+  --vp-sidebar-width: 272px;
+}
+
+.dark {
+  --vp-c-brand-1: #818cf8;
+  --vp-c-brand-2: #6366f1;
+  --vp-c-brand-3: #4f46e5;
+  --vp-c-brand-soft: rgba(129, 140, 248, 0.14);
+
+  --vp-c-bg: #0f0f17;
+  --vp-c-bg-soft: #13131f;
+  --vp-c-bg-mute: #1a1a2e;
+
+  --vp-c-border: #2a2a3e;
+  --vp-code-block-bg: #0d0d1a;
+}
