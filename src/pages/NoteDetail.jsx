@@ -18,8 +18,10 @@ function NoteDetail() {
     const loadContent = async () => {
       try {
         setLoading(true);
-        // 笔记文件存放在 public/notes/ 目录下
-        const response = await fetch(`/notes/${slug}.md`);
+        // 笔记文件存放在 public/notes/ 目录下，使用正确的 base 路径
+        const baseUrl = import.meta.env.BASE_URL;
+        const url = `${baseUrl}notes/${slug}.md`.replace(/\/+/g, '/');
+        const response = await fetch(url);
         if (!response.ok) {
           throw new Error('Failed to load note');
         }

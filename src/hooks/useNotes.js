@@ -10,7 +10,9 @@ const useNotes = () => {
     const loadNotes = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/notes-index.json');
+        const baseUrl = import.meta.env.BASE_URL;
+        const url = `${baseUrl}notes-index.json`.replace(/\/+/g, '/');
+        const response = await fetch(url);
         if (!response.ok) {
           throw new Error('Failed to load notes');
         }
