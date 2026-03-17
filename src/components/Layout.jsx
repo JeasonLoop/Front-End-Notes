@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import RetroComputer from './RetroComputer';
+import ThreeBackground from './ThreeBackground';
 
 function Layout({ children }) {
   const location = useLocation();
@@ -26,6 +27,7 @@ function Layout({ children }) {
 
   return (
     <>
+      <ThreeBackground />
       <div className="scanlines"></div>
       <div className="crt-flicker"></div>
 

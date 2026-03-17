@@ -1222,3 +1222,256 @@
     max-height: 90vh;
   }
 }
+
+/* ========== 增强版首页样式 ========== */
+.home-page-enhanced {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  min-height: 70vh;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.home-hero-content h1 {
+  font-size: 5rem;
+  line-height: 0.85;
+  margin: 0 0 2rem 0;
+  letter-spacing: -2px;
+  font-weight: 500;
+}
+
+.hero-title-line {
+  display: block;
+}
+
+.hero-title-line.italic {
+  font-style: italic;
+  white-space: nowrap;
+  margin-left: -4px;
+}
+
+.hero-lead {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  letter-spacing: -0.5px;
+  color: #b0b0b0;
+  font-family: var(--font-serif);
+}
+
+.cta-group .btn-outline {
+  background: transparent;
+  color: var(--accent-cyan);
+}
+
+.cta-group .btn-outline:hover {
+  background: var(--accent-cyan);
+  color: var(--bg-primary);
+}
+
+.hero-stats {
+  margin-top: 1.5rem;
+}
+
+/* 最近更新列表 */
+.recent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.recent-note-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.recent-note-card:hover {
+  border-color: var(--accent-cyan);
+  transform: translateX(4px);
+  box-shadow: var(--shadow-glow);
+}
+
+.recent-note-info {
+  flex: 1;
+}
+
+.recent-note-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: var(--text-primary);
+}
+
+.recent-note-excerpt {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.recent-note-meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+}
+
+.recent-note-category {
+  color: var(--accent-cyan);
+  background: rgba(0, 212, 255, 0.1);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  text-transform: capitalize;
+}
+
+.recent-note-date {
+  color: var(--text-muted);
+}
+
+.recent-note-arrow {
+  color: var(--accent-cyan);
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.recent-note-card:hover .recent-note-arrow {
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+/* 技术标签云 */
+.tech-tags-section {
+  margin-bottom: var(--space-2xl);
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+
+.tech-tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-full);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+}
+
+/* 引用区块 */
+.quote-section {
+  margin-bottom: var(--space-2xl);
+  text-align: center;
+}
+
+.quote-section blockquote {
+  background: var(--bg-secondary);
+  border-left: 4px solid var(--accent-cyan);
+  border-radius: var(--radius-md);
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: var(--text-secondary);
+  font-family: var(--font-serif);
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.quote-section footer {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-style: normal;
+  font-family: var(--font-mono);
+}
+
+/* 增强版首页响应式 */
+@media (max-width: 1024px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    min-height: auto;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .home-hero-content h1 {
+    font-size: 3rem;
+  }
+
+  .hero-lead {
+    font-size: 1.25rem;
+  }
+
+  .cta-group {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .home-hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-lead {
+    font-size: 1.1rem;
+  }
+
+  .recent-note-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .recent-note-arrow {
+    display: none;
+  }
+
+  .tech-tags {
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+
+  .tech-tag {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.75rem;
+  }
+
+  .quote-section blockquote {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+}
+

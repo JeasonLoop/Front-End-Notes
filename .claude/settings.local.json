@@ -6,7 +6,8 @@
       "Bash(find:*)",
       "Bash(npm run:*)",
       "Bash(python:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(npm install:*)"
     ]
   }
 }

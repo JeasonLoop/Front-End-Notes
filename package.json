@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "npm run sync && vite",
+    "build": "npm run sync && vite build",
     "preview": "vite preview",
     "sync": "node scripts/sync-notes.js"
   },
@@ -14,7 +14,8 @@
     "react-markdown": "^10.1.0",
     "react-router-dom": "^6.22.0",
     "react-syntax-highlighter": "^16.1.1",
-    "remark-gfm": "^4.0.1"
+    "remark-gfm": "^4.0.1",
+    "three": "^0.183.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
