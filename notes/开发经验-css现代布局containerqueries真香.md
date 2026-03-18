@@ -1,7 +1,3 @@
----
-title: CSS 现代布局：Container Queries 真香
-category: 经验教程
----
 # CSS 现代布局：Container Queries 真香
 
 CSS 这些年发展真快，好多以前不好做的布局，现在原生支持了。Container Queries 就是一个，用了一段时间，真心香。

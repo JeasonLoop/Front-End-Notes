@@ -1,7 +1,3 @@
----
-title: Vibe Coding：我是如何用 AI 写代码的
-category: 经验教程
----
 # Vibe Coding：我是如何用 AI 写代码的
 
 最近 Vibe Coding 这个词挺火的，其实我已经这么干快一年了，分享一下我的工作流。

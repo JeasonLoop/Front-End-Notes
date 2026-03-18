@@ -1,7 +1,3 @@
----
-title: React Router 路由管理
-category: 前端
----
 # React Router 路由管理
 
 ## 1. 安装和基础配置

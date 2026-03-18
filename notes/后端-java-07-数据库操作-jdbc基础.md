@@ -1,7 +1,3 @@
----
-title: JDBC 基础
-category: 后端
----
 # JDBC 基础
 
 ## JDBC 概述

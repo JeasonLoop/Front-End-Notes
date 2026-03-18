@@ -1,7 +1,3 @@
----
-title: Vue.js 教程
-category: 前端
----
 # Vue.js 教程
 
 这是一个 Vue.js 学习教程集合，包含从基础到进阶的完整学习路径。

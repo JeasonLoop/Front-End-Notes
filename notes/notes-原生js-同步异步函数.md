@@ -1,7 +1,3 @@
----
-title: 同步异步函数
-category: 前端
----
 ## async/await、promise和setTimeout的执行顺序
 
 ``` js

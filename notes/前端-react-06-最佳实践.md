@@ -1,7 +1,3 @@
----
-title: React 最佳实践
-category: 前端
----
 # React 最佳实践
 
 ## 1. 项目结构

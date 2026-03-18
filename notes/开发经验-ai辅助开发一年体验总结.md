@@ -1,7 +1,15 @@
 ---
-title: AI 辅助开发一年体验总结
-category: 经验教程
+title: "AI 辅助开发一年体验总结"
+category: "开发经验"
+tags:
+  - experience
+  - ai
+  - productivity
+publish:
+  home: true
+  docs: true
 ---
+
 # AI 辅助开发一年体验总结
 
 用 AI 写代码快一年了，从最开始的半信半疑，到现在离开 AI 有点不太习惯，这里聊聊我的真实感受。

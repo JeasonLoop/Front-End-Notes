@@ -1,7 +1,3 @@
----
-title: MyBatis 入门
-category: 后端
----
 # MyBatis 入门
 
 ## MyBatis 概述

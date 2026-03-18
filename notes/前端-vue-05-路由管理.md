@@ -1,7 +1,3 @@
----
-title: Vue Router 路由管理
-category: 前端
----
 # Vue Router 路由管理
 
 ## 1. 基础配置

@@ -1,7 +1,3 @@
----
-title: Vue 状态管理 - Pinia
-category: 前端
----
 # Vue 状态管理 - Pinia
 
 ## 1. Pinia 基础

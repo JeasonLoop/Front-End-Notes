@@ -1,7 +1,3 @@
----
-title: Vue 组件系统
-category: 前端
----
 # Vue 组件系统
 
 ## 1. 组件定义
