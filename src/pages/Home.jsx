@@ -4,26 +4,21 @@ import useNotes from '../hooks/useNotes';
 import '../styles/pages.css';
 
 function Home() {
-  const { notes } = useNotes();
+  const { notes, tree } = useNotes();
   const totalNotes = notes.length;
 
-  // Count notes by category
-  const countByCategory = notes.reduce((acc, note) => {
-    acc[note.category] = (acc[note.category] || 0) + 1;
-    return acc;
-  }, {});
+  // 从同步的 tree 动态生成分类卡片，数量按 note.category 与顶层目录名一致来统计
+  const categories = (tree || []).map((node) => ({
+    id: node.id,
+    name: node.name,
+    icon: node.icon,
+    count: notes.filter((n) => n.category === node.name).length,
+  }));
 
-  // Get 最近 3 个最近更新的笔记
+  // 最近 3 篇笔记（无 date 时按 title 排序）
   const recentNotes = [...notes]
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .sort((a, b) => (a.date && b.date ? new Date(b.date) - new Date(a.date) : 0))
     .slice(0, 3);
-
-  const categories = [
-    { id: 'frontend', name: '前端开发', icon: '⌘', count: countByCategory.frontend || 0 },
-    { id: 'backend', name: '后端开发', icon: '⚙', count: countByCategory.backend || 0 },
-    { id: 'experience', name: '经验教程', icon: '✍️', count: countByCategory.experience || 0 },
-    { id: 'other', name: '其他', icon: '📚', count: countByCategory.other || 0 },
-  ];
 
   const formatDate = (dateStr) => {
     const date = new Date(dateStr);
@@ -89,13 +84,13 @@ function Home() {
           分类浏览
         </h2>
         <div className="categories-grid">
-          {categories.map(cat => (
+          {categories.map((cat) => (
             <Link
               to={`/category/${cat.id}`}
               className="category-card"
               key={cat.id}
             >
-              <div className="category-icon">{cat.icon}</div>
+              {cat.icon && <div className="category-icon">{cat.icon}</div>}
               <div className="category-name">{cat.name}</div>
               <div className="category-count">{cat.count} 篇笔记</div>
             </Link>
@@ -120,7 +115,7 @@ function Home() {
                   )}
                   <div className="recent-note-meta">
                     <span className="recent-note-category">{note.category}</span>
-                    <span className="recent-note-date">{formatDate(note.date)}</span>
+                    {note.date && <span className="recent-note-date">{formatDate(note.date)}</span>}
                   </div>
                 </div>
                 <span className="recent-note-arrow">→</span>

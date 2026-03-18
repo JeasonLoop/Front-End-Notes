@@ -3,21 +3,11 @@ import useNotes from '../hooks/useNotes';
 
 function Category() {
   const { id } = useParams();
-  const { notes, loading, error } = useNotes();
+  const { notes, tree, loading, error } = useNotes();
 
-  const categoryName = {
-    frontend: '前端开发',
-    backend: '后端开发',
-    experience: '经验教程',
-    other: '其他'
-  };
-
-  const filteredNotes = notes.filter(note => {
-    if (id === 'frontend') return note.category === '前端';
-    if (id === 'backend') return note.category === '后端';
-    if (id === 'experience') return note.category === '经验教程';
-    return note.category !== '前端' && note.category !== '后端' && note.category !== '经验教程';
-  });
+  const categoryNode = (tree || []).find((node) => node.id === id);
+  const categoryName = categoryNode ? categoryNode.name : id;
+  const filteredNotes = notes.filter((note) => note.category === categoryName);
 
   if (loading) {
     return <div className="loading">加载中...</div>;
@@ -29,7 +19,7 @@ function Category() {
 
   return (
     <div className="page-container">
-      <h1>{categoryName[id] || id}</h1>
+      <h1>{categoryName}</h1>
       <div className="notes-grid">
         {filteredNotes.map(note => (
           <Link key={note.slug} to={`/notes/${note.slug}`} className="note-card">
