@@ -14,6 +14,12 @@
     "node_modules/",
     "public/",
     "scripts/",
-    "static/"
+    "static/",
+    "dist/",
+    "scripts/",
+    "dist/all-notes/",
+    "dist/notes/",
+    ".output/",
+    "src/"
   ]
 }

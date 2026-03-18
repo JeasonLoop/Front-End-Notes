@@ -1,7 +1,3 @@
----
-title: React 性能优化
-category: 前端
----
 # React 性能优化
 
 ## 1. React.memo

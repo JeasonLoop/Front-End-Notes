@@ -1,7 +1,3 @@
----
-title: JS基础&高级语法笔记
-category: 前端
----
 
 ## 1.对象遍历
 对于对象的便利 我们通常可以使用Object.keys(),Object.entries(),Object.getOwnPropertyNames(),其中Object.keys()与Object.getOwnPropertyNames()效果是一样的，但是后者可以 ==***返回不可枚举的属性名称***==

@@ -1,7 +1,3 @@
----
-title: Docker 部署前端项目教程
-category: 后端
----
 # Docker 部署前端项目教程
 
 ## 1. Docker 基础

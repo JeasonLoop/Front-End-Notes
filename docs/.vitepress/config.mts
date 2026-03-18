@@ -18,28 +18,42 @@ export default defineConfig({
     logo: '/logo.svg',
     siteTitle: "JeasonLoop's Notes",
 
-    // 顶部导航
+    // 顶部导航（按知识体系 + 实战经验 + 资源分类）
     nav: [
       { text: '🏠 首页', link: '/' },
       {
         text: '🌐 前端',
         items: [
-          { text: 'JavaScript', link: '/前端/JS/01-闭包和作用域' },
-          { text: 'React', link: '/前端/React/01-基础入门' },
-          { text: 'Vue', link: '/前端/Vue/01-基础入门' },
+          { text: 'JavaScript 系列', link: '/前端/JS/01-闭包和作用域' },
+          { text: 'React 系列', link: '/前端/React/01-基础入门' },
+          { text: 'Vue 3 系列', link: '/前端/Vue/01-基础入门' },
         ]
       },
       {
         text: '⚙️ 后端',
         items: [
-          { text: 'Go', link: '/后端/Go/01-基础入门/Go-简介与特点' },
-          { text: 'Java', link: '/后端/Java/01-基础入门/Java-简介与特点' },
-          { text: 'NestJS', link: '/Nest/01-快速开始' },
+          { text: 'Go 系列', link: '/后端/Go/01-基础入门/Go-简介与特点' },
+          { text: 'Java 系列', link: '/后端/Java/01-基础入门/Java-简介与特点' },
+          { text: 'NestJS 系列', link: '/Nest/01-快速开始' },
         ]
       },
-      { text: '📝 随记', link: '/Notes/🐸技术课程收集' },
-      { text: '🛠️ 工具函数', link: '/CodeBlock/工具函数' },
-      { text: '🖥️ 服务器', link: '/服务器/Docker部署前端项目教程' },
+      {
+        text: '📓 实战 & 经验',
+        items: [
+          { text: '开发经验总结', link: '/开发经验/AI辅助开发一年体验总结' },
+          { text: '随记 & 进阶', link: '/Notes/🐸技术课程收集' },
+          { text: '工具函数库', link: '/CodeBlock/工具函数' },
+          { text: '服务器运维', link: '/服务器/Docker部署前端项目教程' },
+        ]
+      },
+      {
+        text: '🔖 资源导航',
+        items: [
+          { text: '文档文章收藏', link: '/🎃网址收集/1.文档文章' },
+          { text: '工具轮子', link: '/🎃网址收集/2.工具轮子' },
+          { text: '摸鱼 & 灵感', link: '/🎃网址收集/3.摸鱼' },
+        ]
+      },
     ],
 
     // 侧边栏
@@ -279,6 +293,37 @@ export default defineConfig({
           text: '🖥️ 服务器运维',
           items: [
             { text: 'Docker 部署前端项目', link: '/服务器/Docker部署前端项目教程' },
+          ]
+        }
+      ],
+
+      // ===== 开发经验 =====
+      '/开发经验/': [
+        {
+          text: '开发经验与实践',
+          collapsed: false,
+          items: [
+            { text: 'AI 辅助开发一年体验总结', link: '/开发经验/AI辅助开发一年体验总结' },
+            { text: 'CSS 现代布局：Container Queries 真香', link: '/开发经验/CSS现代布局ContainerQueries真香' },
+            { text: 'React 性能优化：从理论到实战', link: '/开发经验/React性能优化从理论到实战' },
+            { text: 'TypeScript 进阶：用好类型体操提升代码质量', link: '/开发经验/TypeScript进阶用好类型体操提升代码质量' },
+            { text: 'Vibe Coding：我是如何用 AI 写代码的', link: '/开发经验/VibeCoding我是如何用AI写代码的' },
+            { text: '中高阶前端必懂：闭包其实并不难', link: '/开发经验/中高阶前端必懂闭包其实并不难' },
+            { text: '当我们聊前端架构，我们在聊什么', link: '/开发经验/当我们聊前端架构我们在聊什么' },
+            { text: '网址书签收集', link: '/开发经验/网址书签收集' },
+          ]
+        }
+      ],
+
+      // ===== 网址收藏 =====
+      '/🎃网址收集/': [
+        {
+          text: '🎃 网址收藏',
+          collapsed: false,
+          items: [
+            { text: '1. 文档文章', link: '/🎃网址收集/1.文档文章' },
+            { text: '2. 工具轮子', link: '/🎃网址收集/2.工具轮子' },
+            { text: '3. 摸鱼', link: '/🎃网址收集/3.摸鱼' },
           ]
         }
       ],

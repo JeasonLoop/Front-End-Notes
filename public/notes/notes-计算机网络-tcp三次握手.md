@@ -1,7 +1,3 @@
----
-title: TCP三次握手
-category: 前端
----
 **原理图：**
 
 ![](https://cdn.nlark.com/yuque/0/2023/png/32650608/1679020039792-cf9f569e-c56a-42bd-aa21-23856008839c.png)

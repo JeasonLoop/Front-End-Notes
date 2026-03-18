@@ -1,7 +1,3 @@
----
-title: Vue 3 基础入门
-category: 前端
----
 # Vue 3 基础入门
 
 ## 1. 创建 Vue 应用

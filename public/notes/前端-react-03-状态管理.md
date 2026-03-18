@@ -1,7 +1,3 @@
----
-title: React 状态管理
-category: 前端
----
 # React 状态管理
 
 ## 1. Context API

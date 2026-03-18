@@ -1,7 +1,3 @@
----
-title: JavaScript this 绑定和上下文
-category: 前端
----
 # JavaScript this 绑定和上下文
 
 ## 1. this 是什么

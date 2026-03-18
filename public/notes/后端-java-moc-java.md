@@ -1,7 +1,3 @@
----
-title: Java 知识体系
-category: 后端
----
 # Java 知识体系
 
 > Java 服务端开发完整知识体系

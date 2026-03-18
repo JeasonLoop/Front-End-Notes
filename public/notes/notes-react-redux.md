@@ -1,7 +1,3 @@
----
-title: Redux
-category: 前端
----
 ## 使用 react-redux
 
 首先在最外层容器中，把所有内容包裹在 `Provider` 组件中，将之前创建的 `store` 作为 `prop` 传给 `Provider`。

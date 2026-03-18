@@ -1,7 +1,3 @@
----
-title: Go 知识体系（Go）
-category: 后端
----
 # Go 知识体系（Go）
 
 > Go 服务端开发完整知识体系

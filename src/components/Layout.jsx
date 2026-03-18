@@ -2,10 +2,13 @@ import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import RetroComputer from './RetroComputer';
 import ThreeBackground from './ThreeBackground';
+import TreeNav from './TreeNav';
+import useNotes from '../hooks/useNotes';
 
 function Layout({ children }) {
   const location = useLocation();
   const [uptime, setUptime] = useState({ days: 0, hours: 0, minutes: 0 });
+  const { tree, loading: notesLoading } = useNotes();
 
   useEffect(() => {
     const startTime = new Date();
@@ -53,22 +56,13 @@ function Layout({ children }) {
 
             <div className="nav-section">
               <h3 className="nav-section-title">分类浏览</h3>
-              <Link to="/category/frontend" className={`nav-link ${isActive('/category/frontend') ? 'active' : ''}`}>
-                <span className="nav-icon">⌘</span>
-                <span>前端开发</span>
-              </Link>
-              <Link to="/category/backend" className={`nav-link ${isActive('/category/backend') ? 'active' : ''}`}>
-                <span className="nav-icon">⚙</span>
-                <span>后端开发</span>
-              </Link>
-              <Link to="/category/experience" className={`nav-link ${isActive('/category/experience') ? 'active' : ''}`}>
-                <span className="nav-icon">✍️</span>
-                <span>经验教程</span>
-              </Link>
-              <Link to="/category/other" className={`nav-link ${isActive('/category/other') ? 'active' : ''}`}>
-                <span className="nav-icon">📚</span>
-                <span>其他</span>
-              </Link>
+              {!notesLoading && tree.length > 0 ? (
+                <TreeNav tree={tree} />
+              ) : (
+                <div className="tree-loading">
+                  {notesLoading ? '加载中...' : '暂无笔记'}
+                </div>
+              )}
             </div>
 
             <div className="nav-section">

@@ -1,7 +1,3 @@
----
-title: 浏览器缓存
-category: 前端
----
 ## Cookie&sessionStorage&localStorage
 
 ## 共同点

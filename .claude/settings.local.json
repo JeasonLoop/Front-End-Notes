@@ -7,7 +7,12 @@
       "Bash(npm run:*)",
       "Bash(python:*)",
       "Bash(cat:*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(mv:*)",
+      "Bash(node:*)",
+      "Bash(pkill:*)",
+      "Bash(mkdir:*)",
+      "Bash(grep:*)"
     ]
   }
 }

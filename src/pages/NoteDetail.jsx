@@ -5,7 +5,7 @@ import useNotes from '../hooks/useNotes';
 
 function NoteDetail() {
   const { slug } = useParams();
-  const { notes } = useNotes();
+  const { notes, loading: notesLoading } = useNotes();
   const [content, setContent] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -13,17 +13,28 @@ function NoteDetail() {
   const note = notes.find(n => n.slug === slug);
 
   useEffect(() => {
-    if (!note) return;
+    // 如果笔记还在加载中，等待
+    if (notesLoading) {
+      return;
+    }
+
+    // 如果笔记不存在，不做处理
+    if (!note) {
+      setLoading(false);
+      return;
+    }
 
     const loadContent = async () => {
       try {
         setLoading(true);
-        // 笔记文件存放在 public/notes/ 目录下，使用正确的 base 路径
         const baseUrl = import.meta.env.BASE_URL;
-        const url = `${baseUrl}notes/${slug}.md`.replace(/\/+/g, '/');
-        const response = await fetch(url);
+
+        // 从 notes 目录加载（同步后的扁平结构）
+        let url = `${baseUrl}notes/${slug}.md`.replace(/\/+/g, '/');
+        let response = await fetch(url);
+
         if (!response.ok) {
-          throw new Error('Failed to load note');
+          throw new Error(`Failed to load note: ${response.status}`);
         }
         const text = await response.text();
         setContent(text);
@@ -36,16 +47,30 @@ function NoteDetail() {
     };
 
     loadContent();
-  }, [slug, note]);
+  }, [slug, note, notesLoading]);
+
+  if (notesLoading) {
+    return (
+      <div className="page-container">
+        <div className="loading">加载中...</div>
+      </div>
+    );
+  }
 
   if (!note) {
-    return <div className="page-container"><h1>笔记不存在</h1></div>;
+    return (
+      <div className="page-container">
+        <h1>笔记不存在</h1>
+        <p>笔记 slug: {slug}</p>
+        <p>可用笔记数量: {notes.length}</p>
+      </div>
+    );
   }
 
   if (loading) {
     return (
       <div className="page-container">
-        <div className="loading">加载中...</div>
+        <div className="loading">加载内容中...</div>
       </div>
     );
   }

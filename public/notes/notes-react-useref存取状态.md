@@ -1,7 +1,3 @@
----
-title: useRef存取状态
-category: 前端
----
 ## 最新状态
 
 正常我们为在使用react-hook的时候使用最多的应该是useState,但是在某些应用场景下，我们需要拿到更新完毕的state的最新的值
