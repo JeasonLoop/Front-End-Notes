@@ -5,7 +5,8 @@
   "accentColor": "#00466b",
   "enabledCssSnippets": [
     "nav-folder-title-icon",
-    "hide-build-folders"
+    "hide-build-folders",
+    "hidefolder"
   ],
   "translucency": true
 }

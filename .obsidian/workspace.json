@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/index.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "index"
             }
           }
         ]
@@ -239,6 +239,10 @@
   },
   "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
+    "all-notes/NOTE-TEMPLATE.md",
+    "_tmp_7056_bd79046b94c983c2079569e756ddc2ee",
+    "docs/index.md",
+    "README.md",
     "vite.config.js.timestamp-1773846235644-cd3926ee15afd.mjs",
     "vite.config.js.timestamp-1773846135743-2e91b963382d2.mjs",
     "vite.config.js.timestamp-1773846066627-a10f4a558cbd3.mjs",
@@ -265,16 +269,12 @@
     "public/notes/19-部署.md",
     "public/notes/18-测试.md",
     "public/notes/17-配置管理.md",
-    "public/notes/16-项目结构.md",
-    "public/notes/15-文件上传.md",
     "vite.config.js.timestamp-1773845571112-26c0a10f22016.mjs",
     "vite.config.js.timestamp-1773845384421-44960217dd18f.mjs",
     "all-notes/Nest",
     "vite.config.js.timestamp-1773843976404-a12e16cf0996a.mjs",
     "public/Nightgazer14.ttf",
     "vite.config.js.timestamp-1773843733767-d3f287041e06f.mjs",
-    "public/notes",
-    "_tmp_23260_91324b915fb5d1079382d04fc8561b5e",
     "dist/favicon.svg",
     "📝Notes/assets/Pasted image 20230609141755.png",
     "📝Notes/assets/Pasted image 20230609141709.png",

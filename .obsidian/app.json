@@ -20,6 +20,7 @@
     "dist/all-notes/",
     "dist/notes/",
     ".output/",
-    "src/"
+    "src/",
+    "docs/"
   ]
 }

@@ -1,0 +1,5 @@
+.nav-folder:has([data-path*="docs"]),
+.nav-folder:has([data-path="src"]),
+.nav-folder:has([data-path="dist"]) {
+    display: none;
+}
