@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "439ba7bea6990f49",
+        "id": "29dcadd404dd9b18",
         "type": "tabs",
         "children": [
           {
-            "id": "e2f578d26ed4e648",
+            "id": "43894227e6c716c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
-                "mode": "preview",
+                "file": "all-notes/事业单位编制备考笔记/理论课/哲学/第一章节  - 哲学概述.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "第一章节  - 哲学概述"
             }
           }
         ]
@@ -103,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 236.5,
+    "collapsed": true
   },
   "right": {
     "id": "9ec9dc92d8196544",
@@ -211,12 +212,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,15 +237,35 @@
       "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "43894227e6c716c8",
   "lastOpenFiles": [
+    "public/notes/第一章节---哲学概述.md",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/img/Pasted image 20260325223612.png",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/img/Pasted image 20260325223549.png",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/img/Pasted image 20260325223543.png",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/img/Pasted image 20260325223126.png",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/img/Pasted image 20260325222744.png",
+    "未命名.base",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/第一章节  - 哲学概述.md",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/img/Pasted image 20260325222159.png",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/img/Pasted image 20260325221908.png",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/img/Pasted image 20260325221648.png",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/img/Pasted image 20260325221342.png",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/img/Pasted image 20260325221316.png",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/img",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/未命名.md",
+    "未命名 4.base",
+    "未命名看板.md",
     "all-notes/NOTE-TEMPLATE.md",
-    "_tmp_7056_bd79046b94c983c2079569e756ddc2ee",
+    "未命名 1.base",
+    "未命名 2.base",
+    "未命名 3.base",
     "docs/index.md",
+    "all-notes/事业单位编制备考笔记/理论课/宪法",
+    "all-notes/事业单位编制备考笔记/理论课/自然",
+    "all-notes/事业单位编制备考笔记/理论课/历史",
+    "all-notes/事业单位编制备考笔记/理论课/经济",
     "README.md",
-    "vite.config.js.timestamp-1773846235644-cd3926ee15afd.mjs",
-    "vite.config.js.timestamp-1773846135743-2e91b963382d2.mjs",
-    "vite.config.js.timestamp-1773846066627-a10f4a558cbd3.mjs",
     "public/notes/3.摸鱼.md",
     "public/notes/2.工具轮子.md",
     "public/notes/1.文档文章.md",
@@ -265,26 +285,6 @@
     "public/notes/usecallback&usememo.md",
     "public/notes/notes-react-redux.md",
     "public/notes/hoc高阶组件.md",
-    "public/notes/diff.md",
-    "public/notes/19-部署.md",
-    "public/notes/18-测试.md",
-    "public/notes/17-配置管理.md",
-    "vite.config.js.timestamp-1773845571112-26c0a10f22016.mjs",
-    "vite.config.js.timestamp-1773845384421-44960217dd18f.mjs",
-    "all-notes/Nest",
-    "vite.config.js.timestamp-1773843976404-a12e16cf0996a.mjs",
-    "public/Nightgazer14.ttf",
-    "vite.config.js.timestamp-1773843733767-d3f287041e06f.mjs",
-    "dist/favicon.svg",
-    "📝Notes/assets/Pasted image 20230609141755.png",
-    "📝Notes/assets/Pasted image 20230609141709.png",
-    "📝Notes/assets/Pasted image 20230609141637.png",
-    "📝Notes/assets/Pasted image 20230609141213.png",
-    "📝Notes/assets/Pasted image 20230609141135.png",
-    "📝Notes/assets/Pasted image 20230609140800.png",
-    "📝Notes/assets/Pasted image 20230609135553.png",
-    "📝Notes/assets/Pasted image 20230609135548.png",
-    "📝Notes/assets/Pasted image 20230608142040.png",
     "未命名.canvas",
     "00-前端/00-核心/JavaScript/知识图谱.canvas",
     "xx-归档/00-前端/00-核心/JavaScript/知识图谱.canvas",
