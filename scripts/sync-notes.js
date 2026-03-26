@@ -9,8 +9,12 @@ const __dirname = path.dirname(__filename);
 const ALL_NOTES_DIR = path.join(__dirname, '../all-notes');
 // 目标 markdown 目录（用于构建后访问）
 const TARGET_DIR = path.join(__dirname, '../public/notes');
+// 目标资源目录（用于 Obsidian 图片等附件）
+const ASSETS_DIR = path.join(__dirname, '../public/notes-assets');
 // 索引文件（React 应用通过 /all-notes-tree.json 加载）
 const TREE_INDEX_FILE = path.join(__dirname, '../public/all-notes-tree.json');
+// 缺失图片日志
+const missingAssetsByNote = new Map();
 
 // 笔记文件名到 slug 的完整映射
 const slugMapping = {
@@ -160,11 +164,7 @@ function parseFrontmatter(content) {
 
 // 提取标题
 function extractTitle(content, filename) {
-  const h1Regex = /^#\s+(.+)$/m;
-  const match = content.match(h1Regex);
-  if (match) {
-    return match[1].trim();
-  }
+  void content;
   return filename.replace('.md', '');
 }
 
@@ -173,10 +173,14 @@ function extractDescription(body) {
   const text = body
     .replace(/^#+\s.*$/gm, '')
     .replace(/```[\s\S]*?```/g, '')
+    .replace(/!\[\[[^\]]+\]\]/g, '')
+    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '')
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1')
+    .replace(/!\(([^)]+)\)/g, '')
     .replace(/[_*`#\[\]]/g, '')
+    .replace(/\s+/g, ' ')
     .trim();
-  const firstLine = text.split('\n')[0];
+  const firstLine = text;
   return firstLine.length > 20 && firstLine.length < 200 ? firstLine : undefined;
 }
 
@@ -350,19 +354,107 @@ function buildAllNotesTree() {
   return { tree, flat };
 }
 
+function clearDirectory(dirPath) {
+  if (!fs.existsSync(dirPath)) {
+    fs.mkdirSync(dirPath, { recursive: true });
+    return;
+  }
+
+  const existingFiles = fs.readdirSync(dirPath);
+  for (const file of existingFiles) {
+    const filePath = path.join(dirPath, file);
+    if (fs.statSync(filePath).isDirectory()) {
+      fs.rmSync(filePath, { recursive: true, force: true });
+    } else {
+      fs.unlinkSync(filePath);
+    }
+  }
+}
+
+function normalizeAssetPath(rawPath = '') {
+  const clean = rawPath.split('#')[0].split('?')[0].trim();
+  try {
+    return decodeURIComponent(clean);
+  } catch {
+    return clean;
+  }
+}
+
+function isLocalAssetPath(target = '') {
+  if (!target) return false;
+  if (target.startsWith('/') || target.startsWith('#')) return false;
+  if (/^(https?:)?\/\//i.test(target)) return false;
+  if (target.startsWith('data:') || target.startsWith('mailto:')) return false;
+  return true;
+}
+
+function recordMissingAsset(note, assetPath) {
+  const key = `${note.slug} (${note.relativePath})`;
+  if (!missingAssetsByNote.has(key)) {
+    missingAssetsByNote.set(key, new Set());
+  }
+  missingAssetsByNote.get(key).add(assetPath);
+}
+
+function copyNoteAsset(note, assetPath) {
+  const normalizedAssetPath = normalizeAssetPath(assetPath);
+  if (!isLocalAssetPath(normalizedAssetPath)) {
+    return null;
+  }
+
+  const noteDir = path.dirname(path.join(ALL_NOTES_DIR, note.relativePath));
+  const sourcePath = path.resolve(noteDir, normalizedAssetPath);
+  if (!sourcePath.startsWith(noteDir)) {
+    recordMissingAsset(note, `${assetPath} [非法路径或越界访问]`);
+    return null;
+  }
+
+  if (!fs.existsSync(sourcePath) || !fs.statSync(sourcePath).isFile()) {
+    recordMissingAsset(note, assetPath);
+    return null;
+  }
+
+  const fileName = path.basename(normalizedAssetPath);
+  const safeFileName = fileName.replace(/\s+/g, '-');
+  const targetFolder = path.join(ASSETS_DIR, note.slug);
+  fs.mkdirSync(targetFolder, { recursive: true });
+  const targetPath = path.join(targetFolder, safeFileName);
+  fs.copyFileSync(sourcePath, targetPath);
+
+  return `notes-assets/${note.slug}/${safeFileName}`;
+}
+
+function transformNoteContent(content, note) {
+  let transformed = content;
+
+  transformed = transformed.replace(/!\[\[([^\]]+)\]\]/g, (full, target) => {
+    const [rawPath, rawAlt] = target.split('|');
+    const assetPath = rawPath?.trim();
+    if (!assetPath) return full;
+
+    const publicAssetPath = copyNoteAsset(note, assetPath);
+    if (!publicAssetPath) return full;
+
+    const alt = (rawAlt?.trim() || path.basename(assetPath)).replace(/\]/g, '');
+    return `![${alt}](/${publicAssetPath})`;
+  });
+
+  transformed = transformed.replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g, (full, alt, link) => {
+    const publicAssetPath = copyNoteAsset(note, link);
+    if (!publicAssetPath) return full;
+    return `![${alt}](/${publicAssetPath})`;
+  });
+
+  return transformed;
+}
+
 // 复制笔记文件到 public/notes
 function copyNotesToPublic(flatNotes) {
   console.log('复制笔记到 public/notes...');
+  missingAssetsByNote.clear();
 
-  if (!fs.existsSync(TARGET_DIR)) {
-    fs.mkdirSync(TARGET_DIR, { recursive: true });
-  }
-
-  // 清空目标目录
-  const existingFiles = fs.readdirSync(TARGET_DIR);
-  for (const file of existingFiles) {
-    fs.unlinkSync(path.join(TARGET_DIR, file));
-  }
+  clearDirectory(TARGET_DIR);
+  clearDirectory(ASSETS_DIR);
 
   // 复制笔记文件
   for (const note of flatNotes) {
@@ -370,10 +462,26 @@ function copyNotesToPublic(flatNotes) {
 
     if (fs.existsSync(sourcePath)) {
       const content = fs.readFileSync(sourcePath, 'utf-8');
+      const transformedContent = transformNoteContent(content, note);
       const targetPath = path.join(TARGET_DIR, `${note.slug}.md`);
-      fs.writeFileSync(targetPath, content);
+      fs.writeFileSync(targetPath, transformedContent);
       console.log(`✓ Copied: ${note.relativePath} → ${note.slug}.md`);
     }
+  }
+
+  if (missingAssetsByNote.size > 0) {
+    console.warn('\n⚠ 缺图日志（以下资源未找到）:');
+    let missingCount = 0;
+    for (const [noteKey, assets] of missingAssetsByNote.entries()) {
+      console.warn(`- ${noteKey}`);
+      for (const asset of assets) {
+        missingCount += 1;
+        console.warn(`  • ${asset}`);
+      }
+    }
+    console.warn(`⚠ 总计缺失资源: ${missingCount}`);
+  } else {
+    console.log('✓ 图片资源检查通过：未发现缺图');
   }
 }
 
