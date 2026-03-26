@@ -22,7 +22,6 @@
           "type": "file",
           "path": "/notes/2.工具轮子.md",
           "slug": "2.工具轮子",
-          "description": "-   React-Select 轻便选择器",
           "relativePath": "🎃网址收集/2.工具轮子.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/🎃网址收集/2.工具轮子.md"
         },
@@ -32,198 +31,8 @@
           "type": "file",
           "path": "/notes/3.摸鱼.md",
           "slug": "3.摸鱼",
-          "description": "-   |低端影视|https://ddys.tv/|",
           "relativePath": "🎃网址收集/3.摸鱼.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/🎃网址收集/3.摸鱼.md"
-        }
-      ]
-    },
-    {
-      "id": "📝notes",
-      "name": "📝Notes",
-      "icon": null,
-      "type": "category",
-      "path": "/category/📝notes",
-      "children": [
-        {
-          "id": "⌚react",
-          "name": "⌚React",
-          "type": "folder",
-          "children": [
-            {
-              "id": "diff",
-              "name": "Diff",
-              "type": "file",
-              "path": "/notes/diff.md",
-              "slug": "diff",
-              "description": "计算出Virtual DOM中真正变化的部分，并只针对该部分进行原生DOM操作，而非重新渲染整个页面。React用 三大策略 将O(n^3)复杂度 转化为 O(n)复杂度",
-              "relativePath": "📝Notes/⌚React/Diff.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/⌚React/Diff.md"
-            },
-            {
-              "id": "hoc高阶组件",
-              "name": "HOC高阶组件",
-              "type": "file",
-              "path": "/notes/hoc高阶组件.md",
-              "slug": "hoc高阶组件",
-              "relativePath": "📝Notes/⌚React/HOC高阶组件.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/⌚React/HOC高阶组件.md"
-            },
-            {
-              "id": "notes-react-redux",
-              "name": "Redux",
-              "type": "file",
-              "path": "/notes/notes-react-redux.md",
-              "slug": "notes-react-redux",
-              "description": "首先在最外层容器中，把所有内容包裹在 Provider 组件中，将之前创建的 store 作为 prop 传给 Provider。",
-              "relativePath": "📝Notes/⌚React/Redux.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/⌚React/Redux.md"
-            },
-            {
-              "id": "usecallback&usememo",
-              "name": "useCallBack&useMemo",
-              "type": "file",
-              "path": "/notes/usecallback&usememo.md",
-              "slug": "usecallback&usememo",
-              "description": "最近在重构公司的类组件项目，同时也在进行hook的重新学习，useCallback 与 useMemo是hook中针对渲染以及缓存的两个内置hooks，主要的功能是对函数和计算结果进行缓存来判断是否需要重新渲染。",
-              "relativePath": "📝Notes/⌚React/useCallBack&useMemo.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/⌚React/useCallBack&useMemo.md"
-            },
-            {
-              "id": "notes-react-useref存取状态",
-              "name": "useRef存取状态",
-              "type": "file",
-              "path": "/notes/notes-react-useref存取状态.md",
-              "slug": "notes-react-useref存取状态",
-              "description": "正常我们为在使用react-hook的时候使用最多的应该是useState,但是在某些应用场景下，我们需要拿到更新完毕的state的最新的值",
-              "relativePath": "📝Notes/⌚React/useRef存取状态.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/⌚React/useRef存取状态.md"
-            }
-          ]
-        },
-        {
-          "id": "服务器",
-          "name": "服务器",
-          "type": "folder",
-          "children": [
-            {
-              "id": "服务器-docker部署前端项目教程",
-              "name": "Docker 部署前端项目教程",
-              "type": "file",
-              "path": "/notes/服务器-docker部署前端项目教程.md",
-              "slug": "服务器-docker部署前端项目教程",
-              "description": "Docker 是一个开源的应用容器引擎，可以让开发者打包应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 或 Windows 操作系统上。",
-              "relativePath": "📝Notes/服务器/Docker部署前端项目教程.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/服务器/Docker部署前端项目教程.md"
-            }
-          ]
-        },
-        {
-          "id": "🍂原生js",
-          "name": "🍂原生JS",
-          "type": "folder",
-          "children": [
-            {
-              "id": "notes-原生js-js基础-高级语法笔记",
-              "name": "JS基础&高级语法笔记",
-              "type": "file",
-              "path": "/notes/notes-原生js-js基础-高级语法笔记.md",
-              "slug": "notes-原生js-js基础-高级语法笔记",
-              "description": "对于对象的便利 我们通常可以使用Object.keys(),Object.entries(),Object.getOwnPropertyNames(),其中Object.keys()与Object.getOwnPropertyNames()效果是一样的，但是后者可以 ==返回不可枚举的属性名称==",
-              "relativePath": "📝Notes/🍂原生JS/JS基础&高级语法笔记.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/🍂原生JS/JS基础&高级语法笔记.md"
-            },
-            {
-              "id": "notes-原生js-原型链解析",
-              "name": "原型链解析",
-              "type": "file",
-              "path": "/notes/notes-原生js-原型链解析.md",
-              "slug": "notes-原生js-原型链解析",
-              "description": "初步尝试，我们涉及到原型链的知识，要先从一个构造函数开始讲起",
-              "relativePath": "📝Notes/🍂原生JS/原型链解析.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/🍂原生JS/原型链解析.md"
-            },
-            {
-              "id": "notes-原生js-同步异步函数",
-              "name": "同步异步函数",
-              "type": "file",
-              "path": "/notes/notes-原生js-同步异步函数.md",
-              "slug": "notes-原生js-同步异步函数",
-              "description": "!(https://cdn.nlark.com/yuque/0/2023/png/32650608/1679907692018-0c260d11-7204-4c35-8859-882ccd7cede5.png)",
-              "relativePath": "📝Notes/🍂原生JS/同步异步函数.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/🍂原生JS/同步异步函数.md"
-            }
-          ]
-        },
-        {
-          "id": "💿计算机网络",
-          "name": "💿计算机网络",
-          "type": "folder",
-          "children": [
-            {
-              "id": "notes-计算机网络-bom属性对象方法",
-              "name": "BOM属性对象方法",
-              "type": "file",
-              "path": "/notes/notes-计算机网络-bom属性对象方法.md",
-              "slug": "notes-计算机网络-bom属性对象方法",
-              "relativePath": "📝Notes/💿计算机网络/BOM属性对象方法.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/💿计算机网络/BOM属性对象方法.md"
-            },
-            {
-              "id": "notes-计算机网络-http-https",
-              "name": "HTTP&HTTPS",
-              "type": "file",
-              "path": "/notes/notes-计算机网络-http-https.md",
-              "slug": "notes-计算机网络-http-https",
-              "relativePath": "📝Notes/💿计算机网络/HTTP&HTTPS.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/💿计算机网络/HTTP&HTTPS.md"
-            },
-            {
-              "id": "notes-计算机网络-tcp三次握手",
-              "name": "TCP三次握手",
-              "type": "file",
-              "path": "/notes/notes-计算机网络-tcp三次握手.md",
-              "slug": "notes-计算机网络-tcp三次握手",
-              "relativePath": "📝Notes/💿计算机网络/TCP三次握手.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/💿计算机网络/TCP三次握手.md"
-            },
-            {
-              "id": "notes-计算机网络-浏览器工作原理",
-              "name": "**多进程结构的浏览器**",
-              "type": "file",
-              "path": "/notes/notes-计算机网络-浏览器工作原理.md",
-              "slug": "notes-计算机网络-浏览器工作原理",
-              "relativePath": "📝Notes/💿计算机网络/浏览器工作原理.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/💿计算机网络/浏览器工作原理.md"
-            },
-            {
-              "id": "notes-计算机网络-浏览器缓存",
-              "name": "浏览器缓存",
-              "type": "file",
-              "path": "/notes/notes-计算机网络-浏览器缓存.md",
-              "slug": "notes-计算机网络-浏览器缓存",
-              "relativePath": "📝Notes/💿计算机网络/浏览器缓存.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/💿计算机网络/浏览器缓存.md"
-            },
-            {
-              "id": "notes-计算机网络-访问url的背后",
-              "name": "访问URL的背后",
-              "type": "file",
-              "path": "/notes/notes-计算机网络-访问url的背后.md",
-              "slug": "notes-计算机网络-访问url的背后",
-              "relativePath": "📝Notes/💿计算机网络/访问URL的背后.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/💿计算机网络/访问URL的背后.md"
-            }
-          ]
-        },
-        {
-          "id": "🐸技术课程收集",
-          "name": "🐸技术课程收集",
-          "type": "file",
-          "path": "/notes/🐸技术课程收集.md",
-          "slug": "🐸技术课程收集",
-          "relativePath": "📝Notes/🐸技术课程收集.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/📝Notes/🐸技术课程收集.md"
         }
       ]
     },
@@ -246,45 +55,45 @@
               "children": [
                 {
                   "id": "后端-go-Go-简介与特点",
-                  "name": "Go 简介与特点",
+                  "name": "Go-简介与特点",
                   "type": "file",
                   "path": "/notes/后端-go-Go-简介与特点.md",
                   "slug": "后端-go-Go-简介与特点",
-                  "description": "Go（又称 Golang）是 Google 在 2009 年开发的编程语言，由 Robert Griesemer、Rob Pike 和 Ken Thompson 设计。Go 是一门编译型、并发型、具有垃圾回收功能的编程语言。",
                   "relativePath": "后端/Go/01-基础入门/Go-简介与特点.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/Go-简介与特点.md"
                 },
                 {
                   "id": "后端-go-01-基础入门-函数",
-                  "name": "Go 函数",
+                  "name": "函数",
                   "type": "file",
                   "path": "/notes/后端-go-01-基础入门-函数.md",
                   "slug": "后端-go-01-基础入门-函数",
+                  "description": "Go 函数的特点： 1. 多返回值：可以返回多个值，常用于错误处理 2. 命名返回值：提高代码可读性 3. 可变参数：使用 ... 语法 4. 函数作为值：函数是一等公民 5. 闭包：函数可以访问外部变量 6. 方法：可以为类型定义方法 7. defer：延迟执行，用于资源清理 掌握这些函数特性后，就可以编写灵活、可复用的代码了！ --- go 函数 方法 闭包 defer",
                   "relativePath": "后端/Go/01-基础入门/函数.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/函数.md"
                 },
                 {
                   "id": "后端-go-01-基础入门-包与模块",
-                  "name": "Go 包与模块",
+                  "name": "包与模块",
                   "type": "file",
                   "path": "/notes/后端-go-01-基础入门-包与模块.md",
                   "slug": "后端-go-01-基础入门-包与模块",
+                  "description": "Go 包和模块的特点： 1. 包：代码组织的基本单位 2. 可见性：首字母大写导出，小写不导出 3. Modules：Go 1.11+ 的依赖管理系统 4. internal：内部包，外部无法导入 5. pkg：公共包，可以被外部导入 6. init：包初始化函数 7. 工作区：本地多模块开发 掌握包和模块后，就可以组织大型项目了！ --- go 包 模块 依赖管理",
                   "relativePath": "后端/Go/01-基础入门/包与模块.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/包与模块.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-基础语法",
-                  "name": "Go 基础语法",
+                  "name": "基础语法",
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-基础语法.md",
                   "slug": "后端-java-01-基础入门-基础语法",
-                  "description": "1. 包声明：package main - 声明包名",
                   "relativePath": "后端/Go/01-基础入门/基础语法.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/基础语法.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-安装与环境配置",
-                  "name": "Go 安装与环境配置",
+                  "name": "安装与环境配置",
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-安装与环境配置.md",
                   "slug": "后端-java-01-基础入门-安装与环境配置",
@@ -293,16 +102,17 @@
                 },
                 {
                   "id": "后端-go-01-基础入门-接口",
-                  "name": "Go 接口",
+                  "name": "接口",
                   "type": "file",
                   "path": "/notes/后端-go-01-基础入门-接口.md",
                   "slug": "后端-go-01-基础入门-接口",
+                  "description": "Go 接口的特点： 1. 隐式实现：不需要显式声明实现接口 2. 小接口原则：接口应该尽可能小 3. 组合：通过组合小接口创建大接口 4. 空接口：可以表示任何类型 5. 类型断言：检查接口值的具体类型 6. 多态：不同的类型实现同一个接口 接口是 Go 实现多态和依赖注入的核心机制！ --- go 接口 多态 类型断言",
                   "relativePath": "后端/Go/01-基础入门/接口.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/接口.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-控制结构",
-                  "name": "Go 控制结构",
+                  "name": "控制结构",
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-控制结构.md",
                   "slug": "后端-java-01-基础入门-控制结构",
@@ -311,16 +121,17 @@
                 },
                 {
                   "id": "后端-java-01-基础入门-数据类型与变量",
-                  "name": "Go 数据类型与变量",
+                  "name": "数据类型与变量",
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-数据类型与变量.md",
                   "slug": "后端-java-01-基础入门-数据类型与变量",
+                  "description": "Go 的数据类型特点： 1. 基本类型：整数、浮点数、布尔、字符串、复数 2. 复合类型：数组、切片、映射、结构体 3. 零值概念：每个类型都有默认零值 4. 类型安全：需要显式类型转换 5. 切片和映射：动态数据结构，使用方便 掌握这些数据类型后，就可以处理各种数据了！ --- go 数据类型 变量 数组 切片 映射 结构体",
                   "relativePath": "后端/Go/01-基础入门/数据类型与变量.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/数据类型与变量.md"
                 },
                 {
                   "id": "后端-go-01-基础入门-结构体与方法",
-                  "name": "Go 结构体与方法",
+                  "name": "结构体与方法",
                   "type": "file",
                   "path": "/notes/后端-go-01-基础入门-结构体与方法.md",
                   "slug": "后端-go-01-基础入门-结构体与方法",
@@ -336,31 +147,28 @@
               "children": [
                 {
                   "id": "后端-go-Channel-通道",
-                  "name": "Channel 通道",
+                  "name": "Channel-通道",
                   "type": "file",
                   "path": "/notes/后端-go-Channel-通道.md",
                   "slug": "后端-go-Channel-通道",
-                  "description": "Channel 是 Go 语言中 goroutine 之间通信的主要方式，遵循 \"不要通过共享内存来通信，而要通过通信来共享内存\" 的设计理念。",
                   "relativePath": "后端/Go/02-核心特性/Channel-通道.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/02-核心特性/Channel-通道.md"
                 },
                 {
                   "id": "后端-go-Goroutine-协程",
-                  "name": "Goroutine 协程",
+                  "name": "Goroutine-协程",
                   "type": "file",
                   "path": "/notes/后端-go-Goroutine-协程.md",
                   "slug": "后端-go-Goroutine-协程",
-                  "description": "Goroutine 是 Go 语言并发编程的核心，它是轻量级线程，由 Go 运行时管理。",
                   "relativePath": "后端/Go/02-核心特性/Goroutine-协程.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/02-核心特性/Goroutine-协程.md"
                 },
                 {
                   "id": "后端-go-Select-语句",
-                  "name": "Select 语句",
+                  "name": "Select-语句",
                   "type": "file",
                   "path": "/notes/后端-go-Select-语句.md",
                   "slug": "后端-go-Select-语句",
-                  "description": "Select 是 Go 语言中用于处理多个 channel 操作的控制结构，类似于 switch 但专门用于 channel 通信。",
                   "relativePath": "后端/Go/02-核心特性/Select-语句.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/02-核心特性/Select-语句.md"
                 },
@@ -370,7 +178,6 @@
                   "type": "file",
                   "path": "/notes/后端-go-02-核心特性-同步原语.md",
                   "slug": "后端-go-02-核心特性-同步原语",
-                  "description": "Go 提供了多种同步原语用于协调 goroutine 之间的访问和操作。",
                   "relativePath": "后端/Go/02-核心特性/同步原语.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/02-核心特性/同步原语.md"
                 },
@@ -380,7 +187,6 @@
                   "type": "file",
                   "path": "/notes/后端-go-02-核心特性-错误处理机制.md",
                   "slug": "后端-go-02-核心特性-错误处理机制",
-                  "description": "Go 语言采用显式的错误处理机制，与 Java 的异常处理和 JavaScript 的 try-catch 不同。",
                   "relativePath": "后端/Go/02-核心特性/错误处理机制.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/02-核心特性/错误处理机制.md"
                 }
@@ -393,21 +199,19 @@
               "children": [
                 {
                   "id": "后端-go-Gin-框架",
-                  "name": "Gin 框架",
+                  "name": "Gin-框架",
                   "type": "file",
                   "path": "/notes/后端-go-Gin-框架.md",
                   "slug": "后端-go-Gin-框架",
-                  "description": "Gin 是一个高性能的 Go Web 框架，具有类似 Martini 的 API 性能，支持中间件、JSON 验证等特性。",
                   "relativePath": "后端/Go/03-Web开发/Gin-框架.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/03-Web开发/Gin-框架.md"
                 },
                 {
                   "id": "后端-go-HTTP-服务基础",
-                  "name": "HTTP 服务基础",
+                  "name": "HTTP-服务基础",
                   "type": "file",
                   "path": "/notes/后端-go-HTTP-服务基础.md",
                   "slug": "后端-go-HTTP-服务基础",
-                  "description": "Go 标准库提供了强大的 net/http 包，可以轻松创建 HTTP 服务器。",
                   "relativePath": "后端/Go/03-Web开发/HTTP-服务基础.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/03-Web开发/HTTP-服务基础.md"
                 },
@@ -417,7 +221,6 @@
                   "type": "file",
                   "path": "/notes/后端-go-03-web开发-中间件.md",
                   "slug": "后端-go-03-web开发-中间件",
-                  "description": "中间件是在请求和响应之间处理逻辑的函数，可以执行日志、认证、CORS 等操作。",
                   "relativePath": "后端/Go/03-Web开发/中间件.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/03-Web开发/中间件.md"
                 },
@@ -427,7 +230,6 @@
                   "type": "file",
                   "path": "/notes/后端-go-03-web开发-路由处理.md",
                   "slug": "后端-go-03-web开发-路由处理",
-                  "description": "| Go (Gin) | Java (Spring MVC) | 说明 |",
                   "relativePath": "后端/Go/03-Web开发/路由处理.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/03-Web开发/路由处理.md"
                 }
@@ -440,11 +242,10 @@
               "children": [
                 {
                   "id": "后端-go-05-企业架构-微服务基础",
-                  "name": "Go 微服务基础",
+                  "name": "微服务基础",
                   "type": "file",
                   "path": "/notes/后端-go-05-企业架构-微服务基础.md",
                   "slug": "后端-go-05-企业架构-微服务基础",
-                  "description": "微服务架构是将单体应用拆分成多个小型、独立的服务，每个服务负责特定的业务功能。",
                   "relativePath": "后端/Go/05-企业架构/微服务基础.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/05-企业架构/微服务基础.md"
                 }
@@ -457,11 +258,10 @@
               "children": [
                 {
                   "id": "后端-go-第一个-HTTP-服务",
-                  "name": "第一个 HTTP 服务",
+                  "name": "第一个-HTTP-服务",
                   "type": "file",
                   "path": "/notes/后端-go-第一个-HTTP-服务.md",
                   "slug": "后端-go-第一个-HTTP-服务",
-                  "description": "这是 Go 语言入门实践的第一个项目，我们将从零开始搭建一个简单的 HTTP 服务器。",
                   "relativePath": "后端/Go/06-实践项目/第一个-HTTP-服务.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/06-实践项目/第一个-HTTP-服务.md"
                 }
@@ -469,7 +269,7 @@
             },
             {
               "id": "后端-go-moc-go",
-              "name": "Go 知识体系（Go）",
+              "name": "!MOC-Go",
               "type": "file",
               "path": "/notes/后端-go-moc-go.md",
               "slug": "后端-go-moc-go",
@@ -494,17 +294,15 @@
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-io流.md",
                   "slug": "后端-java-01-基础入门-io流",
-                  "description": "| JavaScript | Java | 说明 |",
                   "relativePath": "后端/Java/01-基础入门/IO流.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/IO流.md"
                 },
                 {
                   "id": "后端-java-Java-简介与特点",
-                  "name": "Java 简介与特点",
+                  "name": "Java-简介与特点",
                   "type": "file",
                   "path": "/notes/后端-java-Java-简介与特点.md",
                   "slug": "后端-java-Java-简介与特点",
-                  "description": "Java 是一种广泛使用的面向对象编程语言，由 Sun Microsystems（现 Oracle）于 1995 年发布。它具有\"一次编写，到处运行\"的特性。",
                   "relativePath": "后端/Java/01-基础入门/Java-简介与特点.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/Java-简介与特点.md"
                 },
@@ -523,7 +321,6 @@
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-基础语法.md",
                   "slug": "后端-java-01-基础入门-基础语法",
-                  "description": "| 类型 | 大小 | 默认值 | 范围 | 说明 |",
                   "relativePath": "后端/Java/01-基础入门/基础语法.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/基础语法.md"
                 },
@@ -542,7 +339,6 @@
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-异常处理.md",
                   "slug": "后端-java-01-基础入门-异常处理",
-                  "description": "| JavaScript | Java | 说明 |",
                   "relativePath": "后端/Java/01-基础入门/异常处理.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/异常处理.md"
                 },
@@ -552,7 +348,6 @@
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-控制结构.md",
                   "slug": "后端-java-01-基础入门-控制结构",
-                  "description": "| JavaScript | Java | 说明 |",
                   "relativePath": "后端/Java/01-基础入门/控制结构.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/控制结构.md"
                 },
@@ -571,7 +366,6 @@
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-数组与字符串.md",
                   "slug": "后端-java-01-基础入门-数组与字符串",
-                  "description": "| JavaScript | Java | 说明 |",
                   "relativePath": "后端/Java/01-基础入门/数组与字符串.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/数组与字符串.md"
                 }
@@ -597,7 +391,6 @@
                   "type": "file",
                   "path": "/notes/后端-java-02-面向对象-接口与抽象类.md",
                   "slug": "后端-java-02-面向对象-接口与抽象类",
-                  "description": "接口是 Java 中定义行为契约的方式，一个类可以实现多个接口。",
                   "relativePath": "后端/Java/02-面向对象/接口与抽象类.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/02-面向对象/接口与抽象类.md"
                 },
@@ -607,7 +400,6 @@
                   "type": "file",
                   "path": "/notes/后端-java-02-面向对象-枚举.md",
                   "slug": "后端-java-02-面向对象-枚举",
-                  "description": "枚举是一种特殊的类，用于定义一组有限的常量。",
                   "relativePath": "后端/Java/02-面向对象/枚举.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/02-面向对象/枚举.md"
                 },
@@ -617,7 +409,6 @@
                   "type": "file",
                   "path": "/notes/后端-java-02-面向对象-类与对象.md",
                   "slug": "后端-java-02-面向对象-类与对象",
-                  "description": "| 修饰符 | 同一类 | 同一包 | 子类 | 其他包 |",
                   "relativePath": "后端/Java/02-面向对象/类与对象.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/02-面向对象/类与对象.md"
                 },
@@ -627,7 +418,6 @@
                   "type": "file",
                   "path": "/notes/后端-java-02-面向对象-继承与多态.md",
                   "slug": "后端-java-02-面向对象-继承与多态",
-                  "description": "Java 使用 extends 关键字实现继承，单继承机制。",
                   "relativePath": "后端/Java/02-面向对象/继承与多态.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/02-面向对象/继承与多态.md"
                 }
@@ -640,7 +430,7 @@
               "children": [
                 {
                   "id": "后端-java-集合-List",
-                  "name": "集合 List",
+                  "name": "集合-List",
                   "type": "file",
                   "path": "/notes/后端-java-集合-List.md",
                   "slug": "后端-java-集合-List",
@@ -656,21 +446,21 @@
               "children": [
                 {
                   "id": "后端-java-07-数据库操作-jdbc基础",
-                  "name": "JDBC 基础",
+                  "name": "JDBC基础",
                   "type": "file",
                   "path": "/notes/后端-java-07-数据库操作-jdbc基础.md",
                   "slug": "后端-java-07-数据库操作-jdbc基础",
-                  "description": "JDBC（Java Database Connectivity）是 Java 程序与数据库交互的标准 API。",
+                  "description": "JDBC（Java Database Connectivity）是 Java 程序与数据库交互的标准 API。 --- 连接池",
                   "relativePath": "后端/Java/07-数据库操作/JDBC基础.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/07-数据库操作/JDBC基础.md"
                 },
                 {
                   "id": "后端-java-07-数据库操作-mybatis入门",
-                  "name": "MyBatis 入门",
+                  "name": "MyBatis入门",
                   "type": "file",
                   "path": "/notes/后端-java-07-数据库操作-mybatis入门.md",
                   "slug": "后端-java-07-数据库操作-mybatis入门",
-                  "description": "MyBatis 是一款优秀的持久层框架，支持自定义 SQL、存储过程和高级映射。",
+                  "description": "MyBatis 是一款优秀的持久层框架，支持自定义 SQL、存储过程和高级映射。 --- 动态SQL",
                   "relativePath": "后端/Java/07-数据库操作/MyBatis入门.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/07-数据库操作/MyBatis入门.md"
                 }
@@ -678,7 +468,7 @@
             },
             {
               "id": "后端-java-moc-java",
-              "name": "Java 知识体系",
+              "name": "!MOC-Java",
               "type": "file",
               "path": "/notes/后端-java-moc-java.md",
               "slug": "后端-java-moc-java",
@@ -698,71 +488,74 @@
       "children": [
         {
           "id": "开发经验-ai辅助开发一年体验总结",
-          "name": "AI 辅助开发一年体验总结",
+          "name": "AI辅助开发一年体验总结",
           "type": "file",
           "path": "/notes/开发经验-ai辅助开发一年体验总结.md",
           "slug": "开发经验-ai辅助开发一年体验总结",
-          "description": "用 AI 写代码快一年了，从最开始的半信半疑，到现在离开 AI 有点不太习惯，这里聊聊我的真实感受。",
           "relativePath": "开发经验/AI辅助开发一年体验总结.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/AI辅助开发一年体验总结.md"
         },
         {
           "id": "开发经验-css现代布局containerqueries真香",
-          "name": "CSS 现代布局：Container Queries 真香",
+          "name": "CSS现代布局ContainerQueries真香",
           "type": "file",
           "path": "/notes/开发经验-css现代布局containerqueries真香.md",
           "slug": "开发经验-css现代布局containerqueries真香",
-          "description": "CSS 这些年发展真快，好多以前不好做的布局，现在原生支持了。Container Queries 就是一个，用了一段时间，真心香。",
           "relativePath": "开发经验/CSS现代布局ContainerQueries真香.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/CSS现代布局ContainerQueries真香.md"
         },
         {
+          "id": "服务器-docker部署前端项目教程",
+          "name": "Docker部署前端项目教程",
+          "type": "file",
+          "path": "/notes/服务器-docker部署前端项目教程.md",
+          "slug": "服务器-docker部署前端项目教程",
+          "description": "Docker 是一个开源的应用容器引擎，可以让开发者打包应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 或 Windows 操作系统上。",
+          "relativePath": "开发经验/Docker部署前端项目教程.md",
+          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/Docker部署前端项目教程.md"
+        },
+        {
           "id": "开发经验-react性能优化从理论到实战",
-          "name": "React 性能优化：从理论到实战",
+          "name": "React性能优化从理论到实战",
           "type": "file",
           "path": "/notes/开发经验-react性能优化从理论到实战.md",
           "slug": "开发经验-react性能优化从理论到实战",
-          "description": "做 React 开发也有几年了，性能优化做过不少，整理一套从入门到精通的实战经验。",
           "relativePath": "开发经验/React性能优化从理论到实战.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/React性能优化从理论到实战.md"
         },
         {
           "id": "开发经验-typescript进阶用好类型体操提升代码质量",
-          "name": "TypeScript 进阶：用好类型体操提升代码质量",
+          "name": "TypeScript进阶用好类型体操提升代码质量",
           "type": "file",
           "path": "/notes/开发经验-typescript进阶用好类型体操提升代码质量.md",
           "slug": "开发经验-typescript进阶用好类型体操提升代码质量",
-          "description": "用 TypeScript 也有几年了，从最开始的 any 大法好，到现在尽量给所有代码都加上类型，这里聊聊我对类型体操的理解。",
           "relativePath": "开发经验/TypeScript进阶用好类型体操提升代码质量.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/TypeScript进阶用好类型体操提升代码质量.md"
         },
         {
           "id": "开发经验-vibecoding我是如何用ai写代码的",
-          "name": "Vibe Coding：我是如何用 AI 写代码的",
+          "name": "VibeCoding我是如何用AI写代码的",
           "type": "file",
           "path": "/notes/开发经验-vibecoding我是如何用ai写代码的.md",
           "slug": "开发经验-vibecoding我是如何用ai写代码的",
-          "description": "最近 Vibe Coding 这个词挺火的，其实我已经这么干快一年了，分享一下我的工作流。",
           "relativePath": "开发经验/VibeCoding我是如何用AI写代码的.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/VibeCoding我是如何用AI写代码的.md"
         },
         {
           "id": "开发经验-中高阶前端必懂闭包其实并不难",
-          "name": "中高阶前端必懂：闭包其实并不难",
+          "name": "中高阶前端必懂闭包其实并不难",
           "type": "file",
           "path": "/notes/开发经验-中高阶前端必懂闭包其实并不难.md",
           "slug": "开发经验-中高阶前端必懂闭包其实并不难",
-          "description": "闭包这个词，刚学 JS 的时候觉得好玄乎，面试也经常问，工作几年回头看，其实没那么复杂，整理一下我的理解。",
           "relativePath": "开发经验/中高阶前端必懂闭包其实并不难.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/中高阶前端必懂闭包其实并不难.md"
         },
         {
           "id": "开发经验-当我们聊前端架构我们在聊什么",
-          "name": "当我们聊前端架构，我们在聊什么",
+          "name": "当我们聊前端架构我们在聊什么",
           "type": "file",
           "path": "/notes/开发经验-当我们聊前端架构我们在聊什么.md",
           "slug": "开发经验-当我们聊前端架构我们在聊什么",
-          "description": "最近几年「前端架构」这个词提得越来越多，刚入行的朋友可能会觉得很虚，我聊聊我的理解。",
           "relativePath": "开发经验/当我们聊前端架构我们在聊什么.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/当我们聊前端架构我们在聊什么.md"
         },
@@ -772,7 +565,6 @@
           "type": "file",
           "path": "/notes/开发经验-网址书签收集.md",
           "slug": "开发经验-网址书签收集",
-          "description": "> 从浏览器书签导出整理，按原文件夹分类保存。",
           "relativePath": "开发经验/网址书签收集.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/网址书签收集.md"
         }
@@ -792,47 +584,43 @@
           "children": [
             {
               "id": "前端-js-01-闭包和作用域",
-              "name": "JavaScript 闭包和作用域",
+              "name": "01-闭包和作用域",
               "type": "file",
               "path": "/notes/前端-js-01-闭包和作用域.md",
               "slug": "前端-js-01-闭包和作用域",
-              "description": "作用域是指变量、函数和对象的可访问性范围。JavaScript 有三种作用域：",
               "relativePath": "前端/JS/01-闭包和作用域.md",
               "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/01-闭包和作用域.md"
             },
             {
               "id": "前端-js-02-this绑定和上下文",
-              "name": "JavaScript this 绑定和上下文",
+              "name": "02-this绑定和上下文",
               "type": "file",
               "path": "/notes/前端-js-02-this绑定和上下文.md",
               "slug": "前端-js-02-this绑定和上下文",
-              "description": "this 是 JavaScript 中的一个关键字，它指向当前执行上下文的对象。this 的值不是静态的，而是在函数被调用时动态确定的。",
               "relativePath": "前端/JS/02-this绑定和上下文.md",
               "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/02-this绑定和上下文.md"
             },
             {
               "id": "前端-js-03-原型和继承",
-              "name": "JavaScript 原型和继承",
+              "name": "03-原型和继承",
               "type": "file",
               "path": "/notes/前端-js-03-原型和继承.md",
               "slug": "前端-js-03-原型和继承",
-              "description": "每个 JavaScript 对象都有一个指向另一个对象的内部链接，这个对象就是原型（prototype）。当我们访问对象的属性时，如果对象本身没有该属性，JavaScript 会沿着原型链向上查找。",
               "relativePath": "前端/JS/03-原型和继承.md",
               "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/03-原型和继承.md"
             },
             {
               "id": "前端-js-04-异步编程详解",
-              "name": "JavaScript 异步编程详解",
+              "name": "04-异步编程详解",
               "type": "file",
               "path": "/notes/前端-js-04-异步编程详解.md",
               "slug": "前端-js-04-异步编程详解",
-              "description": "JavaScript 是单线程的，如果所有操作都是同步的，会导致阻塞，用户体验差。",
               "relativePath": "前端/JS/04-异步编程详解.md",
               "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/04-异步编程详解.md"
             },
             {
               "id": "前端-js-05-事件循环和并发",
-              "name": "JavaScript 事件循环和并发",
+              "name": "05-事件循环和并发",
               "type": "file",
               "path": "/notes/前端-js-05-事件循环和并发.md",
               "slug": "前端-js-05-事件循环和并发",
@@ -841,7 +629,7 @@
             },
             {
               "id": "前端-js-06-函数式编程",
-              "name": "JavaScript 函数式编程",
+              "name": "06-函数式编程",
               "type": "file",
               "path": "/notes/前端-js-06-函数式编程.md",
               "slug": "前端-js-06-函数式编程",
@@ -850,37 +638,34 @@
             },
             {
               "id": "07-es6+新特性详解",
-              "name": "JavaScript ES6+ 新特性详解",
+              "name": "07-ES6+新特性详解",
               "type": "file",
               "path": "/notes/07-es6+新特性详解.md",
               "slug": "07-es6+新特性详解",
-              "description": "1. 变量声明：let、const（块作用域）",
               "relativePath": "前端/JS/07-ES6+新特性详解.md",
               "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/07-ES6+新特性详解.md"
             },
             {
               "id": "前端-js-08-元编程和反射",
-              "name": "JavaScript 元编程和反射",
+              "name": "08-元编程和反射",
               "type": "file",
               "path": "/notes/前端-js-08-元编程和反射.md",
               "slug": "前端-js-08-元编程和反射",
-              "description": "元编程（Metaprogramming）是指编写能够操作其他程序的程序，或者编写能够操作自身的程序。",
               "relativePath": "前端/JS/08-元编程和反射.md",
               "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/08-元编程和反射.md"
             },
             {
               "id": "前端-js-09-设计模式",
-              "name": "JavaScript 设计模式",
+              "name": "09-设计模式",
               "type": "file",
               "path": "/notes/前端-js-09-设计模式.md",
               "slug": "前端-js-09-设计模式",
-              "description": "设计模式是解决常见问题的可重用方案。JavaScript 中常用的设计模式包括：",
               "relativePath": "前端/JS/09-设计模式.md",
               "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/09-设计模式.md"
             },
             {
               "id": "前端-js-10-内存管理和性能优化",
-              "name": "JavaScript 内存管理和性能优化",
+              "name": "10-内存管理和性能优化",
               "type": "file",
               "path": "/notes/前端-js-10-内存管理和性能优化.md",
               "slug": "前端-js-10-内存管理和性能优化",
@@ -889,17 +674,16 @@
             },
             {
               "id": "前端-js-11-模块化和打包",
-              "name": "JavaScript 模块化和打包",
+              "name": "11-模块化和打包",
               "type": "file",
               "path": "/notes/前端-js-11-模块化和打包.md",
               "slug": "前端-js-11-模块化和打包",
-              "description": "模块化是将代码分割成独立、可重用的模块。JavaScript 有多种模块系统：",
               "relativePath": "前端/JS/11-模块化和打包.md",
               "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/11-模块化和打包.md"
             },
             {
               "id": "前端-js-12-错误处理和调试",
-              "name": "JavaScript 错误处理和调试",
+              "name": "12-错误处理和调试",
               "type": "file",
               "path": "/notes/前端-js-12-错误处理和调试.md",
               "slug": "前端-js-12-错误处理和调试",
@@ -908,11 +692,10 @@
             },
             {
               "id": "readme",
-              "name": "JavaScript 高级教程",
+              "name": "README",
               "type": "file",
               "path": "/notes/readme.md",
               "slug": "readme",
-              "description": "这是一个全面的 JavaScript 高级教程集合，涵盖从基础到进阶的各个主题。",
               "relativePath": "前端/JS/README.md",
               "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/README.md"
             }
@@ -925,7 +708,7 @@
           "children": [
             {
               "id": "前端-vue-01-基础入门",
-              "name": "React 基础入门",
+              "name": "01-基础入门",
               "type": "file",
               "path": "/notes/前端-vue-01-基础入门.md",
               "slug": "前端-vue-01-基础入门",
@@ -934,7 +717,7 @@
             },
             {
               "id": "前端-react-Hooks",
-              "name": "React Hooks",
+              "name": "02-Hooks",
               "type": "file",
               "path": "/notes/前端-react-Hooks.md",
               "slug": "前端-react-Hooks",
@@ -943,7 +726,7 @@
             },
             {
               "id": "前端-react-03-状态管理",
-              "name": "React 状态管理",
+              "name": "03-状态管理",
               "type": "file",
               "path": "/notes/前端-react-03-状态管理.md",
               "slug": "前端-react-03-状态管理",
@@ -952,7 +735,7 @@
             },
             {
               "id": "前端-react-04-路由管理",
-              "name": "React Router 路由管理",
+              "name": "04-路由管理",
               "type": "file",
               "path": "/notes/前端-react-04-路由管理.md",
               "slug": "前端-react-04-路由管理",
@@ -961,7 +744,7 @@
             },
             {
               "id": "前端-react-05-性能优化",
-              "name": "React 性能优化",
+              "name": "05-性能优化",
               "type": "file",
               "path": "/notes/前端-react-05-性能优化.md",
               "slug": "前端-react-05-性能优化",
@@ -970,7 +753,7 @@
             },
             {
               "id": "前端-react-06-最佳实践",
-              "name": "React 最佳实践",
+              "name": "06-最佳实践",
               "type": "file",
               "path": "/notes/前端-react-06-最佳实践.md",
               "slug": "前端-react-06-最佳实践",
@@ -979,11 +762,10 @@
             },
             {
               "id": "前端-react-readme",
-              "name": "React 教程",
+              "name": "README",
               "type": "file",
               "path": "/notes/前端-react-readme.md",
               "slug": "前端-react-readme",
-              "description": "这是一个 React 学习教程集合，包含从基础到进阶的完整学习路径。",
               "relativePath": "前端/React/README.md",
               "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/React/README.md"
             }
@@ -996,7 +778,7 @@
           "children": [
             {
               "id": "前端-vue-01-基础入门",
-              "name": "Vue 3 基础入门",
+              "name": "01-基础入门",
               "type": "file",
               "path": "/notes/前端-vue-01-基础入门.md",
               "slug": "前端-vue-01-基础入门",
@@ -1005,7 +787,7 @@
             },
             {
               "id": "前端-vue-02-组件系统",
-              "name": "Vue 组件系统",
+              "name": "02-组件系统",
               "type": "file",
               "path": "/notes/前端-vue-02-组件系统.md",
               "slug": "前端-vue-02-组件系统",
@@ -1014,7 +796,7 @@
             },
             {
               "id": "前端-vue-03-响应式原理",
-              "name": "Vue 响应式原理",
+              "name": "03-响应式原理",
               "type": "file",
               "path": "/notes/前端-vue-03-响应式原理.md",
               "slug": "前端-vue-03-响应式原理",
@@ -1023,7 +805,7 @@
             },
             {
               "id": "前端-vue-Composition-API",
-              "name": "Vue Composition API",
+              "name": "04-Composition-API",
               "type": "file",
               "path": "/notes/前端-vue-Composition-API.md",
               "slug": "前端-vue-Composition-API",
@@ -1032,7 +814,7 @@
             },
             {
               "id": "前端-vue-05-路由管理",
-              "name": "Vue Router 路由管理",
+              "name": "05-路由管理",
               "type": "file",
               "path": "/notes/前端-vue-05-路由管理.md",
               "slug": "前端-vue-05-路由管理",
@@ -1041,7 +823,7 @@
             },
             {
               "id": "前端-vue-06-状态管理",
-              "name": "Vue 状态管理 - Pinia",
+              "name": "06-状态管理",
               "type": "file",
               "path": "/notes/前端-vue-06-状态管理.md",
               "slug": "前端-vue-06-状态管理",
@@ -1050,7 +832,7 @@
             },
             {
               "id": "前端-vue-07-最佳实践",
-              "name": "Vue 最佳实践",
+              "name": "07-最佳实践",
               "type": "file",
               "path": "/notes/前端-vue-07-最佳实践.md",
               "slug": "前端-vue-07-最佳实践",
@@ -1059,11 +841,10 @@
             },
             {
               "id": "前端-vue-readme",
-              "name": "Vue.js 教程",
+              "name": "README",
               "type": "file",
               "path": "/notes/前端-vue-readme.md",
               "slug": "前端-vue-readme",
-              "description": "这是一个 Vue.js 学习教程集合，包含从基础到进阶的完整学习路径。",
               "relativePath": "前端/Vue/README.md",
               "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/Vue/README.md"
             }
@@ -1090,11 +871,10 @@
               "children": [
                 {
                   "id": "第一章节---哲学概述",
-                  "name": "本章小结",
+                  "name": "第一章节  - 哲学概述",
                   "type": "file",
                   "path": "/notes/第一章节---哲学概述.md",
                   "slug": "第一章节---哲学概述",
-                  "description": "!(img/Pasted%20image%2020260325210221.png)",
                   "relativePath": "事业单位编制备考笔记/理论课/哲学/第一章节  - 哲学概述.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/事业单位编制备考笔记/理论课/哲学/第一章节  - 哲学概述.md"
                 }
@@ -1113,7 +893,7 @@
       "children": [
         {
           "id": "工具函数",
-          "name": "前端实用工具函数集合",
+          "name": "工具函数",
           "type": "file",
           "path": "/notes/工具函数.md",
           "slug": "工具函数",
@@ -1131,7 +911,7 @@
       "children": [
         {
           "id": "01-快速开始",
-          "name": "Nest.js 快速开始",
+          "name": "01-快速开始",
           "type": "file",
           "path": "/notes/01-快速开始.md",
           "slug": "01-快速开始",
@@ -1141,17 +921,16 @@
         },
         {
           "id": "02-核心概念",
-          "name": "Nest.js 核心概念",
+          "name": "02-核心概念",
           "type": "file",
           "path": "/notes/02-核心概念.md",
           "slug": "02-核心概念",
-          "description": "模块是 Nest.js 应用的基本构建块，用于组织代码。",
           "relativePath": "Nest/02-核心概念.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/02-核心概念.md"
         },
         {
           "id": "03-依赖注入",
-          "name": "Nest.js 依赖注入",
+          "name": "03-依赖注入",
           "type": "file",
           "path": "/notes/03-依赖注入.md",
           "slug": "03-依赖注入",
@@ -1161,7 +940,7 @@
         },
         {
           "id": "04-中间件",
-          "name": "Nest.js 中间件",
+          "name": "04-中间件",
           "type": "file",
           "path": "/notes/04-中间件.md",
           "slug": "04-中间件",
@@ -1171,16 +950,17 @@
         },
         {
           "id": "05-异常处理",
-          "name": "Nest.js 异常处理",
+          "name": "05-异常处理",
           "type": "file",
           "path": "/notes/05-异常处理.md",
           "slug": "05-异常处理",
+          "description": "Nest.js 提供了内置的异常类： 异常过滤器可以捕获和处理异常。",
           "relativePath": "Nest/05-异常处理.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/05-异常处理.md"
         },
         {
           "id": "06-管道",
-          "name": "Nest.js 管道",
+          "name": "06-管道",
           "type": "file",
           "path": "/notes/06-管道.md",
           "slug": "06-管道",
@@ -1189,7 +969,7 @@
         },
         {
           "id": "07-守卫",
-          "name": "Nest.js 守卫",
+          "name": "07-守卫",
           "type": "file",
           "path": "/notes/07-守卫.md",
           "slug": "07-守卫",
@@ -1199,17 +979,17 @@
         },
         {
           "id": "08-拦截器",
-          "name": "Nest.js 拦截器",
+          "name": "08-拦截器",
           "type": "file",
           "path": "/notes/08-拦截器.md",
           "slug": "08-拦截器",
-          "description": "拦截器是一个使用 @Injectable() 装饰器的类，实现了 NestInterceptor 接口。拦截器可以：",
+          "description": "拦截器是一个使用 @Injectable() 装饰器的类，实现了 NestInterceptor 接口。拦截器可以： 1. 在方法执行前后添加额外逻辑 2. 转换函数返回的结果 3. 转换函数抛出的异常 4. 扩展基本函数行为 5. 根据某些条件完全覆盖函数",
           "relativePath": "Nest/08-拦截器.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/08-拦截器.md"
         },
         {
           "id": "09-typeorm集成",
-          "name": "Nest.js TypeORM 集成",
+          "name": "09-TypeORM集成",
           "type": "file",
           "path": "/notes/09-typeorm集成.md",
           "slug": "09-typeorm集成",
@@ -1218,7 +998,7 @@
         },
         {
           "id": "10-mongodb集成",
-          "name": "Nest.js MongoDB 集成",
+          "name": "10-MongoDB集成",
           "type": "file",
           "path": "/notes/10-mongodb集成.md",
           "slug": "10-mongodb集成",
@@ -1227,7 +1007,7 @@
         },
         {
           "id": "11-restful-api",
-          "name": "Nest.js RESTful API",
+          "name": "11-RESTful-API",
           "type": "file",
           "path": "/notes/11-restful-api.md",
           "slug": "11-restful-api",
@@ -1236,7 +1016,7 @@
         },
         {
           "id": "12-websocket",
-          "name": "Nest.js WebSocket",
+          "name": "12-WebSocket",
           "type": "file",
           "path": "/notes/12-websocket.md",
           "slug": "12-websocket",
@@ -1245,7 +1025,7 @@
         },
         {
           "id": "13-微服务",
-          "name": "Nest.js 微服务",
+          "name": "13-微服务",
           "type": "file",
           "path": "/notes/13-微服务.md",
           "slug": "13-微服务",
@@ -1254,7 +1034,7 @@
         },
         {
           "id": "14-认证授权",
-          "name": "Nest.js 认证授权",
+          "name": "14-认证授权",
           "type": "file",
           "path": "/notes/14-认证授权.md",
           "slug": "14-认证授权",
@@ -1263,7 +1043,7 @@
         },
         {
           "id": "15-文件上传",
-          "name": "Nest.js 文件上传",
+          "name": "15-文件上传",
           "type": "file",
           "path": "/notes/15-文件上传.md",
           "slug": "15-文件上传",
@@ -1272,25 +1052,27 @@
         },
         {
           "id": "16-项目结构",
-          "name": "Nest.js 项目结构",
+          "name": "16-项目结构",
           "type": "file",
           "path": "/notes/16-项目结构.md",
           "slug": "16-项目结构",
+          "description": "每个功能应该是一个独立的模块： 将公共代码提取到 common 目录： 每个模块、服务、控制器都应该有单一职责。 提取公共代码到共享模块或服务。 使用依赖注入管理依赖关系，避免硬编码。 使用接口定义契约，提高代码的可维护性。 统一异常处理，使用异常过滤器。 使用配置模块管理环境变量和配置。 为每个模块编写单元测试和 E2E 测试。",
           "relativePath": "Nest/16-项目结构.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/16-项目结构.md"
         },
         {
           "id": "17-配置管理",
-          "name": "Nest.js 配置管理",
+          "name": "17-配置管理",
           "type": "file",
           "path": "/notes/17-配置管理.md",
           "slug": "17-配置管理",
+          "description": "1. 环境变量 2. .env.${NODEENV}.local 3. .env.${NODEENV} 4. .env.local 5. .env",
           "relativePath": "Nest/17-配置管理.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/17-配置管理.md"
         },
         {
           "id": "18-测试",
-          "name": "Nest.js 测试",
+          "name": "18-测试",
           "type": "file",
           "path": "/notes/18-测试.md",
           "slug": "18-测试",
@@ -1299,21 +1081,20 @@
         },
         {
           "id": "19-部署",
-          "name": "Nest.js 部署",
+          "name": "19-部署",
           "type": "file",
           "path": "/notes/19-部署.md",
           "slug": "19-部署",
-          "description": "这会生成 dist 目录，包含编译后的 JavaScript 文件。",
+          "description": "这会生成 dist 目录，包含编译后的 JavaScript 文件。 1. 使用环境变量：不要在代码中硬编码配置 2. 启用 HTTPS：在生产环境使用 HTTPS 3. 设置 CORS：正确配置跨域请求 4. 日志记录：记录重要操作和错误 5. 监控和告警：设置应用监控和告警 6. 备份数据库：定期备份数据库 7. 安全更新：及时更新依赖包 8. 资源限制：设置适当的资源限制",
           "relativePath": "Nest/19-部署.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/19-部署.md"
         },
         {
           "id": "readme",
-          "name": "Nest.js 教程",
+          "name": "README",
           "type": "file",
           "path": "/notes/readme.md",
           "slug": "readme",
-          "description": "这是一个 Nest.js 学习教程集合，包含从基础到进阶的完整学习路径。",
           "relativePath": "Nest/README.md",
           "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/README.md"
         }
@@ -1331,7 +1112,6 @@
     {
       "slug": "2.工具轮子",
       "title": "2.工具轮子",
-      "description": "-   React-Select 轻便选择器",
       "category": "🎃网址收集",
       "file": "/notes/2.工具轮子.md",
       "relativePath": "🎃网址收集/2.工具轮子.md"
@@ -1339,216 +1119,94 @@
     {
       "slug": "3.摸鱼",
       "title": "3.摸鱼",
-      "description": "-   |低端影视|https://ddys.tv/|",
       "category": "🎃网址收集",
       "file": "/notes/3.摸鱼.md",
       "relativePath": "🎃网址收集/3.摸鱼.md"
     },
     {
-      "slug": "diff",
-      "title": "Diff",
-      "description": "计算出Virtual DOM中真正变化的部分，并只针对该部分进行原生DOM操作，而非重新渲染整个页面。React用 三大策略 将O(n^3)复杂度 转化为 O(n)复杂度",
-      "category": "📝Notes",
-      "file": "/notes/diff.md",
-      "relativePath": "📝Notes/⌚React/Diff.md"
-    },
-    {
-      "slug": "hoc高阶组件",
-      "title": "HOC高阶组件",
-      "category": "📝Notes",
-      "file": "/notes/hoc高阶组件.md",
-      "relativePath": "📝Notes/⌚React/HOC高阶组件.md"
-    },
-    {
-      "slug": "notes-react-redux",
-      "title": "Redux",
-      "description": "首先在最外层容器中，把所有内容包裹在 Provider 组件中，将之前创建的 store 作为 prop 传给 Provider。",
-      "category": "📝Notes",
-      "file": "/notes/notes-react-redux.md",
-      "relativePath": "📝Notes/⌚React/Redux.md"
-    },
-    {
-      "slug": "usecallback&usememo",
-      "title": "useCallBack&useMemo",
-      "description": "最近在重构公司的类组件项目，同时也在进行hook的重新学习，useCallback 与 useMemo是hook中针对渲染以及缓存的两个内置hooks，主要的功能是对函数和计算结果进行缓存来判断是否需要重新渲染。",
-      "category": "📝Notes",
-      "file": "/notes/usecallback&usememo.md",
-      "relativePath": "📝Notes/⌚React/useCallBack&useMemo.md"
-    },
-    {
-      "slug": "notes-react-useref存取状态",
-      "title": "useRef存取状态",
-      "description": "正常我们为在使用react-hook的时候使用最多的应该是useState,但是在某些应用场景下，我们需要拿到更新完毕的state的最新的值",
-      "category": "📝Notes",
-      "file": "/notes/notes-react-useref存取状态.md",
-      "relativePath": "📝Notes/⌚React/useRef存取状态.md"
-    },
-    {
-      "slug": "服务器-docker部署前端项目教程",
-      "title": "Docker 部署前端项目教程",
-      "description": "Docker 是一个开源的应用容器引擎，可以让开发者打包应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 或 Windows 操作系统上。",
-      "category": "📝Notes",
-      "file": "/notes/服务器-docker部署前端项目教程.md",
-      "relativePath": "📝Notes/服务器/Docker部署前端项目教程.md"
-    },
-    {
-      "slug": "notes-原生js-js基础-高级语法笔记",
-      "title": "JS基础&高级语法笔记",
-      "description": "对于对象的便利 我们通常可以使用Object.keys(),Object.entries(),Object.getOwnPropertyNames(),其中Object.keys()与Object.getOwnPropertyNames()效果是一样的，但是后者可以 ==返回不可枚举的属性名称==",
-      "category": "📝Notes",
-      "file": "/notes/notes-原生js-js基础-高级语法笔记.md",
-      "relativePath": "📝Notes/🍂原生JS/JS基础&高级语法笔记.md"
-    },
-    {
-      "slug": "notes-原生js-原型链解析",
-      "title": "原型链解析",
-      "description": "初步尝试，我们涉及到原型链的知识，要先从一个构造函数开始讲起",
-      "category": "📝Notes",
-      "file": "/notes/notes-原生js-原型链解析.md",
-      "relativePath": "📝Notes/🍂原生JS/原型链解析.md"
-    },
-    {
-      "slug": "notes-原生js-同步异步函数",
-      "title": "同步异步函数",
-      "description": "!(https://cdn.nlark.com/yuque/0/2023/png/32650608/1679907692018-0c260d11-7204-4c35-8859-882ccd7cede5.png)",
-      "category": "📝Notes",
-      "file": "/notes/notes-原生js-同步异步函数.md",
-      "relativePath": "📝Notes/🍂原生JS/同步异步函数.md"
-    },
-    {
-      "slug": "notes-计算机网络-bom属性对象方法",
-      "title": "BOM属性对象方法",
-      "category": "📝Notes",
-      "file": "/notes/notes-计算机网络-bom属性对象方法.md",
-      "relativePath": "📝Notes/💿计算机网络/BOM属性对象方法.md"
-    },
-    {
-      "slug": "notes-计算机网络-http-https",
-      "title": "HTTP&HTTPS",
-      "category": "📝Notes",
-      "file": "/notes/notes-计算机网络-http-https.md",
-      "relativePath": "📝Notes/💿计算机网络/HTTP&HTTPS.md"
-    },
-    {
-      "slug": "notes-计算机网络-tcp三次握手",
-      "title": "TCP三次握手",
-      "category": "📝Notes",
-      "file": "/notes/notes-计算机网络-tcp三次握手.md",
-      "relativePath": "📝Notes/💿计算机网络/TCP三次握手.md"
-    },
-    {
-      "slug": "notes-计算机网络-浏览器工作原理",
-      "title": "**多进程结构的浏览器**",
-      "category": "📝Notes",
-      "file": "/notes/notes-计算机网络-浏览器工作原理.md",
-      "relativePath": "📝Notes/💿计算机网络/浏览器工作原理.md"
-    },
-    {
-      "slug": "notes-计算机网络-浏览器缓存",
-      "title": "浏览器缓存",
-      "category": "📝Notes",
-      "file": "/notes/notes-计算机网络-浏览器缓存.md",
-      "relativePath": "📝Notes/💿计算机网络/浏览器缓存.md"
-    },
-    {
-      "slug": "notes-计算机网络-访问url的背后",
-      "title": "访问URL的背后",
-      "category": "📝Notes",
-      "file": "/notes/notes-计算机网络-访问url的背后.md",
-      "relativePath": "📝Notes/💿计算机网络/访问URL的背后.md"
-    },
-    {
-      "slug": "🐸技术课程收集",
-      "title": "🐸技术课程收集",
-      "category": "📝Notes",
-      "file": "/notes/🐸技术课程收集.md",
-      "relativePath": "📝Notes/🐸技术课程收集.md"
-    },
-    {
       "slug": "后端-go-Go-简介与特点",
-      "title": "Go 简介与特点",
-      "description": "Go（又称 Golang）是 Google 在 2009 年开发的编程语言，由 Robert Griesemer、Rob Pike 和 Ken Thompson 设计。Go 是一门编译型、并发型、具有垃圾回收功能的编程语言。",
+      "title": "Go-简介与特点",
       "category": "后端",
       "file": "/notes/后端-go-Go-简介与特点.md",
       "relativePath": "后端/Go/01-基础入门/Go-简介与特点.md"
     },
     {
       "slug": "后端-go-01-基础入门-函数",
-      "title": "Go 函数",
+      "title": "函数",
+      "description": "Go 函数的特点： 1. 多返回值：可以返回多个值，常用于错误处理 2. 命名返回值：提高代码可读性 3. 可变参数：使用 ... 语法 4. 函数作为值：函数是一等公民 5. 闭包：函数可以访问外部变量 6. 方法：可以为类型定义方法 7. defer：延迟执行，用于资源清理 掌握这些函数特性后，就可以编写灵活、可复用的代码了！ --- go 函数 方法 闭包 defer",
       "category": "后端",
       "file": "/notes/后端-go-01-基础入门-函数.md",
       "relativePath": "后端/Go/01-基础入门/函数.md"
     },
     {
       "slug": "后端-go-01-基础入门-包与模块",
-      "title": "Go 包与模块",
+      "title": "包与模块",
+      "description": "Go 包和模块的特点： 1. 包：代码组织的基本单位 2. 可见性：首字母大写导出，小写不导出 3. Modules：Go 1.11+ 的依赖管理系统 4. internal：内部包，外部无法导入 5. pkg：公共包，可以被外部导入 6. init：包初始化函数 7. 工作区：本地多模块开发 掌握包和模块后，就可以组织大型项目了！ --- go 包 模块 依赖管理",
       "category": "后端",
       "file": "/notes/后端-go-01-基础入门-包与模块.md",
       "relativePath": "后端/Go/01-基础入门/包与模块.md"
     },
     {
       "slug": "后端-java-01-基础入门-基础语法",
-      "title": "Go 基础语法",
-      "description": "1. 包声明：package main - 声明包名",
+      "title": "基础语法",
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-基础语法.md",
       "relativePath": "后端/Go/01-基础入门/基础语法.md"
     },
     {
       "slug": "后端-java-01-基础入门-安装与环境配置",
-      "title": "Go 安装与环境配置",
+      "title": "安装与环境配置",
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-安装与环境配置.md",
       "relativePath": "后端/Go/01-基础入门/安装与环境配置.md"
     },
     {
       "slug": "后端-go-01-基础入门-接口",
-      "title": "Go 接口",
+      "title": "接口",
+      "description": "Go 接口的特点： 1. 隐式实现：不需要显式声明实现接口 2. 小接口原则：接口应该尽可能小 3. 组合：通过组合小接口创建大接口 4. 空接口：可以表示任何类型 5. 类型断言：检查接口值的具体类型 6. 多态：不同的类型实现同一个接口 接口是 Go 实现多态和依赖注入的核心机制！ --- go 接口 多态 类型断言",
       "category": "后端",
       "file": "/notes/后端-go-01-基础入门-接口.md",
       "relativePath": "后端/Go/01-基础入门/接口.md"
     },
     {
       "slug": "后端-java-01-基础入门-控制结构",
-      "title": "Go 控制结构",
+      "title": "控制结构",
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-控制结构.md",
       "relativePath": "后端/Go/01-基础入门/控制结构.md"
     },
     {
       "slug": "后端-java-01-基础入门-数据类型与变量",
-      "title": "Go 数据类型与变量",
+      "title": "数据类型与变量",
+      "description": "Go 的数据类型特点： 1. 基本类型：整数、浮点数、布尔、字符串、复数 2. 复合类型：数组、切片、映射、结构体 3. 零值概念：每个类型都有默认零值 4. 类型安全：需要显式类型转换 5. 切片和映射：动态数据结构，使用方便 掌握这些数据类型后，就可以处理各种数据了！ --- go 数据类型 变量 数组 切片 映射 结构体",
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-数据类型与变量.md",
       "relativePath": "后端/Go/01-基础入门/数据类型与变量.md"
     },
     {
       "slug": "后端-go-01-基础入门-结构体与方法",
-      "title": "Go 结构体与方法",
+      "title": "结构体与方法",
       "category": "后端",
       "file": "/notes/后端-go-01-基础入门-结构体与方法.md",
       "relativePath": "后端/Go/01-基础入门/结构体与方法.md"
     },
     {
       "slug": "后端-go-Channel-通道",
-      "title": "Channel 通道",
-      "description": "Channel 是 Go 语言中 goroutine 之间通信的主要方式，遵循 \"不要通过共享内存来通信，而要通过通信来共享内存\" 的设计理念。",
+      "title": "Channel-通道",
       "category": "后端",
       "file": "/notes/后端-go-Channel-通道.md",
       "relativePath": "后端/Go/02-核心特性/Channel-通道.md"
     },
     {
       "slug": "后端-go-Goroutine-协程",
-      "title": "Goroutine 协程",
-      "description": "Goroutine 是 Go 语言并发编程的核心，它是轻量级线程，由 Go 运行时管理。",
+      "title": "Goroutine-协程",
       "category": "后端",
       "file": "/notes/后端-go-Goroutine-协程.md",
       "relativePath": "后端/Go/02-核心特性/Goroutine-协程.md"
     },
     {
       "slug": "后端-go-Select-语句",
-      "title": "Select 语句",
-      "description": "Select 是 Go 语言中用于处理多个 channel 操作的控制结构，类似于 switch 但专门用于 channel 通信。",
+      "title": "Select-语句",
       "category": "后端",
       "file": "/notes/后端-go-Select-语句.md",
       "relativePath": "后端/Go/02-核心特性/Select-语句.md"
@@ -1556,7 +1214,6 @@
     {
       "slug": "后端-go-02-核心特性-同步原语",
       "title": "同步原语",
-      "description": "Go 提供了多种同步原语用于协调 goroutine 之间的访问和操作。",
       "category": "后端",
       "file": "/notes/后端-go-02-核心特性-同步原语.md",
       "relativePath": "后端/Go/02-核心特性/同步原语.md"
@@ -1564,23 +1221,20 @@
     {
       "slug": "后端-go-02-核心特性-错误处理机制",
       "title": "错误处理机制",
-      "description": "Go 语言采用显式的错误处理机制，与 Java 的异常处理和 JavaScript 的 try-catch 不同。",
       "category": "后端",
       "file": "/notes/后端-go-02-核心特性-错误处理机制.md",
       "relativePath": "后端/Go/02-核心特性/错误处理机制.md"
     },
     {
       "slug": "后端-go-Gin-框架",
-      "title": "Gin 框架",
-      "description": "Gin 是一个高性能的 Go Web 框架，具有类似 Martini 的 API 性能，支持中间件、JSON 验证等特性。",
+      "title": "Gin-框架",
       "category": "后端",
       "file": "/notes/后端-go-Gin-框架.md",
       "relativePath": "后端/Go/03-Web开发/Gin-框架.md"
     },
     {
       "slug": "后端-go-HTTP-服务基础",
-      "title": "HTTP 服务基础",
-      "description": "Go 标准库提供了强大的 net/http 包，可以轻松创建 HTTP 服务器。",
+      "title": "HTTP-服务基础",
       "category": "后端",
       "file": "/notes/后端-go-HTTP-服务基础.md",
       "relativePath": "后端/Go/03-Web开发/HTTP-服务基础.md"
@@ -1588,7 +1242,6 @@
     {
       "slug": "后端-go-03-web开发-中间件",
       "title": "中间件",
-      "description": "中间件是在请求和响应之间处理逻辑的函数，可以执行日志、认证、CORS 等操作。",
       "category": "后端",
       "file": "/notes/后端-go-03-web开发-中间件.md",
       "relativePath": "后端/Go/03-Web开发/中间件.md"
@@ -1596,30 +1249,27 @@
     {
       "slug": "后端-go-03-web开发-路由处理",
       "title": "路由处理",
-      "description": "| Go (Gin) | Java (Spring MVC) | 说明 |",
       "category": "后端",
       "file": "/notes/后端-go-03-web开发-路由处理.md",
       "relativePath": "后端/Go/03-Web开发/路由处理.md"
     },
     {
       "slug": "后端-go-05-企业架构-微服务基础",
-      "title": "Go 微服务基础",
-      "description": "微服务架构是将单体应用拆分成多个小型、独立的服务，每个服务负责特定的业务功能。",
+      "title": "微服务基础",
       "category": "后端",
       "file": "/notes/后端-go-05-企业架构-微服务基础.md",
       "relativePath": "后端/Go/05-企业架构/微服务基础.md"
     },
     {
       "slug": "后端-go-第一个-HTTP-服务",
-      "title": "第一个 HTTP 服务",
-      "description": "这是 Go 语言入门实践的第一个项目，我们将从零开始搭建一个简单的 HTTP 服务器。",
+      "title": "第一个-HTTP-服务",
       "category": "后端",
       "file": "/notes/后端-go-第一个-HTTP-服务.md",
       "relativePath": "后端/Go/06-实践项目/第一个-HTTP-服务.md"
     },
     {
       "slug": "后端-go-moc-go",
-      "title": "Go 知识体系（Go）",
+      "title": "!MOC-Go",
       "category": "后端",
       "file": "/notes/后端-go-moc-go.md",
       "relativePath": "后端/Go/!MOC-Go.md"
@@ -1627,15 +1277,13 @@
     {
       "slug": "后端-java-01-基础入门-io流",
       "title": "IO流",
-      "description": "| JavaScript | Java | 说明 |",
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-io流.md",
       "relativePath": "后端/Java/01-基础入门/IO流.md"
     },
     {
       "slug": "后端-java-Java-简介与特点",
-      "title": "Java 简介与特点",
-      "description": "Java 是一种广泛使用的面向对象编程语言，由 Sun Microsystems（现 Oracle）于 1995 年发布。它具有\"一次编写，到处运行\"的特性。",
+      "title": "Java-简介与特点",
       "category": "后端",
       "file": "/notes/后端-java-Java-简介与特点.md",
       "relativePath": "后端/Java/01-基础入门/Java-简介与特点.md"
@@ -1650,7 +1298,6 @@
     {
       "slug": "后端-java-01-基础入门-基础语法",
       "title": "基础语法",
-      "description": "| 类型 | 大小 | 默认值 | 范围 | 说明 |",
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-基础语法.md",
       "relativePath": "后端/Java/01-基础入门/基础语法.md"
@@ -1665,7 +1312,6 @@
     {
       "slug": "后端-java-01-基础入门-异常处理",
       "title": "异常处理",
-      "description": "| JavaScript | Java | 说明 |",
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-异常处理.md",
       "relativePath": "后端/Java/01-基础入门/异常处理.md"
@@ -1673,7 +1319,6 @@
     {
       "slug": "后端-java-01-基础入门-控制结构",
       "title": "控制结构",
-      "description": "| JavaScript | Java | 说明 |",
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-控制结构.md",
       "relativePath": "后端/Java/01-基础入门/控制结构.md"
@@ -1688,7 +1333,6 @@
     {
       "slug": "后端-java-01-基础入门-数组与字符串",
       "title": "数组与字符串",
-      "description": "| JavaScript | Java | 说明 |",
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-数组与字符串.md",
       "relativePath": "后端/Java/01-基础入门/数组与字符串.md"
@@ -1703,7 +1347,6 @@
     {
       "slug": "后端-java-02-面向对象-接口与抽象类",
       "title": "接口与抽象类",
-      "description": "接口是 Java 中定义行为契约的方式，一个类可以实现多个接口。",
       "category": "后端",
       "file": "/notes/后端-java-02-面向对象-接口与抽象类.md",
       "relativePath": "后端/Java/02-面向对象/接口与抽象类.md"
@@ -1711,7 +1354,6 @@
     {
       "slug": "后端-java-02-面向对象-枚举",
       "title": "枚举",
-      "description": "枚举是一种特殊的类，用于定义一组有限的常量。",
       "category": "后端",
       "file": "/notes/后端-java-02-面向对象-枚举.md",
       "relativePath": "后端/Java/02-面向对象/枚举.md"
@@ -1719,7 +1361,6 @@
     {
       "slug": "后端-java-02-面向对象-类与对象",
       "title": "类与对象",
-      "description": "| 修饰符 | 同一类 | 同一包 | 子类 | 其他包 |",
       "category": "后端",
       "file": "/notes/后端-java-02-面向对象-类与对象.md",
       "relativePath": "后端/Java/02-面向对象/类与对象.md"
@@ -1727,93 +1368,93 @@
     {
       "slug": "后端-java-02-面向对象-继承与多态",
       "title": "继承与多态",
-      "description": "Java 使用 extends 关键字实现继承，单继承机制。",
       "category": "后端",
       "file": "/notes/后端-java-02-面向对象-继承与多态.md",
       "relativePath": "后端/Java/02-面向对象/继承与多态.md"
     },
     {
       "slug": "后端-java-集合-List",
-      "title": "集合 List",
+      "title": "集合-List",
       "category": "后端",
       "file": "/notes/后端-java-集合-List.md",
       "relativePath": "后端/Java/03-高级特性/集合-List.md"
     },
     {
       "slug": "后端-java-07-数据库操作-jdbc基础",
-      "title": "JDBC 基础",
-      "description": "JDBC（Java Database Connectivity）是 Java 程序与数据库交互的标准 API。",
+      "title": "JDBC基础",
+      "description": "JDBC（Java Database Connectivity）是 Java 程序与数据库交互的标准 API。 --- 连接池",
       "category": "后端",
       "file": "/notes/后端-java-07-数据库操作-jdbc基础.md",
       "relativePath": "后端/Java/07-数据库操作/JDBC基础.md"
     },
     {
       "slug": "后端-java-07-数据库操作-mybatis入门",
-      "title": "MyBatis 入门",
-      "description": "MyBatis 是一款优秀的持久层框架，支持自定义 SQL、存储过程和高级映射。",
+      "title": "MyBatis入门",
+      "description": "MyBatis 是一款优秀的持久层框架，支持自定义 SQL、存储过程和高级映射。 --- 动态SQL",
       "category": "后端",
       "file": "/notes/后端-java-07-数据库操作-mybatis入门.md",
       "relativePath": "后端/Java/07-数据库操作/MyBatis入门.md"
     },
     {
       "slug": "后端-java-moc-java",
-      "title": "Java 知识体系",
+      "title": "!MOC-Java",
       "category": "后端",
       "file": "/notes/后端-java-moc-java.md",
       "relativePath": "后端/Java/!MOC-Java.md"
     },
     {
       "slug": "开发经验-ai辅助开发一年体验总结",
-      "title": "AI 辅助开发一年体验总结",
-      "description": "用 AI 写代码快一年了，从最开始的半信半疑，到现在离开 AI 有点不太习惯，这里聊聊我的真实感受。",
+      "title": "AI辅助开发一年体验总结",
       "category": "开发经验",
       "file": "/notes/开发经验-ai辅助开发一年体验总结.md",
       "relativePath": "开发经验/AI辅助开发一年体验总结.md"
     },
     {
       "slug": "开发经验-css现代布局containerqueries真香",
-      "title": "CSS 现代布局：Container Queries 真香",
-      "description": "CSS 这些年发展真快，好多以前不好做的布局，现在原生支持了。Container Queries 就是一个，用了一段时间，真心香。",
+      "title": "CSS现代布局ContainerQueries真香",
       "category": "开发经验",
       "file": "/notes/开发经验-css现代布局containerqueries真香.md",
       "relativePath": "开发经验/CSS现代布局ContainerQueries真香.md"
     },
     {
+      "slug": "服务器-docker部署前端项目教程",
+      "title": "Docker部署前端项目教程",
+      "description": "Docker 是一个开源的应用容器引擎，可以让开发者打包应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 或 Windows 操作系统上。",
+      "category": "开发经验",
+      "file": "/notes/服务器-docker部署前端项目教程.md",
+      "relativePath": "开发经验/Docker部署前端项目教程.md"
+    },
+    {
       "slug": "开发经验-react性能优化从理论到实战",
-      "title": "React 性能优化：从理论到实战",
-      "description": "做 React 开发也有几年了，性能优化做过不少，整理一套从入门到精通的实战经验。",
+      "title": "React性能优化从理论到实战",
       "category": "开发经验",
       "file": "/notes/开发经验-react性能优化从理论到实战.md",
       "relativePath": "开发经验/React性能优化从理论到实战.md"
     },
     {
       "slug": "开发经验-typescript进阶用好类型体操提升代码质量",
-      "title": "TypeScript 进阶：用好类型体操提升代码质量",
-      "description": "用 TypeScript 也有几年了，从最开始的 any 大法好，到现在尽量给所有代码都加上类型，这里聊聊我对类型体操的理解。",
+      "title": "TypeScript进阶用好类型体操提升代码质量",
       "category": "开发经验",
       "file": "/notes/开发经验-typescript进阶用好类型体操提升代码质量.md",
       "relativePath": "开发经验/TypeScript进阶用好类型体操提升代码质量.md"
     },
     {
       "slug": "开发经验-vibecoding我是如何用ai写代码的",
-      "title": "Vibe Coding：我是如何用 AI 写代码的",
-      "description": "最近 Vibe Coding 这个词挺火的，其实我已经这么干快一年了，分享一下我的工作流。",
+      "title": "VibeCoding我是如何用AI写代码的",
       "category": "开发经验",
       "file": "/notes/开发经验-vibecoding我是如何用ai写代码的.md",
       "relativePath": "开发经验/VibeCoding我是如何用AI写代码的.md"
     },
     {
       "slug": "开发经验-中高阶前端必懂闭包其实并不难",
-      "title": "中高阶前端必懂：闭包其实并不难",
-      "description": "闭包这个词，刚学 JS 的时候觉得好玄乎，面试也经常问，工作几年回头看，其实没那么复杂，整理一下我的理解。",
+      "title": "中高阶前端必懂闭包其实并不难",
       "category": "开发经验",
       "file": "/notes/开发经验-中高阶前端必懂闭包其实并不难.md",
       "relativePath": "开发经验/中高阶前端必懂闭包其实并不难.md"
     },
     {
       "slug": "开发经验-当我们聊前端架构我们在聊什么",
-      "title": "当我们聊前端架构，我们在聊什么",
-      "description": "最近几年「前端架构」这个词提得越来越多，刚入行的朋友可能会觉得很虚，我聊聊我的理解。",
+      "title": "当我们聊前端架构我们在聊什么",
       "category": "开发经验",
       "file": "/notes/开发经验-当我们聊前端架构我们在聊什么.md",
       "relativePath": "开发经验/当我们聊前端架构我们在聊什么.md"
@@ -1821,236 +1462,223 @@
     {
       "slug": "开发经验-网址书签收集",
       "title": "网址书签收集",
-      "description": "> 从浏览器书签导出整理，按原文件夹分类保存。",
       "category": "开发经验",
       "file": "/notes/开发经验-网址书签收集.md",
       "relativePath": "开发经验/网址书签收集.md"
     },
     {
       "slug": "前端-js-01-闭包和作用域",
-      "title": "JavaScript 闭包和作用域",
-      "description": "作用域是指变量、函数和对象的可访问性范围。JavaScript 有三种作用域：",
+      "title": "01-闭包和作用域",
       "category": "前端",
       "file": "/notes/前端-js-01-闭包和作用域.md",
       "relativePath": "前端/JS/01-闭包和作用域.md"
     },
     {
       "slug": "前端-js-02-this绑定和上下文",
-      "title": "JavaScript this 绑定和上下文",
-      "description": "this 是 JavaScript 中的一个关键字，它指向当前执行上下文的对象。this 的值不是静态的，而是在函数被调用时动态确定的。",
+      "title": "02-this绑定和上下文",
       "category": "前端",
       "file": "/notes/前端-js-02-this绑定和上下文.md",
       "relativePath": "前端/JS/02-this绑定和上下文.md"
     },
     {
       "slug": "前端-js-03-原型和继承",
-      "title": "JavaScript 原型和继承",
-      "description": "每个 JavaScript 对象都有一个指向另一个对象的内部链接，这个对象就是原型（prototype）。当我们访问对象的属性时，如果对象本身没有该属性，JavaScript 会沿着原型链向上查找。",
+      "title": "03-原型和继承",
       "category": "前端",
       "file": "/notes/前端-js-03-原型和继承.md",
       "relativePath": "前端/JS/03-原型和继承.md"
     },
     {
       "slug": "前端-js-04-异步编程详解",
-      "title": "JavaScript 异步编程详解",
-      "description": "JavaScript 是单线程的，如果所有操作都是同步的，会导致阻塞，用户体验差。",
+      "title": "04-异步编程详解",
       "category": "前端",
       "file": "/notes/前端-js-04-异步编程详解.md",
       "relativePath": "前端/JS/04-异步编程详解.md"
     },
     {
       "slug": "前端-js-05-事件循环和并发",
-      "title": "JavaScript 事件循环和并发",
+      "title": "05-事件循环和并发",
       "category": "前端",
       "file": "/notes/前端-js-05-事件循环和并发.md",
       "relativePath": "前端/JS/05-事件循环和并发.md"
     },
     {
       "slug": "前端-js-06-函数式编程",
-      "title": "JavaScript 函数式编程",
+      "title": "06-函数式编程",
       "category": "前端",
       "file": "/notes/前端-js-06-函数式编程.md",
       "relativePath": "前端/JS/06-函数式编程.md"
     },
     {
       "slug": "07-es6+新特性详解",
-      "title": "JavaScript ES6+ 新特性详解",
-      "description": "1. 变量声明：let、const（块作用域）",
+      "title": "07-ES6+新特性详解",
       "category": "前端",
       "file": "/notes/07-es6+新特性详解.md",
       "relativePath": "前端/JS/07-ES6+新特性详解.md"
     },
     {
       "slug": "前端-js-08-元编程和反射",
-      "title": "JavaScript 元编程和反射",
-      "description": "元编程（Metaprogramming）是指编写能够操作其他程序的程序，或者编写能够操作自身的程序。",
+      "title": "08-元编程和反射",
       "category": "前端",
       "file": "/notes/前端-js-08-元编程和反射.md",
       "relativePath": "前端/JS/08-元编程和反射.md"
     },
     {
       "slug": "前端-js-09-设计模式",
-      "title": "JavaScript 设计模式",
-      "description": "设计模式是解决常见问题的可重用方案。JavaScript 中常用的设计模式包括：",
+      "title": "09-设计模式",
       "category": "前端",
       "file": "/notes/前端-js-09-设计模式.md",
       "relativePath": "前端/JS/09-设计模式.md"
     },
     {
       "slug": "前端-js-10-内存管理和性能优化",
-      "title": "JavaScript 内存管理和性能优化",
+      "title": "10-内存管理和性能优化",
       "category": "前端",
       "file": "/notes/前端-js-10-内存管理和性能优化.md",
       "relativePath": "前端/JS/10-内存管理和性能优化.md"
     },
     {
       "slug": "前端-js-11-模块化和打包",
-      "title": "JavaScript 模块化和打包",
-      "description": "模块化是将代码分割成独立、可重用的模块。JavaScript 有多种模块系统：",
+      "title": "11-模块化和打包",
       "category": "前端",
       "file": "/notes/前端-js-11-模块化和打包.md",
       "relativePath": "前端/JS/11-模块化和打包.md"
     },
     {
       "slug": "前端-js-12-错误处理和调试",
-      "title": "JavaScript 错误处理和调试",
+      "title": "12-错误处理和调试",
       "category": "前端",
       "file": "/notes/前端-js-12-错误处理和调试.md",
       "relativePath": "前端/JS/12-错误处理和调试.md"
     },
     {
       "slug": "readme",
-      "title": "JavaScript 高级教程",
-      "description": "这是一个全面的 JavaScript 高级教程集合，涵盖从基础到进阶的各个主题。",
+      "title": "README",
       "category": "前端",
       "file": "/notes/readme.md",
       "relativePath": "前端/JS/README.md"
     },
     {
       "slug": "前端-vue-01-基础入门",
-      "title": "React 基础入门",
+      "title": "01-基础入门",
       "category": "前端",
       "file": "/notes/前端-vue-01-基础入门.md",
       "relativePath": "前端/React/01-基础入门.md"
     },
     {
       "slug": "前端-react-Hooks",
-      "title": "React Hooks",
+      "title": "02-Hooks",
       "category": "前端",
       "file": "/notes/前端-react-Hooks.md",
       "relativePath": "前端/React/02-Hooks.md"
     },
     {
       "slug": "前端-react-03-状态管理",
-      "title": "React 状态管理",
+      "title": "03-状态管理",
       "category": "前端",
       "file": "/notes/前端-react-03-状态管理.md",
       "relativePath": "前端/React/03-状态管理.md"
     },
     {
       "slug": "前端-react-04-路由管理",
-      "title": "React Router 路由管理",
+      "title": "04-路由管理",
       "category": "前端",
       "file": "/notes/前端-react-04-路由管理.md",
       "relativePath": "前端/React/04-路由管理.md"
     },
     {
       "slug": "前端-react-05-性能优化",
-      "title": "React 性能优化",
+      "title": "05-性能优化",
       "category": "前端",
       "file": "/notes/前端-react-05-性能优化.md",
       "relativePath": "前端/React/05-性能优化.md"
     },
     {
       "slug": "前端-react-06-最佳实践",
-      "title": "React 最佳实践",
+      "title": "06-最佳实践",
       "category": "前端",
       "file": "/notes/前端-react-06-最佳实践.md",
       "relativePath": "前端/React/06-最佳实践.md"
     },
     {
       "slug": "前端-react-readme",
-      "title": "React 教程",
-      "description": "这是一个 React 学习教程集合，包含从基础到进阶的完整学习路径。",
+      "title": "README",
       "category": "前端",
       "file": "/notes/前端-react-readme.md",
       "relativePath": "前端/React/README.md"
     },
     {
       "slug": "前端-vue-01-基础入门",
-      "title": "Vue 3 基础入门",
+      "title": "01-基础入门",
       "category": "前端",
       "file": "/notes/前端-vue-01-基础入门.md",
       "relativePath": "前端/Vue/01-基础入门.md"
     },
     {
       "slug": "前端-vue-02-组件系统",
-      "title": "Vue 组件系统",
+      "title": "02-组件系统",
       "category": "前端",
       "file": "/notes/前端-vue-02-组件系统.md",
       "relativePath": "前端/Vue/02-组件系统.md"
     },
     {
       "slug": "前端-vue-03-响应式原理",
-      "title": "Vue 响应式原理",
+      "title": "03-响应式原理",
       "category": "前端",
       "file": "/notes/前端-vue-03-响应式原理.md",
       "relativePath": "前端/Vue/03-响应式原理.md"
     },
     {
       "slug": "前端-vue-Composition-API",
-      "title": "Vue Composition API",
+      "title": "04-Composition-API",
       "category": "前端",
       "file": "/notes/前端-vue-Composition-API.md",
       "relativePath": "前端/Vue/04-Composition-API.md"
     },
     {
       "slug": "前端-vue-05-路由管理",
-      "title": "Vue Router 路由管理",
+      "title": "05-路由管理",
       "category": "前端",
       "file": "/notes/前端-vue-05-路由管理.md",
       "relativePath": "前端/Vue/05-路由管理.md"
     },
     {
       "slug": "前端-vue-06-状态管理",
-      "title": "Vue 状态管理 - Pinia",
+      "title": "06-状态管理",
       "category": "前端",
       "file": "/notes/前端-vue-06-状态管理.md",
       "relativePath": "前端/Vue/06-状态管理.md"
     },
     {
       "slug": "前端-vue-07-最佳实践",
-      "title": "Vue 最佳实践",
+      "title": "07-最佳实践",
       "category": "前端",
       "file": "/notes/前端-vue-07-最佳实践.md",
       "relativePath": "前端/Vue/07-最佳实践.md"
     },
     {
       "slug": "前端-vue-readme",
-      "title": "Vue.js 教程",
-      "description": "这是一个 Vue.js 学习教程集合，包含从基础到进阶的完整学习路径。",
+      "title": "README",
       "category": "前端",
       "file": "/notes/前端-vue-readme.md",
       "relativePath": "前端/Vue/README.md"
     },
     {
       "slug": "第一章节---哲学概述",
-      "title": "本章小结",
-      "description": "!(img/Pasted%20image%2020260325210221.png)",
+      "title": "第一章节  - 哲学概述",
       "category": "事业单位编制备考笔记",
       "file": "/notes/第一章节---哲学概述.md",
       "relativePath": "事业单位编制备考笔记/理论课/哲学/第一章节  - 哲学概述.md"
     },
     {
       "slug": "工具函数",
-      "title": "前端实用工具函数集合",
+      "title": "工具函数",
       "category": "CodeBlock",
       "file": "/notes/工具函数.md",
       "relativePath": "CodeBlock/工具函数.md"
     },
     {
       "slug": "01-快速开始",
-      "title": "Nest.js 快速开始",
+      "title": "01-快速开始",
       "description": "启动后访问: http://localhost:3000",
       "category": "Nest",
       "file": "/notes/01-快速开始.md",
@@ -2058,15 +1686,14 @@
     },
     {
       "slug": "02-核心概念",
-      "title": "Nest.js 核心概念",
-      "description": "模块是 Nest.js 应用的基本构建块，用于组织代码。",
+      "title": "02-核心概念",
       "category": "Nest",
       "file": "/notes/02-核心概念.md",
       "relativePath": "Nest/02-核心概念.md"
     },
     {
       "slug": "03-依赖注入",
-      "title": "Nest.js 依赖注入",
+      "title": "03-依赖注入",
       "description": "依赖注入（DI）是一种设计模式，用于管理类之间的依赖关系。Nest.js 内置了强大的 DI 容器。",
       "category": "Nest",
       "file": "/notes/03-依赖注入.md",
@@ -2074,7 +1701,7 @@
     },
     {
       "slug": "04-中间件",
-      "title": "Nest.js 中间件",
+      "title": "04-中间件",
       "description": "中间件是在路由处理器之前执行的函数，可以访问请求和响应对象。",
       "category": "Nest",
       "file": "/notes/04-中间件.md",
@@ -2082,21 +1709,22 @@
     },
     {
       "slug": "05-异常处理",
-      "title": "Nest.js 异常处理",
+      "title": "05-异常处理",
+      "description": "Nest.js 提供了内置的异常类： 异常过滤器可以捕获和处理异常。",
       "category": "Nest",
       "file": "/notes/05-异常处理.md",
       "relativePath": "Nest/05-异常处理.md"
     },
     {
       "slug": "06-管道",
-      "title": "Nest.js 管道",
+      "title": "06-管道",
       "category": "Nest",
       "file": "/notes/06-管道.md",
       "relativePath": "Nest/06-管道.md"
     },
     {
       "slug": "07-守卫",
-      "title": "Nest.js 守卫",
+      "title": "07-守卫",
       "description": "守卫是一个使用 @Injectable() 装饰器的类，实现了 CanActivate 接口。守卫在中间件之后、拦截器之前执行。",
       "category": "Nest",
       "file": "/notes/07-守卫.md",
@@ -2104,94 +1732,95 @@
     },
     {
       "slug": "08-拦截器",
-      "title": "Nest.js 拦截器",
-      "description": "拦截器是一个使用 @Injectable() 装饰器的类，实现了 NestInterceptor 接口。拦截器可以：",
+      "title": "08-拦截器",
+      "description": "拦截器是一个使用 @Injectable() 装饰器的类，实现了 NestInterceptor 接口。拦截器可以： 1. 在方法执行前后添加额外逻辑 2. 转换函数返回的结果 3. 转换函数抛出的异常 4. 扩展基本函数行为 5. 根据某些条件完全覆盖函数",
       "category": "Nest",
       "file": "/notes/08-拦截器.md",
       "relativePath": "Nest/08-拦截器.md"
     },
     {
       "slug": "09-typeorm集成",
-      "title": "Nest.js TypeORM 集成",
+      "title": "09-TypeORM集成",
       "category": "Nest",
       "file": "/notes/09-typeorm集成.md",
       "relativePath": "Nest/09-TypeORM集成.md"
     },
     {
       "slug": "10-mongodb集成",
-      "title": "Nest.js MongoDB 集成",
+      "title": "10-MongoDB集成",
       "category": "Nest",
       "file": "/notes/10-mongodb集成.md",
       "relativePath": "Nest/10-MongoDB集成.md"
     },
     {
       "slug": "11-restful-api",
-      "title": "Nest.js RESTful API",
+      "title": "11-RESTful-API",
       "category": "Nest",
       "file": "/notes/11-restful-api.md",
       "relativePath": "Nest/11-RESTful-API.md"
     },
     {
       "slug": "12-websocket",
-      "title": "Nest.js WebSocket",
+      "title": "12-WebSocket",
       "category": "Nest",
       "file": "/notes/12-websocket.md",
       "relativePath": "Nest/12-WebSocket.md"
     },
     {
       "slug": "13-微服务",
-      "title": "Nest.js 微服务",
+      "title": "13-微服务",
       "category": "Nest",
       "file": "/notes/13-微服务.md",
       "relativePath": "Nest/13-微服务.md"
     },
     {
       "slug": "14-认证授权",
-      "title": "Nest.js 认证授权",
+      "title": "14-认证授权",
       "category": "Nest",
       "file": "/notes/14-认证授权.md",
       "relativePath": "Nest/14-认证授权.md"
     },
     {
       "slug": "15-文件上传",
-      "title": "Nest.js 文件上传",
+      "title": "15-文件上传",
       "category": "Nest",
       "file": "/notes/15-文件上传.md",
       "relativePath": "Nest/15-文件上传.md"
     },
     {
       "slug": "16-项目结构",
-      "title": "Nest.js 项目结构",
+      "title": "16-项目结构",
+      "description": "每个功能应该是一个独立的模块： 将公共代码提取到 common 目录： 每个模块、服务、控制器都应该有单一职责。 提取公共代码到共享模块或服务。 使用依赖注入管理依赖关系，避免硬编码。 使用接口定义契约，提高代码的可维护性。 统一异常处理，使用异常过滤器。 使用配置模块管理环境变量和配置。 为每个模块编写单元测试和 E2E 测试。",
       "category": "Nest",
       "file": "/notes/16-项目结构.md",
       "relativePath": "Nest/16-项目结构.md"
     },
     {
       "slug": "17-配置管理",
-      "title": "Nest.js 配置管理",
+      "title": "17-配置管理",
+      "description": "1. 环境变量 2. .env.${NODEENV}.local 3. .env.${NODEENV} 4. .env.local 5. .env",
       "category": "Nest",
       "file": "/notes/17-配置管理.md",
       "relativePath": "Nest/17-配置管理.md"
     },
     {
       "slug": "18-测试",
-      "title": "Nest.js 测试",
+      "title": "18-测试",
       "category": "Nest",
       "file": "/notes/18-测试.md",
       "relativePath": "Nest/18-测试.md"
     },
     {
       "slug": "19-部署",
-      "title": "Nest.js 部署",
-      "description": "这会生成 dist 目录，包含编译后的 JavaScript 文件。",
+      "title": "19-部署",
+      "description": "这会生成 dist 目录，包含编译后的 JavaScript 文件。 1. 使用环境变量：不要在代码中硬编码配置 2. 启用 HTTPS：在生产环境使用 HTTPS 3. 设置 CORS：正确配置跨域请求 4. 日志记录：记录重要操作和错误 5. 监控和告警：设置应用监控和告警 6. 备份数据库：定期备份数据库 7. 安全更新：及时更新依赖包 8. 资源限制：设置适当的资源限制",
       "category": "Nest",
       "file": "/notes/19-部署.md",
       "relativePath": "Nest/19-部署.md"
     },
     {
       "slug": "readme",
-      "title": "Nest.js 教程",
-      "description": "这是一个 Nest.js 学习教程集合，包含从基础到进阶的完整学习路径。",
+      "title": "README",
       "category": "Nest",
       "file": "/notes/readme.md",
       "relativePath": "Nest/README.md"
