@@ -170,18 +170,30 @@ function extractTitle(content, filename) {
 
 // 提取描述
 function extractDescription(body) {
-  const text = body
-    .replace(/^#+\s.*$/gm, '')
-    .replace(/```[\s\S]*?```/g, '')
-    .replace(/!\[\[[^\]]+\]\]/g, '')
-    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1')
-    .replace(/!\(([^)]+)\)/g, '')
-    .replace(/[_*`#\[\]]/g, '')
-    .replace(/\s+/g, ' ')
-    .trim();
+  const text = extractPlainText(body);
   const firstLine = text;
   return firstLine.length > 20 && firstLine.length < 200 ? firstLine : undefined;
+}
+
+function extractPlainText(body) {
+  return body
+    .replace(/^---[\s\S]*?---\n?/m, '')
+    .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/`[^`]*`/g, ' ')
+    .replace(/!\[\[([^\]]+)\]\]/g, ' ')
+    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, ' ')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1')
+    .replace(/^>\s?.*$/gm, ' ')
+    .replace(/^#+\s?/gm, '')
+    .replace(/[*_~`>#-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function countWords(body) {
+  const plain = extractPlainText(body);
+  if (!plain) return 0;
+  return plain.length;
 }
 
 // 生成 slug
@@ -284,6 +296,7 @@ function scanDirectory(dir, relativePath = '') {
       path: `/notes/${slug}.md`,
       slug: slug,
       description: extractDescription(body),
+      wordCount: countWords(body),
       relativePath: fileRelativePath,
       sourceFile: filePath
     });
@@ -339,6 +352,7 @@ function buildAllNotesTree() {
             slug: item.slug,
             title: item.name,
             description: item.description,
+            wordCount: item.wordCount || 0,
             category: categoryName,
             file: item.path,
             relativePath: item.relativePath

@@ -10,11 +10,13 @@ const useNotes = () => {
     const loadNotes = async () => {
       try {
         setLoading(true);
+        setError(null);
         const baseUrl = import.meta.env.BASE_URL;
+        const stamp = Date.now();
 
         // 首先尝试加载树形结构数据
-        const treeUrl = `${baseUrl}all-notes-tree.json`.replace(/\/+/g, '/');
-        const treeResponse = await fetch(treeUrl);
+        const treeUrl = `${baseUrl}all-notes-tree.json?v=${stamp}`.replace(/\/+/g, '/');
+        const treeResponse = await fetch(treeUrl, { cache: 'no-store' });
 
         if (treeResponse.ok) {
           const treeData = await treeResponse.json();
@@ -23,8 +25,8 @@ const useNotes = () => {
           console.log('Loaded tree data:', treeData.tree?.length, 'categories,', treeData.flat?.length, 'notes');
         } else {
           // 如果树形数据不存在，加载旧的扁平数据
-          const flatUrl = `${baseUrl}notes-index.json`.replace(/\/+/g, '/');
-          const flatResponse = await fetch(flatUrl);
+          const flatUrl = `${baseUrl}notes-index.json?v=${stamp}`.replace(/\/+/g, '/');
+          const flatResponse = await fetch(flatUrl, { cache: 'no-store' });
           if (!flatResponse.ok) {
             throw new Error('Failed to load notes');
           }

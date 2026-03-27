@@ -6,6 +6,7 @@ import '../styles/pages.css';
 function Home() {
   const { notes, tree } = useNotes();
   const totalNotes = notes.length;
+  const totalWords = notes.reduce((sum, note) => sum + (note.wordCount || 0), 0);
 
   // 从同步的 tree 动态生成分类卡片，数量按 note.category 与顶层目录名一致来统计
   const categories = (tree || []).map((node) => ({
@@ -68,10 +69,7 @@ function Home() {
         </div>
         <div className="stat-card">
           <div className="stat-value">
-            {Math.floor(notes.reduce((sum, note) => {
-              const words = (note.description ? note.description.length : 0) + (note.content ? note.content.length / 2 : 0);
-              return sum + words;
-            }, 0) / 1000)}k
+            {Math.max(1, Math.floor(totalWords / 1000))}k
           </div>
           <div className="stat-label">字数统计</div>
         </div>
