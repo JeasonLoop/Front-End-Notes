@@ -2129,6 +2129,30 @@
           ]
         },
         {
+          "id": "刷题课",
+          "name": "刷题课",
+          "type": "folder",
+          "children": [
+            {
+              "id": "言语理解",
+              "name": "言语理解",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "index---言语理解刷题",
+                  "name": "Index - 言语理解刷题",
+                  "type": "file",
+                  "path": "/notes/index---言语理解刷题.md",
+                  "slug": "index---言语理解刷题",
+                  "wordCount": 621,
+                  "relativePath": "事业单位编制备考笔记/刷题课/言语理解/Index - 言语理解刷题.md",
+                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/事业单位编制备考笔记/刷题课/言语理解/Index - 言语理解刷题.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "理论课",
           "name": "理论课",
           "type": "folder",
@@ -2147,6 +2171,17 @@
                   "wordCount": 1364,
                   "relativePath": "事业单位编制备考笔记/理论课/哲学/第一章节  - 哲学概述.md",
                   "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/事业单位编制备考笔记/理论课/哲学/第一章节  - 哲学概述.md"
+                },
+                {
+                  "id": "第二章节---唯物论",
+                  "name": "第二章节 - 唯物论",
+                  "type": "file",
+                  "path": "/notes/第二章节---唯物论.md",
+                  "slug": "第二章节---唯物论",
+                  "description": "一. 世界的物质性 世界是物质的 物质是运动的 运动是有规律的 运动是事物的固有属性，运动是物质的存在方式和根本属性 这俩说法都对 习题 答案：C 答案：D 二. 意识的主观能动性 本章小结 本章节主要都是一些概念性的阐述，主要的知识点已经截图，简单过一遍记忆理解即可",
+                  "wordCount": 134,
+                  "relativePath": "事业单位编制备考笔记/理论课/哲学/第二章节 - 唯物论.md",
+                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/事业单位编制备考笔记/理论课/哲学/第二章节 - 唯物论.md"
                 }
               ]
             }
@@ -3956,12 +3991,29 @@
       "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/速算技巧.md"
     },
     {
+      "slug": "index---言语理解刷题",
+      "title": "Index - 言语理解刷题",
+      "wordCount": 621,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/index---言语理解刷题.md",
+      "relativePath": "事业单位编制备考笔记/刷题课/言语理解/Index - 言语理解刷题.md"
+    },
+    {
       "slug": "第一章节---哲学概述",
       "title": "第一章节  - 哲学概述",
       "wordCount": 1364,
       "category": "事业单位编制备考笔记",
       "file": "/notes/第一章节---哲学概述.md",
       "relativePath": "事业单位编制备考笔记/理论课/哲学/第一章节  - 哲学概述.md"
+    },
+    {
+      "slug": "第二章节---唯物论",
+      "title": "第二章节 - 唯物论",
+      "description": "一. 世界的物质性 世界是物质的 物质是运动的 运动是有规律的 运动是事物的固有属性，运动是物质的存在方式和根本属性 这俩说法都对 习题 答案：C 答案：D 二. 意识的主观能动性 本章小结 本章节主要都是一些概念性的阐述，主要的知识点已经截图，简单过一遍记忆理解即可",
+      "wordCount": 134,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/第二章节---唯物论.md",
+      "relativePath": "事业单位编制备考笔记/理论课/哲学/第二章节 - 唯物论.md"
     },
     {
       "slug": "工具函数",
