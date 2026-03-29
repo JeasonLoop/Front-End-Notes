@@ -1,0 +1,15 @@
+{
+  "version": "2.0",
+  "mapping": {
+    "all-notes/事业单位编制备考笔记/理论课/哲学/未命名.md": "all-notes_事业单位编制备考笔记_理论课_哲学_未命名.md.json",
+    "all-notes/事业单位编制备考笔记/理论课/哲学/第二章节 - 唯物论.md": "all-notes_事业单位编制备考笔记_理论课_哲学_第二章节_-_唯物论.md.json",
+    "all-notes/事业单位编制备考笔记/未命名": "all-notes_事业单位编制备考笔记_未命名.json",
+    "all-notes/事业单位编制备考笔记/刷题课": "all-notes_事业单位编制备考笔记_刷题课.json",
+    "all-notes/事业单位编制备考笔记/刷题课/未命名": "all-notes_事业单位编制备考笔记_刷题课_未命名.json",
+    "all-notes/事业单位编制备考笔记/刷题课/言语理解": "all-notes_事业单位编制备考笔记_刷题课_言语理解.json",
+    "all-notes/事业单位编制备考笔记/刷题课/判断推理": "all-notes_事业单位编制备考笔记_刷题课_判断推理.json",
+    "all-notes/事业单位编制备考笔记/刷题课/言语理解/未命名.md": "all-notes_事业单位编制备考笔记_刷题课_言语理解_未命名.md.json",
+    "all-notes/事业单位编制备考笔记/刷题课/言语理解/Index - 言语理解刷题.md": "all-notes_事业单位编制备考笔记_刷题课_言语理解_index_-_言语理解刷题.md.json"
+  },
+  "lastUpdated": 1774528012382
+}
