@@ -13,8 +13,9 @@
           "type": "file",
           "path": "/notes/1.文档文章.md",
           "slug": "1.文档文章",
+          "wordCount": 1597,
           "relativePath": "🎃网址收集/1.文档文章.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\🎃网址收集\\1.文档文章.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\🎃网址收集\\1.文档文章.md"
         },
         {
           "id": "2.工具轮子",
@@ -22,9 +23,9 @@
           "type": "file",
           "path": "/notes/2.工具轮子.md",
           "slug": "2.工具轮子",
-          "description": "-   React-Select 轻便选择器\r",
+          "wordCount": 315,
           "relativePath": "🎃网址收集/2.工具轮子.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\🎃网址收集\\2.工具轮子.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\🎃网址收集\\2.工具轮子.md"
         },
         {
           "id": "3.摸鱼",
@@ -32,198 +33,9 @@
           "type": "file",
           "path": "/notes/3.摸鱼.md",
           "slug": "3.摸鱼",
-          "description": "-   |低端影视|https://ddys.tv/|\r",
+          "wordCount": 562,
           "relativePath": "🎃网址收集/3.摸鱼.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\🎃网址收集\\3.摸鱼.md"
-        }
-      ]
-    },
-    {
-      "id": "📝notes",
-      "name": "📝Notes",
-      "icon": null,
-      "type": "category",
-      "path": "/category/📝notes",
-      "children": [
-        {
-          "id": "⌚react",
-          "name": "⌚React",
-          "type": "folder",
-          "children": [
-            {
-              "id": "diff",
-              "name": "Diff",
-              "type": "file",
-              "path": "/notes/diff.md",
-              "slug": "diff",
-              "description": "计算出Virtual DOM中真正变化的部分，并只针对该部分进行原生DOM操作，而非重新渲染整个页面。React用 三大策略 将O(n^3)复杂度 转化为 O(n)复杂度\r",
-              "relativePath": "📝Notes/⌚React/Diff.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\⌚React\\Diff.md"
-            },
-            {
-              "id": "hoc高阶组件",
-              "name": "HOC高阶组件",
-              "type": "file",
-              "path": "/notes/hoc高阶组件.md",
-              "slug": "hoc高阶组件",
-              "relativePath": "📝Notes/⌚React/HOC高阶组件.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\⌚React\\HOC高阶组件.md"
-            },
-            {
-              "id": "notes-react-redux",
-              "name": "Redux",
-              "type": "file",
-              "path": "/notes/notes-react-redux.md",
-              "slug": "notes-react-redux",
-              "description": "首先在最外层容器中，把所有内容包裹在 Provider 组件中，将之前创建的 store 作为 prop 传给 Provider。\r",
-              "relativePath": "📝Notes/⌚React/Redux.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\⌚React\\Redux.md"
-            },
-            {
-              "id": "usecallback&usememo",
-              "name": "useCallBack&useMemo",
-              "type": "file",
-              "path": "/notes/usecallback&usememo.md",
-              "slug": "usecallback&usememo",
-              "description": "最近在重构公司的类组件项目，同时也在进行hook的重新学习，useCallback 与 useMemo是hook中针对渲染以及缓存的两个内置hooks，主要的功能是对函数和计算结果进行缓存来判断是否需要重新渲染。\r",
-              "relativePath": "📝Notes/⌚React/useCallBack&useMemo.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\⌚React\\useCallBack&useMemo.md"
-            },
-            {
-              "id": "notes-react-useref存取状态",
-              "name": "useRef存取状态",
-              "type": "file",
-              "path": "/notes/notes-react-useref存取状态.md",
-              "slug": "notes-react-useref存取状态",
-              "description": "正常我们为在使用react-hook的时候使用最多的应该是useState,但是在某些应用场景下，我们需要拿到更新完毕的state的最新的值\r",
-              "relativePath": "📝Notes/⌚React/useRef存取状态.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\⌚React\\useRef存取状态.md"
-            }
-          ]
-        },
-        {
-          "id": "服务器",
-          "name": "服务器",
-          "type": "folder",
-          "children": [
-            {
-              "id": "服务器-docker部署前端项目教程",
-              "name": "Docker 部署前端项目教程",
-              "type": "file",
-              "path": "/notes/服务器-docker部署前端项目教程.md",
-              "slug": "服务器-docker部署前端项目教程",
-              "description": "Docker 是一个开源的应用容器引擎，可以让开发者打包应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 或 Windows 操作系统上。",
-              "relativePath": "📝Notes/服务器/Docker部署前端项目教程.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\服务器\\Docker部署前端项目教程.md"
-            }
-          ]
-        },
-        {
-          "id": "🍂原生js",
-          "name": "🍂原生JS",
-          "type": "folder",
-          "children": [
-            {
-              "id": "notes-原生js-js基础-高级语法笔记",
-              "name": "JS基础&高级语法笔记",
-              "type": "file",
-              "path": "/notes/notes-原生js-js基础-高级语法笔记.md",
-              "slug": "notes-原生js-js基础-高级语法笔记",
-              "description": "对于对象的便利 我们通常可以使用Object.keys(),Object.entries(),Object.getOwnPropertyNames(),其中Object.keys()与Object.getOwnPropertyNames()效果是一样的，但是后者可以 ==返回不可枚举的属性名称==\r",
-              "relativePath": "📝Notes/🍂原生JS/JS基础&高级语法笔记.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\🍂原生JS\\JS基础&高级语法笔记.md"
-            },
-            {
-              "id": "notes-原生js-原型链解析",
-              "name": "原型链解析",
-              "type": "file",
-              "path": "/notes/notes-原生js-原型链解析.md",
-              "slug": "notes-原生js-原型链解析",
-              "description": "初步尝试，我们涉及到原型链的知识，要先从一个构造函数开始讲起\r",
-              "relativePath": "📝Notes/🍂原生JS/原型链解析.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\🍂原生JS\\原型链解析.md"
-            },
-            {
-              "id": "notes-原生js-同步异步函数",
-              "name": "同步异步函数",
-              "type": "file",
-              "path": "/notes/notes-原生js-同步异步函数.md",
-              "slug": "notes-原生js-同步异步函数",
-              "description": "!(https://cdn.nlark.com/yuque/0/2023/png/32650608/1679907692018-0c260d11-7204-4c35-8859-882ccd7cede5.png)\r",
-              "relativePath": "📝Notes/🍂原生JS/同步异步函数.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\🍂原生JS\\同步异步函数.md"
-            }
-          ]
-        },
-        {
-          "id": "💿计算机网络",
-          "name": "💿计算机网络",
-          "type": "folder",
-          "children": [
-            {
-              "id": "notes-计算机网络-bom属性对象方法",
-              "name": "BOM属性对象方法",
-              "type": "file",
-              "path": "/notes/notes-计算机网络-bom属性对象方法.md",
-              "slug": "notes-计算机网络-bom属性对象方法",
-              "relativePath": "📝Notes/💿计算机网络/BOM属性对象方法.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\💿计算机网络\\BOM属性对象方法.md"
-            },
-            {
-              "id": "notes-计算机网络-http-https",
-              "name": "HTTP&HTTPS",
-              "type": "file",
-              "path": "/notes/notes-计算机网络-http-https.md",
-              "slug": "notes-计算机网络-http-https",
-              "relativePath": "📝Notes/💿计算机网络/HTTP&HTTPS.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\💿计算机网络\\HTTP&HTTPS.md"
-            },
-            {
-              "id": "notes-计算机网络-tcp三次握手",
-              "name": "TCP三次握手",
-              "type": "file",
-              "path": "/notes/notes-计算机网络-tcp三次握手.md",
-              "slug": "notes-计算机网络-tcp三次握手",
-              "relativePath": "📝Notes/💿计算机网络/TCP三次握手.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\💿计算机网络\\TCP三次握手.md"
-            },
-            {
-              "id": "notes-计算机网络-浏览器工作原理",
-              "name": "**多进程结构的浏览器**",
-              "type": "file",
-              "path": "/notes/notes-计算机网络-浏览器工作原理.md",
-              "slug": "notes-计算机网络-浏览器工作原理",
-              "relativePath": "📝Notes/💿计算机网络/浏览器工作原理.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\💿计算机网络\\浏览器工作原理.md"
-            },
-            {
-              "id": "notes-计算机网络-浏览器缓存",
-              "name": "浏览器缓存",
-              "type": "file",
-              "path": "/notes/notes-计算机网络-浏览器缓存.md",
-              "slug": "notes-计算机网络-浏览器缓存",
-              "relativePath": "📝Notes/💿计算机网络/浏览器缓存.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\💿计算机网络\\浏览器缓存.md"
-            },
-            {
-              "id": "notes-计算机网络-访问url的背后",
-              "name": "访问URL的背后",
-              "type": "file",
-              "path": "/notes/notes-计算机网络-访问url的背后.md",
-              "slug": "notes-计算机网络-访问url的背后",
-              "relativePath": "📝Notes/💿计算机网络/访问URL的背后.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\💿计算机网络\\访问URL的背后.md"
-            }
-          ]
-        },
-        {
-          "id": "🐸技术课程收集",
-          "name": "🐸技术课程收集",
-          "type": "file",
-          "path": "/notes/🐸技术课程收集.md",
-          "slug": "🐸技术课程收集",
-          "relativePath": "📝Notes/🐸技术课程收集.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\📝Notes\\🐸技术课程收集.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\🎃网址收集\\3.摸鱼.md"
         }
       ]
     },
@@ -246,86 +58,93 @@
               "children": [
                 {
                   "id": "后端-go-Go-简介与特点",
-                  "name": "Go 简介与特点",
+                  "name": "Go-简介与特点",
                   "type": "file",
                   "path": "/notes/后端-go-Go-简介与特点.md",
                   "slug": "后端-go-Go-简介与特点",
-                  "description": "Go（又称 Golang）是 Google 在 2009 年开发的编程语言，由 Robert Griesemer、Rob Pike 和 Ken Thompson 设计。Go 是一门编译型、并发型、具有垃圾回收功能的编程语言。\r",
+                  "wordCount": 1296,
                   "relativePath": "后端/Go/01-基础入门/Go-简介与特点.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\Go-简介与特点.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\Go-简介与特点.md"
                 },
                 {
                   "id": "后端-go-01-基础入门-函数",
-                  "name": "Go 函数",
+                  "name": "函数",
                   "type": "file",
                   "path": "/notes/后端-go-01-基础入门-函数.md",
                   "slug": "后端-go-01-基础入门-函数",
+                  "wordCount": 259,
                   "relativePath": "后端/Go/01-基础入门/函数.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\函数.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\函数.md"
                 },
                 {
                   "id": "后端-go-01-基础入门-包与模块",
-                  "name": "Go 包与模块",
+                  "name": "包与模块",
                   "type": "file",
                   "path": "/notes/后端-go-01-基础入门-包与模块.md",
                   "slug": "后端-go-01-基础入门-包与模块",
+                  "wordCount": 369,
                   "relativePath": "后端/Go/01-基础入门/包与模块.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\包与模块.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\包与模块.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-基础语法",
-                  "name": "Go 基础语法",
+                  "name": "基础语法",
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-基础语法.md",
                   "slug": "后端-java-01-基础入门-基础语法",
-                  "description": "1. 包声明：package main - 声明包名\r",
+                  "wordCount": 390,
                   "relativePath": "后端/Go/01-基础入门/基础语法.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\基础语法.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\基础语法.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-安装与环境配置",
-                  "name": "Go 安装与环境配置",
+                  "name": "安装与环境配置",
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-安装与环境配置.md",
                   "slug": "后端-java-01-基础入门-安装与环境配置",
+                  "wordCount": 946,
                   "relativePath": "后端/Go/01-基础入门/安装与环境配置.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\安装与环境配置.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\安装与环境配置.md"
                 },
                 {
                   "id": "后端-go-01-基础入门-接口",
-                  "name": "Go 接口",
+                  "name": "接口",
                   "type": "file",
                   "path": "/notes/后端-go-01-基础入门-接口.md",
                   "slug": "后端-go-01-基础入门-接口",
+                  "wordCount": 244,
                   "relativePath": "后端/Go/01-基础入门/接口.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\接口.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\接口.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-控制结构",
-                  "name": "Go 控制结构",
+                  "name": "控制结构",
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-控制结构.md",
                   "slug": "后端-java-01-基础入门-控制结构",
+                  "wordCount": 339,
                   "relativePath": "后端/Go/01-基础入门/控制结构.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\控制结构.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\控制结构.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-数据类型与变量",
-                  "name": "Go 数据类型与变量",
+                  "name": "数据类型与变量",
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-数据类型与变量.md",
                   "slug": "后端-java-01-基础入门-数据类型与变量",
+                  "wordCount": 272,
                   "relativePath": "后端/Go/01-基础入门/数据类型与变量.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\数据类型与变量.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\数据类型与变量.md"
                 },
                 {
                   "id": "后端-go-01-基础入门-结构体与方法",
-                  "name": "Go 结构体与方法",
+                  "name": "结构体与方法",
                   "type": "file",
                   "path": "/notes/后端-go-01-基础入门-结构体与方法.md",
                   "slug": "后端-go-01-基础入门-结构体与方法",
+                  "wordCount": 321,
                   "relativePath": "后端/Go/01-基础入门/结构体与方法.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\结构体与方法.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\01-基础入门\\结构体与方法.md"
                 }
               ]
             },
@@ -336,33 +155,33 @@
               "children": [
                 {
                   "id": "后端-go-Channel-通道",
-                  "name": "Channel 通道",
+                  "name": "Channel-通道",
                   "type": "file",
                   "path": "/notes/后端-go-Channel-通道.md",
                   "slug": "后端-go-Channel-通道",
-                  "description": "Channel 是 Go 语言中 goroutine 之间通信的主要方式，遵循 \"不要通过共享内存来通信，而要通过通信来共享内存\" 的设计理念。\r",
+                  "wordCount": 402,
                   "relativePath": "后端/Go/02-核心特性/Channel-通道.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\02-核心特性\\Channel-通道.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\02-核心特性\\Channel-通道.md"
                 },
                 {
                   "id": "后端-go-Goroutine-协程",
-                  "name": "Goroutine 协程",
+                  "name": "Goroutine-协程",
                   "type": "file",
                   "path": "/notes/后端-go-Goroutine-协程.md",
                   "slug": "后端-go-Goroutine-协程",
-                  "description": "Goroutine 是 Go 语言并发编程的核心，它是轻量级线程，由 Go 运行时管理。\r",
+                  "wordCount": 612,
                   "relativePath": "后端/Go/02-核心特性/Goroutine-协程.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\02-核心特性\\Goroutine-协程.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\02-核心特性\\Goroutine-协程.md"
                 },
                 {
                   "id": "后端-go-Select-语句",
-                  "name": "Select 语句",
+                  "name": "Select-语句",
                   "type": "file",
                   "path": "/notes/后端-go-Select-语句.md",
                   "slug": "后端-go-Select-语句",
-                  "description": "Select 是 Go 语言中用于处理多个 channel 操作的控制结构，类似于 switch 但专门用于 channel 通信。\r",
+                  "wordCount": 327,
                   "relativePath": "后端/Go/02-核心特性/Select-语句.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\02-核心特性\\Select-语句.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\02-核心特性\\Select-语句.md"
                 },
                 {
                   "id": "后端-go-02-核心特性-同步原语",
@@ -370,9 +189,9 @@
                   "type": "file",
                   "path": "/notes/后端-go-02-核心特性-同步原语.md",
                   "slug": "后端-go-02-核心特性-同步原语",
-                  "description": "Go 提供了多种同步原语用于协调 goroutine 之间的访问和操作。\r",
+                  "wordCount": 287,
                   "relativePath": "后端/Go/02-核心特性/同步原语.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\02-核心特性\\同步原语.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\02-核心特性\\同步原语.md"
                 },
                 {
                   "id": "后端-go-02-核心特性-错误处理机制",
@@ -380,9 +199,9 @@
                   "type": "file",
                   "path": "/notes/后端-go-02-核心特性-错误处理机制.md",
                   "slug": "后端-go-02-核心特性-错误处理机制",
-                  "description": "Go 语言采用显式的错误处理机制，与 Java 的异常处理和 JavaScript 的 try-catch 不同。\r",
+                  "wordCount": 330,
                   "relativePath": "后端/Go/02-核心特性/错误处理机制.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\02-核心特性\\错误处理机制.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\02-核心特性\\错误处理机制.md"
                 }
               ]
             },
@@ -393,23 +212,23 @@
               "children": [
                 {
                   "id": "后端-go-Gin-框架",
-                  "name": "Gin 框架",
+                  "name": "Gin-框架",
                   "type": "file",
                   "path": "/notes/后端-go-Gin-框架.md",
                   "slug": "后端-go-Gin-框架",
-                  "description": "Gin 是一个高性能的 Go Web 框架，具有类似 Martini 的 API 性能，支持中间件、JSON 验证等特性。\r",
+                  "wordCount": 323,
                   "relativePath": "后端/Go/03-Web开发/Gin-框架.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\03-Web开发\\Gin-框架.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\03-Web开发\\Gin-框架.md"
                 },
                 {
                   "id": "后端-go-HTTP-服务基础",
-                  "name": "HTTP 服务基础",
+                  "name": "HTTP-服务基础",
                   "type": "file",
                   "path": "/notes/后端-go-HTTP-服务基础.md",
                   "slug": "后端-go-HTTP-服务基础",
-                  "description": "Go 标准库提供了强大的 net/http 包，可以轻松创建 HTTP 服务器。\r",
+                  "wordCount": 328,
                   "relativePath": "后端/Go/03-Web开发/HTTP-服务基础.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\03-Web开发\\HTTP-服务基础.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\03-Web开发\\HTTP-服务基础.md"
                 },
                 {
                   "id": "后端-go-03-web开发-中间件",
@@ -417,9 +236,9 @@
                   "type": "file",
                   "path": "/notes/后端-go-03-web开发-中间件.md",
                   "slug": "后端-go-03-web开发-中间件",
-                  "description": "中间件是在请求和响应之间处理逻辑的函数，可以执行日志、认证、CORS 等操作。\r",
+                  "wordCount": 324,
                   "relativePath": "后端/Go/03-Web开发/中间件.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\03-Web开发\\中间件.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\03-Web开发\\中间件.md"
                 },
                 {
                   "id": "后端-go-03-web开发-路由处理",
@@ -427,9 +246,9 @@
                   "type": "file",
                   "path": "/notes/后端-go-03-web开发-路由处理.md",
                   "slug": "后端-go-03-web开发-路由处理",
-                  "description": "| Go (Gin) | Java (Spring MVC) | 说明 |\r",
+                  "wordCount": 247,
                   "relativePath": "后端/Go/03-Web开发/路由处理.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\03-Web开发\\路由处理.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\03-Web开发\\路由处理.md"
                 }
               ]
             },
@@ -440,13 +259,13 @@
               "children": [
                 {
                   "id": "后端-go-05-企业架构-微服务基础",
-                  "name": "Go 微服务基础",
+                  "name": "微服务基础",
                   "type": "file",
                   "path": "/notes/后端-go-05-企业架构-微服务基础.md",
                   "slug": "后端-go-05-企业架构-微服务基础",
-                  "description": "微服务架构是将单体应用拆分成多个小型、独立的服务，每个服务负责特定的业务功能。\r",
+                  "wordCount": 489,
                   "relativePath": "后端/Go/05-企业架构/微服务基础.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\05-企业架构\\微服务基础.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\05-企业架构\\微服务基础.md"
                 }
               ]
             },
@@ -457,24 +276,25 @@
               "children": [
                 {
                   "id": "后端-go-第一个-HTTP-服务",
-                  "name": "第一个 HTTP 服务",
+                  "name": "第一个-HTTP-服务",
                   "type": "file",
                   "path": "/notes/后端-go-第一个-HTTP-服务.md",
                   "slug": "后端-go-第一个-HTTP-服务",
-                  "description": "这是 Go 语言入门实践的第一个项目，我们将从零开始搭建一个简单的 HTTP 服务器。\r",
+                  "wordCount": 541,
                   "relativePath": "后端/Go/06-实践项目/第一个-HTTP-服务.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\06-实践项目\\第一个-HTTP-服务.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\06-实践项目\\第一个-HTTP-服务.md"
                 }
               ]
             },
             {
               "id": "后端-go-moc-go",
-              "name": "Go 知识体系（Go）",
+              "name": "!MOC-Go",
               "type": "file",
               "path": "/notes/后端-go-moc-go.md",
               "slug": "后端-go-moc-go",
+              "wordCount": 954,
               "relativePath": "后端/Go/!MOC-Go.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Go\\!MOC-Go.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Go\\!MOC-Go.md"
             }
           ]
         },
@@ -494,19 +314,19 @@
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-io流.md",
                   "slug": "后端-java-01-基础入门-io流",
-                  "description": "| JavaScript | Java | 说明 |\r",
+                  "wordCount": 435,
                   "relativePath": "后端/Java/01-基础入门/IO流.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\IO流.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\IO流.md"
                 },
                 {
                   "id": "后端-java-Java-简介与特点",
-                  "name": "Java 简介与特点",
+                  "name": "Java-简介与特点",
                   "type": "file",
                   "path": "/notes/后端-java-Java-简介与特点.md",
                   "slug": "后端-java-Java-简介与特点",
-                  "description": "Java 是一种广泛使用的面向对象编程语言，由 Sun Microsystems（现 Oracle）于 1995 年发布。它具有\"一次编写，到处运行\"的特性。\r",
+                  "wordCount": 1127,
                   "relativePath": "后端/Java/01-基础入门/Java-简介与特点.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\Java-简介与特点.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\Java-简介与特点.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-函数与方法",
@@ -514,8 +334,10 @@
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-函数与方法.md",
                   "slug": "后端-java-01-基础入门-函数与方法",
+                  "description": "函数与方法 方法定义 基本语法 参数传递 方法重载 静态方法与实例方法 构造方法 递归 Lambda 表达式（Java 8+） 方法引用（Java 8+） 下一篇 数组与字符串",
+                  "wordCount": 88,
                   "relativePath": "后端/Java/01-基础入门/函数与方法.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\函数与方法.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\函数与方法.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-基础语法",
@@ -523,9 +345,9 @@
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-基础语法.md",
                   "slug": "后端-java-01-基础入门-基础语法",
-                  "description": "| 类型 | 大小 | 默认值 | 范围 | 说明 |\r",
+                  "wordCount": 550,
                   "relativePath": "后端/Java/01-基础入门/基础语法.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\基础语法.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\基础语法.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-安装与环境配置",
@@ -533,8 +355,9 @@
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-安装与环境配置.md",
                   "slug": "后端-java-01-基础入门-安装与环境配置",
+                  "wordCount": 690,
                   "relativePath": "后端/Java/01-基础入门/安装与环境配置.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\安装与环境配置.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\安装与环境配置.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-异常处理",
@@ -542,9 +365,9 @@
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-异常处理.md",
                   "slug": "后端-java-01-基础入门-异常处理",
-                  "description": "| JavaScript | Java | 说明 |\r",
+                  "wordCount": 271,
                   "relativePath": "后端/Java/01-基础入门/异常处理.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\异常处理.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\异常处理.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-控制结构",
@@ -552,9 +375,9 @@
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-控制结构.md",
                   "slug": "后端-java-01-基础入门-控制结构",
-                  "description": "| JavaScript | Java | 说明 |\r",
+                  "wordCount": 224,
                   "relativePath": "后端/Java/01-基础入门/控制结构.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\控制结构.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\控制结构.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-数据类型与变量",
@@ -562,8 +385,10 @@
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-数据类型与变量.md",
                   "slug": "后端-java-01-基础入门-数据类型与变量",
+                  "description": "数据类型与变量 Java 类型系统总览 基本类型详解 整数类型 浮点类型 字符类型 布尔类型 类型转换 自动类型转换（隐式） 强制类型转换（显式） 引用类型 String（字符串） 数组 变量的作用域 包装类 常用 API 类 下一篇 控制结构",
+                  "wordCount": 122,
                   "relativePath": "后端/Java/01-基础入门/数据类型与变量.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\数据类型与变量.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\数据类型与变量.md"
                 },
                 {
                   "id": "后端-java-01-基础入门-数组与字符串",
@@ -571,9 +396,9 @@
                   "type": "file",
                   "path": "/notes/后端-java-01-基础入门-数组与字符串.md",
                   "slug": "后端-java-01-基础入门-数组与字符串",
-                  "description": "| JavaScript | Java | 说明 |\r",
+                  "wordCount": 300,
                   "relativePath": "后端/Java/01-基础入门/数组与字符串.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\数组与字符串.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\01-基础入门\\数组与字符串.md"
                 }
               ]
             },
@@ -588,8 +413,9 @@
                   "type": "file",
                   "path": "/notes/后端-java-02-面向对象-内部类.md",
                   "slug": "后端-java-02-面向对象-内部类",
+                  "wordCount": 317,
                   "relativePath": "后端/Java/02-面向对象/内部类.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\02-面向对象\\内部类.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\02-面向对象\\内部类.md"
                 },
                 {
                   "id": "后端-java-02-面向对象-接口与抽象类",
@@ -597,9 +423,9 @@
                   "type": "file",
                   "path": "/notes/后端-java-02-面向对象-接口与抽象类.md",
                   "slug": "后端-java-02-面向对象-接口与抽象类",
-                  "description": "接口是 Java 中定义行为契约的方式，一个类可以实现多个接口。\r",
+                  "wordCount": 316,
                   "relativePath": "后端/Java/02-面向对象/接口与抽象类.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\02-面向对象\\接口与抽象类.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\02-面向对象\\接口与抽象类.md"
                 },
                 {
                   "id": "后端-java-02-面向对象-枚举",
@@ -607,9 +433,9 @@
                   "type": "file",
                   "path": "/notes/后端-java-02-面向对象-枚举.md",
                   "slug": "后端-java-02-面向对象-枚举",
-                  "description": "枚举是一种特殊的类，用于定义一组有限的常量。\r",
+                  "wordCount": 291,
                   "relativePath": "后端/Java/02-面向对象/枚举.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\02-面向对象\\枚举.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\02-面向对象\\枚举.md"
                 },
                 {
                   "id": "后端-java-02-面向对象-类与对象",
@@ -617,9 +443,9 @@
                   "type": "file",
                   "path": "/notes/后端-java-02-面向对象-类与对象.md",
                   "slug": "后端-java-02-面向对象-类与对象",
-                  "description": "| 修饰符 | 同一类 | 同一包 | 子类 | 其他包 |\r",
+                  "wordCount": 409,
                   "relativePath": "后端/Java/02-面向对象/类与对象.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\02-面向对象\\类与对象.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\02-面向对象\\类与对象.md"
                 },
                 {
                   "id": "后端-java-02-面向对象-继承与多态",
@@ -627,9 +453,9 @@
                   "type": "file",
                   "path": "/notes/后端-java-02-面向对象-继承与多态.md",
                   "slug": "后端-java-02-面向对象-继承与多态",
-                  "description": "Java 使用 extends 关键字实现继承，单继承机制。\r",
+                  "wordCount": 334,
                   "relativePath": "后端/Java/02-面向对象/继承与多态.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\02-面向对象\\继承与多态.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\02-面向对象\\继承与多态.md"
                 }
               ]
             },
@@ -640,12 +466,13 @@
               "children": [
                 {
                   "id": "后端-java-集合-List",
-                  "name": "集合 List",
+                  "name": "集合-List",
                   "type": "file",
                   "path": "/notes/后端-java-集合-List.md",
                   "slug": "后端-java-集合-List",
+                  "wordCount": 285,
                   "relativePath": "后端/Java/03-高级特性/集合-List.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\03-高级特性\\集合-List.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\03-高级特性\\集合-List.md"
                 }
               ]
             },
@@ -656,34 +483,37 @@
               "children": [
                 {
                   "id": "后端-java-07-数据库操作-jdbc基础",
-                  "name": "JDBC 基础",
+                  "name": "JDBC基础",
                   "type": "file",
                   "path": "/notes/后端-java-07-数据库操作-jdbc基础.md",
                   "slug": "后端-java-07-数据库操作-jdbc基础",
-                  "description": "JDBC（Java Database Connectivity）是 Java 程序与数据库交互的标准 API。\r",
+                  "description": "JDBC 基础 JDBC 概述 JDBC（Java Database Connectivity）是 Java 程序与数据库交互的标准 API。 快速开始 使用 try with resources PreparedStatement（防止 SQL 注入） CallableStatement（存储过程） 批量操作 获取元数据 数据库连接池 JDBC 工具类 常见数据库驱动 下一篇 连接池",
+                  "wordCount": 194,
                   "relativePath": "后端/Java/07-数据库操作/JDBC基础.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\07-数据库操作\\JDBC基础.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\07-数据库操作\\JDBC基础.md"
                 },
                 {
                   "id": "后端-java-07-数据库操作-mybatis入门",
-                  "name": "MyBatis 入门",
+                  "name": "MyBatis入门",
                   "type": "file",
                   "path": "/notes/后端-java-07-数据库操作-mybatis入门.md",
                   "slug": "后端-java-07-数据库操作-mybatis入门",
-                  "description": "MyBatis 是一款优秀的持久层框架，支持自定义 SQL、存储过程和高级映射。\r",
+                  "description": "MyBatis 入门 MyBatis 概述 MyBatis 是一款优秀的持久层框架，支持自定义 SQL、存储过程和高级映射。 快速开始 1. 添加依赖 2. 配置文件 3. 实体类 4. Mapper 接口 5. Mapper XML 6. 使用示例 注解方式 动态 SQL 关联查询 下一篇 动态SQL",
+                  "wordCount": 152,
                   "relativePath": "后端/Java/07-数据库操作/MyBatis入门.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\07-数据库操作\\MyBatis入门.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\07-数据库操作\\MyBatis入门.md"
                 }
               ]
             },
             {
               "id": "后端-java-moc-java",
-              "name": "Java 知识体系",
+              "name": "!MOC-Java",
               "type": "file",
               "path": "/notes/后端-java-moc-java.md",
               "slug": "后端-java-moc-java",
+              "wordCount": 1523,
               "relativePath": "后端/Java/!MOC-Java.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\后端\\Java\\!MOC-Java.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\后端\\Java\\!MOC-Java.md"
             }
           ]
         }
@@ -698,72 +528,83 @@
       "children": [
         {
           "id": "开发经验-ai辅助开发一年体验总结",
-          "name": "AI 辅助开发一年体验总结",
+          "name": "AI辅助开发一年体验总结",
           "type": "file",
           "path": "/notes/开发经验-ai辅助开发一年体验总结.md",
           "slug": "开发经验-ai辅助开发一年体验总结",
+          "wordCount": 816,
           "relativePath": "开发经验/AI辅助开发一年体验总结.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\开发经验\\AI辅助开发一年体验总结.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\开发经验\\AI辅助开发一年体验总结.md"
         },
         {
           "id": "开发经验-css现代布局containerqueries真香",
-          "name": "CSS 现代布局：Container Queries 真香",
+          "name": "CSS现代布局ContainerQueries真香",
           "type": "file",
           "path": "/notes/开发经验-css现代布局containerqueries真香.md",
           "slug": "开发经验-css现代布局containerqueries真香",
-          "description": "CSS 这些年发展真快，好多以前不好做的布局，现在原生支持了。Container Queries 就是一个，用了一段时间，真心香。\r",
+          "wordCount": 731,
           "relativePath": "开发经验/CSS现代布局ContainerQueries真香.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\开发经验\\CSS现代布局ContainerQueries真香.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\开发经验\\CSS现代布局ContainerQueries真香.md"
+        },
+        {
+          "id": "服务器-docker部署前端项目教程",
+          "name": "Docker部署前端项目教程",
+          "type": "file",
+          "path": "/notes/服务器-docker部署前端项目教程.md",
+          "slug": "服务器-docker部署前端项目教程",
+          "wordCount": 657,
+          "relativePath": "开发经验/Docker部署前端项目教程.md",
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\开发经验\\Docker部署前端项目教程.md"
         },
         {
           "id": "开发经验-react性能优化从理论到实战",
-          "name": "React 性能优化：从理论到实战",
+          "name": "React性能优化从理论到实战",
           "type": "file",
           "path": "/notes/开发经验-react性能优化从理论到实战.md",
           "slug": "开发经验-react性能优化从理论到实战",
-          "description": "做 React 开发也有几年了，性能优化做过不少，整理一套从入门到精通的实战经验。\r",
+          "wordCount": 1086,
           "relativePath": "开发经验/React性能优化从理论到实战.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\开发经验\\React性能优化从理论到实战.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\开发经验\\React性能优化从理论到实战.md"
         },
         {
           "id": "开发经验-typescript进阶用好类型体操提升代码质量",
-          "name": "TypeScript 进阶：用好类型体操提升代码质量",
+          "name": "TypeScript进阶用好类型体操提升代码质量",
           "type": "file",
           "path": "/notes/开发经验-typescript进阶用好类型体操提升代码质量.md",
           "slug": "开发经验-typescript进阶用好类型体操提升代码质量",
-          "description": "用 TypeScript 也有几年了，从最开始的 any 大法好，到现在尽量给所有代码都加上类型，这里聊聊我对类型体操的理解。\r",
+          "wordCount": 870,
           "relativePath": "开发经验/TypeScript进阶用好类型体操提升代码质量.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\开发经验\\TypeScript进阶用好类型体操提升代码质量.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\开发经验\\TypeScript进阶用好类型体操提升代码质量.md"
         },
         {
           "id": "开发经验-vibecoding我是如何用ai写代码的",
-          "name": "Vibe Coding：我是如何用 AI 写代码的",
+          "name": "VibeCoding我是如何用AI写代码的",
           "type": "file",
           "path": "/notes/开发经验-vibecoding我是如何用ai写代码的.md",
           "slug": "开发经验-vibecoding我是如何用ai写代码的",
-          "description": "最近 Vibe Coding 这个词挺火的，其实我已经这么干快一年了，分享一下我的工作流。\r",
+          "wordCount": 943,
           "relativePath": "开发经验/VibeCoding我是如何用AI写代码的.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\开发经验\\VibeCoding我是如何用AI写代码的.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\开发经验\\VibeCoding我是如何用AI写代码的.md"
         },
         {
           "id": "开发经验-中高阶前端必懂闭包其实并不难",
-          "name": "中高阶前端必懂：闭包其实并不难",
+          "name": "中高阶前端必懂闭包其实并不难",
           "type": "file",
           "path": "/notes/开发经验-中高阶前端必懂闭包其实并不难.md",
           "slug": "开发经验-中高阶前端必懂闭包其实并不难",
-          "description": "闭包这个词，刚学 JS 的时候觉得好玄乎，面试也经常问，工作几年回头看，其实没那么复杂，整理一下我的理解。\r",
+          "wordCount": 835,
           "relativePath": "开发经验/中高阶前端必懂闭包其实并不难.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\开发经验\\中高阶前端必懂闭包其实并不难.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\开发经验\\中高阶前端必懂闭包其实并不难.md"
         },
         {
           "id": "开发经验-当我们聊前端架构我们在聊什么",
-          "name": "当我们聊前端架构，我们在聊什么",
+          "name": "当我们聊前端架构我们在聊什么",
           "type": "file",
           "path": "/notes/开发经验-当我们聊前端架构我们在聊什么.md",
           "slug": "开发经验-当我们聊前端架构我们在聊什么",
-          "description": "最近几年「前端架构」这个词提得越来越多，刚入行的朋友可能会觉得很虚，我聊聊我的理解。\r",
+          "wordCount": 936,
           "relativePath": "开发经验/当我们聊前端架构我们在聊什么.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\开发经验\\当我们聊前端架构我们在聊什么.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\开发经验\\当我们聊前端架构我们在聊什么.md"
         },
         {
           "id": "开发经验-网址书签收集",
@@ -771,9 +612,9 @@
           "type": "file",
           "path": "/notes/开发经验-网址书签收集.md",
           "slug": "开发经验-网址书签收集",
-          "description": "> 从浏览器书签导出整理，按原文件夹分类保存。\r",
+          "wordCount": 3962,
           "relativePath": "开发经验/网址书签收集.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\开发经验\\网址书签收集.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\开发经验\\网址书签收集.md"
         }
       ]
     },
@@ -791,129 +632,133 @@
           "children": [
             {
               "id": "前端-js-01-闭包和作用域",
-              "name": "JavaScript 闭包和作用域",
+              "name": "01-闭包和作用域",
               "type": "file",
               "path": "/notes/前端-js-01-闭包和作用域.md",
               "slug": "前端-js-01-闭包和作用域",
+              "wordCount": 707,
               "relativePath": "前端/JS/01-闭包和作用域.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\JS\\01-闭包和作用域.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\JS\\01-闭包和作用域.md"
             },
             {
               "id": "前端-js-02-this绑定和上下文",
-              "name": "JavaScript this 绑定和上下文",
+              "name": "02-this绑定和上下文",
               "type": "file",
               "path": "/notes/前端-js-02-this绑定和上下文.md",
               "slug": "前端-js-02-this绑定和上下文",
-              "description": "this 是 JavaScript 中的一个关键字，它指向当前执行上下文的对象。this 的值不是静态的，而是在函数被调用时动态确定的。\r",
+              "wordCount": 766,
               "relativePath": "前端/JS/02-this绑定和上下文.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\JS\\02-this绑定和上下文.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\JS\\02-this绑定和上下文.md"
             },
             {
               "id": "前端-js-03-原型和继承",
-              "name": "JavaScript 原型和继承",
+              "name": "03-原型和继承",
               "type": "file",
               "path": "/notes/前端-js-03-原型和继承.md",
               "slug": "前端-js-03-原型和继承",
-              "description": "每个 JavaScript 对象都有一个指向另一个对象的内部链接，这个对象就是原型（prototype）。当我们访问对象的属性时，如果对象本身没有该属性，JavaScript 会沿着原型链向上查找。\r",
+              "wordCount": 739,
               "relativePath": "前端/JS/03-原型和继承.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\JS\\03-原型和继承.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\JS\\03-原型和继承.md"
             },
             {
               "id": "前端-js-04-异步编程详解",
-              "name": "JavaScript 异步编程详解",
+              "name": "04-异步编程详解",
               "type": "file",
               "path": "/notes/前端-js-04-异步编程详解.md",
               "slug": "前端-js-04-异步编程详解",
-              "description": "JavaScript 是单线程的，如果所有操作都是同步的，会导致阻塞，用户体验差。\r",
+              "wordCount": 678,
               "relativePath": "前端/JS/04-异步编程详解.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\JS\\04-异步编程详解.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\JS\\04-异步编程详解.md"
             },
             {
               "id": "前端-js-05-事件循环和并发",
-              "name": "JavaScript 事件循环和并发",
+              "name": "05-事件循环和并发",
               "type": "file",
               "path": "/notes/前端-js-05-事件循环和并发.md",
               "slug": "前端-js-05-事件循环和并发",
+              "wordCount": 586,
               "relativePath": "前端/JS/05-事件循环和并发.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\JS\\05-事件循环和并发.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\JS\\05-事件循环和并发.md"
             },
             {
               "id": "前端-js-06-函数式编程",
-              "name": "JavaScript 函数式编程",
+              "name": "06-函数式编程",
               "type": "file",
               "path": "/notes/前端-js-06-函数式编程.md",
               "slug": "前端-js-06-函数式编程",
-              "description": "函数式编程（FP）是一种编程范式，强调：\r",
+              "wordCount": 716,
               "relativePath": "前端/JS/06-函数式编程.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\JS\\06-函数式编程.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\JS\\06-函数式编程.md"
             },
             {
               "id": "07-es6+新特性详解",
-              "name": "JavaScript ES6+ 新特性详解",
+              "name": "07-ES6+新特性详解",
               "type": "file",
               "path": "/notes/07-es6+新特性详解.md",
               "slug": "07-es6+新特性详解",
-              "description": "1. 变量声明：let、const（块作用域）\r",
+              "wordCount": 879,
               "relativePath": "前端/JS/07-ES6+新特性详解.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\JS\\07-ES6+新特性详解.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\JS\\07-ES6+新特性详解.md"
             },
             {
               "id": "前端-js-08-元编程和反射",
-              "name": "JavaScript 元编程和反射",
+              "name": "08-元编程和反射",
               "type": "file",
               "path": "/notes/前端-js-08-元编程和反射.md",
               "slug": "前端-js-08-元编程和反射",
-              "description": "元编程（Metaprogramming）是指编写能够操作其他程序的程序，或者编写能够操作自身的程序。\r",
+              "wordCount": 585,
               "relativePath": "前端/JS/08-元编程和反射.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\JS\\08-元编程和反射.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\JS\\08-元编程和反射.md"
             },
             {
               "id": "前端-js-09-设计模式",
-              "name": "JavaScript 设计模式",
+              "name": "09-设计模式",
               "type": "file",
               "path": "/notes/前端-js-09-设计模式.md",
               "slug": "前端-js-09-设计模式",
-              "description": "设计模式是解决常见问题的可重用方案。JavaScript 中常用的设计模式包括：\r",
+              "wordCount": 594,
               "relativePath": "前端/JS/09-设计模式.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\JS\\09-设计模式.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\JS\\09-设计模式.md"
             },
             {
               "id": "前端-js-10-内存管理和性能优化",
-              "name": "JavaScript 内存管理和性能优化",
+              "name": "10-内存管理和性能优化",
               "type": "file",
               "path": "/notes/前端-js-10-内存管理和性能优化.md",
               "slug": "前端-js-10-内存管理和性能优化",
+              "wordCount": 545,
               "relativePath": "前端/JS/10-内存管理和性能优化.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\JS\\10-内存管理和性能优化.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\JS\\10-内存管理和性能优化.md"
             },
             {
               "id": "前端-js-11-模块化和打包",
-              "name": "JavaScript 模块化和打包",
+              "name": "11-模块化和打包",
               "type": "file",
               "path": "/notes/前端-js-11-模块化和打包.md",
               "slug": "前端-js-11-模块化和打包",
-              "description": "模块化是将代码分割成独立、可重用的模块。JavaScript 有多种模块系统：\r",
+              "wordCount": 870,
               "relativePath": "前端/JS/11-模块化和打包.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\JS\\11-模块化和打包.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\JS\\11-模块化和打包.md"
             },
             {
               "id": "前端-js-12-错误处理和调试",
-              "name": "JavaScript 错误处理和调试",
+              "name": "12-错误处理和调试",
               "type": "file",
               "path": "/notes/前端-js-12-错误处理和调试.md",
               "slug": "前端-js-12-错误处理和调试",
+              "wordCount": 655,
               "relativePath": "前端/JS/12-错误处理和调试.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\JS\\12-错误处理和调试.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\JS\\12-错误处理和调试.md"
             },
             {
               "id": "readme",
-              "name": "JavaScript 高级教程",
+              "name": "README",
               "type": "file",
               "path": "/notes/readme.md",
               "slug": "readme",
-              "description": "这是一个全面的 JavaScript 高级教程集合，涵盖从基础到进阶的各个主题。\r",
+              "wordCount": 714,
               "relativePath": "前端/JS/README.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\JS\\README.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\JS\\README.md"
             }
           ]
         },
@@ -924,67 +769,73 @@
           "children": [
             {
               "id": "前端-vue-01-基础入门",
-              "name": "React 基础入门",
+              "name": "01-基础入门",
               "type": "file",
               "path": "/notes/前端-vue-01-基础入门.md",
               "slug": "前端-vue-01-基础入门",
+              "wordCount": 438,
               "relativePath": "前端/React/01-基础入门.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\React\\01-基础入门.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\React\\01-基础入门.md"
             },
             {
               "id": "前端-react-Hooks",
-              "name": "React Hooks",
+              "name": "02-Hooks",
               "type": "file",
               "path": "/notes/前端-react-Hooks.md",
               "slug": "前端-react-Hooks",
+              "wordCount": 413,
               "relativePath": "前端/React/02-Hooks.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\React\\02-Hooks.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\React\\02-Hooks.md"
             },
             {
               "id": "前端-react-03-状态管理",
-              "name": "React 状态管理",
+              "name": "03-状态管理",
               "type": "file",
               "path": "/notes/前端-react-03-状态管理.md",
               "slug": "前端-react-03-状态管理",
+              "wordCount": 328,
               "relativePath": "前端/React/03-状态管理.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\React\\03-状态管理.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\React\\03-状态管理.md"
             },
             {
               "id": "前端-react-04-路由管理",
-              "name": "React Router 路由管理",
+              "name": "04-路由管理",
               "type": "file",
               "path": "/notes/前端-react-04-路由管理.md",
               "slug": "前端-react-04-路由管理",
+              "wordCount": 388,
               "relativePath": "前端/React/04-路由管理.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\React\\04-路由管理.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\React\\04-路由管理.md"
             },
             {
               "id": "前端-react-05-性能优化",
-              "name": "React 性能优化",
+              "name": "05-性能优化",
               "type": "file",
               "path": "/notes/前端-react-05-性能优化.md",
               "slug": "前端-react-05-性能优化",
+              "wordCount": 406,
               "relativePath": "前端/React/05-性能优化.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\React\\05-性能优化.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\React\\05-性能优化.md"
             },
             {
               "id": "前端-react-06-最佳实践",
-              "name": "React 最佳实践",
+              "name": "06-最佳实践",
               "type": "file",
               "path": "/notes/前端-react-06-最佳实践.md",
               "slug": "前端-react-06-最佳实践",
+              "wordCount": 363,
               "relativePath": "前端/React/06-最佳实践.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\React\\06-最佳实践.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\React\\06-最佳实践.md"
             },
             {
               "id": "前端-react-readme",
-              "name": "React 教程",
+              "name": "README",
               "type": "file",
               "path": "/notes/前端-react-readme.md",
               "slug": "前端-react-readme",
-              "description": "这是一个 React 学习教程集合，包含从基础到进阶的完整学习路径。\r",
+              "wordCount": 413,
               "relativePath": "前端/React/README.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\React\\README.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\React\\README.md"
             }
           ]
         },
@@ -995,76 +846,83 @@
           "children": [
             {
               "id": "前端-vue-01-基础入门",
-              "name": "Vue 3 基础入门",
+              "name": "01-基础入门",
               "type": "file",
               "path": "/notes/前端-vue-01-基础入门.md",
               "slug": "前端-vue-01-基础入门",
+              "wordCount": 248,
               "relativePath": "前端/Vue/01-基础入门.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\Vue\\01-基础入门.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\Vue\\01-基础入门.md"
             },
             {
               "id": "前端-vue-02-组件系统",
-              "name": "Vue 组件系统",
+              "name": "02-组件系统",
               "type": "file",
               "path": "/notes/前端-vue-02-组件系统.md",
               "slug": "前端-vue-02-组件系统",
+              "wordCount": 286,
               "relativePath": "前端/Vue/02-组件系统.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\Vue\\02-组件系统.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\Vue\\02-组件系统.md"
             },
             {
               "id": "前端-vue-03-响应式原理",
-              "name": "Vue 响应式原理",
+              "name": "03-响应式原理",
               "type": "file",
               "path": "/notes/前端-vue-03-响应式原理.md",
               "slug": "前端-vue-03-响应式原理",
+              "wordCount": 291,
               "relativePath": "前端/Vue/03-响应式原理.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\Vue\\03-响应式原理.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\Vue\\03-响应式原理.md"
             },
             {
               "id": "前端-vue-Composition-API",
-              "name": "Vue Composition API",
+              "name": "04-Composition-API",
               "type": "file",
               "path": "/notes/前端-vue-Composition-API.md",
               "slug": "前端-vue-Composition-API",
+              "wordCount": 374,
               "relativePath": "前端/Vue/04-Composition-API.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\Vue\\04-Composition-API.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\Vue\\04-Composition-API.md"
             },
             {
               "id": "前端-vue-05-路由管理",
-              "name": "Vue Router 路由管理",
+              "name": "05-路由管理",
               "type": "file",
               "path": "/notes/前端-vue-05-路由管理.md",
               "slug": "前端-vue-05-路由管理",
+              "wordCount": 377,
               "relativePath": "前端/Vue/05-路由管理.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\Vue\\05-路由管理.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\Vue\\05-路由管理.md"
             },
             {
               "id": "前端-vue-06-状态管理",
-              "name": "Vue 状态管理 - Pinia",
+              "name": "06-状态管理",
               "type": "file",
               "path": "/notes/前端-vue-06-状态管理.md",
               "slug": "前端-vue-06-状态管理",
+              "wordCount": 447,
               "relativePath": "前端/Vue/06-状态管理.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\Vue\\06-状态管理.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\Vue\\06-状态管理.md"
             },
             {
               "id": "前端-vue-07-最佳实践",
-              "name": "Vue 最佳实践",
+              "name": "07-最佳实践",
               "type": "file",
               "path": "/notes/前端-vue-07-最佳实践.md",
               "slug": "前端-vue-07-最佳实践",
+              "wordCount": 442,
               "relativePath": "前端/Vue/07-最佳实践.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\Vue\\07-最佳实践.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\Vue\\07-最佳实践.md"
             },
             {
               "id": "前端-vue-readme",
-              "name": "Vue.js 教程",
+              "name": "README",
               "type": "file",
               "path": "/notes/前端-vue-readme.md",
               "slug": "前端-vue-readme",
-              "description": "这是一个 Vue.js 学习教程集合，包含从基础到进阶的完整学习路径。\r",
+              "wordCount": 406,
               "relativePath": "前端/Vue/README.md",
-              "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\前端\\Vue\\README.md"
+              "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\前端\\Vue\\README.md"
             }
           ]
         }
@@ -1078,6 +936,1199 @@
       "path": "/category/事业单位编制备考笔记",
       "children": [
         {
+          "id": "刷题笔记",
+          "name": "刷题笔记",
+          "type": "folder",
+          "children": [
+            {
+              "id": "判断推理",
+              "name": "判断推理",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "判断说明",
+                  "name": "判断说明",
+                  "type": "file",
+                  "path": "/notes/判断说明.md",
+                  "slug": "判断说明",
+                  "wordCount": 930,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/判断说明.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\判断说明.md"
+                },
+                {
+                  "id": "图形推理_位置规律",
+                  "name": "图形推理_位置规律",
+                  "type": "file",
+                  "path": "/notes/图形推理_位置规律.md",
+                  "slug": "图形推理_位置规律",
+                  "wordCount": 2132,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/图形推理_位置规律.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\图形推理_位置规律.md"
+                },
+                {
+                  "id": "图形推理_属性规律",
+                  "name": "图形推理_属性规律",
+                  "type": "file",
+                  "path": "/notes/图形推理_属性规律.md",
+                  "slug": "图形推理_属性规律",
+                  "wordCount": 4743,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/图形推理_属性规律.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\图形推理_属性规律.md"
+                },
+                {
+                  "id": "图形推理_数量规律",
+                  "name": "图形推理_数量规律",
+                  "type": "file",
+                  "path": "/notes/图形推理_数量规律.md",
+                  "slug": "图形推理_数量规律",
+                  "wordCount": 7634,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/图形推理_数量规律.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\图形推理_数量规律.md"
+                },
+                {
+                  "id": "图形推理_样式规律",
+                  "name": "图形推理_样式规律",
+                  "type": "file",
+                  "path": "/notes/图形推理_样式规律.md",
+                  "slug": "图形推理_样式规律",
+                  "wordCount": 2842,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/图形推理_样式规律.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\图形推理_样式规律.md"
+                },
+                {
+                  "id": "图形推理_特殊规律",
+                  "name": "图形推理_特殊规律",
+                  "type": "file",
+                  "path": "/notes/图形推理_特殊规律.md",
+                  "slug": "图形推理_特殊规律",
+                  "wordCount": 3089,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/图形推理_特殊规律.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\图形推理_特殊规律.md"
+                },
+                {
+                  "id": "图形推理_空间重构",
+                  "name": "图形推理_空间重构",
+                  "type": "file",
+                  "path": "/notes/图形推理_空间重构.md",
+                  "slug": "图形推理_空间重构",
+                  "wordCount": 9496,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/图形推理_空间重构.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\图形推理_空间重构.md"
+                },
+                {
+                  "id": "定义判断_定义判断",
+                  "name": "定义判断_定义判断",
+                  "type": "file",
+                  "path": "/notes/定义判断_定义判断.md",
+                  "slug": "定义判断_定义判断",
+                  "wordCount": 12552,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/定义判断_定义判断.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\定义判断_定义判断.md"
+                },
+                {
+                  "id": "科学推理_化学",
+                  "name": "科学推理_化学",
+                  "type": "file",
+                  "path": "/notes/科学推理_化学.md",
+                  "slug": "科学推理_化学",
+                  "wordCount": 21181,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/科学推理_化学.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\科学推理_化学.md"
+                },
+                {
+                  "id": "科学推理_地理",
+                  "name": "科学推理_地理",
+                  "type": "file",
+                  "path": "/notes/科学推理_地理.md",
+                  "slug": "科学推理_地理",
+                  "wordCount": 5922,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/科学推理_地理.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\科学推理_地理.md"
+                },
+                {
+                  "id": "科学推理_物理",
+                  "name": "科学推理_物理",
+                  "type": "file",
+                  "path": "/notes/科学推理_物理.md",
+                  "slug": "科学推理_物理",
+                  "wordCount": 24941,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/科学推理_物理.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\科学推理_物理.md"
+                },
+                {
+                  "id": "科学推理_生物",
+                  "name": "科学推理_生物",
+                  "type": "file",
+                  "path": "/notes/科学推理_生物.md",
+                  "slug": "科学推理_生物",
+                  "wordCount": 1576,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/科学推理_生物.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\科学推理_生物.md"
+                },
+                {
+                  "id": "类比推理_其他考点",
+                  "name": "类比推理_其他考点",
+                  "type": "file",
+                  "path": "/notes/类比推理_其他考点.md",
+                  "slug": "类比推理_其他考点",
+                  "wordCount": 10101,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/类比推理_其他考点.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\类比推理_其他考点.md"
+                },
+                {
+                  "id": "类比推理_语义关系",
+                  "name": "类比推理_语义关系",
+                  "type": "file",
+                  "path": "/notes/类比推理_语义关系.md",
+                  "slug": "类比推理_语义关系",
+                  "wordCount": 6896,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/类比推理_语义关系.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\类比推理_语义关系.md"
+                },
+                {
+                  "id": "类比推理_语法关系",
+                  "name": "类比推理_语法关系",
+                  "type": "file",
+                  "path": "/notes/类比推理_语法关系.md",
+                  "slug": "类比推理_语法关系",
+                  "wordCount": 3374,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/类比推理_语法关系.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\类比推理_语法关系.md"
+                },
+                {
+                  "id": "类比推理_逻辑关系",
+                  "name": "类比推理_逻辑关系",
+                  "type": "file",
+                  "path": "/notes/类比推理_逻辑关系.md",
+                  "slug": "类比推理_逻辑关系",
+                  "wordCount": 16171,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/类比推理_逻辑关系.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\类比推理_逻辑关系.md"
+                },
+                {
+                  "id": "逻辑判断_加强削弱",
+                  "name": "逻辑判断_加强削弱",
+                  "type": "file",
+                  "path": "/notes/逻辑判断_加强削弱.md",
+                  "slug": "逻辑判断_加强削弱",
+                  "wordCount": 29314,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_加强削弱.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\逻辑判断_加强削弱.md"
+                },
+                {
+                  "id": "逻辑判断_原因解释",
+                  "name": "逻辑判断_原因解释",
+                  "type": "file",
+                  "path": "/notes/逻辑判断_原因解释.md",
+                  "slug": "逻辑判断_原因解释",
+                  "wordCount": 9942,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_原因解释.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\逻辑判断_原因解释.md"
+                },
+                {
+                  "id": "逻辑判断_日常结论",
+                  "name": "逻辑判断_日常结论",
+                  "type": "file",
+                  "path": "/notes/逻辑判断_日常结论.md",
+                  "slug": "逻辑判断_日常结论",
+                  "wordCount": 6717,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_日常结论.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\逻辑判断_日常结论.md"
+                },
+                {
+                  "id": "逻辑判断_组合排列",
+                  "name": "逻辑判断_组合排列",
+                  "type": "file",
+                  "path": "/notes/逻辑判断_组合排列.md",
+                  "slug": "逻辑判断_组合排列",
+                  "wordCount": 12767,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_组合排列.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\逻辑判断_组合排列.md"
+                },
+                {
+                  "id": "逻辑判断_结构相似",
+                  "name": "逻辑判断_结构相似",
+                  "type": "file",
+                  "path": "/notes/逻辑判断_结构相似.md",
+                  "slug": "逻辑判断_结构相似",
+                  "wordCount": 10809,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_结构相似.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\逻辑判断_结构相似.md"
+                },
+                {
+                  "id": "逻辑判断_翻译推理",
+                  "name": "逻辑判断_翻译推理",
+                  "type": "file",
+                  "path": "/notes/逻辑判断_翻译推理.md",
+                  "slug": "逻辑判断_翻译推理",
+                  "wordCount": 16980,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_翻译推理.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\逻辑判断_翻译推理.md"
+                },
+                {
+                  "id": "逻辑判断_集合推理",
+                  "name": "逻辑判断_集合推理",
+                  "type": "file",
+                  "path": "/notes/逻辑判断_集合推理.md",
+                  "slug": "逻辑判断_集合推理",
+                  "description": "集合推理 正文 集合推理 是一个相对“小众”的考点，考频不高。 集合推理是一种研究范围的题型。通俗点说，就是研究“所有”（确定范围）和“有的”（不确定范围）的题型。 一、题目特征 有的”等表示集合概念的词语'),l('},",
+                  "wordCount": 111,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_集合推理.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\判断推理\\逻辑判断_集合推理.md"
+                }
+              ]
+            },
+            {
+              "id": "常识判断",
+              "name": "常识判断",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "人文篇_古代文化",
+                  "name": "人文篇_古代文化",
+                  "type": "file",
+                  "path": "/notes/人文篇_古代文化.md",
+                  "slug": "人文篇_古代文化",
+                  "wordCount": 6151,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/人文篇_古代文化.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\人文篇_古代文化.md"
+                },
+                {
+                  "id": "人文篇_古代文学",
+                  "name": "人文篇_古代文学",
+                  "type": "file",
+                  "path": "/notes/人文篇_古代文学.md",
+                  "slug": "人文篇_古代文学",
+                  "wordCount": 5332,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/人文篇_古代文学.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\人文篇_古代文学.md"
+                },
+                {
+                  "id": "人文篇_现代文化",
+                  "name": "人文篇_现代文化",
+                  "type": "file",
+                  "path": "/notes/人文篇_现代文化.md",
+                  "slug": "人文篇_现代文化",
+                  "wordCount": 5474,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/人文篇_现代文化.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\人文篇_现代文化.md"
+                },
+                {
+                  "id": "人文篇_现代文学",
+                  "name": "人文篇_现代文学",
+                  "type": "file",
+                  "path": "/notes/人文篇_现代文学.md",
+                  "slug": "人文篇_现代文学",
+                  "wordCount": 5532,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/人文篇_现代文学.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\人文篇_现代文学.md"
+                },
+                {
+                  "id": "公文篇",
+                  "name": "公文篇",
+                  "type": "file",
+                  "path": "/notes/公文篇.md",
+                  "slug": "公文篇",
+                  "wordCount": 952,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/公文篇.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\公文篇.md"
+                },
+                {
+                  "id": "历史篇_世界历史",
+                  "name": "历史篇_世界历史",
+                  "type": "file",
+                  "path": "/notes/历史篇_世界历史.md",
+                  "slug": "历史篇_世界历史",
+                  "wordCount": 6834,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/历史篇_世界历史.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\历史篇_世界历史.md"
+                },
+                {
+                  "id": "历史篇_中国古代史",
+                  "name": "历史篇_中国古代史",
+                  "type": "file",
+                  "path": "/notes/历史篇_中国古代史.md",
+                  "slug": "历史篇_中国古代史",
+                  "wordCount": 9955,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/历史篇_中国古代史.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\历史篇_中国古代史.md"
+                },
+                {
+                  "id": "历史篇_中国现代史",
+                  "name": "历史篇_中国现代史",
+                  "type": "file",
+                  "path": "/notes/历史篇_中国现代史.md",
+                  "slug": "历史篇_中国现代史",
+                  "wordCount": 8355,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/历史篇_中国现代史.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\历史篇_中国现代史.md"
+                },
+                {
+                  "id": "历史篇_中国近代史",
+                  "name": "历史篇_中国近代史",
+                  "type": "file",
+                  "path": "/notes/历史篇_中国近代史.md",
+                  "slug": "历史篇_中国近代史",
+                  "wordCount": 4309,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/历史篇_中国近代史.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\历史篇_中国近代史.md"
+                },
+                {
+                  "id": "国情省情",
+                  "name": "国情省情",
+                  "type": "file",
+                  "path": "/notes/国情省情.md",
+                  "slug": "国情省情",
+                  "wordCount": 644,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/国情省情.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\国情省情.md"
+                },
+                {
+                  "id": "国防与军队",
+                  "name": "国防与军队",
+                  "type": "file",
+                  "path": "/notes/国防与军队.md",
+                  "slug": "国防与军队",
+                  "wordCount": 14357,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/国防与军队.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\国防与军队.md"
+                },
+                {
+                  "id": "常识说明",
+                  "name": "常识说明",
+                  "type": "file",
+                  "path": "/notes/常识说明.md",
+                  "slug": "常识说明",
+                  "wordCount": 955,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/常识说明.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\常识说明.md"
+                },
+                {
+                  "id": "毛泽东思想",
+                  "name": "毛泽东思想",
+                  "type": "file",
+                  "path": "/notes/毛泽东思想.md",
+                  "slug": "毛泽东思想",
+                  "wordCount": 5386,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/毛泽东思想.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\毛泽东思想.md"
+                },
+                {
+                  "id": "法律篇_其他法律法规",
+                  "name": "法律篇_其他法律法规",
+                  "type": "file",
+                  "path": "/notes/法律篇_其他法律法规.md",
+                  "slug": "法律篇_其他法律法规",
+                  "wordCount": 29413,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/法律篇_其他法律法规.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\法律篇_其他法律法规.md"
+                },
+                {
+                  "id": "法律篇_刑法",
+                  "name": "法律篇_刑法",
+                  "type": "file",
+                  "path": "/notes/法律篇_刑法.md",
+                  "slug": "法律篇_刑法",
+                  "wordCount": 24554,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/法律篇_刑法.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\法律篇_刑法.md"
+                },
+                {
+                  "id": "法律篇_宪法",
+                  "name": "法律篇_宪法",
+                  "type": "file",
+                  "path": "/notes/法律篇_宪法.md",
+                  "slug": "法律篇_宪法",
+                  "wordCount": 7108,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/法律篇_宪法.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\法律篇_宪法.md"
+                },
+                {
+                  "id": "法律篇_民法典",
+                  "name": "法律篇_民法典",
+                  "type": "file",
+                  "path": "/notes/法律篇_民法典.md",
+                  "slug": "法律篇_民法典",
+                  "wordCount": 30225,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/法律篇_民法典.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\法律篇_民法典.md"
+                },
+                {
+                  "id": "法律篇_法理学",
+                  "name": "法律篇_法理学",
+                  "type": "file",
+                  "path": "/notes/法律篇_法理学.md",
+                  "slug": "法律篇_法理学",
+                  "wordCount": 7315,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/法律篇_法理学.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\法律篇_法理学.md"
+                },
+                {
+                  "id": "法律篇_行政法",
+                  "name": "法律篇_行政法",
+                  "type": "file",
+                  "path": "/notes/法律篇_行政法.md",
+                  "slug": "法律篇_行政法",
+                  "wordCount": 23300,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/法律篇_行政法.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\法律篇_行政法.md"
+                },
+                {
+                  "id": "科技篇_化学知识",
+                  "name": "科技篇_化学知识",
+                  "type": "file",
+                  "path": "/notes/科技篇_化学知识.md",
+                  "slug": "科技篇_化学知识",
+                  "wordCount": 9395,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/科技篇_化学知识.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\科技篇_化学知识.md"
+                },
+                {
+                  "id": "科技篇_地理",
+                  "name": "科技篇_地理",
+                  "type": "file",
+                  "path": "/notes/科技篇_地理.md",
+                  "slug": "科技篇_地理",
+                  "wordCount": 566,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/科技篇_地理.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\科技篇_地理.md"
+                },
+                {
+                  "id": "科技篇_物理知识",
+                  "name": "科技篇_物理知识",
+                  "type": "file",
+                  "path": "/notes/科技篇_物理知识.md",
+                  "slug": "科技篇_物理知识",
+                  "wordCount": 5364,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/科技篇_物理知识.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\科技篇_物理知识.md"
+                },
+                {
+                  "id": "科技篇_生活常识",
+                  "name": "科技篇_生活常识",
+                  "type": "file",
+                  "path": "/notes/科技篇_生活常识.md",
+                  "slug": "科技篇_生活常识",
+                  "wordCount": 7121,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/科技篇_生活常识.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\科技篇_生活常识.md"
+                },
+                {
+                  "id": "科技篇_生物医学知识",
+                  "name": "科技篇_生物医学知识",
+                  "type": "file",
+                  "path": "/notes/科技篇_生物医学知识.md",
+                  "slug": "科技篇_生物医学知识",
+                  "wordCount": 13336,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/科技篇_生物医学知识.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\科技篇_生物医学知识.md"
+                },
+                {
+                  "id": "科技篇_科技知识",
+                  "name": "科技篇_科技知识",
+                  "type": "file",
+                  "path": "/notes/科技篇_科技知识.md",
+                  "slug": "科技篇_科技知识",
+                  "wordCount": 1124,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/科技篇_科技知识.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\科技篇_科技知识.md"
+                },
+                {
+                  "id": "管理篇",
+                  "name": "管理篇",
+                  "type": "file",
+                  "path": "/notes/管理篇.md",
+                  "slug": "管理篇",
+                  "wordCount": 13214,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/管理篇.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\管理篇.md"
+                },
+                {
+                  "id": "经济篇_国际经济",
+                  "name": "经济篇_国际经济",
+                  "type": "file",
+                  "path": "/notes/经济篇_国际经济.md",
+                  "slug": "经济篇_国际经济",
+                  "wordCount": 3938,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/经济篇_国际经济.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\经济篇_国际经济.md"
+                },
+                {
+                  "id": "经济篇_宏观经济",
+                  "name": "经济篇_宏观经济",
+                  "type": "file",
+                  "path": "/notes/经济篇_宏观经济.md",
+                  "slug": "经济篇_宏观经济",
+                  "wordCount": 6688,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/经济篇_宏观经济.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\经济篇_宏观经济.md"
+                },
+                {
+                  "id": "经济篇_市场经济理论",
+                  "name": "经济篇_市场经济理论",
+                  "type": "file",
+                  "path": "/notes/经济篇_市场经济理论.md",
+                  "slug": "经济篇_市场经济理论",
+                  "wordCount": 3507,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/经济篇_市场经济理论.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\经济篇_市场经济理论.md"
+                },
+                {
+                  "id": "经济篇_微观经济",
+                  "name": "经济篇_微观经济",
+                  "type": "file",
+                  "path": "/notes/经济篇_微观经济.md",
+                  "slug": "经济篇_微观经济",
+                  "wordCount": 2723,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/经济篇_微观经济.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\经济篇_微观经济.md"
+                },
+                {
+                  "id": "经济篇_收入分配",
+                  "name": "经济篇_收入分配",
+                  "type": "file",
+                  "path": "/notes/经济篇_收入分配.md",
+                  "slug": "经济篇_收入分配",
+                  "wordCount": 897,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/经济篇_收入分配.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\经济篇_收入分配.md"
+                },
+                {
+                  "id": "经济篇_马克思主义政治经济学",
+                  "name": "经济篇_马克思主义政治经济学",
+                  "type": "file",
+                  "path": "/notes/经济篇_马克思主义政治经济学.md",
+                  "slug": "经济篇_马克思主义政治经济学",
+                  "wordCount": 4974,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/经济篇_马克思主义政治经济学.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\经济篇_马克思主义政治经济学.md"
+                },
+                {
+                  "id": "荣誉成就",
+                  "name": "荣誉成就",
+                  "type": "file",
+                  "path": "/notes/荣誉成就.md",
+                  "slug": "荣誉成就",
+                  "wordCount": 14744,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/荣誉成就.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\荣誉成就.md"
+                },
+                {
+                  "id": "马克思主义哲学",
+                  "name": "马克思主义哲学",
+                  "type": "file",
+                  "path": "/notes/马克思主义哲学.md",
+                  "slug": "马克思主义哲学",
+                  "wordCount": 16126,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/马克思主义哲学.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\常识判断\\马克思主义哲学.md"
+                }
+              ]
+            },
+            {
+              "id": "数量关系",
+              "name": "数量关系",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "数字推理_分数数列",
+                  "name": "数字推理_分数数列",
+                  "type": "file",
+                  "path": "/notes/数字推理_分数数列.md",
+                  "slug": "数字推理_分数数列",
+                  "wordCount": 2695,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_分数数列.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数字推理_分数数列.md"
+                },
+                {
+                  "id": "数字推理_图像数列",
+                  "name": "数字推理_图像数列",
+                  "type": "file",
+                  "path": "/notes/数字推理_图像数列.md",
+                  "slug": "数字推理_图像数列",
+                  "wordCount": 2937,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_图像数列.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数字推理_图像数列.md"
+                },
+                {
+                  "id": "数字推理_基础数列",
+                  "name": "数字推理_基础数列",
+                  "type": "file",
+                  "path": "/notes/数字推理_基础数列.md",
+                  "slug": "数字推理_基础数列",
+                  "wordCount": 1488,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_基础数列.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数字推理_基础数列.md"
+                },
+                {
+                  "id": "数字推理_多级数列",
+                  "name": "数字推理_多级数列",
+                  "type": "file",
+                  "path": "/notes/数字推理_多级数列.md",
+                  "slug": "数字推理_多级数列",
+                  "wordCount": 2223,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_多级数列.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数字推理_多级数列.md"
+                },
+                {
+                  "id": "数字推理_多重数列",
+                  "name": "数字推理_多重数列",
+                  "type": "file",
+                  "path": "/notes/数字推理_多重数列.md",
+                  "slug": "数字推理_多重数列",
+                  "wordCount": 2073,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_多重数列.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数字推理_多重数列.md"
+                },
+                {
+                  "id": "数字推理_幂次数列",
+                  "name": "数字推理_幂次数列",
+                  "type": "file",
+                  "path": "/notes/数字推理_幂次数列.md",
+                  "slug": "数字推理_幂次数列",
+                  "wordCount": 1924,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_幂次数列.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数字推理_幂次数列.md"
+                },
+                {
+                  "id": "数字推理_特殊数列",
+                  "name": "数字推理_特殊数列",
+                  "type": "file",
+                  "path": "/notes/数字推理_特殊数列.md",
+                  "slug": "数字推理_特殊数列",
+                  "wordCount": 2675,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_特殊数列.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数字推理_特殊数列.md"
+                },
+                {
+                  "id": "数字推理_递推数列",
+                  "name": "数字推理_递推数列",
+                  "type": "file",
+                  "path": "/notes/数字推理_递推数列.md",
+                  "slug": "数字推理_递推数列",
+                  "wordCount": 2134,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_递推数列.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数字推理_递推数列.md"
+                },
+                {
+                  "id": "数学常识",
+                  "name": "数学常识",
+                  "type": "file",
+                  "path": "/notes/数学常识.md",
+                  "slug": "数学常识",
+                  "wordCount": 2133,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学常识.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学常识.md"
+                },
+                {
+                  "id": "数学运算_代入排除",
+                  "name": "数学运算_代入排除",
+                  "type": "file",
+                  "path": "/notes/数学运算_代入排除.md",
+                  "slug": "数学运算_代入排除",
+                  "wordCount": 3697,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_代入排除.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_代入排除.md"
+                },
+                {
+                  "id": "数学运算_余数特性",
+                  "name": "数学运算_余数特性",
+                  "type": "file",
+                  "path": "/notes/数学运算_余数特性.md",
+                  "slug": "数学运算_余数特性",
+                  "wordCount": 3108,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_余数特性.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_余数特性.md"
+                },
+                {
+                  "id": "数学运算_倍数特性",
+                  "name": "数学运算_倍数特性",
+                  "type": "file",
+                  "path": "/notes/数学运算_倍数特性.md",
+                  "slug": "数学运算_倍数特性",
+                  "wordCount": 5052,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_倍数特性.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_倍数特性.md"
+                },
+                {
+                  "id": "数学运算_几何问题",
+                  "name": "数学运算_几何问题",
+                  "type": "file",
+                  "path": "/notes/数学运算_几何问题.md",
+                  "slug": "数学运算_几何问题",
+                  "wordCount": 10091,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_几何问题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_几何问题.md"
+                },
+                {
+                  "id": "数学运算_十字交叉",
+                  "name": "数学运算_十字交叉",
+                  "type": "file",
+                  "path": "/notes/数学运算_十字交叉.md",
+                  "slug": "数学运算_十字交叉",
+                  "wordCount": 4057,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_十字交叉.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_十字交叉.md"
+                },
+                {
+                  "id": "数学运算_奇偶特性",
+                  "name": "数学运算_奇偶特性",
+                  "type": "file",
+                  "path": "/notes/数学运算_奇偶特性.md",
+                  "slug": "数学运算_奇偶特性",
+                  "wordCount": 3201,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_奇偶特性.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_奇偶特性.md"
+                },
+                {
+                  "id": "数学运算_容斥问题",
+                  "name": "数学运算_容斥问题",
+                  "type": "file",
+                  "path": "/notes/数学运算_容斥问题.md",
+                  "slug": "数学运算_容斥问题",
+                  "wordCount": 3457,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_容斥问题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_容斥问题.md"
+                },
+                {
+                  "id": "数学运算_工程问题",
+                  "name": "数学运算_工程问题",
+                  "type": "file",
+                  "path": "/notes/数学运算_工程问题.md",
+                  "slug": "数学运算_工程问题",
+                  "wordCount": 2611,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_工程问题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_工程问题.md"
+                },
+                {
+                  "id": "数学运算_排列组合及概率",
+                  "name": "数学运算_排列组合及概率",
+                  "type": "file",
+                  "path": "/notes/数学运算_排列组合及概率.md",
+                  "slug": "数学运算_排列组合及概率",
+                  "wordCount": 7202,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_排列组合及概率.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_排列组合及概率.md"
+                },
+                {
+                  "id": "数学运算_方程思想",
+                  "name": "数学运算_方程思想",
+                  "type": "file",
+                  "path": "/notes/数学运算_方程思想.md",
+                  "slug": "数学运算_方程思想",
+                  "wordCount": 7798,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_方程思想.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_方程思想.md"
+                },
+                {
+                  "id": "数学运算_方阵问题",
+                  "name": "数学运算_方阵问题",
+                  "type": "file",
+                  "path": "/notes/数学运算_方阵问题.md",
+                  "slug": "数学运算_方阵问题",
+                  "wordCount": 1864,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_方阵问题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_方阵问题.md"
+                },
+                {
+                  "id": "数学运算_最值问题",
+                  "name": "数学运算_最值问题",
+                  "type": "file",
+                  "path": "/notes/数学运算_最值问题.md",
+                  "slug": "数学运算_最值问题",
+                  "wordCount": 4269,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_最值问题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_最值问题.md"
+                },
+                {
+                  "id": "数学运算_溶液问题",
+                  "name": "数学运算_溶液问题",
+                  "type": "file",
+                  "path": "/notes/数学运算_溶液问题.md",
+                  "slug": "数学运算_溶液问题",
+                  "wordCount": 5160,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_溶液问题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_溶液问题.md"
+                },
+                {
+                  "id": "数学运算_牛吃草问题",
+                  "name": "数学运算_牛吃草问题",
+                  "type": "file",
+                  "path": "/notes/数学运算_牛吃草问题.md",
+                  "slug": "数学运算_牛吃草问题",
+                  "wordCount": 4322,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_牛吃草问题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_牛吃草问题.md"
+                },
+                {
+                  "id": "数学运算_经济利润问题",
+                  "name": "数学运算_经济利润问题",
+                  "type": "file",
+                  "path": "/notes/数学运算_经济利润问题.md",
+                  "slug": "数学运算_经济利润问题",
+                  "wordCount": 4280,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_经济利润问题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_经济利润问题.md"
+                },
+                {
+                  "id": "数学运算_行程问题",
+                  "name": "数学运算_行程问题",
+                  "type": "file",
+                  "path": "/notes/数学运算_行程问题.md",
+                  "slug": "数学运算_行程问题",
+                  "wordCount": 9529,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_行程问题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_行程问题.md"
+                },
+                {
+                  "id": "数学运算_计算问题",
+                  "name": "数学运算_计算问题",
+                  "type": "file",
+                  "path": "/notes/数学运算_计算问题.md",
+                  "slug": "数学运算_计算问题",
+                  "wordCount": 13633,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_计算问题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_计算问题.md"
+                },
+                {
+                  "id": "数学运算_赋值思想",
+                  "name": "数学运算_赋值思想",
+                  "type": "file",
+                  "path": "/notes/数学运算_赋值思想.md",
+                  "slug": "数学运算_赋值思想",
+                  "wordCount": 3150,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_赋值思想.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_赋值思想.md"
+                },
+                {
+                  "id": "数学运算_逆向推理",
+                  "name": "数学运算_逆向推理",
+                  "type": "file",
+                  "path": "/notes/数学运算_逆向推理.md",
+                  "slug": "数学运算_逆向推理",
+                  "wordCount": 3104,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_逆向推理.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\数量关系\\数学运算_逆向推理.md"
+                }
+              ]
+            },
+            {
+              "id": "言语理解",
+              "name": "言语理解",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "反面论证",
+                  "name": "反面论证",
+                  "type": "file",
+                  "path": "/notes/反面论证.md",
+                  "slug": "反面论证",
+                  "wordCount": 6377,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/反面论证.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\反面论证.md"
+                },
+                {
+                  "id": "因果关系",
+                  "name": "因果关系",
+                  "type": "file",
+                  "path": "/notes/因果关系.md",
+                  "slug": "因果关系",
+                  "wordCount": 7083,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/因果关系.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\因果关系.md"
+                },
+                {
+                  "id": "并列关系",
+                  "name": "并列关系",
+                  "type": "file",
+                  "path": "/notes/并列关系.md",
+                  "slug": "并列关系",
+                  "wordCount": 315,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/并列关系.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\并列关系.md"
+                },
+                {
+                  "id": "推断下文",
+                  "name": "推断下文",
+                  "type": "file",
+                  "path": "/notes/推断下文.md",
+                  "slug": "推断下文",
+                  "wordCount": 5955,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/推断下文.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\推断下文.md"
+                },
+                {
+                  "id": "条件关系",
+                  "name": "条件关系",
+                  "type": "file",
+                  "path": "/notes/条件关系.md",
+                  "slug": "条件关系",
+                  "wordCount": 6104,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/条件关系.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\条件关系.md"
+                },
+                {
+                  "id": "标题填入",
+                  "name": "标题填入",
+                  "type": "file",
+                  "path": "/notes/标题填入.md",
+                  "slug": "标题填入",
+                  "wordCount": 6549,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/标题填入.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\标题填入.md"
+                },
+                {
+                  "id": "歧义句辨析",
+                  "name": "歧义句辨析",
+                  "type": "file",
+                  "path": "/notes/歧义句辨析.md",
+                  "slug": "歧义句辨析",
+                  "wordCount": 2388,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/歧义句辨析.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\歧义句辨析.md"
+                },
+                {
+                  "id": "病句辨析",
+                  "name": "病句辨析",
+                  "type": "file",
+                  "path": "/notes/病句辨析.md",
+                  "slug": "病句辨析",
+                  "wordCount": 10471,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/病句辨析.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\病句辨析.md"
+                },
+                {
+                  "id": "篇章阅读",
+                  "name": "篇章阅读",
+                  "type": "file",
+                  "path": "/notes/篇章阅读.md",
+                  "slug": "篇章阅读",
+                  "wordCount": 9464,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/篇章阅读.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\篇章阅读.md"
+                },
+                {
+                  "id": "细节判断",
+                  "name": "细节判断",
+                  "type": "file",
+                  "path": "/notes/细节判断.md",
+                  "slug": "细节判断",
+                  "wordCount": 7200,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/细节判断.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\细节判断.md"
+                },
+                {
+                  "id": "行文脉络",
+                  "name": "行文脉络",
+                  "type": "file",
+                  "path": "/notes/行文脉络.md",
+                  "slug": "行文脉络",
+                  "wordCount": 6430,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/行文脉络.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\行文脉络.md"
+                },
+                {
+                  "id": "言语说明",
+                  "name": "言语说明",
+                  "type": "file",
+                  "path": "/notes/言语说明.md",
+                  "slug": "言语说明",
+                  "wordCount": 1183,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/言语说明.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\言语说明.md"
+                },
+                {
+                  "id": "词义辨析",
+                  "name": "词义辨析",
+                  "type": "file",
+                  "path": "/notes/词义辨析.md",
+                  "slug": "词义辨析",
+                  "wordCount": 10058,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/词义辨析.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\词义辨析.md"
+                },
+                {
+                  "id": "词句理解",
+                  "name": "词句理解",
+                  "type": "file",
+                  "path": "/notes/词句理解.md",
+                  "slug": "词句理解",
+                  "wordCount": 6555,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/词句理解.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\词句理解.md"
+                },
+                {
+                  "id": "词语积累",
+                  "name": "词语积累",
+                  "type": "file",
+                  "path": "/notes/词语积累.md",
+                  "slug": "词语积累",
+                  "wordCount": 17232,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/词语积累.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\词语积累.md"
+                },
+                {
+                  "id": "语句填空",
+                  "name": "语句填空",
+                  "type": "file",
+                  "path": "/notes/语句填空.md",
+                  "slug": "语句填空",
+                  "wordCount": 7565,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/语句填空.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\语句填空.md"
+                },
+                {
+                  "id": "语句排序",
+                  "name": "语句排序",
+                  "type": "file",
+                  "path": "/notes/语句排序.md",
+                  "slug": "语句排序",
+                  "wordCount": 8709,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/语句排序.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\语句排序.md"
+                },
+                {
+                  "id": "语境分析",
+                  "name": "语境分析",
+                  "type": "file",
+                  "path": "/notes/语境分析.md",
+                  "slug": "语境分析",
+                  "wordCount": 13466,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/语境分析.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\语境分析.md"
+                },
+                {
+                  "id": "转折关系",
+                  "name": "转折关系",
+                  "type": "file",
+                  "path": "/notes/转折关系.md",
+                  "slug": "转折关系",
+                  "wordCount": 6059,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/转折关系.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\转折关系.md"
+                },
+                {
+                  "id": "递进关系",
+                  "name": "递进关系",
+                  "type": "file",
+                  "path": "/notes/递进关系.md",
+                  "slug": "递进关系",
+                  "wordCount": 5527,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/递进关系.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\言语理解\\递进关系.md"
+                }
+              ]
+            },
+            {
+              "id": "资料分析",
+              "name": "资料分析",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "倍数专题",
+                  "name": "倍数专题",
+                  "type": "file",
+                  "path": "/notes/倍数专题.md",
+                  "slug": "倍数专题",
+                  "wordCount": 5727,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/倍数专题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\资料分析\\倍数专题.md"
+                },
+                {
+                  "id": "增长率专题",
+                  "name": "增长率专题",
+                  "type": "file",
+                  "path": "/notes/增长率专题.md",
+                  "slug": "增长率专题",
+                  "wordCount": 9039,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/增长率专题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\资料分析\\增长率专题.md"
+                },
+                {
+                  "id": "增长量专题",
+                  "name": "增长量专题",
+                  "type": "file",
+                  "path": "/notes/增长量专题.md",
+                  "slug": "增长量专题",
+                  "wordCount": 5992,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/增长量专题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\资料分析\\增长量专题.md"
+                },
+                {
+                  "id": "平均数专题",
+                  "name": "平均数专题",
+                  "type": "file",
+                  "path": "/notes/平均数专题.md",
+                  "slug": "平均数专题",
+                  "wordCount": 5660,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/平均数专题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\资料分析\\平均数专题.md"
+                },
+                {
+                  "id": "开篇",
+                  "name": "开篇",
+                  "type": "file",
+                  "path": "/notes/开篇.md",
+                  "slug": "开篇",
+                  "wordCount": 1924,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/开篇.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\资料分析\\开篇.md"
+                },
+                {
+                  "id": "比重专题",
+                  "name": "比重专题",
+                  "type": "file",
+                  "path": "/notes/比重专题.md",
+                  "slug": "比重专题",
+                  "wordCount": 8277,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/比重专题.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\资料分析\\比重专题.md"
+                },
+                {
+                  "id": "秒杀技巧",
+                  "name": "秒杀技巧",
+                  "type": "file",
+                  "path": "/notes/秒杀技巧.md",
+                  "slug": "秒杀技巧",
+                  "wordCount": 7542,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/秒杀技巧.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\资料分析\\秒杀技巧.md"
+                },
+                {
+                  "id": "结构阅读法",
+                  "name": "结构阅读法",
+                  "type": "file",
+                  "path": "/notes/结构阅读法.md",
+                  "slug": "结构阅读法",
+                  "wordCount": 1816,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/结构阅读法.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\资料分析\\结构阅读法.md"
+                },
+                {
+                  "id": "资料说明",
+                  "name": "资料说明",
+                  "type": "file",
+                  "path": "/notes/资料说明.md",
+                  "slug": "资料说明",
+                  "wordCount": 838,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/资料说明.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\资料分析\\资料说明.md"
+                },
+                {
+                  "id": "速算技巧",
+                  "name": "速算技巧",
+                  "type": "file",
+                  "path": "/notes/速算技巧.md",
+                  "slug": "速算技巧",
+                  "wordCount": 13809,
+                  "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/速算技巧.md",
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\刷题笔记\\资料分析\\速算技巧.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "理论课",
           "name": "理论课",
           "type": "folder",
@@ -1089,13 +2140,13 @@
               "children": [
                 {
                   "id": "第一章节---哲学概述",
-                  "name": "第一章节---哲学概述",
+                  "name": "第一章节  - 哲学概述",
                   "type": "file",
                   "path": "/notes/第一章节---哲学概述.md",
                   "slug": "第一章节---哲学概述",
-                  "description": "!(img/Pasted%20image%2020260325210221.png)",
+                  "wordCount": 1364,
                   "relativePath": "事业单位编制备考笔记/理论课/哲学/第一章节  - 哲学概述.md",
-                  "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\理论课\\哲学\\第一章节  - 哲学概述.md"
+                  "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\事业单位编制备考笔记\\理论课\\哲学\\第一章节  - 哲学概述.md"
                 }
               ]
             }
@@ -1112,12 +2163,14 @@
       "children": [
         {
           "id": "工具函数",
-          "name": "前端实用工具函数集合",
+          "name": "工具函数",
           "type": "file",
           "path": "/notes/工具函数.md",
           "slug": "工具函数",
+          "description": "前端实用工具函数集合 1. 异步错误处理 2. 防抖与节流 3. 深拷贝 4. 日期格式化 5. 数字格式化 6. 数组处理 7. 对象处理 8. URL 和查询参数 9. 本地存储 10. 表单验证 11. DOM 操作 12. 其他实用函数 13. 函数组合",
+          "wordCount": 131,
           "relativePath": "CodeBlock/工具函数.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\CodeBlock\\工具函数.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\CodeBlock\\工具函数.md"
         }
       ]
     },
@@ -1130,191 +2183,216 @@
       "children": [
         {
           "id": "01-快速开始",
-          "name": "Nest.js 快速开始",
+          "name": "01-快速开始",
           "type": "file",
           "path": "/notes/01-快速开始.md",
           "slug": "01-快速开始",
-          "description": "启动后访问: http://localhost:3000",
+          "description": "Nest.js 快速开始 安装 使用 CLI 创建项目 手动安装 项目结构 第一个应用 1. 创建模块 (Module) 2. 创建控制器 (Controller) 3. 创建服务 (Service) 4. 启动应用 常用命令 访问应用 启动后访问:",
+          "wordCount": 125,
           "relativePath": "Nest/01-快速开始.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\01-快速开始.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\01-快速开始.md"
         },
         {
           "id": "02-核心概念",
-          "name": "Nest.js 核心概念",
+          "name": "02-核心概念",
           "type": "file",
           "path": "/notes/02-核心概念.md",
           "slug": "02-核心概念",
-          "description": "模块是 Nest.js 应用的基本构建块，用于组织代码。\r",
+          "wordCount": 260,
           "relativePath": "Nest/02-核心概念.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\02-核心概念.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\02-核心概念.md"
         },
         {
           "id": "03-依赖注入",
-          "name": "Nest.js 依赖注入",
+          "name": "03-依赖注入",
           "type": "file",
           "path": "/notes/03-依赖注入.md",
           "slug": "03-依赖注入",
-          "description": "依赖注入（DI）是一种设计模式，用于管理类之间的依赖关系。Nest.js 内置了强大的 DI 容器。",
+          "wordCount": 252,
           "relativePath": "Nest/03-依赖注入.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\03-依赖注入.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\03-依赖注入.md"
         },
         {
           "id": "04-中间件",
-          "name": "Nest.js 中间件",
+          "name": "04-中间件",
           "type": "file",
           "path": "/notes/04-中间件.md",
           "slug": "04-中间件",
-          "description": "中间件是在路由处理器之前执行的函数，可以访问请求和响应对象。",
+          "description": "Nest.js 中间件 什么是中间件 中间件是在路由处理器之前执行的函数，可以访问请求和响应对象。 创建中间件 1. 函数式中间件 2. 类中间件 应用中间件 在模块中应用 路由匹配 多个中间件 全局中间件 功能中间件 异步中间件 常见中间件示例 日志中间件 CORS 中间件 认证中间件",
+          "wordCount": 144,
           "relativePath": "Nest/04-中间件.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\04-中间件.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\04-中间件.md"
         },
         {
           "id": "05-异常处理",
-          "name": "Nest.js 异常处理",
+          "name": "05-异常处理",
           "type": "file",
           "path": "/notes/05-异常处理.md",
           "slug": "05-异常处理",
+          "description": "Nest.js 异常处理 内置异常 Nest.js 提供了内置的异常类： 自定义异常 异常过滤器 异常过滤器可以捕获和处理异常。 创建异常过滤器 捕获特定异常 应用异常过滤器 方法级别 控制器级别 全局级别 模块级别 继承异常 常见异常处理示例 业务异常 验证异常 日志记录异常",
+          "wordCount": 139,
           "relativePath": "Nest/05-异常处理.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\05-异常处理.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\05-异常处理.md"
         },
         {
           "id": "06-管道",
-          "name": "Nest.js 管道",
+          "name": "06-管道",
           "type": "file",
           "path": "/notes/06-管道.md",
           "slug": "06-管道",
+          "wordCount": 292,
           "relativePath": "Nest/06-管道.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\06-管道.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\06-管道.md"
         },
         {
           "id": "07-守卫",
-          "name": "Nest.js 守卫",
+          "name": "07-守卫",
           "type": "file",
           "path": "/notes/07-守卫.md",
           "slug": "07-守卫",
-          "description": "守卫是一个使用 @Injectable() 装饰器的类，实现了 CanActivate 接口。守卫在中间件之后、拦截器之前执行。",
+          "description": "Nest.js 守卫 什么是守卫 守卫是一个使用 装饰器的类，实现了 接口。守卫在中间件之后、拦截器之前执行。 创建守卫 使用守卫 控制器级别 方法级别 全局守卫 模块级别 认证守卫示例 角色守卫 自定义装饰器 角色装饰器 使用 组合多个守卫 执行上下文 用户装饰器 常见守卫模式 JWT 认证守卫 API Key 守卫",
+          "wordCount": 160,
           "relativePath": "Nest/07-守卫.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\07-守卫.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\07-守卫.md"
         },
         {
           "id": "08-拦截器",
-          "name": "Nest.js 拦截器",
+          "name": "08-拦截器",
           "type": "file",
           "path": "/notes/08-拦截器.md",
           "slug": "08-拦截器",
-          "description": "拦截器是一个使用 @Injectable() 装饰器的类，实现了 NestInterceptor 接口。拦截器可以：\r",
+          "wordCount": 216,
           "relativePath": "Nest/08-拦截器.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\08-拦截器.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\08-拦截器.md"
         },
         {
           "id": "09-typeorm集成",
-          "name": "Nest.js TypeORM 集成",
+          "name": "09-TypeORM集成",
           "type": "file",
           "path": "/notes/09-typeorm集成.md",
           "slug": "09-typeorm集成",
+          "description": "Nest.js TypeORM 集成 安装 配置 在模块中配置 使用配置文件 创建实体 在模块中注册实体 在服务中使用 Repository 关系 一对一 一对多 多对多 查询构建器 事务 迁移 生成迁移 运行迁移 回滚迁移 订阅者（Subscribers）",
+          "wordCount": 129,
           "relativePath": "Nest/09-TypeORM集成.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\09-TypeORM集成.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\09-TypeORM集成.md"
         },
         {
           "id": "10-mongodb集成",
-          "name": "Nest.js MongoDB 集成",
+          "name": "10-MongoDB集成",
           "type": "file",
           "path": "/notes/10-mongodb集成.md",
           "slug": "10-mongodb集成",
+          "description": "Nest.js MongoDB 集成 安装 配置 在模块中配置 使用配置文件 定义 Schema 在模块中注册 Schema 在服务中使用 Model Schema 选项 嵌套 Schema 数组类型 查询方法 索引 虚拟属性 中间件（Hooks） 连接事件",
+          "wordCount": 129,
           "relativePath": "Nest/10-MongoDB集成.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\10-MongoDB集成.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\10-MongoDB集成.md"
         },
         {
           "id": "11-restful-api",
-          "name": "Nest.js RESTful API",
+          "name": "11-RESTful-API",
           "type": "file",
           "path": "/notes/11-restful-api.md",
           "slug": "11-restful-api",
+          "description": "Nest.js RESTful API 基本 CRUD 操作 Controller DTO（数据传输对象） 创建 DTO 更新 DTO 分页查询 DTO Service 查询过滤 DTO Service 响应格式统一 拦截器 状态码 自定义响应头 重定向 路由参数验证 文件上传 多文件上传 API 版本控制 Swagger 文档 安装 配置 使用装饰器",
+          "wordCount": 177,
           "relativePath": "Nest/11-RESTful-API.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\11-RESTful-API.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\11-RESTful-API.md"
         },
         {
           "id": "12-websocket",
-          "name": "Nest.js WebSocket",
+          "name": "12-WebSocket",
           "type": "file",
           "path": "/notes/12-websocket.md",
           "slug": "12-websocket",
+          "description": "Nest.js WebSocket 安装 创建 Gateway 在模块中注册 消息处理 发送消息 广播消息 发送给特定房间 认证 JWT 认证 使用守卫 使用拦截器 使用管道 命名空间 适配器 Redis 适配器（多服务器） 客户端连接 JavaScript/TypeScript 示例：聊天应用",
+          "wordCount": 148,
           "relativePath": "Nest/12-WebSocket.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\12-WebSocket.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\12-WebSocket.md"
         },
         {
           "id": "13-微服务",
-          "name": "Nest.js 微服务",
+          "name": "13-微服务",
           "type": "file",
           "path": "/notes/13-微服务.md",
           "slug": "13-微服务",
+          "description": "Nest.js 微服务 安装 创建微服务应用 主应用（API Gateway） 微服务应用 传输层 TCP Redis RabbitMQ Kafka 消息模式 请求 响应 事件（发布 订阅） 连接微服务 在模块中连接 异步配置 消息序列化 异常处理 超时 示例：用户服务 用户微服务 API Gateway",
+          "wordCount": 153,
           "relativePath": "Nest/13-微服务.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\13-微服务.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\13-微服务.md"
         },
         {
           "id": "14-认证授权",
-          "name": "Nest.js 认证授权",
+          "name": "14-认证授权",
           "type": "file",
           "path": "/notes/14-认证授权.md",
           "slug": "14-认证授权",
+          "description": "Nest.js 认证授权 JWT 认证 安装 配置 JWT 模块 使用配置服务 Passport 策略 JWT 策略 本地策略（用户名密码） 认证服务 认证守卫 JWT 守卫 本地守卫 控制器 角色授权 角色装饰器 角色守卫 使用 密码加密 刷新 Token 用户装饰器 完整示例 Auth Module 保护路由",
+          "wordCount": 157,
           "relativePath": "Nest/14-认证授权.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\14-认证授权.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\14-认证授权.md"
         },
         {
           "id": "15-文件上传",
-          "name": "Nest.js 文件上传",
+          "name": "15-文件上传",
           "type": "file",
           "path": "/notes/15-文件上传.md",
           "slug": "15-文件上传",
+          "description": "Nest.js 文件上传 安装 单文件上传 多文件上传 文件验证 内存存储 上传到云存储 AWS S3 文件下载 图片处理 文件服务封装 使用示例",
+          "wordCount": 73,
           "relativePath": "Nest/15-文件上传.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\15-文件上传.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\15-文件上传.md"
         },
         {
           "id": "16-项目结构",
-          "name": "Nest.js 项目结构",
+          "name": "16-项目结构",
           "type": "file",
           "path": "/notes/16-项目结构.md",
           "slug": "16-项目结构",
+          "wordCount": 317,
           "relativePath": "Nest/16-项目结构.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\16-项目结构.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\16-项目结构.md"
         },
         {
           "id": "17-配置管理",
-          "name": "Nest.js 配置管理",
+          "name": "17-配置管理",
           "type": "file",
           "path": "/notes/17-配置管理.md",
           "slug": "17-配置管理",
+          "description": "Nest.js 配置管理 安装 基本使用 在根模块中导入 环境变量文件 .env 使用 ConfigService 配置验证 安装 使用 自定义配置文件 创建配置文件 加载配置文件 使用嵌套配置 命名空间配置 定义命名空间 使用命名空间 异步配置 多环境配置 环境特定文件 加载环境特定配置 配置优先级 1. 环境变量 2. 3. 4. 5. 类型安全配置 定义接口 使用类型 示例：完整配置",
+          "wordCount": 196,
           "relativePath": "Nest/17-配置管理.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\17-配置管理.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\17-配置管理.md"
         },
         {
           "id": "18-测试",
-          "name": "Nest.js 测试",
+          "name": "18-测试",
           "type": "file",
           "path": "/notes/18-测试.md",
           "slug": "18-测试",
+          "description": "Nest.js 测试 安装测试依赖 单元测试 测试服务 测试控制器 E2E 测试 基本 E2E 测试 用户模块 E2E 测试 测试数据库 使用测试数据库 模拟依赖 模拟服务 模拟 Repository 测试守卫 测试管道 Jest 配置 运行测试",
+          "wordCount": 123,
           "relativePath": "Nest/18-测试.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\18-测试.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\18-测试.md"
         },
         {
           "id": "19-部署",
-          "name": "Nest.js 部署",
+          "name": "19-部署",
           "type": "file",
           "path": "/notes/19-部署.md",
           "slug": "19-部署",
-          "description": "这会生成 dist 目录，包含编译后的 JavaScript 文件。\r",
+          "wordCount": 499,
           "relativePath": "Nest/19-部署.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\19-部署.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\19-部署.md"
         },
         {
           "id": "readme",
-          "name": "Nest.js 教程",
+          "name": "README",
           "type": "file",
           "path": "/notes/readme.md",
           "slug": "readme",
-          "description": "这是一个 Nest.js 学习教程集合，包含从基础到进阶的完整学习路径。\r",
+          "wordCount": 642,
           "relativePath": "Nest/README.md",
-          "sourceFile": "D:\\Desktop\\learningWorkFiles\\Front-End-Notes\\all-notes\\Nest\\README.md"
+          "sourceFile": "G:\\Desktop\\workfiles\\Front-End-Notes\\all-notes\\Nest\\README.md"
         }
       ]
     }
@@ -1323,6 +2401,7 @@
     {
       "slug": "1.文档文章",
       "title": "1.文档文章",
+      "wordCount": 1597,
       "category": "🎃网址收集",
       "file": "/notes/1.文档文章.md",
       "relativePath": "🎃网址收集/1.文档文章.md"
@@ -1330,7 +2409,7 @@
     {
       "slug": "2.工具轮子",
       "title": "2.工具轮子",
-      "description": "-   React-Select 轻便选择器\r",
+      "wordCount": 315,
       "category": "🎃网址收集",
       "file": "/notes/2.工具轮子.md",
       "relativePath": "🎃网址收集/2.工具轮子.md"
@@ -1338,216 +2417,103 @@
     {
       "slug": "3.摸鱼",
       "title": "3.摸鱼",
-      "description": "-   |低端影视|https://ddys.tv/|\r",
+      "wordCount": 562,
       "category": "🎃网址收集",
       "file": "/notes/3.摸鱼.md",
       "relativePath": "🎃网址收集/3.摸鱼.md"
     },
     {
-      "slug": "diff",
-      "title": "Diff",
-      "description": "计算出Virtual DOM中真正变化的部分，并只针对该部分进行原生DOM操作，而非重新渲染整个页面。React用 三大策略 将O(n^3)复杂度 转化为 O(n)复杂度\r",
-      "category": "📝Notes",
-      "file": "/notes/diff.md",
-      "relativePath": "📝Notes/⌚React/Diff.md"
-    },
-    {
-      "slug": "hoc高阶组件",
-      "title": "HOC高阶组件",
-      "category": "📝Notes",
-      "file": "/notes/hoc高阶组件.md",
-      "relativePath": "📝Notes/⌚React/HOC高阶组件.md"
-    },
-    {
-      "slug": "notes-react-redux",
-      "title": "Redux",
-      "description": "首先在最外层容器中，把所有内容包裹在 Provider 组件中，将之前创建的 store 作为 prop 传给 Provider。\r",
-      "category": "📝Notes",
-      "file": "/notes/notes-react-redux.md",
-      "relativePath": "📝Notes/⌚React/Redux.md"
-    },
-    {
-      "slug": "usecallback&usememo",
-      "title": "useCallBack&useMemo",
-      "description": "最近在重构公司的类组件项目，同时也在进行hook的重新学习，useCallback 与 useMemo是hook中针对渲染以及缓存的两个内置hooks，主要的功能是对函数和计算结果进行缓存来判断是否需要重新渲染。\r",
-      "category": "📝Notes",
-      "file": "/notes/usecallback&usememo.md",
-      "relativePath": "📝Notes/⌚React/useCallBack&useMemo.md"
-    },
-    {
-      "slug": "notes-react-useref存取状态",
-      "title": "useRef存取状态",
-      "description": "正常我们为在使用react-hook的时候使用最多的应该是useState,但是在某些应用场景下，我们需要拿到更新完毕的state的最新的值\r",
-      "category": "📝Notes",
-      "file": "/notes/notes-react-useref存取状态.md",
-      "relativePath": "📝Notes/⌚React/useRef存取状态.md"
-    },
-    {
-      "slug": "服务器-docker部署前端项目教程",
-      "title": "Docker 部署前端项目教程",
-      "description": "Docker 是一个开源的应用容器引擎，可以让开发者打包应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 或 Windows 操作系统上。",
-      "category": "📝Notes",
-      "file": "/notes/服务器-docker部署前端项目教程.md",
-      "relativePath": "📝Notes/服务器/Docker部署前端项目教程.md"
-    },
-    {
-      "slug": "notes-原生js-js基础-高级语法笔记",
-      "title": "JS基础&高级语法笔记",
-      "description": "对于对象的便利 我们通常可以使用Object.keys(),Object.entries(),Object.getOwnPropertyNames(),其中Object.keys()与Object.getOwnPropertyNames()效果是一样的，但是后者可以 ==返回不可枚举的属性名称==\r",
-      "category": "📝Notes",
-      "file": "/notes/notes-原生js-js基础-高级语法笔记.md",
-      "relativePath": "📝Notes/🍂原生JS/JS基础&高级语法笔记.md"
-    },
-    {
-      "slug": "notes-原生js-原型链解析",
-      "title": "原型链解析",
-      "description": "初步尝试，我们涉及到原型链的知识，要先从一个构造函数开始讲起\r",
-      "category": "📝Notes",
-      "file": "/notes/notes-原生js-原型链解析.md",
-      "relativePath": "📝Notes/🍂原生JS/原型链解析.md"
-    },
-    {
-      "slug": "notes-原生js-同步异步函数",
-      "title": "同步异步函数",
-      "description": "!(https://cdn.nlark.com/yuque/0/2023/png/32650608/1679907692018-0c260d11-7204-4c35-8859-882ccd7cede5.png)\r",
-      "category": "📝Notes",
-      "file": "/notes/notes-原生js-同步异步函数.md",
-      "relativePath": "📝Notes/🍂原生JS/同步异步函数.md"
-    },
-    {
-      "slug": "notes-计算机网络-bom属性对象方法",
-      "title": "BOM属性对象方法",
-      "category": "📝Notes",
-      "file": "/notes/notes-计算机网络-bom属性对象方法.md",
-      "relativePath": "📝Notes/💿计算机网络/BOM属性对象方法.md"
-    },
-    {
-      "slug": "notes-计算机网络-http-https",
-      "title": "HTTP&HTTPS",
-      "category": "📝Notes",
-      "file": "/notes/notes-计算机网络-http-https.md",
-      "relativePath": "📝Notes/💿计算机网络/HTTP&HTTPS.md"
-    },
-    {
-      "slug": "notes-计算机网络-tcp三次握手",
-      "title": "TCP三次握手",
-      "category": "📝Notes",
-      "file": "/notes/notes-计算机网络-tcp三次握手.md",
-      "relativePath": "📝Notes/💿计算机网络/TCP三次握手.md"
-    },
-    {
-      "slug": "notes-计算机网络-浏览器工作原理",
-      "title": "**多进程结构的浏览器**",
-      "category": "📝Notes",
-      "file": "/notes/notes-计算机网络-浏览器工作原理.md",
-      "relativePath": "📝Notes/💿计算机网络/浏览器工作原理.md"
-    },
-    {
-      "slug": "notes-计算机网络-浏览器缓存",
-      "title": "浏览器缓存",
-      "category": "📝Notes",
-      "file": "/notes/notes-计算机网络-浏览器缓存.md",
-      "relativePath": "📝Notes/💿计算机网络/浏览器缓存.md"
-    },
-    {
-      "slug": "notes-计算机网络-访问url的背后",
-      "title": "访问URL的背后",
-      "category": "📝Notes",
-      "file": "/notes/notes-计算机网络-访问url的背后.md",
-      "relativePath": "📝Notes/💿计算机网络/访问URL的背后.md"
-    },
-    {
-      "slug": "🐸技术课程收集",
-      "title": "🐸技术课程收集",
-      "category": "📝Notes",
-      "file": "/notes/🐸技术课程收集.md",
-      "relativePath": "📝Notes/🐸技术课程收集.md"
-    },
-    {
       "slug": "后端-go-Go-简介与特点",
-      "title": "Go 简介与特点",
-      "description": "Go（又称 Golang）是 Google 在 2009 年开发的编程语言，由 Robert Griesemer、Rob Pike 和 Ken Thompson 设计。Go 是一门编译型、并发型、具有垃圾回收功能的编程语言。\r",
+      "title": "Go-简介与特点",
+      "wordCount": 1296,
       "category": "后端",
       "file": "/notes/后端-go-Go-简介与特点.md",
       "relativePath": "后端/Go/01-基础入门/Go-简介与特点.md"
     },
     {
       "slug": "后端-go-01-基础入门-函数",
-      "title": "Go 函数",
+      "title": "函数",
+      "wordCount": 259,
       "category": "后端",
       "file": "/notes/后端-go-01-基础入门-函数.md",
       "relativePath": "后端/Go/01-基础入门/函数.md"
     },
     {
       "slug": "后端-go-01-基础入门-包与模块",
-      "title": "Go 包与模块",
+      "title": "包与模块",
+      "wordCount": 369,
       "category": "后端",
       "file": "/notes/后端-go-01-基础入门-包与模块.md",
       "relativePath": "后端/Go/01-基础入门/包与模块.md"
     },
     {
       "slug": "后端-java-01-基础入门-基础语法",
-      "title": "Go 基础语法",
-      "description": "1. 包声明：package main - 声明包名\r",
+      "title": "基础语法",
+      "wordCount": 390,
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-基础语法.md",
       "relativePath": "后端/Go/01-基础入门/基础语法.md"
     },
     {
       "slug": "后端-java-01-基础入门-安装与环境配置",
-      "title": "Go 安装与环境配置",
+      "title": "安装与环境配置",
+      "wordCount": 946,
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-安装与环境配置.md",
       "relativePath": "后端/Go/01-基础入门/安装与环境配置.md"
     },
     {
       "slug": "后端-go-01-基础入门-接口",
-      "title": "Go 接口",
+      "title": "接口",
+      "wordCount": 244,
       "category": "后端",
       "file": "/notes/后端-go-01-基础入门-接口.md",
       "relativePath": "后端/Go/01-基础入门/接口.md"
     },
     {
       "slug": "后端-java-01-基础入门-控制结构",
-      "title": "Go 控制结构",
+      "title": "控制结构",
+      "wordCount": 339,
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-控制结构.md",
       "relativePath": "后端/Go/01-基础入门/控制结构.md"
     },
     {
       "slug": "后端-java-01-基础入门-数据类型与变量",
-      "title": "Go 数据类型与变量",
+      "title": "数据类型与变量",
+      "wordCount": 272,
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-数据类型与变量.md",
       "relativePath": "后端/Go/01-基础入门/数据类型与变量.md"
     },
     {
       "slug": "后端-go-01-基础入门-结构体与方法",
-      "title": "Go 结构体与方法",
+      "title": "结构体与方法",
+      "wordCount": 321,
       "category": "后端",
       "file": "/notes/后端-go-01-基础入门-结构体与方法.md",
       "relativePath": "后端/Go/01-基础入门/结构体与方法.md"
     },
     {
       "slug": "后端-go-Channel-通道",
-      "title": "Channel 通道",
-      "description": "Channel 是 Go 语言中 goroutine 之间通信的主要方式，遵循 \"不要通过共享内存来通信，而要通过通信来共享内存\" 的设计理念。\r",
+      "title": "Channel-通道",
+      "wordCount": 402,
       "category": "后端",
       "file": "/notes/后端-go-Channel-通道.md",
       "relativePath": "后端/Go/02-核心特性/Channel-通道.md"
     },
     {
       "slug": "后端-go-Goroutine-协程",
-      "title": "Goroutine 协程",
-      "description": "Goroutine 是 Go 语言并发编程的核心，它是轻量级线程，由 Go 运行时管理。\r",
+      "title": "Goroutine-协程",
+      "wordCount": 612,
       "category": "后端",
       "file": "/notes/后端-go-Goroutine-协程.md",
       "relativePath": "后端/Go/02-核心特性/Goroutine-协程.md"
     },
     {
       "slug": "后端-go-Select-语句",
-      "title": "Select 语句",
-      "description": "Select 是 Go 语言中用于处理多个 channel 操作的控制结构，类似于 switch 但专门用于 channel 通信。\r",
+      "title": "Select-语句",
+      "wordCount": 327,
       "category": "后端",
       "file": "/notes/后端-go-Select-语句.md",
       "relativePath": "后端/Go/02-核心特性/Select-语句.md"
@@ -1555,7 +2521,7 @@
     {
       "slug": "后端-go-02-核心特性-同步原语",
       "title": "同步原语",
-      "description": "Go 提供了多种同步原语用于协调 goroutine 之间的访问和操作。\r",
+      "wordCount": 287,
       "category": "后端",
       "file": "/notes/后端-go-02-核心特性-同步原语.md",
       "relativePath": "后端/Go/02-核心特性/同步原语.md"
@@ -1563,23 +2529,23 @@
     {
       "slug": "后端-go-02-核心特性-错误处理机制",
       "title": "错误处理机制",
-      "description": "Go 语言采用显式的错误处理机制，与 Java 的异常处理和 JavaScript 的 try-catch 不同。\r",
+      "wordCount": 330,
       "category": "后端",
       "file": "/notes/后端-go-02-核心特性-错误处理机制.md",
       "relativePath": "后端/Go/02-核心特性/错误处理机制.md"
     },
     {
       "slug": "后端-go-Gin-框架",
-      "title": "Gin 框架",
-      "description": "Gin 是一个高性能的 Go Web 框架，具有类似 Martini 的 API 性能，支持中间件、JSON 验证等特性。\r",
+      "title": "Gin-框架",
+      "wordCount": 323,
       "category": "后端",
       "file": "/notes/后端-go-Gin-框架.md",
       "relativePath": "后端/Go/03-Web开发/Gin-框架.md"
     },
     {
       "slug": "后端-go-HTTP-服务基础",
-      "title": "HTTP 服务基础",
-      "description": "Go 标准库提供了强大的 net/http 包，可以轻松创建 HTTP 服务器。\r",
+      "title": "HTTP-服务基础",
+      "wordCount": 328,
       "category": "后端",
       "file": "/notes/后端-go-HTTP-服务基础.md",
       "relativePath": "后端/Go/03-Web开发/HTTP-服务基础.md"
@@ -1587,7 +2553,7 @@
     {
       "slug": "后端-go-03-web开发-中间件",
       "title": "中间件",
-      "description": "中间件是在请求和响应之间处理逻辑的函数，可以执行日志、认证、CORS 等操作。\r",
+      "wordCount": 324,
       "category": "后端",
       "file": "/notes/后端-go-03-web开发-中间件.md",
       "relativePath": "后端/Go/03-Web开发/中间件.md"
@@ -1595,30 +2561,31 @@
     {
       "slug": "后端-go-03-web开发-路由处理",
       "title": "路由处理",
-      "description": "| Go (Gin) | Java (Spring MVC) | 说明 |\r",
+      "wordCount": 247,
       "category": "后端",
       "file": "/notes/后端-go-03-web开发-路由处理.md",
       "relativePath": "后端/Go/03-Web开发/路由处理.md"
     },
     {
       "slug": "后端-go-05-企业架构-微服务基础",
-      "title": "Go 微服务基础",
-      "description": "微服务架构是将单体应用拆分成多个小型、独立的服务，每个服务负责特定的业务功能。\r",
+      "title": "微服务基础",
+      "wordCount": 489,
       "category": "后端",
       "file": "/notes/后端-go-05-企业架构-微服务基础.md",
       "relativePath": "后端/Go/05-企业架构/微服务基础.md"
     },
     {
       "slug": "后端-go-第一个-HTTP-服务",
-      "title": "第一个 HTTP 服务",
-      "description": "这是 Go 语言入门实践的第一个项目，我们将从零开始搭建一个简单的 HTTP 服务器。\r",
+      "title": "第一个-HTTP-服务",
+      "wordCount": 541,
       "category": "后端",
       "file": "/notes/后端-go-第一个-HTTP-服务.md",
       "relativePath": "后端/Go/06-实践项目/第一个-HTTP-服务.md"
     },
     {
       "slug": "后端-go-moc-go",
-      "title": "Go 知识体系（Go）",
+      "title": "!MOC-Go",
+      "wordCount": 954,
       "category": "后端",
       "file": "/notes/后端-go-moc-go.md",
       "relativePath": "后端/Go/!MOC-Go.md"
@@ -1626,15 +2593,15 @@
     {
       "slug": "后端-java-01-基础入门-io流",
       "title": "IO流",
-      "description": "| JavaScript | Java | 说明 |\r",
+      "wordCount": 435,
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-io流.md",
       "relativePath": "后端/Java/01-基础入门/IO流.md"
     },
     {
       "slug": "后端-java-Java-简介与特点",
-      "title": "Java 简介与特点",
-      "description": "Java 是一种广泛使用的面向对象编程语言，由 Sun Microsystems（现 Oracle）于 1995 年发布。它具有\"一次编写，到处运行\"的特性。\r",
+      "title": "Java-简介与特点",
+      "wordCount": 1127,
       "category": "后端",
       "file": "/notes/后端-java-Java-简介与特点.md",
       "relativePath": "后端/Java/01-基础入门/Java-简介与特点.md"
@@ -1642,6 +2609,8 @@
     {
       "slug": "后端-java-01-基础入门-函数与方法",
       "title": "函数与方法",
+      "description": "函数与方法 方法定义 基本语法 参数传递 方法重载 静态方法与实例方法 构造方法 递归 Lambda 表达式（Java 8+） 方法引用（Java 8+） 下一篇 数组与字符串",
+      "wordCount": 88,
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-函数与方法.md",
       "relativePath": "后端/Java/01-基础入门/函数与方法.md"
@@ -1649,7 +2618,7 @@
     {
       "slug": "后端-java-01-基础入门-基础语法",
       "title": "基础语法",
-      "description": "| 类型 | 大小 | 默认值 | 范围 | 说明 |\r",
+      "wordCount": 550,
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-基础语法.md",
       "relativePath": "后端/Java/01-基础入门/基础语法.md"
@@ -1657,6 +2626,7 @@
     {
       "slug": "后端-java-01-基础入门-安装与环境配置",
       "title": "安装与环境配置",
+      "wordCount": 690,
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-安装与环境配置.md",
       "relativePath": "后端/Java/01-基础入门/安装与环境配置.md"
@@ -1664,7 +2634,7 @@
     {
       "slug": "后端-java-01-基础入门-异常处理",
       "title": "异常处理",
-      "description": "| JavaScript | Java | 说明 |\r",
+      "wordCount": 271,
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-异常处理.md",
       "relativePath": "后端/Java/01-基础入门/异常处理.md"
@@ -1672,7 +2642,7 @@
     {
       "slug": "后端-java-01-基础入门-控制结构",
       "title": "控制结构",
-      "description": "| JavaScript | Java | 说明 |\r",
+      "wordCount": 224,
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-控制结构.md",
       "relativePath": "后端/Java/01-基础入门/控制结构.md"
@@ -1680,6 +2650,8 @@
     {
       "slug": "后端-java-01-基础入门-数据类型与变量",
       "title": "数据类型与变量",
+      "description": "数据类型与变量 Java 类型系统总览 基本类型详解 整数类型 浮点类型 字符类型 布尔类型 类型转换 自动类型转换（隐式） 强制类型转换（显式） 引用类型 String（字符串） 数组 变量的作用域 包装类 常用 API 类 下一篇 控制结构",
+      "wordCount": 122,
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-数据类型与变量.md",
       "relativePath": "后端/Java/01-基础入门/数据类型与变量.md"
@@ -1687,7 +2659,7 @@
     {
       "slug": "后端-java-01-基础入门-数组与字符串",
       "title": "数组与字符串",
-      "description": "| JavaScript | Java | 说明 |\r",
+      "wordCount": 300,
       "category": "后端",
       "file": "/notes/后端-java-01-基础入门-数组与字符串.md",
       "relativePath": "后端/Java/01-基础入门/数组与字符串.md"
@@ -1695,6 +2667,7 @@
     {
       "slug": "后端-java-02-面向对象-内部类",
       "title": "内部类",
+      "wordCount": 317,
       "category": "后端",
       "file": "/notes/后端-java-02-面向对象-内部类.md",
       "relativePath": "后端/Java/02-面向对象/内部类.md"
@@ -1702,7 +2675,7 @@
     {
       "slug": "后端-java-02-面向对象-接口与抽象类",
       "title": "接口与抽象类",
-      "description": "接口是 Java 中定义行为契约的方式，一个类可以实现多个接口。\r",
+      "wordCount": 316,
       "category": "后端",
       "file": "/notes/后端-java-02-面向对象-接口与抽象类.md",
       "relativePath": "后端/Java/02-面向对象/接口与抽象类.md"
@@ -1710,7 +2683,7 @@
     {
       "slug": "后端-java-02-面向对象-枚举",
       "title": "枚举",
-      "description": "枚举是一种特殊的类，用于定义一组有限的常量。\r",
+      "wordCount": 291,
       "category": "后端",
       "file": "/notes/后端-java-02-面向对象-枚举.md",
       "relativePath": "后端/Java/02-面向对象/枚举.md"
@@ -1718,7 +2691,7 @@
     {
       "slug": "后端-java-02-面向对象-类与对象",
       "title": "类与对象",
-      "description": "| 修饰符 | 同一类 | 同一包 | 子类 | 其他包 |\r",
+      "wordCount": 409,
       "category": "后端",
       "file": "/notes/后端-java-02-面向对象-类与对象.md",
       "relativePath": "后端/Java/02-面向对象/类与对象.md"
@@ -1726,92 +2699,105 @@
     {
       "slug": "后端-java-02-面向对象-继承与多态",
       "title": "继承与多态",
-      "description": "Java 使用 extends 关键字实现继承，单继承机制。\r",
+      "wordCount": 334,
       "category": "后端",
       "file": "/notes/后端-java-02-面向对象-继承与多态.md",
       "relativePath": "后端/Java/02-面向对象/继承与多态.md"
     },
     {
       "slug": "后端-java-集合-List",
-      "title": "集合 List",
+      "title": "集合-List",
+      "wordCount": 285,
       "category": "后端",
       "file": "/notes/后端-java-集合-List.md",
       "relativePath": "后端/Java/03-高级特性/集合-List.md"
     },
     {
       "slug": "后端-java-07-数据库操作-jdbc基础",
-      "title": "JDBC 基础",
-      "description": "JDBC（Java Database Connectivity）是 Java 程序与数据库交互的标准 API。\r",
+      "title": "JDBC基础",
+      "description": "JDBC 基础 JDBC 概述 JDBC（Java Database Connectivity）是 Java 程序与数据库交互的标准 API。 快速开始 使用 try with resources PreparedStatement（防止 SQL 注入） CallableStatement（存储过程） 批量操作 获取元数据 数据库连接池 JDBC 工具类 常见数据库驱动 下一篇 连接池",
+      "wordCount": 194,
       "category": "后端",
       "file": "/notes/后端-java-07-数据库操作-jdbc基础.md",
       "relativePath": "后端/Java/07-数据库操作/JDBC基础.md"
     },
     {
       "slug": "后端-java-07-数据库操作-mybatis入门",
-      "title": "MyBatis 入门",
-      "description": "MyBatis 是一款优秀的持久层框架，支持自定义 SQL、存储过程和高级映射。\r",
+      "title": "MyBatis入门",
+      "description": "MyBatis 入门 MyBatis 概述 MyBatis 是一款优秀的持久层框架，支持自定义 SQL、存储过程和高级映射。 快速开始 1. 添加依赖 2. 配置文件 3. 实体类 4. Mapper 接口 5. Mapper XML 6. 使用示例 注解方式 动态 SQL 关联查询 下一篇 动态SQL",
+      "wordCount": 152,
       "category": "后端",
       "file": "/notes/后端-java-07-数据库操作-mybatis入门.md",
       "relativePath": "后端/Java/07-数据库操作/MyBatis入门.md"
     },
     {
       "slug": "后端-java-moc-java",
-      "title": "Java 知识体系",
+      "title": "!MOC-Java",
+      "wordCount": 1523,
       "category": "后端",
       "file": "/notes/后端-java-moc-java.md",
       "relativePath": "后端/Java/!MOC-Java.md"
     },
     {
       "slug": "开发经验-ai辅助开发一年体验总结",
-      "title": "AI 辅助开发一年体验总结",
+      "title": "AI辅助开发一年体验总结",
+      "wordCount": 816,
       "category": "开发经验",
       "file": "/notes/开发经验-ai辅助开发一年体验总结.md",
       "relativePath": "开发经验/AI辅助开发一年体验总结.md"
     },
     {
       "slug": "开发经验-css现代布局containerqueries真香",
-      "title": "CSS 现代布局：Container Queries 真香",
-      "description": "CSS 这些年发展真快，好多以前不好做的布局，现在原生支持了。Container Queries 就是一个，用了一段时间，真心香。\r",
+      "title": "CSS现代布局ContainerQueries真香",
+      "wordCount": 731,
       "category": "开发经验",
       "file": "/notes/开发经验-css现代布局containerqueries真香.md",
       "relativePath": "开发经验/CSS现代布局ContainerQueries真香.md"
     },
     {
+      "slug": "服务器-docker部署前端项目教程",
+      "title": "Docker部署前端项目教程",
+      "wordCount": 657,
+      "category": "开发经验",
+      "file": "/notes/服务器-docker部署前端项目教程.md",
+      "relativePath": "开发经验/Docker部署前端项目教程.md"
+    },
+    {
       "slug": "开发经验-react性能优化从理论到实战",
-      "title": "React 性能优化：从理论到实战",
-      "description": "做 React 开发也有几年了，性能优化做过不少，整理一套从入门到精通的实战经验。\r",
+      "title": "React性能优化从理论到实战",
+      "wordCount": 1086,
       "category": "开发经验",
       "file": "/notes/开发经验-react性能优化从理论到实战.md",
       "relativePath": "开发经验/React性能优化从理论到实战.md"
     },
     {
       "slug": "开发经验-typescript进阶用好类型体操提升代码质量",
-      "title": "TypeScript 进阶：用好类型体操提升代码质量",
-      "description": "用 TypeScript 也有几年了，从最开始的 any 大法好，到现在尽量给所有代码都加上类型，这里聊聊我对类型体操的理解。\r",
+      "title": "TypeScript进阶用好类型体操提升代码质量",
+      "wordCount": 870,
       "category": "开发经验",
       "file": "/notes/开发经验-typescript进阶用好类型体操提升代码质量.md",
       "relativePath": "开发经验/TypeScript进阶用好类型体操提升代码质量.md"
     },
     {
       "slug": "开发经验-vibecoding我是如何用ai写代码的",
-      "title": "Vibe Coding：我是如何用 AI 写代码的",
-      "description": "最近 Vibe Coding 这个词挺火的，其实我已经这么干快一年了，分享一下我的工作流。\r",
+      "title": "VibeCoding我是如何用AI写代码的",
+      "wordCount": 943,
       "category": "开发经验",
       "file": "/notes/开发经验-vibecoding我是如何用ai写代码的.md",
       "relativePath": "开发经验/VibeCoding我是如何用AI写代码的.md"
     },
     {
       "slug": "开发经验-中高阶前端必懂闭包其实并不难",
-      "title": "中高阶前端必懂：闭包其实并不难",
-      "description": "闭包这个词，刚学 JS 的时候觉得好玄乎，面试也经常问，工作几年回头看，其实没那么复杂，整理一下我的理解。\r",
+      "title": "中高阶前端必懂闭包其实并不难",
+      "wordCount": 835,
       "category": "开发经验",
       "file": "/notes/开发经验-中高阶前端必懂闭包其实并不难.md",
       "relativePath": "开发经验/中高阶前端必懂闭包其实并不难.md"
     },
     {
       "slug": "开发经验-当我们聊前端架构我们在聊什么",
-      "title": "当我们聊前端架构，我们在聊什么",
-      "description": "最近几年「前端架构」这个词提得越来越多，刚入行的朋友可能会觉得很虚，我聊聊我的理解。\r",
+      "title": "当我们聊前端架构我们在聊什么",
+      "wordCount": 936,
       "category": "开发经验",
       "file": "/notes/开发经验-当我们聊前端架构我们在聊什么.md",
       "relativePath": "开发经验/当我们聊前端架构我们在聊什么.md"
@@ -1819,377 +2805,1342 @@
     {
       "slug": "开发经验-网址书签收集",
       "title": "网址书签收集",
-      "description": "> 从浏览器书签导出整理，按原文件夹分类保存。\r",
+      "wordCount": 3962,
       "category": "开发经验",
       "file": "/notes/开发经验-网址书签收集.md",
       "relativePath": "开发经验/网址书签收集.md"
     },
     {
       "slug": "前端-js-01-闭包和作用域",
-      "title": "JavaScript 闭包和作用域",
+      "title": "01-闭包和作用域",
+      "wordCount": 707,
       "category": "前端",
       "file": "/notes/前端-js-01-闭包和作用域.md",
       "relativePath": "前端/JS/01-闭包和作用域.md"
     },
     {
       "slug": "前端-js-02-this绑定和上下文",
-      "title": "JavaScript this 绑定和上下文",
-      "description": "this 是 JavaScript 中的一个关键字，它指向当前执行上下文的对象。this 的值不是静态的，而是在函数被调用时动态确定的。\r",
+      "title": "02-this绑定和上下文",
+      "wordCount": 766,
       "category": "前端",
       "file": "/notes/前端-js-02-this绑定和上下文.md",
       "relativePath": "前端/JS/02-this绑定和上下文.md"
     },
     {
       "slug": "前端-js-03-原型和继承",
-      "title": "JavaScript 原型和继承",
-      "description": "每个 JavaScript 对象都有一个指向另一个对象的内部链接，这个对象就是原型（prototype）。当我们访问对象的属性时，如果对象本身没有该属性，JavaScript 会沿着原型链向上查找。\r",
+      "title": "03-原型和继承",
+      "wordCount": 739,
       "category": "前端",
       "file": "/notes/前端-js-03-原型和继承.md",
       "relativePath": "前端/JS/03-原型和继承.md"
     },
     {
       "slug": "前端-js-04-异步编程详解",
-      "title": "JavaScript 异步编程详解",
-      "description": "JavaScript 是单线程的，如果所有操作都是同步的，会导致阻塞，用户体验差。\r",
+      "title": "04-异步编程详解",
+      "wordCount": 678,
       "category": "前端",
       "file": "/notes/前端-js-04-异步编程详解.md",
       "relativePath": "前端/JS/04-异步编程详解.md"
     },
     {
       "slug": "前端-js-05-事件循环和并发",
-      "title": "JavaScript 事件循环和并发",
+      "title": "05-事件循环和并发",
+      "wordCount": 586,
       "category": "前端",
       "file": "/notes/前端-js-05-事件循环和并发.md",
       "relativePath": "前端/JS/05-事件循环和并发.md"
     },
     {
       "slug": "前端-js-06-函数式编程",
-      "title": "JavaScript 函数式编程",
-      "description": "函数式编程（FP）是一种编程范式，强调：\r",
+      "title": "06-函数式编程",
+      "wordCount": 716,
       "category": "前端",
       "file": "/notes/前端-js-06-函数式编程.md",
       "relativePath": "前端/JS/06-函数式编程.md"
     },
     {
       "slug": "07-es6+新特性详解",
-      "title": "JavaScript ES6+ 新特性详解",
-      "description": "1. 变量声明：let、const（块作用域）\r",
+      "title": "07-ES6+新特性详解",
+      "wordCount": 879,
       "category": "前端",
       "file": "/notes/07-es6+新特性详解.md",
       "relativePath": "前端/JS/07-ES6+新特性详解.md"
     },
     {
       "slug": "前端-js-08-元编程和反射",
-      "title": "JavaScript 元编程和反射",
-      "description": "元编程（Metaprogramming）是指编写能够操作其他程序的程序，或者编写能够操作自身的程序。\r",
+      "title": "08-元编程和反射",
+      "wordCount": 585,
       "category": "前端",
       "file": "/notes/前端-js-08-元编程和反射.md",
       "relativePath": "前端/JS/08-元编程和反射.md"
     },
     {
       "slug": "前端-js-09-设计模式",
-      "title": "JavaScript 设计模式",
-      "description": "设计模式是解决常见问题的可重用方案。JavaScript 中常用的设计模式包括：\r",
+      "title": "09-设计模式",
+      "wordCount": 594,
       "category": "前端",
       "file": "/notes/前端-js-09-设计模式.md",
       "relativePath": "前端/JS/09-设计模式.md"
     },
     {
       "slug": "前端-js-10-内存管理和性能优化",
-      "title": "JavaScript 内存管理和性能优化",
+      "title": "10-内存管理和性能优化",
+      "wordCount": 545,
       "category": "前端",
       "file": "/notes/前端-js-10-内存管理和性能优化.md",
       "relativePath": "前端/JS/10-内存管理和性能优化.md"
     },
     {
       "slug": "前端-js-11-模块化和打包",
-      "title": "JavaScript 模块化和打包",
-      "description": "模块化是将代码分割成独立、可重用的模块。JavaScript 有多种模块系统：\r",
+      "title": "11-模块化和打包",
+      "wordCount": 870,
       "category": "前端",
       "file": "/notes/前端-js-11-模块化和打包.md",
       "relativePath": "前端/JS/11-模块化和打包.md"
     },
     {
       "slug": "前端-js-12-错误处理和调试",
-      "title": "JavaScript 错误处理和调试",
+      "title": "12-错误处理和调试",
+      "wordCount": 655,
       "category": "前端",
       "file": "/notes/前端-js-12-错误处理和调试.md",
       "relativePath": "前端/JS/12-错误处理和调试.md"
     },
     {
       "slug": "readme",
-      "title": "JavaScript 高级教程",
-      "description": "这是一个全面的 JavaScript 高级教程集合，涵盖从基础到进阶的各个主题。\r",
+      "title": "README",
+      "wordCount": 714,
       "category": "前端",
       "file": "/notes/readme.md",
       "relativePath": "前端/JS/README.md"
     },
     {
       "slug": "前端-vue-01-基础入门",
-      "title": "React 基础入门",
+      "title": "01-基础入门",
+      "wordCount": 438,
       "category": "前端",
       "file": "/notes/前端-vue-01-基础入门.md",
       "relativePath": "前端/React/01-基础入门.md"
     },
     {
       "slug": "前端-react-Hooks",
-      "title": "React Hooks",
+      "title": "02-Hooks",
+      "wordCount": 413,
       "category": "前端",
       "file": "/notes/前端-react-Hooks.md",
       "relativePath": "前端/React/02-Hooks.md"
     },
     {
       "slug": "前端-react-03-状态管理",
-      "title": "React 状态管理",
+      "title": "03-状态管理",
+      "wordCount": 328,
       "category": "前端",
       "file": "/notes/前端-react-03-状态管理.md",
       "relativePath": "前端/React/03-状态管理.md"
     },
     {
       "slug": "前端-react-04-路由管理",
-      "title": "React Router 路由管理",
+      "title": "04-路由管理",
+      "wordCount": 388,
       "category": "前端",
       "file": "/notes/前端-react-04-路由管理.md",
       "relativePath": "前端/React/04-路由管理.md"
     },
     {
       "slug": "前端-react-05-性能优化",
-      "title": "React 性能优化",
+      "title": "05-性能优化",
+      "wordCount": 406,
       "category": "前端",
       "file": "/notes/前端-react-05-性能优化.md",
       "relativePath": "前端/React/05-性能优化.md"
     },
     {
       "slug": "前端-react-06-最佳实践",
-      "title": "React 最佳实践",
+      "title": "06-最佳实践",
+      "wordCount": 363,
       "category": "前端",
       "file": "/notes/前端-react-06-最佳实践.md",
       "relativePath": "前端/React/06-最佳实践.md"
     },
     {
       "slug": "前端-react-readme",
-      "title": "React 教程",
-      "description": "这是一个 React 学习教程集合，包含从基础到进阶的完整学习路径。\r",
+      "title": "README",
+      "wordCount": 413,
       "category": "前端",
       "file": "/notes/前端-react-readme.md",
       "relativePath": "前端/React/README.md"
     },
     {
       "slug": "前端-vue-01-基础入门",
-      "title": "Vue 3 基础入门",
+      "title": "01-基础入门",
+      "wordCount": 248,
       "category": "前端",
       "file": "/notes/前端-vue-01-基础入门.md",
       "relativePath": "前端/Vue/01-基础入门.md"
     },
     {
       "slug": "前端-vue-02-组件系统",
-      "title": "Vue 组件系统",
+      "title": "02-组件系统",
+      "wordCount": 286,
       "category": "前端",
       "file": "/notes/前端-vue-02-组件系统.md",
       "relativePath": "前端/Vue/02-组件系统.md"
     },
     {
       "slug": "前端-vue-03-响应式原理",
-      "title": "Vue 响应式原理",
+      "title": "03-响应式原理",
+      "wordCount": 291,
       "category": "前端",
       "file": "/notes/前端-vue-03-响应式原理.md",
       "relativePath": "前端/Vue/03-响应式原理.md"
     },
     {
       "slug": "前端-vue-Composition-API",
-      "title": "Vue Composition API",
+      "title": "04-Composition-API",
+      "wordCount": 374,
       "category": "前端",
       "file": "/notes/前端-vue-Composition-API.md",
       "relativePath": "前端/Vue/04-Composition-API.md"
     },
     {
       "slug": "前端-vue-05-路由管理",
-      "title": "Vue Router 路由管理",
+      "title": "05-路由管理",
+      "wordCount": 377,
       "category": "前端",
       "file": "/notes/前端-vue-05-路由管理.md",
       "relativePath": "前端/Vue/05-路由管理.md"
     },
     {
       "slug": "前端-vue-06-状态管理",
-      "title": "Vue 状态管理 - Pinia",
+      "title": "06-状态管理",
+      "wordCount": 447,
       "category": "前端",
       "file": "/notes/前端-vue-06-状态管理.md",
       "relativePath": "前端/Vue/06-状态管理.md"
     },
     {
       "slug": "前端-vue-07-最佳实践",
-      "title": "Vue 最佳实践",
+      "title": "07-最佳实践",
+      "wordCount": 442,
       "category": "前端",
       "file": "/notes/前端-vue-07-最佳实践.md",
       "relativePath": "前端/Vue/07-最佳实践.md"
     },
     {
       "slug": "前端-vue-readme",
-      "title": "Vue.js 教程",
-      "description": "这是一个 Vue.js 学习教程集合，包含从基础到进阶的完整学习路径。\r",
+      "title": "README",
+      "wordCount": 406,
       "category": "前端",
       "file": "/notes/前端-vue-readme.md",
       "relativePath": "前端/Vue/README.md"
     },
     {
+      "slug": "判断说明",
+      "title": "判断说明",
+      "wordCount": 930,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/判断说明.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/判断说明.md"
+    },
+    {
+      "slug": "图形推理_位置规律",
+      "title": "图形推理_位置规律",
+      "wordCount": 2132,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/图形推理_位置规律.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/图形推理_位置规律.md"
+    },
+    {
+      "slug": "图形推理_属性规律",
+      "title": "图形推理_属性规律",
+      "wordCount": 4743,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/图形推理_属性规律.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/图形推理_属性规律.md"
+    },
+    {
+      "slug": "图形推理_数量规律",
+      "title": "图形推理_数量规律",
+      "wordCount": 7634,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/图形推理_数量规律.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/图形推理_数量规律.md"
+    },
+    {
+      "slug": "图形推理_样式规律",
+      "title": "图形推理_样式规律",
+      "wordCount": 2842,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/图形推理_样式规律.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/图形推理_样式规律.md"
+    },
+    {
+      "slug": "图形推理_特殊规律",
+      "title": "图形推理_特殊规律",
+      "wordCount": 3089,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/图形推理_特殊规律.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/图形推理_特殊规律.md"
+    },
+    {
+      "slug": "图形推理_空间重构",
+      "title": "图形推理_空间重构",
+      "wordCount": 9496,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/图形推理_空间重构.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/图形推理_空间重构.md"
+    },
+    {
+      "slug": "定义判断_定义判断",
+      "title": "定义判断_定义判断",
+      "wordCount": 12552,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/定义判断_定义判断.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/定义判断_定义判断.md"
+    },
+    {
+      "slug": "科学推理_化学",
+      "title": "科学推理_化学",
+      "wordCount": 21181,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/科学推理_化学.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/科学推理_化学.md"
+    },
+    {
+      "slug": "科学推理_地理",
+      "title": "科学推理_地理",
+      "wordCount": 5922,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/科学推理_地理.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/科学推理_地理.md"
+    },
+    {
+      "slug": "科学推理_物理",
+      "title": "科学推理_物理",
+      "wordCount": 24941,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/科学推理_物理.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/科学推理_物理.md"
+    },
+    {
+      "slug": "科学推理_生物",
+      "title": "科学推理_生物",
+      "wordCount": 1576,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/科学推理_生物.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/科学推理_生物.md"
+    },
+    {
+      "slug": "类比推理_其他考点",
+      "title": "类比推理_其他考点",
+      "wordCount": 10101,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/类比推理_其他考点.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/类比推理_其他考点.md"
+    },
+    {
+      "slug": "类比推理_语义关系",
+      "title": "类比推理_语义关系",
+      "wordCount": 6896,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/类比推理_语义关系.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/类比推理_语义关系.md"
+    },
+    {
+      "slug": "类比推理_语法关系",
+      "title": "类比推理_语法关系",
+      "wordCount": 3374,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/类比推理_语法关系.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/类比推理_语法关系.md"
+    },
+    {
+      "slug": "类比推理_逻辑关系",
+      "title": "类比推理_逻辑关系",
+      "wordCount": 16171,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/类比推理_逻辑关系.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/类比推理_逻辑关系.md"
+    },
+    {
+      "slug": "逻辑判断_加强削弱",
+      "title": "逻辑判断_加强削弱",
+      "wordCount": 29314,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/逻辑判断_加强削弱.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_加强削弱.md"
+    },
+    {
+      "slug": "逻辑判断_原因解释",
+      "title": "逻辑判断_原因解释",
+      "wordCount": 9942,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/逻辑判断_原因解释.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_原因解释.md"
+    },
+    {
+      "slug": "逻辑判断_日常结论",
+      "title": "逻辑判断_日常结论",
+      "wordCount": 6717,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/逻辑判断_日常结论.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_日常结论.md"
+    },
+    {
+      "slug": "逻辑判断_组合排列",
+      "title": "逻辑判断_组合排列",
+      "wordCount": 12767,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/逻辑判断_组合排列.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_组合排列.md"
+    },
+    {
+      "slug": "逻辑判断_结构相似",
+      "title": "逻辑判断_结构相似",
+      "wordCount": 10809,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/逻辑判断_结构相似.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_结构相似.md"
+    },
+    {
+      "slug": "逻辑判断_翻译推理",
+      "title": "逻辑判断_翻译推理",
+      "wordCount": 16980,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/逻辑判断_翻译推理.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_翻译推理.md"
+    },
+    {
+      "slug": "逻辑判断_集合推理",
+      "title": "逻辑判断_集合推理",
+      "description": "集合推理 正文 集合推理 是一个相对“小众”的考点，考频不高。 集合推理是一种研究范围的题型。通俗点说，就是研究“所有”（确定范围）和“有的”（不确定范围）的题型。 一、题目特征 有的”等表示集合概念的词语'),l('},",
+      "wordCount": 111,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/逻辑判断_集合推理.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/判断推理/逻辑判断_集合推理.md"
+    },
+    {
+      "slug": "人文篇_古代文化",
+      "title": "人文篇_古代文化",
+      "wordCount": 6151,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/人文篇_古代文化.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/人文篇_古代文化.md"
+    },
+    {
+      "slug": "人文篇_古代文学",
+      "title": "人文篇_古代文学",
+      "wordCount": 5332,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/人文篇_古代文学.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/人文篇_古代文学.md"
+    },
+    {
+      "slug": "人文篇_现代文化",
+      "title": "人文篇_现代文化",
+      "wordCount": 5474,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/人文篇_现代文化.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/人文篇_现代文化.md"
+    },
+    {
+      "slug": "人文篇_现代文学",
+      "title": "人文篇_现代文学",
+      "wordCount": 5532,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/人文篇_现代文学.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/人文篇_现代文学.md"
+    },
+    {
+      "slug": "公文篇",
+      "title": "公文篇",
+      "wordCount": 952,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/公文篇.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/公文篇.md"
+    },
+    {
+      "slug": "历史篇_世界历史",
+      "title": "历史篇_世界历史",
+      "wordCount": 6834,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/历史篇_世界历史.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/历史篇_世界历史.md"
+    },
+    {
+      "slug": "历史篇_中国古代史",
+      "title": "历史篇_中国古代史",
+      "wordCount": 9955,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/历史篇_中国古代史.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/历史篇_中国古代史.md"
+    },
+    {
+      "slug": "历史篇_中国现代史",
+      "title": "历史篇_中国现代史",
+      "wordCount": 8355,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/历史篇_中国现代史.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/历史篇_中国现代史.md"
+    },
+    {
+      "slug": "历史篇_中国近代史",
+      "title": "历史篇_中国近代史",
+      "wordCount": 4309,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/历史篇_中国近代史.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/历史篇_中国近代史.md"
+    },
+    {
+      "slug": "国情省情",
+      "title": "国情省情",
+      "wordCount": 644,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/国情省情.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/国情省情.md"
+    },
+    {
+      "slug": "国防与军队",
+      "title": "国防与军队",
+      "wordCount": 14357,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/国防与军队.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/国防与军队.md"
+    },
+    {
+      "slug": "常识说明",
+      "title": "常识说明",
+      "wordCount": 955,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/常识说明.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/常识说明.md"
+    },
+    {
+      "slug": "毛泽东思想",
+      "title": "毛泽东思想",
+      "wordCount": 5386,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/毛泽东思想.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/毛泽东思想.md"
+    },
+    {
+      "slug": "法律篇_其他法律法规",
+      "title": "法律篇_其他法律法规",
+      "wordCount": 29413,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/法律篇_其他法律法规.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/法律篇_其他法律法规.md"
+    },
+    {
+      "slug": "法律篇_刑法",
+      "title": "法律篇_刑法",
+      "wordCount": 24554,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/法律篇_刑法.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/法律篇_刑法.md"
+    },
+    {
+      "slug": "法律篇_宪法",
+      "title": "法律篇_宪法",
+      "wordCount": 7108,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/法律篇_宪法.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/法律篇_宪法.md"
+    },
+    {
+      "slug": "法律篇_民法典",
+      "title": "法律篇_民法典",
+      "wordCount": 30225,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/法律篇_民法典.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/法律篇_民法典.md"
+    },
+    {
+      "slug": "法律篇_法理学",
+      "title": "法律篇_法理学",
+      "wordCount": 7315,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/法律篇_法理学.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/法律篇_法理学.md"
+    },
+    {
+      "slug": "法律篇_行政法",
+      "title": "法律篇_行政法",
+      "wordCount": 23300,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/法律篇_行政法.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/法律篇_行政法.md"
+    },
+    {
+      "slug": "科技篇_化学知识",
+      "title": "科技篇_化学知识",
+      "wordCount": 9395,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/科技篇_化学知识.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/科技篇_化学知识.md"
+    },
+    {
+      "slug": "科技篇_地理",
+      "title": "科技篇_地理",
+      "wordCount": 566,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/科技篇_地理.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/科技篇_地理.md"
+    },
+    {
+      "slug": "科技篇_物理知识",
+      "title": "科技篇_物理知识",
+      "wordCount": 5364,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/科技篇_物理知识.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/科技篇_物理知识.md"
+    },
+    {
+      "slug": "科技篇_生活常识",
+      "title": "科技篇_生活常识",
+      "wordCount": 7121,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/科技篇_生活常识.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/科技篇_生活常识.md"
+    },
+    {
+      "slug": "科技篇_生物医学知识",
+      "title": "科技篇_生物医学知识",
+      "wordCount": 13336,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/科技篇_生物医学知识.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/科技篇_生物医学知识.md"
+    },
+    {
+      "slug": "科技篇_科技知识",
+      "title": "科技篇_科技知识",
+      "wordCount": 1124,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/科技篇_科技知识.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/科技篇_科技知识.md"
+    },
+    {
+      "slug": "管理篇",
+      "title": "管理篇",
+      "wordCount": 13214,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/管理篇.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/管理篇.md"
+    },
+    {
+      "slug": "经济篇_国际经济",
+      "title": "经济篇_国际经济",
+      "wordCount": 3938,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/经济篇_国际经济.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/经济篇_国际经济.md"
+    },
+    {
+      "slug": "经济篇_宏观经济",
+      "title": "经济篇_宏观经济",
+      "wordCount": 6688,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/经济篇_宏观经济.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/经济篇_宏观经济.md"
+    },
+    {
+      "slug": "经济篇_市场经济理论",
+      "title": "经济篇_市场经济理论",
+      "wordCount": 3507,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/经济篇_市场经济理论.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/经济篇_市场经济理论.md"
+    },
+    {
+      "slug": "经济篇_微观经济",
+      "title": "经济篇_微观经济",
+      "wordCount": 2723,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/经济篇_微观经济.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/经济篇_微观经济.md"
+    },
+    {
+      "slug": "经济篇_收入分配",
+      "title": "经济篇_收入分配",
+      "wordCount": 897,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/经济篇_收入分配.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/经济篇_收入分配.md"
+    },
+    {
+      "slug": "经济篇_马克思主义政治经济学",
+      "title": "经济篇_马克思主义政治经济学",
+      "wordCount": 4974,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/经济篇_马克思主义政治经济学.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/经济篇_马克思主义政治经济学.md"
+    },
+    {
+      "slug": "荣誉成就",
+      "title": "荣誉成就",
+      "wordCount": 14744,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/荣誉成就.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/荣誉成就.md"
+    },
+    {
+      "slug": "马克思主义哲学",
+      "title": "马克思主义哲学",
+      "wordCount": 16126,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/马克思主义哲学.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/常识判断/马克思主义哲学.md"
+    },
+    {
+      "slug": "数字推理_分数数列",
+      "title": "数字推理_分数数列",
+      "wordCount": 2695,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数字推理_分数数列.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_分数数列.md"
+    },
+    {
+      "slug": "数字推理_图像数列",
+      "title": "数字推理_图像数列",
+      "wordCount": 2937,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数字推理_图像数列.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_图像数列.md"
+    },
+    {
+      "slug": "数字推理_基础数列",
+      "title": "数字推理_基础数列",
+      "wordCount": 1488,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数字推理_基础数列.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_基础数列.md"
+    },
+    {
+      "slug": "数字推理_多级数列",
+      "title": "数字推理_多级数列",
+      "wordCount": 2223,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数字推理_多级数列.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_多级数列.md"
+    },
+    {
+      "slug": "数字推理_多重数列",
+      "title": "数字推理_多重数列",
+      "wordCount": 2073,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数字推理_多重数列.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_多重数列.md"
+    },
+    {
+      "slug": "数字推理_幂次数列",
+      "title": "数字推理_幂次数列",
+      "wordCount": 1924,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数字推理_幂次数列.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_幂次数列.md"
+    },
+    {
+      "slug": "数字推理_特殊数列",
+      "title": "数字推理_特殊数列",
+      "wordCount": 2675,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数字推理_特殊数列.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_特殊数列.md"
+    },
+    {
+      "slug": "数字推理_递推数列",
+      "title": "数字推理_递推数列",
+      "wordCount": 2134,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数字推理_递推数列.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数字推理_递推数列.md"
+    },
+    {
+      "slug": "数学常识",
+      "title": "数学常识",
+      "wordCount": 2133,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学常识.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学常识.md"
+    },
+    {
+      "slug": "数学运算_代入排除",
+      "title": "数学运算_代入排除",
+      "wordCount": 3697,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_代入排除.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_代入排除.md"
+    },
+    {
+      "slug": "数学运算_余数特性",
+      "title": "数学运算_余数特性",
+      "wordCount": 3108,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_余数特性.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_余数特性.md"
+    },
+    {
+      "slug": "数学运算_倍数特性",
+      "title": "数学运算_倍数特性",
+      "wordCount": 5052,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_倍数特性.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_倍数特性.md"
+    },
+    {
+      "slug": "数学运算_几何问题",
+      "title": "数学运算_几何问题",
+      "wordCount": 10091,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_几何问题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_几何问题.md"
+    },
+    {
+      "slug": "数学运算_十字交叉",
+      "title": "数学运算_十字交叉",
+      "wordCount": 4057,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_十字交叉.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_十字交叉.md"
+    },
+    {
+      "slug": "数学运算_奇偶特性",
+      "title": "数学运算_奇偶特性",
+      "wordCount": 3201,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_奇偶特性.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_奇偶特性.md"
+    },
+    {
+      "slug": "数学运算_容斥问题",
+      "title": "数学运算_容斥问题",
+      "wordCount": 3457,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_容斥问题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_容斥问题.md"
+    },
+    {
+      "slug": "数学运算_工程问题",
+      "title": "数学运算_工程问题",
+      "wordCount": 2611,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_工程问题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_工程问题.md"
+    },
+    {
+      "slug": "数学运算_排列组合及概率",
+      "title": "数学运算_排列组合及概率",
+      "wordCount": 7202,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_排列组合及概率.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_排列组合及概率.md"
+    },
+    {
+      "slug": "数学运算_方程思想",
+      "title": "数学运算_方程思想",
+      "wordCount": 7798,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_方程思想.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_方程思想.md"
+    },
+    {
+      "slug": "数学运算_方阵问题",
+      "title": "数学运算_方阵问题",
+      "wordCount": 1864,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_方阵问题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_方阵问题.md"
+    },
+    {
+      "slug": "数学运算_最值问题",
+      "title": "数学运算_最值问题",
+      "wordCount": 4269,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_最值问题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_最值问题.md"
+    },
+    {
+      "slug": "数学运算_溶液问题",
+      "title": "数学运算_溶液问题",
+      "wordCount": 5160,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_溶液问题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_溶液问题.md"
+    },
+    {
+      "slug": "数学运算_牛吃草问题",
+      "title": "数学运算_牛吃草问题",
+      "wordCount": 4322,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_牛吃草问题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_牛吃草问题.md"
+    },
+    {
+      "slug": "数学运算_经济利润问题",
+      "title": "数学运算_经济利润问题",
+      "wordCount": 4280,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_经济利润问题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_经济利润问题.md"
+    },
+    {
+      "slug": "数学运算_行程问题",
+      "title": "数学运算_行程问题",
+      "wordCount": 9529,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_行程问题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_行程问题.md"
+    },
+    {
+      "slug": "数学运算_计算问题",
+      "title": "数学运算_计算问题",
+      "wordCount": 13633,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_计算问题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_计算问题.md"
+    },
+    {
+      "slug": "数学运算_赋值思想",
+      "title": "数学运算_赋值思想",
+      "wordCount": 3150,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_赋值思想.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_赋值思想.md"
+    },
+    {
+      "slug": "数学运算_逆向推理",
+      "title": "数学运算_逆向推理",
+      "wordCount": 3104,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/数学运算_逆向推理.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/数量关系/数学运算_逆向推理.md"
+    },
+    {
+      "slug": "反面论证",
+      "title": "反面论证",
+      "wordCount": 6377,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/反面论证.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/反面论证.md"
+    },
+    {
+      "slug": "因果关系",
+      "title": "因果关系",
+      "wordCount": 7083,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/因果关系.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/因果关系.md"
+    },
+    {
+      "slug": "并列关系",
+      "title": "并列关系",
+      "wordCount": 315,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/并列关系.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/并列关系.md"
+    },
+    {
+      "slug": "推断下文",
+      "title": "推断下文",
+      "wordCount": 5955,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/推断下文.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/推断下文.md"
+    },
+    {
+      "slug": "条件关系",
+      "title": "条件关系",
+      "wordCount": 6104,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/条件关系.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/条件关系.md"
+    },
+    {
+      "slug": "标题填入",
+      "title": "标题填入",
+      "wordCount": 6549,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/标题填入.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/标题填入.md"
+    },
+    {
+      "slug": "歧义句辨析",
+      "title": "歧义句辨析",
+      "wordCount": 2388,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/歧义句辨析.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/歧义句辨析.md"
+    },
+    {
+      "slug": "病句辨析",
+      "title": "病句辨析",
+      "wordCount": 10471,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/病句辨析.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/病句辨析.md"
+    },
+    {
+      "slug": "篇章阅读",
+      "title": "篇章阅读",
+      "wordCount": 9464,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/篇章阅读.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/篇章阅读.md"
+    },
+    {
+      "slug": "细节判断",
+      "title": "细节判断",
+      "wordCount": 7200,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/细节判断.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/细节判断.md"
+    },
+    {
+      "slug": "行文脉络",
+      "title": "行文脉络",
+      "wordCount": 6430,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/行文脉络.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/行文脉络.md"
+    },
+    {
+      "slug": "言语说明",
+      "title": "言语说明",
+      "wordCount": 1183,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/言语说明.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/言语说明.md"
+    },
+    {
+      "slug": "词义辨析",
+      "title": "词义辨析",
+      "wordCount": 10058,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/词义辨析.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/词义辨析.md"
+    },
+    {
+      "slug": "词句理解",
+      "title": "词句理解",
+      "wordCount": 6555,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/词句理解.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/词句理解.md"
+    },
+    {
+      "slug": "词语积累",
+      "title": "词语积累",
+      "wordCount": 17232,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/词语积累.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/词语积累.md"
+    },
+    {
+      "slug": "语句填空",
+      "title": "语句填空",
+      "wordCount": 7565,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/语句填空.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/语句填空.md"
+    },
+    {
+      "slug": "语句排序",
+      "title": "语句排序",
+      "wordCount": 8709,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/语句排序.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/语句排序.md"
+    },
+    {
+      "slug": "语境分析",
+      "title": "语境分析",
+      "wordCount": 13466,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/语境分析.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/语境分析.md"
+    },
+    {
+      "slug": "转折关系",
+      "title": "转折关系",
+      "wordCount": 6059,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/转折关系.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/转折关系.md"
+    },
+    {
+      "slug": "递进关系",
+      "title": "递进关系",
+      "wordCount": 5527,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/递进关系.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/言语理解/递进关系.md"
+    },
+    {
+      "slug": "倍数专题",
+      "title": "倍数专题",
+      "wordCount": 5727,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/倍数专题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/倍数专题.md"
+    },
+    {
+      "slug": "增长率专题",
+      "title": "增长率专题",
+      "wordCount": 9039,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/增长率专题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/增长率专题.md"
+    },
+    {
+      "slug": "增长量专题",
+      "title": "增长量专题",
+      "wordCount": 5992,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/增长量专题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/增长量专题.md"
+    },
+    {
+      "slug": "平均数专题",
+      "title": "平均数专题",
+      "wordCount": 5660,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/平均数专题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/平均数专题.md"
+    },
+    {
+      "slug": "开篇",
+      "title": "开篇",
+      "wordCount": 1924,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/开篇.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/开篇.md"
+    },
+    {
+      "slug": "比重专题",
+      "title": "比重专题",
+      "wordCount": 8277,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/比重专题.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/比重专题.md"
+    },
+    {
+      "slug": "秒杀技巧",
+      "title": "秒杀技巧",
+      "wordCount": 7542,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/秒杀技巧.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/秒杀技巧.md"
+    },
+    {
+      "slug": "结构阅读法",
+      "title": "结构阅读法",
+      "wordCount": 1816,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/结构阅读法.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/结构阅读法.md"
+    },
+    {
+      "slug": "资料说明",
+      "title": "资料说明",
+      "wordCount": 838,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/资料说明.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/资料说明.md"
+    },
+    {
+      "slug": "速算技巧",
+      "title": "速算技巧",
+      "wordCount": 13809,
+      "category": "事业单位编制备考笔记",
+      "file": "/notes/速算技巧.md",
+      "relativePath": "事业单位编制备考笔记/刷题笔记/资料分析/速算技巧.md"
+    },
+    {
       "slug": "第一章节---哲学概述",
-      "title": "本章小结",
-      "description": "!(img/Pasted%20image%2020260325210221.png)",
+      "title": "第一章节  - 哲学概述",
+      "wordCount": 1364,
       "category": "事业单位编制备考笔记",
       "file": "/notes/第一章节---哲学概述.md",
       "relativePath": "事业单位编制备考笔记/理论课/哲学/第一章节  - 哲学概述.md"
     },
     {
       "slug": "工具函数",
-      "title": "前端实用工具函数集合",
+      "title": "工具函数",
+      "description": "前端实用工具函数集合 1. 异步错误处理 2. 防抖与节流 3. 深拷贝 4. 日期格式化 5. 数字格式化 6. 数组处理 7. 对象处理 8. URL 和查询参数 9. 本地存储 10. 表单验证 11. DOM 操作 12. 其他实用函数 13. 函数组合",
+      "wordCount": 131,
       "category": "CodeBlock",
       "file": "/notes/工具函数.md",
       "relativePath": "CodeBlock/工具函数.md"
     },
     {
       "slug": "01-快速开始",
-      "title": "Nest.js 快速开始",
-      "description": "启动后访问: http://localhost:3000",
+      "title": "01-快速开始",
+      "description": "Nest.js 快速开始 安装 使用 CLI 创建项目 手动安装 项目结构 第一个应用 1. 创建模块 (Module) 2. 创建控制器 (Controller) 3. 创建服务 (Service) 4. 启动应用 常用命令 访问应用 启动后访问:",
+      "wordCount": 125,
       "category": "Nest",
       "file": "/notes/01-快速开始.md",
       "relativePath": "Nest/01-快速开始.md"
     },
     {
       "slug": "02-核心概念",
-      "title": "Nest.js 核心概念",
-      "description": "模块是 Nest.js 应用的基本构建块，用于组织代码。\r",
+      "title": "02-核心概念",
+      "wordCount": 260,
       "category": "Nest",
       "file": "/notes/02-核心概念.md",
       "relativePath": "Nest/02-核心概念.md"
     },
     {
       "slug": "03-依赖注入",
-      "title": "Nest.js 依赖注入",
-      "description": "依赖注入（DI）是一种设计模式，用于管理类之间的依赖关系。Nest.js 内置了强大的 DI 容器。",
+      "title": "03-依赖注入",
+      "wordCount": 252,
       "category": "Nest",
       "file": "/notes/03-依赖注入.md",
       "relativePath": "Nest/03-依赖注入.md"
     },
     {
       "slug": "04-中间件",
-      "title": "Nest.js 中间件",
-      "description": "中间件是在路由处理器之前执行的函数，可以访问请求和响应对象。",
+      "title": "04-中间件",
+      "description": "Nest.js 中间件 什么是中间件 中间件是在路由处理器之前执行的函数，可以访问请求和响应对象。 创建中间件 1. 函数式中间件 2. 类中间件 应用中间件 在模块中应用 路由匹配 多个中间件 全局中间件 功能中间件 异步中间件 常见中间件示例 日志中间件 CORS 中间件 认证中间件",
+      "wordCount": 144,
       "category": "Nest",
       "file": "/notes/04-中间件.md",
       "relativePath": "Nest/04-中间件.md"
     },
     {
       "slug": "05-异常处理",
-      "title": "Nest.js 异常处理",
+      "title": "05-异常处理",
+      "description": "Nest.js 异常处理 内置异常 Nest.js 提供了内置的异常类： 自定义异常 异常过滤器 异常过滤器可以捕获和处理异常。 创建异常过滤器 捕获特定异常 应用异常过滤器 方法级别 控制器级别 全局级别 模块级别 继承异常 常见异常处理示例 业务异常 验证异常 日志记录异常",
+      "wordCount": 139,
       "category": "Nest",
       "file": "/notes/05-异常处理.md",
       "relativePath": "Nest/05-异常处理.md"
     },
     {
       "slug": "06-管道",
-      "title": "Nest.js 管道",
+      "title": "06-管道",
+      "wordCount": 292,
       "category": "Nest",
       "file": "/notes/06-管道.md",
       "relativePath": "Nest/06-管道.md"
     },
     {
       "slug": "07-守卫",
-      "title": "Nest.js 守卫",
-      "description": "守卫是一个使用 @Injectable() 装饰器的类，实现了 CanActivate 接口。守卫在中间件之后、拦截器之前执行。",
+      "title": "07-守卫",
+      "description": "Nest.js 守卫 什么是守卫 守卫是一个使用 装饰器的类，实现了 接口。守卫在中间件之后、拦截器之前执行。 创建守卫 使用守卫 控制器级别 方法级别 全局守卫 模块级别 认证守卫示例 角色守卫 自定义装饰器 角色装饰器 使用 组合多个守卫 执行上下文 用户装饰器 常见守卫模式 JWT 认证守卫 API Key 守卫",
+      "wordCount": 160,
       "category": "Nest",
       "file": "/notes/07-守卫.md",
       "relativePath": "Nest/07-守卫.md"
     },
     {
       "slug": "08-拦截器",
-      "title": "Nest.js 拦截器",
-      "description": "拦截器是一个使用 @Injectable() 装饰器的类，实现了 NestInterceptor 接口。拦截器可以：\r",
+      "title": "08-拦截器",
+      "wordCount": 216,
       "category": "Nest",
       "file": "/notes/08-拦截器.md",
       "relativePath": "Nest/08-拦截器.md"
     },
     {
       "slug": "09-typeorm集成",
-      "title": "Nest.js TypeORM 集成",
+      "title": "09-TypeORM集成",
+      "description": "Nest.js TypeORM 集成 安装 配置 在模块中配置 使用配置文件 创建实体 在模块中注册实体 在服务中使用 Repository 关系 一对一 一对多 多对多 查询构建器 事务 迁移 生成迁移 运行迁移 回滚迁移 订阅者（Subscribers）",
+      "wordCount": 129,
       "category": "Nest",
       "file": "/notes/09-typeorm集成.md",
       "relativePath": "Nest/09-TypeORM集成.md"
     },
     {
       "slug": "10-mongodb集成",
-      "title": "Nest.js MongoDB 集成",
+      "title": "10-MongoDB集成",
+      "description": "Nest.js MongoDB 集成 安装 配置 在模块中配置 使用配置文件 定义 Schema 在模块中注册 Schema 在服务中使用 Model Schema 选项 嵌套 Schema 数组类型 查询方法 索引 虚拟属性 中间件（Hooks） 连接事件",
+      "wordCount": 129,
       "category": "Nest",
       "file": "/notes/10-mongodb集成.md",
       "relativePath": "Nest/10-MongoDB集成.md"
     },
     {
       "slug": "11-restful-api",
-      "title": "Nest.js RESTful API",
+      "title": "11-RESTful-API",
+      "description": "Nest.js RESTful API 基本 CRUD 操作 Controller DTO（数据传输对象） 创建 DTO 更新 DTO 分页查询 DTO Service 查询过滤 DTO Service 响应格式统一 拦截器 状态码 自定义响应头 重定向 路由参数验证 文件上传 多文件上传 API 版本控制 Swagger 文档 安装 配置 使用装饰器",
+      "wordCount": 177,
       "category": "Nest",
       "file": "/notes/11-restful-api.md",
       "relativePath": "Nest/11-RESTful-API.md"
     },
     {
       "slug": "12-websocket",
-      "title": "Nest.js WebSocket",
+      "title": "12-WebSocket",
+      "description": "Nest.js WebSocket 安装 创建 Gateway 在模块中注册 消息处理 发送消息 广播消息 发送给特定房间 认证 JWT 认证 使用守卫 使用拦截器 使用管道 命名空间 适配器 Redis 适配器（多服务器） 客户端连接 JavaScript/TypeScript 示例：聊天应用",
+      "wordCount": 148,
       "category": "Nest",
       "file": "/notes/12-websocket.md",
       "relativePath": "Nest/12-WebSocket.md"
     },
     {
       "slug": "13-微服务",
-      "title": "Nest.js 微服务",
+      "title": "13-微服务",
+      "description": "Nest.js 微服务 安装 创建微服务应用 主应用（API Gateway） 微服务应用 传输层 TCP Redis RabbitMQ Kafka 消息模式 请求 响应 事件（发布 订阅） 连接微服务 在模块中连接 异步配置 消息序列化 异常处理 超时 示例：用户服务 用户微服务 API Gateway",
+      "wordCount": 153,
       "category": "Nest",
       "file": "/notes/13-微服务.md",
       "relativePath": "Nest/13-微服务.md"
     },
     {
       "slug": "14-认证授权",
-      "title": "Nest.js 认证授权",
+      "title": "14-认证授权",
+      "description": "Nest.js 认证授权 JWT 认证 安装 配置 JWT 模块 使用配置服务 Passport 策略 JWT 策略 本地策略（用户名密码） 认证服务 认证守卫 JWT 守卫 本地守卫 控制器 角色授权 角色装饰器 角色守卫 使用 密码加密 刷新 Token 用户装饰器 完整示例 Auth Module 保护路由",
+      "wordCount": 157,
       "category": "Nest",
       "file": "/notes/14-认证授权.md",
       "relativePath": "Nest/14-认证授权.md"
     },
     {
       "slug": "15-文件上传",
-      "title": "Nest.js 文件上传",
+      "title": "15-文件上传",
+      "description": "Nest.js 文件上传 安装 单文件上传 多文件上传 文件验证 内存存储 上传到云存储 AWS S3 文件下载 图片处理 文件服务封装 使用示例",
+      "wordCount": 73,
       "category": "Nest",
       "file": "/notes/15-文件上传.md",
       "relativePath": "Nest/15-文件上传.md"
     },
     {
       "slug": "16-项目结构",
-      "title": "Nest.js 项目结构",
+      "title": "16-项目结构",
+      "wordCount": 317,
       "category": "Nest",
       "file": "/notes/16-项目结构.md",
       "relativePath": "Nest/16-项目结构.md"
     },
     {
       "slug": "17-配置管理",
-      "title": "Nest.js 配置管理",
+      "title": "17-配置管理",
+      "description": "Nest.js 配置管理 安装 基本使用 在根模块中导入 环境变量文件 .env 使用 ConfigService 配置验证 安装 使用 自定义配置文件 创建配置文件 加载配置文件 使用嵌套配置 命名空间配置 定义命名空间 使用命名空间 异步配置 多环境配置 环境特定文件 加载环境特定配置 配置优先级 1. 环境变量 2. 3. 4. 5. 类型安全配置 定义接口 使用类型 示例：完整配置",
+      "wordCount": 196,
       "category": "Nest",
       "file": "/notes/17-配置管理.md",
       "relativePath": "Nest/17-配置管理.md"
     },
     {
       "slug": "18-测试",
-      "title": "Nest.js 测试",
+      "title": "18-测试",
+      "description": "Nest.js 测试 安装测试依赖 单元测试 测试服务 测试控制器 E2E 测试 基本 E2E 测试 用户模块 E2E 测试 测试数据库 使用测试数据库 模拟依赖 模拟服务 模拟 Repository 测试守卫 测试管道 Jest 配置 运行测试",
+      "wordCount": 123,
       "category": "Nest",
       "file": "/notes/18-测试.md",
       "relativePath": "Nest/18-测试.md"
     },
     {
       "slug": "19-部署",
-      "title": "Nest.js 部署",
-      "description": "这会生成 dist 目录，包含编译后的 JavaScript 文件。\r",
+      "title": "19-部署",
+      "wordCount": 499,
       "category": "Nest",
       "file": "/notes/19-部署.md",
       "relativePath": "Nest/19-部署.md"
     },
     {
       "slug": "readme",
-      "title": "Nest.js 教程",
-      "description": "这是一个 Nest.js 学习教程集合，包含从基础到进阶的完整学习路径。\r",
+      "title": "README",
+      "wordCount": 642,
       "category": "Nest",
       "file": "/notes/readme.md",
       "relativePath": "Nest/README.md"
