@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "all-notes/事业单位编制备考笔记/刷题笔记/资料分析/资料说明.md",
+                "file": "all-notes/后端/Go/01-基础入门/包与模块.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "资料说明"
+              "title": "包与模块"
             }
           }
         ]
@@ -237,6 +237,10 @@
   },
   "active": "b76d5d4c5f29b876",
   "lastOpenFiles": [
+    "all-notes/后端/Go/01-基础入门/安装与环境配置.md",
+    "all-notes/NOTE-TEMPLATE.md",
+    "all-notes/CodeBlock/工具函数.md",
+    "all-notes/事业单位编制备考笔记/刷题笔记/资料分析/资料说明.md",
     "public/notes/马克思主义哲学.md",
     "public/notes/逻辑判断_集合推理.md",
     "public/notes/逻辑判断_翻译推理.md",
@@ -259,10 +263,6 @@
     "public/notes/行文脉络.md",
     "public/notes/荣誉成就.md",
     "public/notes/结构阅读法.md",
-    "public/notes/经济篇_马克思主义政治经济学.md",
-    "public/notes/经济篇_收入分配.md",
-    "public/notes/经济篇_微观经济.md",
-    "public/notes/经济篇_市场经济理论.md",
     "vite.config.js.timestamp-1774595559187-ae69f892534ba.mjs",
     "scripts/final_refine_brush_notes.py",
     "scripts/refine_brush_notes_parse_block.py",
