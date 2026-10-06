@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "all-notes/后端/Go/01-基础入门/包与模块.md",
+                "file": "all-notes/Nest/01-快速开始.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "包与模块"
+              "title": "01-快速开始"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -232,13 +234,21 @@
       "mxmind:Mxmind": true,
       "obsidian-git:Open Git source control": true,
       "hi-note:HiNote": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "hidden-folder-obsidian:隐藏文件夹": false
     }
   },
-  "active": "b76d5d4c5f29b876",
+  "active": "43894227e6c716c8",
   "lastOpenFiles": [
-    "all-notes/后端/Go/01-基础入门/安装与环境配置.md",
     "all-notes/NOTE-TEMPLATE.md",
+    "all-notes/🎃网址收集/3.摸鱼.md",
+    "all-notes/🎃网址收集/2.工具轮子.md",
+    "all-notes/🎃网址收集/1.文档文章.md",
+    "all-notes/后端/Go/01-基础入门/包与模块.md",
+    "碎片整理/Excalidraw/Drawing 2026-10-06 17.07.18.excalidraw.md",
+    "碎片整理/Excalidraw",
+    "碎片整理",
+    "all-notes/后端/Go/01-基础入门/安装与环境配置.md",
     "all-notes/CodeBlock/工具函数.md",
     "all-notes/事业单位编制备考笔记/刷题笔记/资料分析/资料说明.md",
     "public/notes/马克思主义哲学.md",
@@ -258,11 +268,6 @@
     "public/notes/语句填空.md",
     "public/notes/词语积累.md",
     "public/notes/词句理解.md",
-    "public/notes/词义辨析.md",
-    "public/notes/言语说明.md",
-    "public/notes/行文脉络.md",
-    "public/notes/荣誉成就.md",
-    "public/notes/结构阅读法.md",
     "vite.config.js.timestamp-1774595559187-ae69f892534ba.mjs",
     "scripts/final_refine_brush_notes.py",
     "scripts/refine_brush_notes_parse_block.py",
@@ -272,8 +277,6 @@
     "all-notes/事业单位编制备考笔记/刷题笔记/资料分析/img",
     "all-notes/事业单位编制备考笔记/刷题笔记/资料分析",
     "all-notes/事业单位编制备考笔记/刷题笔记/言语理解",
-    "all-notes/事业单位编制备考笔记/刷题笔记/数量关系",
-    "all-notes/事业单位编制备考笔记/刷题笔记/判断推理",
     "all-notes/事业单位编制备考笔记/理论课/哲学/img/Pasted image 20260325223612.png",
     "all-notes/事业单位编制备考笔记/理论课/哲学/img/Pasted image 20260325223549.png",
     "all-notes/事业单位编制备考笔记/理论课/哲学/img/Pasted image 20260325223543.png",
