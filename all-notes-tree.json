@@ -1027,6 +1027,32 @@
           ]
         }
       ]
+    },
+    {
+      "id": "04-ai-agent",
+      "name": "04-AI-Agent",
+      "icon": null,
+      "type": "category",
+      "path": "/category/04-ai-agent",
+      "children": [
+        {
+          "id": "04-ai-agent--skill推荐",
+          "name": "skill推荐",
+          "type": "folder",
+          "path": "/category/04-ai-agent--skill推荐",
+          "children": [
+            {
+              "id": "04-AI-Agent-skill推荐-自用高频Skill",
+              "name": "自用高频Skill",
+              "type": "file",
+              "path": "/notes/04-AI-Agent-skill推荐-自用高频Skill",
+              "slug": "04-AI-Agent-skill推荐-自用高频Skill",
+              "wordCount": 2853,
+              "relativePath": "04-AI-Agent/skill推荐/自用高频Skill.md"
+            }
+          ]
+        }
+      ]
     }
   ],
   "flat": [
@@ -1814,6 +1840,14 @@
       "category": "02-后端",
       "file": "/notes/02-后端-Nest-README.md",
       "relativePath": "02-后端/Nest/README.md"
+    },
+    {
+      "slug": "04-AI-Agent-skill推荐-自用高频Skill",
+      "title": "自用高频Skill",
+      "wordCount": 2853,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-skill推荐-自用高频Skill.md",
+      "relativePath": "04-AI-Agent/skill推荐/自用高频Skill.md"
     }
   ]
 }
