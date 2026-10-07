@@ -22,5 +22,6 @@
     ".output/",
     "src/",
     "docs/"
-  ]
+  ],
+  "promptDelete": false
 }
