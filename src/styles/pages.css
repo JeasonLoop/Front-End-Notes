@@ -825,6 +825,80 @@
   border-bottom: 1px solid var(--border-light);
 }
 
+/* ========== 项目展示 ========== */
+.projects-page {
+  max-width: 860px;
+}
+
+.projects-header {
+  margin-bottom: var(--space-2xl);
+}
+
+.projects-header h1 {
+  font-size: 3.5rem;
+  letter-spacing: -1px;
+  margin-bottom: var(--space-sm);
+}
+
+.projects-subtitle {
+  color: var(--text-secondary);
+  font-size: 1.15rem;
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.project-card {
+  border: 1px solid var(--border-light);
+  background: rgba(20, 22, 26, 0.72);
+  border-radius: var(--radius-md);
+  padding: var(--space-xl);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card.hovered,
+.project-card:hover {
+  border-color: var(--border-medium);
+  box-shadow: var(--shadow-glow);
+}
+
+.project-title {
+  font-size: 1.75rem;
+  margin-bottom: var(--space-sm);
+  font-weight: 500;
+}
+
+.project-description {
+  color: var(--text-secondary);
+  margin-bottom: var(--space-md);
+  line-height: 1.6;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}
+
+.project-tags .tag {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-full);
+  padding: 0.2rem 0.7rem;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
 /* ========== 404 页面 ========== */
 .not-found {
   display: flex;
@@ -858,6 +932,10 @@
 
 /* ========== 响应式 ========== */
 @media (max-width: 1024px) {
+  .projects-header h1 {
+    font-size: 2.5rem;
+  }
+
   .home-hero {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
@@ -921,6 +999,14 @@
 }
 
 @media (max-width: 640px) {
+  .projects-header h1 {
+    font-size: 2rem;
+  }
+
+  .project-card {
+    padding: var(--space-lg);
+  }
+
   .home-hero-content h1 {
     font-size: 2.5rem;
   }
