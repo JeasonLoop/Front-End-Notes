@@ -23,9 +23,8 @@
 
 ## 🚀 在线预览
 
-🔗 **点击访问**：https://yzyz-bit.github.io/Front-End-Notes/
+🔗 **点击访问**：[https://jeasonloop.github.io/Front-End-Notes/](https://jeasonloop.github.io/Front-End-Notes/)
 
-![首页预览](https://github.com/yzyz-bit/Front-End-Notes/blob/main/screenshot.png?raw=true)
 
 ## 📁 目录结构
 
