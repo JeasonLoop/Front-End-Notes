@@ -8,34 +8,31 @@
       "path": "/category/🎃网址收集",
       "children": [
         {
-          "id": "1.文档文章",
+          "id": "🎃网址收集-1.文档文章",
           "name": "1.文档文章",
           "type": "file",
-          "path": "/notes/1.文档文章.md",
-          "slug": "1.文档文章",
+          "path": "/notes/🎃网址收集-1.文档文章",
+          "slug": "🎃网址收集-1.文档文章",
           "wordCount": 1597,
-          "relativePath": "🎃网址收集/1.文档文章.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/🎃网址收集/1.文档文章.md"
+          "relativePath": "🎃网址收集/1.文档文章.md"
         },
         {
-          "id": "2.工具轮子",
+          "id": "🎃网址收集-2.工具轮子",
           "name": "2.工具轮子",
           "type": "file",
-          "path": "/notes/2.工具轮子.md",
-          "slug": "2.工具轮子",
+          "path": "/notes/🎃网址收集-2.工具轮子",
+          "slug": "🎃网址收集-2.工具轮子",
           "wordCount": 315,
-          "relativePath": "🎃网址收集/2.工具轮子.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/🎃网址收集/2.工具轮子.md"
+          "relativePath": "🎃网址收集/2.工具轮子.md"
         },
         {
-          "id": "3.摸鱼",
+          "id": "🎃网址收集-3.摸鱼",
           "name": "3.摸鱼",
           "type": "file",
-          "path": "/notes/3.摸鱼.md",
-          "slug": "3.摸鱼",
+          "path": "/notes/🎃网址收集-3.摸鱼",
+          "slug": "🎃网址收集-3.摸鱼",
           "wordCount": 562,
-          "relativePath": "🎃网址收集/3.摸鱼.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/🎃网址收集/3.摸鱼.md"
+          "relativePath": "🎃网址收集/3.摸鱼.md"
         }
       ]
     },
@@ -47,473 +44,445 @@
       "path": "/category/后端",
       "children": [
         {
-          "id": "go",
+          "id": "后端--go",
           "name": "Go",
           "type": "folder",
+          "path": "/category/后端--go",
           "children": [
             {
-              "id": "01-基础入门",
+              "id": "后端--go--01-基础入门",
               "name": "01-基础入门",
               "type": "folder",
+              "path": "/category/后端--go--01-基础入门",
               "children": [
                 {
-                  "id": "后端-go-Go-简介与特点",
+                  "id": "后端-Go-01-基础入门-Go-简介与特点",
                   "name": "Go-简介与特点",
                   "type": "file",
-                  "path": "/notes/后端-go-Go-简介与特点.md",
-                  "slug": "后端-go-Go-简介与特点",
+                  "path": "/notes/后端-Go-01-基础入门-Go-简介与特点",
+                  "slug": "后端-Go-01-基础入门-Go-简介与特点",
                   "wordCount": 1296,
-                  "relativePath": "后端/Go/01-基础入门/Go-简介与特点.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/Go-简介与特点.md"
+                  "relativePath": "后端/Go/01-基础入门/Go-简介与特点.md"
                 },
                 {
-                  "id": "后端-go-01-基础入门-函数",
+                  "id": "后端-Go-01-基础入门-函数",
                   "name": "函数",
                   "type": "file",
-                  "path": "/notes/后端-go-01-基础入门-函数.md",
-                  "slug": "后端-go-01-基础入门-函数",
+                  "path": "/notes/后端-Go-01-基础入门-函数",
+                  "slug": "后端-Go-01-基础入门-函数",
                   "wordCount": 259,
-                  "relativePath": "后端/Go/01-基础入门/函数.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/函数.md"
+                  "relativePath": "后端/Go/01-基础入门/函数.md"
                 },
                 {
-                  "id": "后端-go-01-基础入门-包与模块",
+                  "id": "后端-Go-01-基础入门-包与模块",
                   "name": "包与模块",
                   "type": "file",
-                  "path": "/notes/后端-go-01-基础入门-包与模块.md",
-                  "slug": "后端-go-01-基础入门-包与模块",
+                  "path": "/notes/后端-Go-01-基础入门-包与模块",
+                  "slug": "后端-Go-01-基础入门-包与模块",
                   "wordCount": 369,
-                  "relativePath": "后端/Go/01-基础入门/包与模块.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/包与模块.md"
+                  "relativePath": "后端/Go/01-基础入门/包与模块.md"
                 },
                 {
-                  "id": "后端-java-01-基础入门-基础语法",
+                  "id": "后端-Go-01-基础入门-基础语法",
                   "name": "基础语法",
                   "type": "file",
-                  "path": "/notes/后端-java-01-基础入门-基础语法.md",
-                  "slug": "后端-java-01-基础入门-基础语法",
+                  "path": "/notes/后端-Go-01-基础入门-基础语法",
+                  "slug": "后端-Go-01-基础入门-基础语法",
                   "wordCount": 390,
-                  "relativePath": "后端/Go/01-基础入门/基础语法.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/基础语法.md"
+                  "relativePath": "后端/Go/01-基础入门/基础语法.md"
                 },
                 {
-                  "id": "后端-java-01-基础入门-安装与环境配置",
+                  "id": "后端-Go-01-基础入门-安装与环境配置",
                   "name": "安装与环境配置",
                   "type": "file",
-                  "path": "/notes/后端-java-01-基础入门-安装与环境配置.md",
-                  "slug": "后端-java-01-基础入门-安装与环境配置",
+                  "path": "/notes/后端-Go-01-基础入门-安装与环境配置",
+                  "slug": "后端-Go-01-基础入门-安装与环境配置",
                   "wordCount": 946,
-                  "relativePath": "后端/Go/01-基础入门/安装与环境配置.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/安装与环境配置.md"
+                  "relativePath": "后端/Go/01-基础入门/安装与环境配置.md"
                 },
                 {
-                  "id": "后端-go-01-基础入门-接口",
+                  "id": "后端-Go-01-基础入门-接口",
                   "name": "接口",
                   "type": "file",
-                  "path": "/notes/后端-go-01-基础入门-接口.md",
-                  "slug": "后端-go-01-基础入门-接口",
+                  "path": "/notes/后端-Go-01-基础入门-接口",
+                  "slug": "后端-Go-01-基础入门-接口",
                   "wordCount": 244,
-                  "relativePath": "后端/Go/01-基础入门/接口.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/接口.md"
+                  "relativePath": "后端/Go/01-基础入门/接口.md"
                 },
                 {
-                  "id": "后端-java-01-基础入门-控制结构",
+                  "id": "后端-Go-01-基础入门-控制结构",
                   "name": "控制结构",
                   "type": "file",
-                  "path": "/notes/后端-java-01-基础入门-控制结构.md",
-                  "slug": "后端-java-01-基础入门-控制结构",
+                  "path": "/notes/后端-Go-01-基础入门-控制结构",
+                  "slug": "后端-Go-01-基础入门-控制结构",
                   "wordCount": 339,
-                  "relativePath": "后端/Go/01-基础入门/控制结构.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/控制结构.md"
+                  "relativePath": "后端/Go/01-基础入门/控制结构.md"
                 },
                 {
-                  "id": "后端-java-01-基础入门-数据类型与变量",
+                  "id": "后端-Go-01-基础入门-数据类型与变量",
                   "name": "数据类型与变量",
                   "type": "file",
-                  "path": "/notes/后端-java-01-基础入门-数据类型与变量.md",
-                  "slug": "后端-java-01-基础入门-数据类型与变量",
+                  "path": "/notes/后端-Go-01-基础入门-数据类型与变量",
+                  "slug": "后端-Go-01-基础入门-数据类型与变量",
                   "wordCount": 272,
-                  "relativePath": "后端/Go/01-基础入门/数据类型与变量.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/数据类型与变量.md"
+                  "relativePath": "后端/Go/01-基础入门/数据类型与变量.md"
                 },
                 {
-                  "id": "后端-go-01-基础入门-结构体与方法",
+                  "id": "后端-Go-01-基础入门-结构体与方法",
                   "name": "结构体与方法",
                   "type": "file",
-                  "path": "/notes/后端-go-01-基础入门-结构体与方法.md",
-                  "slug": "后端-go-01-基础入门-结构体与方法",
+                  "path": "/notes/后端-Go-01-基础入门-结构体与方法",
+                  "slug": "后端-Go-01-基础入门-结构体与方法",
                   "wordCount": 321,
-                  "relativePath": "后端/Go/01-基础入门/结构体与方法.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/01-基础入门/结构体与方法.md"
+                  "relativePath": "后端/Go/01-基础入门/结构体与方法.md"
                 }
               ]
             },
             {
-              "id": "02-核心特性",
+              "id": "后端--go--02-核心特性",
               "name": "02-核心特性",
               "type": "folder",
+              "path": "/category/后端--go--02-核心特性",
               "children": [
                 {
-                  "id": "后端-go-Channel-通道",
+                  "id": "后端-Go-02-核心特性-Channel-通道",
                   "name": "Channel-通道",
                   "type": "file",
-                  "path": "/notes/后端-go-Channel-通道.md",
-                  "slug": "后端-go-Channel-通道",
+                  "path": "/notes/后端-Go-02-核心特性-Channel-通道",
+                  "slug": "后端-Go-02-核心特性-Channel-通道",
                   "wordCount": 402,
-                  "relativePath": "后端/Go/02-核心特性/Channel-通道.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/02-核心特性/Channel-通道.md"
+                  "relativePath": "后端/Go/02-核心特性/Channel-通道.md"
                 },
                 {
-                  "id": "后端-go-Goroutine-协程",
+                  "id": "后端-Go-02-核心特性-Goroutine-协程",
                   "name": "Goroutine-协程",
                   "type": "file",
-                  "path": "/notes/后端-go-Goroutine-协程.md",
-                  "slug": "后端-go-Goroutine-协程",
+                  "path": "/notes/后端-Go-02-核心特性-Goroutine-协程",
+                  "slug": "后端-Go-02-核心特性-Goroutine-协程",
                   "wordCount": 612,
-                  "relativePath": "后端/Go/02-核心特性/Goroutine-协程.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/02-核心特性/Goroutine-协程.md"
+                  "relativePath": "后端/Go/02-核心特性/Goroutine-协程.md"
                 },
                 {
-                  "id": "后端-go-Select-语句",
+                  "id": "后端-Go-02-核心特性-Select-语句",
                   "name": "Select-语句",
                   "type": "file",
-                  "path": "/notes/后端-go-Select-语句.md",
-                  "slug": "后端-go-Select-语句",
+                  "path": "/notes/后端-Go-02-核心特性-Select-语句",
+                  "slug": "后端-Go-02-核心特性-Select-语句",
                   "wordCount": 327,
-                  "relativePath": "后端/Go/02-核心特性/Select-语句.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/02-核心特性/Select-语句.md"
+                  "relativePath": "后端/Go/02-核心特性/Select-语句.md"
                 },
                 {
-                  "id": "后端-go-02-核心特性-同步原语",
+                  "id": "后端-Go-02-核心特性-同步原语",
                   "name": "同步原语",
                   "type": "file",
-                  "path": "/notes/后端-go-02-核心特性-同步原语.md",
-                  "slug": "后端-go-02-核心特性-同步原语",
+                  "path": "/notes/后端-Go-02-核心特性-同步原语",
+                  "slug": "后端-Go-02-核心特性-同步原语",
                   "wordCount": 287,
-                  "relativePath": "后端/Go/02-核心特性/同步原语.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/02-核心特性/同步原语.md"
+                  "relativePath": "后端/Go/02-核心特性/同步原语.md"
                 },
                 {
-                  "id": "后端-go-02-核心特性-错误处理机制",
+                  "id": "后端-Go-02-核心特性-错误处理机制",
                   "name": "错误处理机制",
                   "type": "file",
-                  "path": "/notes/后端-go-02-核心特性-错误处理机制.md",
-                  "slug": "后端-go-02-核心特性-错误处理机制",
+                  "path": "/notes/后端-Go-02-核心特性-错误处理机制",
+                  "slug": "后端-Go-02-核心特性-错误处理机制",
                   "wordCount": 330,
-                  "relativePath": "后端/Go/02-核心特性/错误处理机制.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/02-核心特性/错误处理机制.md"
+                  "relativePath": "后端/Go/02-核心特性/错误处理机制.md"
                 }
               ]
             },
             {
-              "id": "03-web开发",
+              "id": "后端--go--03-web开发",
               "name": "03-Web开发",
               "type": "folder",
+              "path": "/category/后端--go--03-web开发",
               "children": [
                 {
-                  "id": "后端-go-Gin-框架",
+                  "id": "后端-Go-03-Web开发-Gin-框架",
                   "name": "Gin-框架",
                   "type": "file",
-                  "path": "/notes/后端-go-Gin-框架.md",
-                  "slug": "后端-go-Gin-框架",
+                  "path": "/notes/后端-Go-03-Web开发-Gin-框架",
+                  "slug": "后端-Go-03-Web开发-Gin-框架",
                   "wordCount": 323,
-                  "relativePath": "后端/Go/03-Web开发/Gin-框架.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/03-Web开发/Gin-框架.md"
+                  "relativePath": "后端/Go/03-Web开发/Gin-框架.md"
                 },
                 {
-                  "id": "后端-go-HTTP-服务基础",
+                  "id": "后端-Go-03-Web开发-HTTP-服务基础",
                   "name": "HTTP-服务基础",
                   "type": "file",
-                  "path": "/notes/后端-go-HTTP-服务基础.md",
-                  "slug": "后端-go-HTTP-服务基础",
+                  "path": "/notes/后端-Go-03-Web开发-HTTP-服务基础",
+                  "slug": "后端-Go-03-Web开发-HTTP-服务基础",
                   "wordCount": 328,
-                  "relativePath": "后端/Go/03-Web开发/HTTP-服务基础.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/03-Web开发/HTTP-服务基础.md"
+                  "relativePath": "后端/Go/03-Web开发/HTTP-服务基础.md"
                 },
                 {
-                  "id": "后端-go-03-web开发-中间件",
+                  "id": "后端-Go-03-Web开发-中间件",
                   "name": "中间件",
                   "type": "file",
-                  "path": "/notes/后端-go-03-web开发-中间件.md",
-                  "slug": "后端-go-03-web开发-中间件",
+                  "path": "/notes/后端-Go-03-Web开发-中间件",
+                  "slug": "后端-Go-03-Web开发-中间件",
                   "wordCount": 324,
-                  "relativePath": "后端/Go/03-Web开发/中间件.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/03-Web开发/中间件.md"
+                  "relativePath": "后端/Go/03-Web开发/中间件.md"
                 },
                 {
-                  "id": "后端-go-03-web开发-路由处理",
+                  "id": "后端-Go-03-Web开发-路由处理",
                   "name": "路由处理",
                   "type": "file",
-                  "path": "/notes/后端-go-03-web开发-路由处理.md",
-                  "slug": "后端-go-03-web开发-路由处理",
+                  "path": "/notes/后端-Go-03-Web开发-路由处理",
+                  "slug": "后端-Go-03-Web开发-路由处理",
                   "wordCount": 247,
-                  "relativePath": "后端/Go/03-Web开发/路由处理.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/03-Web开发/路由处理.md"
+                  "relativePath": "后端/Go/03-Web开发/路由处理.md"
                 }
               ]
             },
             {
-              "id": "05-企业架构",
+              "id": "后端--go--05-企业架构",
               "name": "05-企业架构",
               "type": "folder",
+              "path": "/category/后端--go--05-企业架构",
               "children": [
                 {
-                  "id": "后端-go-05-企业架构-微服务基础",
+                  "id": "后端-Go-05-企业架构-微服务基础",
                   "name": "微服务基础",
                   "type": "file",
-                  "path": "/notes/后端-go-05-企业架构-微服务基础.md",
-                  "slug": "后端-go-05-企业架构-微服务基础",
+                  "path": "/notes/后端-Go-05-企业架构-微服务基础",
+                  "slug": "后端-Go-05-企业架构-微服务基础",
                   "wordCount": 489,
-                  "relativePath": "后端/Go/05-企业架构/微服务基础.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/05-企业架构/微服务基础.md"
+                  "relativePath": "后端/Go/05-企业架构/微服务基础.md"
                 }
               ]
             },
             {
-              "id": "06-实践项目",
+              "id": "后端--go--06-实践项目",
               "name": "06-实践项目",
               "type": "folder",
+              "path": "/category/后端--go--06-实践项目",
               "children": [
                 {
-                  "id": "后端-go-第一个-HTTP-服务",
+                  "id": "后端-Go-06-实践项目-第一个-HTTP-服务",
                   "name": "第一个-HTTP-服务",
                   "type": "file",
-                  "path": "/notes/后端-go-第一个-HTTP-服务.md",
-                  "slug": "后端-go-第一个-HTTP-服务",
+                  "path": "/notes/后端-Go-06-实践项目-第一个-HTTP-服务",
+                  "slug": "后端-Go-06-实践项目-第一个-HTTP-服务",
                   "wordCount": 541,
-                  "relativePath": "后端/Go/06-实践项目/第一个-HTTP-服务.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/06-实践项目/第一个-HTTP-服务.md"
+                  "relativePath": "后端/Go/06-实践项目/第一个-HTTP-服务.md"
                 }
               ]
             },
             {
-              "id": "后端-go-moc-go",
+              "id": "后端-Go-!MOC-Go",
               "name": "!MOC-Go",
               "type": "file",
-              "path": "/notes/后端-go-moc-go.md",
-              "slug": "后端-go-moc-go",
+              "path": "/notes/后端-Go-!MOC-Go",
+              "slug": "后端-Go-!MOC-Go",
               "wordCount": 954,
-              "relativePath": "后端/Go/!MOC-Go.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Go/!MOC-Go.md"
+              "relativePath": "后端/Go/!MOC-Go.md"
             }
           ]
         },
         {
-          "id": "java",
+          "id": "后端--java",
           "name": "Java",
           "type": "folder",
+          "path": "/category/后端--java",
           "children": [
             {
-              "id": "01-基础入门",
+              "id": "后端--java--01-基础入门",
               "name": "01-基础入门",
               "type": "folder",
+              "path": "/category/后端--java--01-基础入门",
               "children": [
                 {
-                  "id": "后端-java-01-基础入门-io流",
+                  "id": "后端-Java-01-基础入门-IO流",
                   "name": "IO流",
                   "type": "file",
-                  "path": "/notes/后端-java-01-基础入门-io流.md",
-                  "slug": "后端-java-01-基础入门-io流",
+                  "path": "/notes/后端-Java-01-基础入门-IO流",
+                  "slug": "后端-Java-01-基础入门-IO流",
                   "wordCount": 435,
-                  "relativePath": "后端/Java/01-基础入门/IO流.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/IO流.md"
+                  "relativePath": "后端/Java/01-基础入门/IO流.md"
                 },
                 {
-                  "id": "后端-java-Java-简介与特点",
+                  "id": "后端-Java-01-基础入门-Java-简介与特点",
                   "name": "Java-简介与特点",
                   "type": "file",
-                  "path": "/notes/后端-java-Java-简介与特点.md",
-                  "slug": "后端-java-Java-简介与特点",
+                  "path": "/notes/后端-Java-01-基础入门-Java-简介与特点",
+                  "slug": "后端-Java-01-基础入门-Java-简介与特点",
                   "wordCount": 1127,
-                  "relativePath": "后端/Java/01-基础入门/Java-简介与特点.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/Java-简介与特点.md"
+                  "relativePath": "后端/Java/01-基础入门/Java-简介与特点.md"
                 },
                 {
-                  "id": "后端-java-01-基础入门-函数与方法",
+                  "id": "后端-Java-01-基础入门-函数与方法",
                   "name": "函数与方法",
                   "type": "file",
-                  "path": "/notes/后端-java-01-基础入门-函数与方法.md",
-                  "slug": "后端-java-01-基础入门-函数与方法",
+                  "path": "/notes/后端-Java-01-基础入门-函数与方法",
+                  "slug": "后端-Java-01-基础入门-函数与方法",
                   "description": "函数与方法 方法定义 基本语法 参数传递 方法重载 静态方法与实例方法 构造方法 递归 Lambda 表达式（Java 8+） 方法引用（Java 8+） 下一篇 数组与字符串",
                   "wordCount": 88,
-                  "relativePath": "后端/Java/01-基础入门/函数与方法.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/函数与方法.md"
+                  "relativePath": "后端/Java/01-基础入门/函数与方法.md"
                 },
                 {
-                  "id": "后端-java-01-基础入门-基础语法",
+                  "id": "后端-Java-01-基础入门-基础语法",
                   "name": "基础语法",
                   "type": "file",
-                  "path": "/notes/后端-java-01-基础入门-基础语法.md",
-                  "slug": "后端-java-01-基础入门-基础语法",
+                  "path": "/notes/后端-Java-01-基础入门-基础语法",
+                  "slug": "后端-Java-01-基础入门-基础语法",
                   "wordCount": 550,
-                  "relativePath": "后端/Java/01-基础入门/基础语法.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/基础语法.md"
+                  "relativePath": "后端/Java/01-基础入门/基础语法.md"
                 },
                 {
-                  "id": "后端-java-01-基础入门-安装与环境配置",
+                  "id": "后端-Java-01-基础入门-安装与环境配置",
                   "name": "安装与环境配置",
                   "type": "file",
-                  "path": "/notes/后端-java-01-基础入门-安装与环境配置.md",
-                  "slug": "后端-java-01-基础入门-安装与环境配置",
+                  "path": "/notes/后端-Java-01-基础入门-安装与环境配置",
+                  "slug": "后端-Java-01-基础入门-安装与环境配置",
                   "wordCount": 690,
-                  "relativePath": "后端/Java/01-基础入门/安装与环境配置.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/安装与环境配置.md"
+                  "relativePath": "后端/Java/01-基础入门/安装与环境配置.md"
                 },
                 {
-                  "id": "后端-java-01-基础入门-异常处理",
+                  "id": "后端-Java-01-基础入门-异常处理",
                   "name": "异常处理",
                   "type": "file",
-                  "path": "/notes/后端-java-01-基础入门-异常处理.md",
-                  "slug": "后端-java-01-基础入门-异常处理",
+                  "path": "/notes/后端-Java-01-基础入门-异常处理",
+                  "slug": "后端-Java-01-基础入门-异常处理",
                   "wordCount": 271,
-                  "relativePath": "后端/Java/01-基础入门/异常处理.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/异常处理.md"
+                  "relativePath": "后端/Java/01-基础入门/异常处理.md"
                 },
                 {
-                  "id": "后端-java-01-基础入门-控制结构",
+                  "id": "后端-Java-01-基础入门-控制结构",
                   "name": "控制结构",
                   "type": "file",
-                  "path": "/notes/后端-java-01-基础入门-控制结构.md",
-                  "slug": "后端-java-01-基础入门-控制结构",
+                  "path": "/notes/后端-Java-01-基础入门-控制结构",
+                  "slug": "后端-Java-01-基础入门-控制结构",
                   "wordCount": 224,
-                  "relativePath": "后端/Java/01-基础入门/控制结构.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/控制结构.md"
+                  "relativePath": "后端/Java/01-基础入门/控制结构.md"
                 },
                 {
-                  "id": "后端-java-01-基础入门-数据类型与变量",
+                  "id": "后端-Java-01-基础入门-数据类型与变量",
                   "name": "数据类型与变量",
                   "type": "file",
-                  "path": "/notes/后端-java-01-基础入门-数据类型与变量.md",
-                  "slug": "后端-java-01-基础入门-数据类型与变量",
+                  "path": "/notes/后端-Java-01-基础入门-数据类型与变量",
+                  "slug": "后端-Java-01-基础入门-数据类型与变量",
                   "description": "数据类型与变量 Java 类型系统总览 基本类型详解 整数类型 浮点类型 字符类型 布尔类型 类型转换 自动类型转换（隐式） 强制类型转换（显式） 引用类型 String（字符串） 数组 变量的作用域 包装类 常用 API 类 下一篇 控制结构",
                   "wordCount": 122,
-                  "relativePath": "后端/Java/01-基础入门/数据类型与变量.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/数据类型与变量.md"
+                  "relativePath": "后端/Java/01-基础入门/数据类型与变量.md"
                 },
                 {
-                  "id": "后端-java-01-基础入门-数组与字符串",
+                  "id": "后端-Java-01-基础入门-数组与字符串",
                   "name": "数组与字符串",
                   "type": "file",
-                  "path": "/notes/后端-java-01-基础入门-数组与字符串.md",
-                  "slug": "后端-java-01-基础入门-数组与字符串",
+                  "path": "/notes/后端-Java-01-基础入门-数组与字符串",
+                  "slug": "后端-Java-01-基础入门-数组与字符串",
                   "wordCount": 300,
-                  "relativePath": "后端/Java/01-基础入门/数组与字符串.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/01-基础入门/数组与字符串.md"
+                  "relativePath": "后端/Java/01-基础入门/数组与字符串.md"
                 }
               ]
             },
             {
-              "id": "02-面向对象",
+              "id": "后端--java--02-面向对象",
               "name": "02-面向对象",
               "type": "folder",
+              "path": "/category/后端--java--02-面向对象",
               "children": [
                 {
-                  "id": "后端-java-02-面向对象-内部类",
+                  "id": "后端-Java-02-面向对象-内部类",
                   "name": "内部类",
                   "type": "file",
-                  "path": "/notes/后端-java-02-面向对象-内部类.md",
-                  "slug": "后端-java-02-面向对象-内部类",
+                  "path": "/notes/后端-Java-02-面向对象-内部类",
+                  "slug": "后端-Java-02-面向对象-内部类",
                   "wordCount": 317,
-                  "relativePath": "后端/Java/02-面向对象/内部类.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/02-面向对象/内部类.md"
+                  "relativePath": "后端/Java/02-面向对象/内部类.md"
                 },
                 {
-                  "id": "后端-java-02-面向对象-接口与抽象类",
+                  "id": "后端-Java-02-面向对象-接口与抽象类",
                   "name": "接口与抽象类",
                   "type": "file",
-                  "path": "/notes/后端-java-02-面向对象-接口与抽象类.md",
-                  "slug": "后端-java-02-面向对象-接口与抽象类",
+                  "path": "/notes/后端-Java-02-面向对象-接口与抽象类",
+                  "slug": "后端-Java-02-面向对象-接口与抽象类",
                   "wordCount": 316,
-                  "relativePath": "后端/Java/02-面向对象/接口与抽象类.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/02-面向对象/接口与抽象类.md"
+                  "relativePath": "后端/Java/02-面向对象/接口与抽象类.md"
                 },
                 {
-                  "id": "后端-java-02-面向对象-枚举",
+                  "id": "后端-Java-02-面向对象-枚举",
                   "name": "枚举",
                   "type": "file",
-                  "path": "/notes/后端-java-02-面向对象-枚举.md",
-                  "slug": "后端-java-02-面向对象-枚举",
+                  "path": "/notes/后端-Java-02-面向对象-枚举",
+                  "slug": "后端-Java-02-面向对象-枚举",
                   "wordCount": 291,
-                  "relativePath": "后端/Java/02-面向对象/枚举.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/02-面向对象/枚举.md"
+                  "relativePath": "后端/Java/02-面向对象/枚举.md"
                 },
                 {
-                  "id": "后端-java-02-面向对象-类与对象",
+                  "id": "后端-Java-02-面向对象-类与对象",
                   "name": "类与对象",
                   "type": "file",
-                  "path": "/notes/后端-java-02-面向对象-类与对象.md",
-                  "slug": "后端-java-02-面向对象-类与对象",
+                  "path": "/notes/后端-Java-02-面向对象-类与对象",
+                  "slug": "后端-Java-02-面向对象-类与对象",
                   "wordCount": 409,
-                  "relativePath": "后端/Java/02-面向对象/类与对象.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/02-面向对象/类与对象.md"
+                  "relativePath": "后端/Java/02-面向对象/类与对象.md"
                 },
                 {
-                  "id": "后端-java-02-面向对象-继承与多态",
+                  "id": "后端-Java-02-面向对象-继承与多态",
                   "name": "继承与多态",
                   "type": "file",
-                  "path": "/notes/后端-java-02-面向对象-继承与多态.md",
-                  "slug": "后端-java-02-面向对象-继承与多态",
+                  "path": "/notes/后端-Java-02-面向对象-继承与多态",
+                  "slug": "后端-Java-02-面向对象-继承与多态",
                   "wordCount": 334,
-                  "relativePath": "后端/Java/02-面向对象/继承与多态.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/02-面向对象/继承与多态.md"
+                  "relativePath": "后端/Java/02-面向对象/继承与多态.md"
                 }
               ]
             },
             {
-              "id": "03-高级特性",
+              "id": "后端--java--03-高级特性",
               "name": "03-高级特性",
               "type": "folder",
+              "path": "/category/后端--java--03-高级特性",
               "children": [
                 {
-                  "id": "后端-java-集合-List",
+                  "id": "后端-Java-03-高级特性-集合-List",
                   "name": "集合-List",
                   "type": "file",
-                  "path": "/notes/后端-java-集合-List.md",
-                  "slug": "后端-java-集合-List",
+                  "path": "/notes/后端-Java-03-高级特性-集合-List",
+                  "slug": "后端-Java-03-高级特性-集合-List",
                   "wordCount": 285,
-                  "relativePath": "后端/Java/03-高级特性/集合-List.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/03-高级特性/集合-List.md"
+                  "relativePath": "后端/Java/03-高级特性/集合-List.md"
                 }
               ]
             },
             {
-              "id": "07-数据库操作",
+              "id": "后端--java--07-数据库操作",
               "name": "07-数据库操作",
               "type": "folder",
+              "path": "/category/后端--java--07-数据库操作",
               "children": [
                 {
-                  "id": "后端-java-07-数据库操作-jdbc基础",
+                  "id": "后端-Java-07-数据库操作-JDBC基础",
                   "name": "JDBC基础",
                   "type": "file",
-                  "path": "/notes/后端-java-07-数据库操作-jdbc基础.md",
-                  "slug": "后端-java-07-数据库操作-jdbc基础",
+                  "path": "/notes/后端-Java-07-数据库操作-JDBC基础",
+                  "slug": "后端-Java-07-数据库操作-JDBC基础",
                   "description": "JDBC 基础 JDBC 概述 JDBC（Java Database Connectivity）是 Java 程序与数据库交互的标准 API。 快速开始 使用 try with resources PreparedStatement（防止 SQL 注入） CallableStatement（存储过程） 批量操作 获取元数据 数据库连接池 JDBC 工具类 常见数据库驱动 下一篇 连接池",
                   "wordCount": 194,
-                  "relativePath": "后端/Java/07-数据库操作/JDBC基础.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/07-数据库操作/JDBC基础.md"
+                  "relativePath": "后端/Java/07-数据库操作/JDBC基础.md"
                 },
                 {
-                  "id": "后端-java-07-数据库操作-mybatis入门",
+                  "id": "后端-Java-07-数据库操作-MyBatis入门",
                   "name": "MyBatis入门",
                   "type": "file",
-                  "path": "/notes/后端-java-07-数据库操作-mybatis入门.md",
-                  "slug": "后端-java-07-数据库操作-mybatis入门",
+                  "path": "/notes/后端-Java-07-数据库操作-MyBatis入门",
+                  "slug": "后端-Java-07-数据库操作-MyBatis入门",
                   "description": "MyBatis 入门 MyBatis 概述 MyBatis 是一款优秀的持久层框架，支持自定义 SQL、存储过程和高级映射。 快速开始 1. 添加依赖 2. 配置文件 3. 实体类 4. Mapper 接口 5. Mapper XML 6. 使用示例 注解方式 动态 SQL 关联查询 下一篇 动态SQL",
                   "wordCount": 152,
-                  "relativePath": "后端/Java/07-数据库操作/MyBatis入门.md",
-                  "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/07-数据库操作/MyBatis入门.md"
+                  "relativePath": "后端/Java/07-数据库操作/MyBatis入门.md"
                 }
               ]
             },
             {
-              "id": "后端-java-moc-java",
+              "id": "后端-Java-!MOC-Java",
               "name": "!MOC-Java",
               "type": "file",
-              "path": "/notes/后端-java-moc-java.md",
-              "slug": "后端-java-moc-java",
+              "path": "/notes/后端-Java-!MOC-Java",
+              "slug": "后端-Java-!MOC-Java",
               "wordCount": 1523,
-              "relativePath": "后端/Java/!MOC-Java.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/后端/Java/!MOC-Java.md"
+              "relativePath": "后端/Java/!MOC-Java.md"
             }
           ]
         }
@@ -527,94 +496,85 @@
       "path": "/category/开发经验",
       "children": [
         {
-          "id": "开发经验-ai辅助开发一年体验总结",
+          "id": "开发经验-AI辅助开发一年体验总结",
           "name": "AI辅助开发一年体验总结",
           "type": "file",
-          "path": "/notes/开发经验-ai辅助开发一年体验总结.md",
-          "slug": "开发经验-ai辅助开发一年体验总结",
+          "path": "/notes/开发经验-AI辅助开发一年体验总结",
+          "slug": "开发经验-AI辅助开发一年体验总结",
           "wordCount": 816,
-          "relativePath": "开发经验/AI辅助开发一年体验总结.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/AI辅助开发一年体验总结.md"
+          "relativePath": "开发经验/AI辅助开发一年体验总结.md"
         },
         {
-          "id": "开发经验-css现代布局containerqueries真香",
+          "id": "开发经验-CSS现代布局ContainerQueries真香",
           "name": "CSS现代布局ContainerQueries真香",
           "type": "file",
-          "path": "/notes/开发经验-css现代布局containerqueries真香.md",
-          "slug": "开发经验-css现代布局containerqueries真香",
+          "path": "/notes/开发经验-CSS现代布局ContainerQueries真香",
+          "slug": "开发经验-CSS现代布局ContainerQueries真香",
           "wordCount": 731,
-          "relativePath": "开发经验/CSS现代布局ContainerQueries真香.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/CSS现代布局ContainerQueries真香.md"
+          "relativePath": "开发经验/CSS现代布局ContainerQueries真香.md"
         },
         {
-          "id": "服务器-docker部署前端项目教程",
+          "id": "开发经验-Docker部署前端项目教程",
           "name": "Docker部署前端项目教程",
           "type": "file",
-          "path": "/notes/服务器-docker部署前端项目教程.md",
-          "slug": "服务器-docker部署前端项目教程",
+          "path": "/notes/开发经验-Docker部署前端项目教程",
+          "slug": "开发经验-Docker部署前端项目教程",
           "wordCount": 657,
-          "relativePath": "开发经验/Docker部署前端项目教程.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/Docker部署前端项目教程.md"
+          "relativePath": "开发经验/Docker部署前端项目教程.md"
         },
         {
-          "id": "开发经验-react性能优化从理论到实战",
+          "id": "开发经验-React性能优化从理论到实战",
           "name": "React性能优化从理论到实战",
           "type": "file",
-          "path": "/notes/开发经验-react性能优化从理论到实战.md",
-          "slug": "开发经验-react性能优化从理论到实战",
+          "path": "/notes/开发经验-React性能优化从理论到实战",
+          "slug": "开发经验-React性能优化从理论到实战",
           "wordCount": 1086,
-          "relativePath": "开发经验/React性能优化从理论到实战.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/React性能优化从理论到实战.md"
+          "relativePath": "开发经验/React性能优化从理论到实战.md"
         },
         {
-          "id": "开发经验-typescript进阶用好类型体操提升代码质量",
+          "id": "开发经验-TypeScript进阶用好类型体操提升代码质量",
           "name": "TypeScript进阶用好类型体操提升代码质量",
           "type": "file",
-          "path": "/notes/开发经验-typescript进阶用好类型体操提升代码质量.md",
-          "slug": "开发经验-typescript进阶用好类型体操提升代码质量",
+          "path": "/notes/开发经验-TypeScript进阶用好类型体操提升代码质量",
+          "slug": "开发经验-TypeScript进阶用好类型体操提升代码质量",
           "wordCount": 870,
-          "relativePath": "开发经验/TypeScript进阶用好类型体操提升代码质量.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/TypeScript进阶用好类型体操提升代码质量.md"
+          "relativePath": "开发经验/TypeScript进阶用好类型体操提升代码质量.md"
         },
         {
-          "id": "开发经验-vibecoding我是如何用ai写代码的",
+          "id": "开发经验-VibeCoding我是如何用AI写代码的",
           "name": "VibeCoding我是如何用AI写代码的",
           "type": "file",
-          "path": "/notes/开发经验-vibecoding我是如何用ai写代码的.md",
-          "slug": "开发经验-vibecoding我是如何用ai写代码的",
+          "path": "/notes/开发经验-VibeCoding我是如何用AI写代码的",
+          "slug": "开发经验-VibeCoding我是如何用AI写代码的",
           "wordCount": 943,
-          "relativePath": "开发经验/VibeCoding我是如何用AI写代码的.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/VibeCoding我是如何用AI写代码的.md"
+          "relativePath": "开发经验/VibeCoding我是如何用AI写代码的.md"
         },
         {
           "id": "开发经验-中高阶前端必懂闭包其实并不难",
           "name": "中高阶前端必懂闭包其实并不难",
           "type": "file",
-          "path": "/notes/开发经验-中高阶前端必懂闭包其实并不难.md",
+          "path": "/notes/开发经验-中高阶前端必懂闭包其实并不难",
           "slug": "开发经验-中高阶前端必懂闭包其实并不难",
           "wordCount": 835,
-          "relativePath": "开发经验/中高阶前端必懂闭包其实并不难.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/中高阶前端必懂闭包其实并不难.md"
+          "relativePath": "开发经验/中高阶前端必懂闭包其实并不难.md"
         },
         {
           "id": "开发经验-当我们聊前端架构我们在聊什么",
           "name": "当我们聊前端架构我们在聊什么",
           "type": "file",
-          "path": "/notes/开发经验-当我们聊前端架构我们在聊什么.md",
+          "path": "/notes/开发经验-当我们聊前端架构我们在聊什么",
           "slug": "开发经验-当我们聊前端架构我们在聊什么",
           "wordCount": 936,
-          "relativePath": "开发经验/当我们聊前端架构我们在聊什么.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/当我们聊前端架构我们在聊什么.md"
+          "relativePath": "开发经验/当我们聊前端架构我们在聊什么.md"
         },
         {
           "id": "开发经验-网址书签收集",
           "name": "网址书签收集",
           "type": "file",
-          "path": "/notes/开发经验-网址书签收集.md",
+          "path": "/notes/开发经验-网址书签收集",
           "slug": "开发经验-网址书签收集",
           "wordCount": 3962,
-          "relativePath": "开发经验/网址书签收集.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/开发经验/网址书签收集.md"
+          "relativePath": "开发经验/网址书签收集.md"
         }
       ]
     },
@@ -626,303 +586,278 @@
       "path": "/category/前端",
       "children": [
         {
-          "id": "js",
+          "id": "前端--js",
           "name": "JS",
           "type": "folder",
+          "path": "/category/前端--js",
           "children": [
             {
-              "id": "前端-js-01-闭包和作用域",
+              "id": "前端-JS-01-闭包和作用域",
               "name": "01-闭包和作用域",
               "type": "file",
-              "path": "/notes/前端-js-01-闭包和作用域.md",
-              "slug": "前端-js-01-闭包和作用域",
+              "path": "/notes/前端-JS-01-闭包和作用域",
+              "slug": "前端-JS-01-闭包和作用域",
               "wordCount": 707,
-              "relativePath": "前端/JS/01-闭包和作用域.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/01-闭包和作用域.md"
+              "relativePath": "前端/JS/01-闭包和作用域.md"
             },
             {
-              "id": "前端-js-02-this绑定和上下文",
+              "id": "前端-JS-02-this绑定和上下文",
               "name": "02-this绑定和上下文",
               "type": "file",
-              "path": "/notes/前端-js-02-this绑定和上下文.md",
-              "slug": "前端-js-02-this绑定和上下文",
+              "path": "/notes/前端-JS-02-this绑定和上下文",
+              "slug": "前端-JS-02-this绑定和上下文",
               "wordCount": 766,
-              "relativePath": "前端/JS/02-this绑定和上下文.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/02-this绑定和上下文.md"
+              "relativePath": "前端/JS/02-this绑定和上下文.md"
             },
             {
-              "id": "前端-js-03-原型和继承",
+              "id": "前端-JS-03-原型和继承",
               "name": "03-原型和继承",
               "type": "file",
-              "path": "/notes/前端-js-03-原型和继承.md",
-              "slug": "前端-js-03-原型和继承",
+              "path": "/notes/前端-JS-03-原型和继承",
+              "slug": "前端-JS-03-原型和继承",
               "wordCount": 739,
-              "relativePath": "前端/JS/03-原型和继承.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/03-原型和继承.md"
+              "relativePath": "前端/JS/03-原型和继承.md"
             },
             {
-              "id": "前端-js-04-异步编程详解",
+              "id": "前端-JS-04-异步编程详解",
               "name": "04-异步编程详解",
               "type": "file",
-              "path": "/notes/前端-js-04-异步编程详解.md",
-              "slug": "前端-js-04-异步编程详解",
+              "path": "/notes/前端-JS-04-异步编程详解",
+              "slug": "前端-JS-04-异步编程详解",
               "wordCount": 678,
-              "relativePath": "前端/JS/04-异步编程详解.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/04-异步编程详解.md"
+              "relativePath": "前端/JS/04-异步编程详解.md"
             },
             {
-              "id": "前端-js-05-事件循环和并发",
+              "id": "前端-JS-05-事件循环和并发",
               "name": "05-事件循环和并发",
               "type": "file",
-              "path": "/notes/前端-js-05-事件循环和并发.md",
-              "slug": "前端-js-05-事件循环和并发",
+              "path": "/notes/前端-JS-05-事件循环和并发",
+              "slug": "前端-JS-05-事件循环和并发",
               "wordCount": 586,
-              "relativePath": "前端/JS/05-事件循环和并发.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/05-事件循环和并发.md"
+              "relativePath": "前端/JS/05-事件循环和并发.md"
             },
             {
-              "id": "前端-js-06-函数式编程",
+              "id": "前端-JS-06-函数式编程",
               "name": "06-函数式编程",
               "type": "file",
-              "path": "/notes/前端-js-06-函数式编程.md",
-              "slug": "前端-js-06-函数式编程",
+              "path": "/notes/前端-JS-06-函数式编程",
+              "slug": "前端-JS-06-函数式编程",
               "wordCount": 716,
-              "relativePath": "前端/JS/06-函数式编程.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/06-函数式编程.md"
+              "relativePath": "前端/JS/06-函数式编程.md"
             },
             {
-              "id": "07-es6+新特性详解",
+              "id": "前端-JS-07-ES6+新特性详解",
               "name": "07-ES6+新特性详解",
               "type": "file",
-              "path": "/notes/07-es6+新特性详解.md",
-              "slug": "07-es6+新特性详解",
+              "path": "/notes/前端-JS-07-ES6+新特性详解",
+              "slug": "前端-JS-07-ES6+新特性详解",
               "wordCount": 879,
-              "relativePath": "前端/JS/07-ES6+新特性详解.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/07-ES6+新特性详解.md"
+              "relativePath": "前端/JS/07-ES6+新特性详解.md"
             },
             {
-              "id": "前端-js-08-元编程和反射",
+              "id": "前端-JS-08-元编程和反射",
               "name": "08-元编程和反射",
               "type": "file",
-              "path": "/notes/前端-js-08-元编程和反射.md",
-              "slug": "前端-js-08-元编程和反射",
+              "path": "/notes/前端-JS-08-元编程和反射",
+              "slug": "前端-JS-08-元编程和反射",
               "wordCount": 585,
-              "relativePath": "前端/JS/08-元编程和反射.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/08-元编程和反射.md"
+              "relativePath": "前端/JS/08-元编程和反射.md"
             },
             {
-              "id": "前端-js-09-设计模式",
+              "id": "前端-JS-09-设计模式",
               "name": "09-设计模式",
               "type": "file",
-              "path": "/notes/前端-js-09-设计模式.md",
-              "slug": "前端-js-09-设计模式",
+              "path": "/notes/前端-JS-09-设计模式",
+              "slug": "前端-JS-09-设计模式",
               "wordCount": 594,
-              "relativePath": "前端/JS/09-设计模式.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/09-设计模式.md"
+              "relativePath": "前端/JS/09-设计模式.md"
             },
             {
-              "id": "前端-js-10-内存管理和性能优化",
+              "id": "前端-JS-10-内存管理和性能优化",
               "name": "10-内存管理和性能优化",
               "type": "file",
-              "path": "/notes/前端-js-10-内存管理和性能优化.md",
-              "slug": "前端-js-10-内存管理和性能优化",
+              "path": "/notes/前端-JS-10-内存管理和性能优化",
+              "slug": "前端-JS-10-内存管理和性能优化",
               "wordCount": 545,
-              "relativePath": "前端/JS/10-内存管理和性能优化.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/10-内存管理和性能优化.md"
+              "relativePath": "前端/JS/10-内存管理和性能优化.md"
             },
             {
-              "id": "前端-js-11-模块化和打包",
+              "id": "前端-JS-11-模块化和打包",
               "name": "11-模块化和打包",
               "type": "file",
-              "path": "/notes/前端-js-11-模块化和打包.md",
-              "slug": "前端-js-11-模块化和打包",
+              "path": "/notes/前端-JS-11-模块化和打包",
+              "slug": "前端-JS-11-模块化和打包",
               "wordCount": 870,
-              "relativePath": "前端/JS/11-模块化和打包.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/11-模块化和打包.md"
+              "relativePath": "前端/JS/11-模块化和打包.md"
             },
             {
-              "id": "前端-js-12-错误处理和调试",
+              "id": "前端-JS-12-错误处理和调试",
               "name": "12-错误处理和调试",
               "type": "file",
-              "path": "/notes/前端-js-12-错误处理和调试.md",
-              "slug": "前端-js-12-错误处理和调试",
+              "path": "/notes/前端-JS-12-错误处理和调试",
+              "slug": "前端-JS-12-错误处理和调试",
               "wordCount": 655,
-              "relativePath": "前端/JS/12-错误处理和调试.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/12-错误处理和调试.md"
+              "relativePath": "前端/JS/12-错误处理和调试.md"
             },
             {
-              "id": "readme",
+              "id": "前端-JS-README",
               "name": "README",
               "type": "file",
-              "path": "/notes/readme.md",
-              "slug": "readme",
+              "path": "/notes/前端-JS-README",
+              "slug": "前端-JS-README",
               "wordCount": 714,
-              "relativePath": "前端/JS/README.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/JS/README.md"
+              "relativePath": "前端/JS/README.md"
             }
           ]
         },
         {
-          "id": "react",
+          "id": "前端--react",
           "name": "React",
           "type": "folder",
+          "path": "/category/前端--react",
           "children": [
             {
-              "id": "前端-vue-01-基础入门",
+              "id": "前端-React-01-基础入门",
               "name": "01-基础入门",
               "type": "file",
-              "path": "/notes/前端-vue-01-基础入门.md",
-              "slug": "前端-vue-01-基础入门",
+              "path": "/notes/前端-React-01-基础入门",
+              "slug": "前端-React-01-基础入门",
               "wordCount": 438,
-              "relativePath": "前端/React/01-基础入门.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/React/01-基础入门.md"
+              "relativePath": "前端/React/01-基础入门.md"
             },
             {
-              "id": "前端-react-Hooks",
+              "id": "前端-React-02-Hooks",
               "name": "02-Hooks",
               "type": "file",
-              "path": "/notes/前端-react-Hooks.md",
-              "slug": "前端-react-Hooks",
+              "path": "/notes/前端-React-02-Hooks",
+              "slug": "前端-React-02-Hooks",
               "wordCount": 413,
-              "relativePath": "前端/React/02-Hooks.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/React/02-Hooks.md"
+              "relativePath": "前端/React/02-Hooks.md"
             },
             {
-              "id": "前端-react-03-状态管理",
+              "id": "前端-React-03-状态管理",
               "name": "03-状态管理",
               "type": "file",
-              "path": "/notes/前端-react-03-状态管理.md",
-              "slug": "前端-react-03-状态管理",
+              "path": "/notes/前端-React-03-状态管理",
+              "slug": "前端-React-03-状态管理",
               "wordCount": 328,
-              "relativePath": "前端/React/03-状态管理.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/React/03-状态管理.md"
+              "relativePath": "前端/React/03-状态管理.md"
             },
             {
-              "id": "前端-react-04-路由管理",
+              "id": "前端-React-04-路由管理",
               "name": "04-路由管理",
               "type": "file",
-              "path": "/notes/前端-react-04-路由管理.md",
-              "slug": "前端-react-04-路由管理",
+              "path": "/notes/前端-React-04-路由管理",
+              "slug": "前端-React-04-路由管理",
               "wordCount": 388,
-              "relativePath": "前端/React/04-路由管理.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/React/04-路由管理.md"
+              "relativePath": "前端/React/04-路由管理.md"
             },
             {
-              "id": "前端-react-05-性能优化",
+              "id": "前端-React-05-性能优化",
               "name": "05-性能优化",
               "type": "file",
-              "path": "/notes/前端-react-05-性能优化.md",
-              "slug": "前端-react-05-性能优化",
+              "path": "/notes/前端-React-05-性能优化",
+              "slug": "前端-React-05-性能优化",
               "wordCount": 406,
-              "relativePath": "前端/React/05-性能优化.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/React/05-性能优化.md"
+              "relativePath": "前端/React/05-性能优化.md"
             },
             {
-              "id": "前端-react-06-最佳实践",
+              "id": "前端-React-06-最佳实践",
               "name": "06-最佳实践",
               "type": "file",
-              "path": "/notes/前端-react-06-最佳实践.md",
-              "slug": "前端-react-06-最佳实践",
+              "path": "/notes/前端-React-06-最佳实践",
+              "slug": "前端-React-06-最佳实践",
               "wordCount": 363,
-              "relativePath": "前端/React/06-最佳实践.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/React/06-最佳实践.md"
+              "relativePath": "前端/React/06-最佳实践.md"
             },
             {
-              "id": "前端-react-readme",
+              "id": "前端-React-README",
               "name": "README",
               "type": "file",
-              "path": "/notes/前端-react-readme.md",
-              "slug": "前端-react-readme",
+              "path": "/notes/前端-React-README",
+              "slug": "前端-React-README",
               "wordCount": 413,
-              "relativePath": "前端/React/README.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/React/README.md"
+              "relativePath": "前端/React/README.md"
             }
           ]
         },
         {
-          "id": "vue",
+          "id": "前端--vue",
           "name": "Vue",
           "type": "folder",
+          "path": "/category/前端--vue",
           "children": [
             {
-              "id": "前端-vue-01-基础入门",
+              "id": "前端-Vue-01-基础入门",
               "name": "01-基础入门",
               "type": "file",
-              "path": "/notes/前端-vue-01-基础入门.md",
-              "slug": "前端-vue-01-基础入门",
+              "path": "/notes/前端-Vue-01-基础入门",
+              "slug": "前端-Vue-01-基础入门",
               "wordCount": 248,
-              "relativePath": "前端/Vue/01-基础入门.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/Vue/01-基础入门.md"
+              "relativePath": "前端/Vue/01-基础入门.md"
             },
             {
-              "id": "前端-vue-02-组件系统",
+              "id": "前端-Vue-02-组件系统",
               "name": "02-组件系统",
               "type": "file",
-              "path": "/notes/前端-vue-02-组件系统.md",
-              "slug": "前端-vue-02-组件系统",
+              "path": "/notes/前端-Vue-02-组件系统",
+              "slug": "前端-Vue-02-组件系统",
               "wordCount": 286,
-              "relativePath": "前端/Vue/02-组件系统.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/Vue/02-组件系统.md"
+              "relativePath": "前端/Vue/02-组件系统.md"
             },
             {
-              "id": "前端-vue-03-响应式原理",
+              "id": "前端-Vue-03-响应式原理",
               "name": "03-响应式原理",
               "type": "file",
-              "path": "/notes/前端-vue-03-响应式原理.md",
-              "slug": "前端-vue-03-响应式原理",
+              "path": "/notes/前端-Vue-03-响应式原理",
+              "slug": "前端-Vue-03-响应式原理",
               "wordCount": 291,
-              "relativePath": "前端/Vue/03-响应式原理.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/Vue/03-响应式原理.md"
+              "relativePath": "前端/Vue/03-响应式原理.md"
             },
             {
-              "id": "前端-vue-Composition-API",
+              "id": "前端-Vue-04-Composition-API",
               "name": "04-Composition-API",
               "type": "file",
-              "path": "/notes/前端-vue-Composition-API.md",
-              "slug": "前端-vue-Composition-API",
+              "path": "/notes/前端-Vue-04-Composition-API",
+              "slug": "前端-Vue-04-Composition-API",
               "wordCount": 374,
-              "relativePath": "前端/Vue/04-Composition-API.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/Vue/04-Composition-API.md"
+              "relativePath": "前端/Vue/04-Composition-API.md"
             },
             {
-              "id": "前端-vue-05-路由管理",
+              "id": "前端-Vue-05-路由管理",
               "name": "05-路由管理",
               "type": "file",
-              "path": "/notes/前端-vue-05-路由管理.md",
-              "slug": "前端-vue-05-路由管理",
+              "path": "/notes/前端-Vue-05-路由管理",
+              "slug": "前端-Vue-05-路由管理",
               "wordCount": 377,
-              "relativePath": "前端/Vue/05-路由管理.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/Vue/05-路由管理.md"
+              "relativePath": "前端/Vue/05-路由管理.md"
             },
             {
-              "id": "前端-vue-06-状态管理",
+              "id": "前端-Vue-06-状态管理",
               "name": "06-状态管理",
               "type": "file",
-              "path": "/notes/前端-vue-06-状态管理.md",
-              "slug": "前端-vue-06-状态管理",
+              "path": "/notes/前端-Vue-06-状态管理",
+              "slug": "前端-Vue-06-状态管理",
               "wordCount": 447,
-              "relativePath": "前端/Vue/06-状态管理.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/Vue/06-状态管理.md"
+              "relativePath": "前端/Vue/06-状态管理.md"
             },
             {
-              "id": "前端-vue-07-最佳实践",
+              "id": "前端-Vue-07-最佳实践",
               "name": "07-最佳实践",
               "type": "file",
-              "path": "/notes/前端-vue-07-最佳实践.md",
-              "slug": "前端-vue-07-最佳实践",
+              "path": "/notes/前端-Vue-07-最佳实践",
+              "slug": "前端-Vue-07-最佳实践",
               "wordCount": 442,
-              "relativePath": "前端/Vue/07-最佳实践.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/Vue/07-最佳实践.md"
+              "relativePath": "前端/Vue/07-最佳实践.md"
             },
             {
-              "id": "前端-vue-readme",
+              "id": "前端-Vue-README",
               "name": "README",
               "type": "file",
-              "path": "/notes/前端-vue-readme.md",
-              "slug": "前端-vue-readme",
+              "path": "/notes/前端-Vue-README",
+              "slug": "前端-Vue-README",
               "wordCount": 406,
-              "relativePath": "前端/Vue/README.md",
-              "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/前端/Vue/README.md"
+              "relativePath": "前端/Vue/README.md"
             }
           ]
         }
@@ -936,15 +871,14 @@
       "path": "/category/codeblock",
       "children": [
         {
-          "id": "工具函数",
+          "id": "CodeBlock-工具函数",
           "name": "工具函数",
           "type": "file",
-          "path": "/notes/工具函数.md",
-          "slug": "工具函数",
+          "path": "/notes/CodeBlock-工具函数",
+          "slug": "CodeBlock-工具函数",
           "description": "前端实用工具函数集合 1. 异步错误处理 2. 防抖与节流 3. 深拷贝 4. 日期格式化 5. 数字格式化 6. 数组处理 7. 对象处理 8. URL 和查询参数 9. 本地存储 10. 表单验证 11. DOM 操作 12. 其他实用函数 13. 函数组合",
           "wordCount": 131,
-          "relativePath": "CodeBlock/工具函数.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/CodeBlock/工具函数.md"
+          "relativePath": "CodeBlock/工具函数.md"
         }
       ]
     },
@@ -956,608 +890,588 @@
       "path": "/category/nest",
       "children": [
         {
-          "id": "01-快速开始",
+          "id": "Nest-01-快速开始",
           "name": "01-快速开始",
           "type": "file",
-          "path": "/notes/01-快速开始.md",
-          "slug": "01-快速开始",
+          "path": "/notes/Nest-01-快速开始",
+          "slug": "Nest-01-快速开始",
           "description": "Nest.js 快速开始 安装 使用 CLI 创建项目 手动安装 项目结构 第一个应用 1. 创建模块 (Module) 2. 创建控制器 (Controller) 3. 创建服务 (Service) 4. 启动应用 常用命令 访问应用 启动后访问:",
           "wordCount": 125,
-          "relativePath": "Nest/01-快速开始.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/01-快速开始.md"
+          "relativePath": "Nest/01-快速开始.md"
         },
         {
-          "id": "02-核心概念",
+          "id": "Nest-02-核心概念",
           "name": "02-核心概念",
           "type": "file",
-          "path": "/notes/02-核心概念.md",
-          "slug": "02-核心概念",
+          "path": "/notes/Nest-02-核心概念",
+          "slug": "Nest-02-核心概念",
           "wordCount": 260,
-          "relativePath": "Nest/02-核心概念.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/02-核心概念.md"
+          "relativePath": "Nest/02-核心概念.md"
         },
         {
-          "id": "03-依赖注入",
+          "id": "Nest-03-依赖注入",
           "name": "03-依赖注入",
           "type": "file",
-          "path": "/notes/03-依赖注入.md",
-          "slug": "03-依赖注入",
+          "path": "/notes/Nest-03-依赖注入",
+          "slug": "Nest-03-依赖注入",
           "wordCount": 252,
-          "relativePath": "Nest/03-依赖注入.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/03-依赖注入.md"
+          "relativePath": "Nest/03-依赖注入.md"
         },
         {
-          "id": "04-中间件",
+          "id": "Nest-04-中间件",
           "name": "04-中间件",
           "type": "file",
-          "path": "/notes/04-中间件.md",
-          "slug": "04-中间件",
+          "path": "/notes/Nest-04-中间件",
+          "slug": "Nest-04-中间件",
           "description": "Nest.js 中间件 什么是中间件 中间件是在路由处理器之前执行的函数，可以访问请求和响应对象。 创建中间件 1. 函数式中间件 2. 类中间件 应用中间件 在模块中应用 路由匹配 多个中间件 全局中间件 功能中间件 异步中间件 常见中间件示例 日志中间件 CORS 中间件 认证中间件",
           "wordCount": 144,
-          "relativePath": "Nest/04-中间件.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/04-中间件.md"
+          "relativePath": "Nest/04-中间件.md"
         },
         {
-          "id": "05-异常处理",
+          "id": "Nest-05-异常处理",
           "name": "05-异常处理",
           "type": "file",
-          "path": "/notes/05-异常处理.md",
-          "slug": "05-异常处理",
+          "path": "/notes/Nest-05-异常处理",
+          "slug": "Nest-05-异常处理",
           "description": "Nest.js 异常处理 内置异常 Nest.js 提供了内置的异常类： 自定义异常 异常过滤器 异常过滤器可以捕获和处理异常。 创建异常过滤器 捕获特定异常 应用异常过滤器 方法级别 控制器级别 全局级别 模块级别 继承异常 常见异常处理示例 业务异常 验证异常 日志记录异常",
           "wordCount": 139,
-          "relativePath": "Nest/05-异常处理.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/05-异常处理.md"
+          "relativePath": "Nest/05-异常处理.md"
         },
         {
-          "id": "06-管道",
+          "id": "Nest-06-管道",
           "name": "06-管道",
           "type": "file",
-          "path": "/notes/06-管道.md",
-          "slug": "06-管道",
+          "path": "/notes/Nest-06-管道",
+          "slug": "Nest-06-管道",
           "wordCount": 292,
-          "relativePath": "Nest/06-管道.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/06-管道.md"
+          "relativePath": "Nest/06-管道.md"
         },
         {
-          "id": "07-守卫",
+          "id": "Nest-07-守卫",
           "name": "07-守卫",
           "type": "file",
-          "path": "/notes/07-守卫.md",
-          "slug": "07-守卫",
+          "path": "/notes/Nest-07-守卫",
+          "slug": "Nest-07-守卫",
           "description": "Nest.js 守卫 什么是守卫 守卫是一个使用 装饰器的类，实现了 接口。守卫在中间件之后、拦截器之前执行。 创建守卫 使用守卫 控制器级别 方法级别 全局守卫 模块级别 认证守卫示例 角色守卫 自定义装饰器 角色装饰器 使用 组合多个守卫 执行上下文 用户装饰器 常见守卫模式 JWT 认证守卫 API Key 守卫",
           "wordCount": 160,
-          "relativePath": "Nest/07-守卫.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/07-守卫.md"
+          "relativePath": "Nest/07-守卫.md"
         },
         {
-          "id": "08-拦截器",
+          "id": "Nest-08-拦截器",
           "name": "08-拦截器",
           "type": "file",
-          "path": "/notes/08-拦截器.md",
-          "slug": "08-拦截器",
+          "path": "/notes/Nest-08-拦截器",
+          "slug": "Nest-08-拦截器",
           "wordCount": 216,
-          "relativePath": "Nest/08-拦截器.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/08-拦截器.md"
+          "relativePath": "Nest/08-拦截器.md"
         },
         {
-          "id": "09-typeorm集成",
+          "id": "Nest-09-TypeORM集成",
           "name": "09-TypeORM集成",
           "type": "file",
-          "path": "/notes/09-typeorm集成.md",
-          "slug": "09-typeorm集成",
+          "path": "/notes/Nest-09-TypeORM集成",
+          "slug": "Nest-09-TypeORM集成",
           "description": "Nest.js TypeORM 集成 安装 配置 在模块中配置 使用配置文件 创建实体 在模块中注册实体 在服务中使用 Repository 关系 一对一 一对多 多对多 查询构建器 事务 迁移 生成迁移 运行迁移 回滚迁移 订阅者（Subscribers）",
           "wordCount": 129,
-          "relativePath": "Nest/09-TypeORM集成.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/09-TypeORM集成.md"
+          "relativePath": "Nest/09-TypeORM集成.md"
         },
         {
-          "id": "10-mongodb集成",
+          "id": "Nest-10-MongoDB集成",
           "name": "10-MongoDB集成",
           "type": "file",
-          "path": "/notes/10-mongodb集成.md",
-          "slug": "10-mongodb集成",
+          "path": "/notes/Nest-10-MongoDB集成",
+          "slug": "Nest-10-MongoDB集成",
           "description": "Nest.js MongoDB 集成 安装 配置 在模块中配置 使用配置文件 定义 Schema 在模块中注册 Schema 在服务中使用 Model Schema 选项 嵌套 Schema 数组类型 查询方法 索引 虚拟属性 中间件（Hooks） 连接事件",
           "wordCount": 129,
-          "relativePath": "Nest/10-MongoDB集成.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/10-MongoDB集成.md"
+          "relativePath": "Nest/10-MongoDB集成.md"
         },
         {
-          "id": "11-restful-api",
+          "id": "Nest-11-RESTful-API",
           "name": "11-RESTful-API",
           "type": "file",
-          "path": "/notes/11-restful-api.md",
-          "slug": "11-restful-api",
+          "path": "/notes/Nest-11-RESTful-API",
+          "slug": "Nest-11-RESTful-API",
           "description": "Nest.js RESTful API 基本 CRUD 操作 Controller DTO（数据传输对象） 创建 DTO 更新 DTO 分页查询 DTO Service 查询过滤 DTO Service 响应格式统一 拦截器 状态码 自定义响应头 重定向 路由参数验证 文件上传 多文件上传 API 版本控制 Swagger 文档 安装 配置 使用装饰器",
           "wordCount": 177,
-          "relativePath": "Nest/11-RESTful-API.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/11-RESTful-API.md"
+          "relativePath": "Nest/11-RESTful-API.md"
         },
         {
-          "id": "12-websocket",
+          "id": "Nest-12-WebSocket",
           "name": "12-WebSocket",
           "type": "file",
-          "path": "/notes/12-websocket.md",
-          "slug": "12-websocket",
+          "path": "/notes/Nest-12-WebSocket",
+          "slug": "Nest-12-WebSocket",
           "description": "Nest.js WebSocket 安装 创建 Gateway 在模块中注册 消息处理 发送消息 广播消息 发送给特定房间 认证 JWT 认证 使用守卫 使用拦截器 使用管道 命名空间 适配器 Redis 适配器（多服务器） 客户端连接 JavaScript/TypeScript 示例：聊天应用",
           "wordCount": 148,
-          "relativePath": "Nest/12-WebSocket.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/12-WebSocket.md"
+          "relativePath": "Nest/12-WebSocket.md"
         },
         {
-          "id": "13-微服务",
+          "id": "Nest-13-微服务",
           "name": "13-微服务",
           "type": "file",
-          "path": "/notes/13-微服务.md",
-          "slug": "13-微服务",
+          "path": "/notes/Nest-13-微服务",
+          "slug": "Nest-13-微服务",
           "description": "Nest.js 微服务 安装 创建微服务应用 主应用（API Gateway） 微服务应用 传输层 TCP Redis RabbitMQ Kafka 消息模式 请求 响应 事件（发布 订阅） 连接微服务 在模块中连接 异步配置 消息序列化 异常处理 超时 示例：用户服务 用户微服务 API Gateway",
           "wordCount": 153,
-          "relativePath": "Nest/13-微服务.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/13-微服务.md"
+          "relativePath": "Nest/13-微服务.md"
         },
         {
-          "id": "14-认证授权",
+          "id": "Nest-14-认证授权",
           "name": "14-认证授权",
           "type": "file",
-          "path": "/notes/14-认证授权.md",
-          "slug": "14-认证授权",
+          "path": "/notes/Nest-14-认证授权",
+          "slug": "Nest-14-认证授权",
           "description": "Nest.js 认证授权 JWT 认证 安装 配置 JWT 模块 使用配置服务 Passport 策略 JWT 策略 本地策略（用户名密码） 认证服务 认证守卫 JWT 守卫 本地守卫 控制器 角色授权 角色装饰器 角色守卫 使用 密码加密 刷新 Token 用户装饰器 完整示例 Auth Module 保护路由",
           "wordCount": 157,
-          "relativePath": "Nest/14-认证授权.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/14-认证授权.md"
+          "relativePath": "Nest/14-认证授权.md"
         },
         {
-          "id": "15-文件上传",
+          "id": "Nest-15-文件上传",
           "name": "15-文件上传",
           "type": "file",
-          "path": "/notes/15-文件上传.md",
-          "slug": "15-文件上传",
+          "path": "/notes/Nest-15-文件上传",
+          "slug": "Nest-15-文件上传",
           "description": "Nest.js 文件上传 安装 单文件上传 多文件上传 文件验证 内存存储 上传到云存储 AWS S3 文件下载 图片处理 文件服务封装 使用示例",
           "wordCount": 73,
-          "relativePath": "Nest/15-文件上传.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/15-文件上传.md"
+          "relativePath": "Nest/15-文件上传.md"
         },
         {
-          "id": "16-项目结构",
+          "id": "Nest-16-项目结构",
           "name": "16-项目结构",
           "type": "file",
-          "path": "/notes/16-项目结构.md",
-          "slug": "16-项目结构",
+          "path": "/notes/Nest-16-项目结构",
+          "slug": "Nest-16-项目结构",
           "wordCount": 317,
-          "relativePath": "Nest/16-项目结构.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/16-项目结构.md"
+          "relativePath": "Nest/16-项目结构.md"
         },
         {
-          "id": "17-配置管理",
+          "id": "Nest-17-配置管理",
           "name": "17-配置管理",
           "type": "file",
-          "path": "/notes/17-配置管理.md",
-          "slug": "17-配置管理",
+          "path": "/notes/Nest-17-配置管理",
+          "slug": "Nest-17-配置管理",
           "description": "Nest.js 配置管理 安装 基本使用 在根模块中导入 环境变量文件 .env 使用 ConfigService 配置验证 安装 使用 自定义配置文件 创建配置文件 加载配置文件 使用嵌套配置 命名空间配置 定义命名空间 使用命名空间 异步配置 多环境配置 环境特定文件 加载环境特定配置 配置优先级 1. 环境变量 2. 3. 4. 5. 类型安全配置 定义接口 使用类型 示例：完整配置",
           "wordCount": 196,
-          "relativePath": "Nest/17-配置管理.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/17-配置管理.md"
+          "relativePath": "Nest/17-配置管理.md"
         },
         {
-          "id": "18-测试",
+          "id": "Nest-18-测试",
           "name": "18-测试",
           "type": "file",
-          "path": "/notes/18-测试.md",
-          "slug": "18-测试",
+          "path": "/notes/Nest-18-测试",
+          "slug": "Nest-18-测试",
           "description": "Nest.js 测试 安装测试依赖 单元测试 测试服务 测试控制器 E2E 测试 基本 E2E 测试 用户模块 E2E 测试 测试数据库 使用测试数据库 模拟依赖 模拟服务 模拟 Repository 测试守卫 测试管道 Jest 配置 运行测试",
           "wordCount": 123,
-          "relativePath": "Nest/18-测试.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/18-测试.md"
+          "relativePath": "Nest/18-测试.md"
         },
         {
-          "id": "19-部署",
+          "id": "Nest-19-部署",
           "name": "19-部署",
           "type": "file",
-          "path": "/notes/19-部署.md",
-          "slug": "19-部署",
+          "path": "/notes/Nest-19-部署",
+          "slug": "Nest-19-部署",
           "wordCount": 499,
-          "relativePath": "Nest/19-部署.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/19-部署.md"
+          "relativePath": "Nest/19-部署.md"
         },
         {
-          "id": "readme",
+          "id": "Nest-README",
           "name": "README",
           "type": "file",
-          "path": "/notes/readme.md",
-          "slug": "readme",
+          "path": "/notes/Nest-README",
+          "slug": "Nest-README",
           "wordCount": 642,
-          "relativePath": "Nest/README.md",
-          "sourceFile": "/home/runner/work/Front-End-Notes/Front-End-Notes/all-notes/Nest/README.md"
+          "relativePath": "Nest/README.md"
         }
       ]
     }
   ],
   "flat": [
     {
-      "slug": "1.文档文章",
+      "slug": "🎃网址收集-1.文档文章",
       "title": "1.文档文章",
       "wordCount": 1597,
       "category": "🎃网址收集",
-      "file": "/notes/1.文档文章.md",
+      "file": "/notes/🎃网址收集-1.文档文章.md",
       "relativePath": "🎃网址收集/1.文档文章.md"
     },
     {
-      "slug": "2.工具轮子",
+      "slug": "🎃网址收集-2.工具轮子",
       "title": "2.工具轮子",
       "wordCount": 315,
       "category": "🎃网址收集",
-      "file": "/notes/2.工具轮子.md",
+      "file": "/notes/🎃网址收集-2.工具轮子.md",
       "relativePath": "🎃网址收集/2.工具轮子.md"
     },
     {
-      "slug": "3.摸鱼",
+      "slug": "🎃网址收集-3.摸鱼",
       "title": "3.摸鱼",
       "wordCount": 562,
       "category": "🎃网址收集",
-      "file": "/notes/3.摸鱼.md",
+      "file": "/notes/🎃网址收集-3.摸鱼.md",
       "relativePath": "🎃网址收集/3.摸鱼.md"
     },
     {
-      "slug": "后端-go-Go-简介与特点",
+      "slug": "后端-Go-01-基础入门-Go-简介与特点",
       "title": "Go-简介与特点",
       "wordCount": 1296,
       "category": "后端",
-      "file": "/notes/后端-go-Go-简介与特点.md",
+      "file": "/notes/后端-Go-01-基础入门-Go-简介与特点.md",
       "relativePath": "后端/Go/01-基础入门/Go-简介与特点.md"
     },
     {
-      "slug": "后端-go-01-基础入门-函数",
+      "slug": "后端-Go-01-基础入门-函数",
       "title": "函数",
       "wordCount": 259,
       "category": "后端",
-      "file": "/notes/后端-go-01-基础入门-函数.md",
+      "file": "/notes/后端-Go-01-基础入门-函数.md",
       "relativePath": "后端/Go/01-基础入门/函数.md"
     },
     {
-      "slug": "后端-go-01-基础入门-包与模块",
+      "slug": "后端-Go-01-基础入门-包与模块",
       "title": "包与模块",
       "wordCount": 369,
       "category": "后端",
-      "file": "/notes/后端-go-01-基础入门-包与模块.md",
+      "file": "/notes/后端-Go-01-基础入门-包与模块.md",
       "relativePath": "后端/Go/01-基础入门/包与模块.md"
     },
     {
-      "slug": "后端-java-01-基础入门-基础语法",
+      "slug": "后端-Go-01-基础入门-基础语法",
       "title": "基础语法",
       "wordCount": 390,
       "category": "后端",
-      "file": "/notes/后端-java-01-基础入门-基础语法.md",
+      "file": "/notes/后端-Go-01-基础入门-基础语法.md",
       "relativePath": "后端/Go/01-基础入门/基础语法.md"
     },
     {
-      "slug": "后端-java-01-基础入门-安装与环境配置",
+      "slug": "后端-Go-01-基础入门-安装与环境配置",
       "title": "安装与环境配置",
       "wordCount": 946,
       "category": "后端",
-      "file": "/notes/后端-java-01-基础入门-安装与环境配置.md",
+      "file": "/notes/后端-Go-01-基础入门-安装与环境配置.md",
       "relativePath": "后端/Go/01-基础入门/安装与环境配置.md"
     },
     {
-      "slug": "后端-go-01-基础入门-接口",
+      "slug": "后端-Go-01-基础入门-接口",
       "title": "接口",
       "wordCount": 244,
       "category": "后端",
-      "file": "/notes/后端-go-01-基础入门-接口.md",
+      "file": "/notes/后端-Go-01-基础入门-接口.md",
       "relativePath": "后端/Go/01-基础入门/接口.md"
     },
     {
-      "slug": "后端-java-01-基础入门-控制结构",
+      "slug": "后端-Go-01-基础入门-控制结构",
       "title": "控制结构",
       "wordCount": 339,
       "category": "后端",
-      "file": "/notes/后端-java-01-基础入门-控制结构.md",
+      "file": "/notes/后端-Go-01-基础入门-控制结构.md",
       "relativePath": "后端/Go/01-基础入门/控制结构.md"
     },
     {
-      "slug": "后端-java-01-基础入门-数据类型与变量",
+      "slug": "后端-Go-01-基础入门-数据类型与变量",
       "title": "数据类型与变量",
       "wordCount": 272,
       "category": "后端",
-      "file": "/notes/后端-java-01-基础入门-数据类型与变量.md",
+      "file": "/notes/后端-Go-01-基础入门-数据类型与变量.md",
       "relativePath": "后端/Go/01-基础入门/数据类型与变量.md"
     },
     {
-      "slug": "后端-go-01-基础入门-结构体与方法",
+      "slug": "后端-Go-01-基础入门-结构体与方法",
       "title": "结构体与方法",
       "wordCount": 321,
       "category": "后端",
-      "file": "/notes/后端-go-01-基础入门-结构体与方法.md",
+      "file": "/notes/后端-Go-01-基础入门-结构体与方法.md",
       "relativePath": "后端/Go/01-基础入门/结构体与方法.md"
     },
     {
-      "slug": "后端-go-Channel-通道",
+      "slug": "后端-Go-02-核心特性-Channel-通道",
       "title": "Channel-通道",
       "wordCount": 402,
       "category": "后端",
-      "file": "/notes/后端-go-Channel-通道.md",
+      "file": "/notes/后端-Go-02-核心特性-Channel-通道.md",
       "relativePath": "后端/Go/02-核心特性/Channel-通道.md"
     },
     {
-      "slug": "后端-go-Goroutine-协程",
+      "slug": "后端-Go-02-核心特性-Goroutine-协程",
       "title": "Goroutine-协程",
       "wordCount": 612,
       "category": "后端",
-      "file": "/notes/后端-go-Goroutine-协程.md",
+      "file": "/notes/后端-Go-02-核心特性-Goroutine-协程.md",
       "relativePath": "后端/Go/02-核心特性/Goroutine-协程.md"
     },
     {
-      "slug": "后端-go-Select-语句",
+      "slug": "后端-Go-02-核心特性-Select-语句",
       "title": "Select-语句",
       "wordCount": 327,
       "category": "后端",
-      "file": "/notes/后端-go-Select-语句.md",
+      "file": "/notes/后端-Go-02-核心特性-Select-语句.md",
       "relativePath": "后端/Go/02-核心特性/Select-语句.md"
     },
     {
-      "slug": "后端-go-02-核心特性-同步原语",
+      "slug": "后端-Go-02-核心特性-同步原语",
       "title": "同步原语",
       "wordCount": 287,
       "category": "后端",
-      "file": "/notes/后端-go-02-核心特性-同步原语.md",
+      "file": "/notes/后端-Go-02-核心特性-同步原语.md",
       "relativePath": "后端/Go/02-核心特性/同步原语.md"
     },
     {
-      "slug": "后端-go-02-核心特性-错误处理机制",
+      "slug": "后端-Go-02-核心特性-错误处理机制",
       "title": "错误处理机制",
       "wordCount": 330,
       "category": "后端",
-      "file": "/notes/后端-go-02-核心特性-错误处理机制.md",
+      "file": "/notes/后端-Go-02-核心特性-错误处理机制.md",
       "relativePath": "后端/Go/02-核心特性/错误处理机制.md"
     },
     {
-      "slug": "后端-go-Gin-框架",
+      "slug": "后端-Go-03-Web开发-Gin-框架",
       "title": "Gin-框架",
       "wordCount": 323,
       "category": "后端",
-      "file": "/notes/后端-go-Gin-框架.md",
+      "file": "/notes/后端-Go-03-Web开发-Gin-框架.md",
       "relativePath": "后端/Go/03-Web开发/Gin-框架.md"
     },
     {
-      "slug": "后端-go-HTTP-服务基础",
+      "slug": "后端-Go-03-Web开发-HTTP-服务基础",
       "title": "HTTP-服务基础",
       "wordCount": 328,
       "category": "后端",
-      "file": "/notes/后端-go-HTTP-服务基础.md",
+      "file": "/notes/后端-Go-03-Web开发-HTTP-服务基础.md",
       "relativePath": "后端/Go/03-Web开发/HTTP-服务基础.md"
     },
     {
-      "slug": "后端-go-03-web开发-中间件",
+      "slug": "后端-Go-03-Web开发-中间件",
       "title": "中间件",
       "wordCount": 324,
       "category": "后端",
-      "file": "/notes/后端-go-03-web开发-中间件.md",
+      "file": "/notes/后端-Go-03-Web开发-中间件.md",
       "relativePath": "后端/Go/03-Web开发/中间件.md"
     },
     {
-      "slug": "后端-go-03-web开发-路由处理",
+      "slug": "后端-Go-03-Web开发-路由处理",
       "title": "路由处理",
       "wordCount": 247,
       "category": "后端",
-      "file": "/notes/后端-go-03-web开发-路由处理.md",
+      "file": "/notes/后端-Go-03-Web开发-路由处理.md",
       "relativePath": "后端/Go/03-Web开发/路由处理.md"
     },
     {
-      "slug": "后端-go-05-企业架构-微服务基础",
+      "slug": "后端-Go-05-企业架构-微服务基础",
       "title": "微服务基础",
       "wordCount": 489,
       "category": "后端",
-      "file": "/notes/后端-go-05-企业架构-微服务基础.md",
+      "file": "/notes/后端-Go-05-企业架构-微服务基础.md",
       "relativePath": "后端/Go/05-企业架构/微服务基础.md"
     },
     {
-      "slug": "后端-go-第一个-HTTP-服务",
+      "slug": "后端-Go-06-实践项目-第一个-HTTP-服务",
       "title": "第一个-HTTP-服务",
       "wordCount": 541,
       "category": "后端",
-      "file": "/notes/后端-go-第一个-HTTP-服务.md",
+      "file": "/notes/后端-Go-06-实践项目-第一个-HTTP-服务.md",
       "relativePath": "后端/Go/06-实践项目/第一个-HTTP-服务.md"
     },
     {
-      "slug": "后端-go-moc-go",
+      "slug": "后端-Go-!MOC-Go",
       "title": "!MOC-Go",
       "wordCount": 954,
       "category": "后端",
-      "file": "/notes/后端-go-moc-go.md",
+      "file": "/notes/后端-Go-!MOC-Go.md",
       "relativePath": "后端/Go/!MOC-Go.md"
     },
     {
-      "slug": "后端-java-01-基础入门-io流",
+      "slug": "后端-Java-01-基础入门-IO流",
       "title": "IO流",
       "wordCount": 435,
       "category": "后端",
-      "file": "/notes/后端-java-01-基础入门-io流.md",
+      "file": "/notes/后端-Java-01-基础入门-IO流.md",
       "relativePath": "后端/Java/01-基础入门/IO流.md"
     },
     {
-      "slug": "后端-java-Java-简介与特点",
+      "slug": "后端-Java-01-基础入门-Java-简介与特点",
       "title": "Java-简介与特点",
       "wordCount": 1127,
       "category": "后端",
-      "file": "/notes/后端-java-Java-简介与特点.md",
+      "file": "/notes/后端-Java-01-基础入门-Java-简介与特点.md",
       "relativePath": "后端/Java/01-基础入门/Java-简介与特点.md"
     },
     {
-      "slug": "后端-java-01-基础入门-函数与方法",
+      "slug": "后端-Java-01-基础入门-函数与方法",
       "title": "函数与方法",
       "description": "函数与方法 方法定义 基本语法 参数传递 方法重载 静态方法与实例方法 构造方法 递归 Lambda 表达式（Java 8+） 方法引用（Java 8+） 下一篇 数组与字符串",
       "wordCount": 88,
       "category": "后端",
-      "file": "/notes/后端-java-01-基础入门-函数与方法.md",
+      "file": "/notes/后端-Java-01-基础入门-函数与方法.md",
       "relativePath": "后端/Java/01-基础入门/函数与方法.md"
     },
     {
-      "slug": "后端-java-01-基础入门-基础语法",
+      "slug": "后端-Java-01-基础入门-基础语法",
       "title": "基础语法",
       "wordCount": 550,
       "category": "后端",
-      "file": "/notes/后端-java-01-基础入门-基础语法.md",
+      "file": "/notes/后端-Java-01-基础入门-基础语法.md",
       "relativePath": "后端/Java/01-基础入门/基础语法.md"
     },
     {
-      "slug": "后端-java-01-基础入门-安装与环境配置",
+      "slug": "后端-Java-01-基础入门-安装与环境配置",
       "title": "安装与环境配置",
       "wordCount": 690,
       "category": "后端",
-      "file": "/notes/后端-java-01-基础入门-安装与环境配置.md",
+      "file": "/notes/后端-Java-01-基础入门-安装与环境配置.md",
       "relativePath": "后端/Java/01-基础入门/安装与环境配置.md"
     },
     {
-      "slug": "后端-java-01-基础入门-异常处理",
+      "slug": "后端-Java-01-基础入门-异常处理",
       "title": "异常处理",
       "wordCount": 271,
       "category": "后端",
-      "file": "/notes/后端-java-01-基础入门-异常处理.md",
+      "file": "/notes/后端-Java-01-基础入门-异常处理.md",
       "relativePath": "后端/Java/01-基础入门/异常处理.md"
     },
     {
-      "slug": "后端-java-01-基础入门-控制结构",
+      "slug": "后端-Java-01-基础入门-控制结构",
       "title": "控制结构",
       "wordCount": 224,
       "category": "后端",
-      "file": "/notes/后端-java-01-基础入门-控制结构.md",
+      "file": "/notes/后端-Java-01-基础入门-控制结构.md",
       "relativePath": "后端/Java/01-基础入门/控制结构.md"
     },
     {
-      "slug": "后端-java-01-基础入门-数据类型与变量",
+      "slug": "后端-Java-01-基础入门-数据类型与变量",
       "title": "数据类型与变量",
       "description": "数据类型与变量 Java 类型系统总览 基本类型详解 整数类型 浮点类型 字符类型 布尔类型 类型转换 自动类型转换（隐式） 强制类型转换（显式） 引用类型 String（字符串） 数组 变量的作用域 包装类 常用 API 类 下一篇 控制结构",
       "wordCount": 122,
       "category": "后端",
-      "file": "/notes/后端-java-01-基础入门-数据类型与变量.md",
+      "file": "/notes/后端-Java-01-基础入门-数据类型与变量.md",
       "relativePath": "后端/Java/01-基础入门/数据类型与变量.md"
     },
     {
-      "slug": "后端-java-01-基础入门-数组与字符串",
+      "slug": "后端-Java-01-基础入门-数组与字符串",
       "title": "数组与字符串",
       "wordCount": 300,
       "category": "后端",
-      "file": "/notes/后端-java-01-基础入门-数组与字符串.md",
+      "file": "/notes/后端-Java-01-基础入门-数组与字符串.md",
       "relativePath": "后端/Java/01-基础入门/数组与字符串.md"
     },
     {
-      "slug": "后端-java-02-面向对象-内部类",
+      "slug": "后端-Java-02-面向对象-内部类",
       "title": "内部类",
       "wordCount": 317,
       "category": "后端",
-      "file": "/notes/后端-java-02-面向对象-内部类.md",
+      "file": "/notes/后端-Java-02-面向对象-内部类.md",
       "relativePath": "后端/Java/02-面向对象/内部类.md"
     },
     {
-      "slug": "后端-java-02-面向对象-接口与抽象类",
+      "slug": "后端-Java-02-面向对象-接口与抽象类",
       "title": "接口与抽象类",
       "wordCount": 316,
       "category": "后端",
-      "file": "/notes/后端-java-02-面向对象-接口与抽象类.md",
+      "file": "/notes/后端-Java-02-面向对象-接口与抽象类.md",
       "relativePath": "后端/Java/02-面向对象/接口与抽象类.md"
     },
     {
-      "slug": "后端-java-02-面向对象-枚举",
+      "slug": "后端-Java-02-面向对象-枚举",
       "title": "枚举",
       "wordCount": 291,
       "category": "后端",
-      "file": "/notes/后端-java-02-面向对象-枚举.md",
+      "file": "/notes/后端-Java-02-面向对象-枚举.md",
       "relativePath": "后端/Java/02-面向对象/枚举.md"
     },
     {
-      "slug": "后端-java-02-面向对象-类与对象",
+      "slug": "后端-Java-02-面向对象-类与对象",
       "title": "类与对象",
       "wordCount": 409,
       "category": "后端",
-      "file": "/notes/后端-java-02-面向对象-类与对象.md",
+      "file": "/notes/后端-Java-02-面向对象-类与对象.md",
       "relativePath": "后端/Java/02-面向对象/类与对象.md"
     },
     {
-      "slug": "后端-java-02-面向对象-继承与多态",
+      "slug": "后端-Java-02-面向对象-继承与多态",
       "title": "继承与多态",
       "wordCount": 334,
       "category": "后端",
-      "file": "/notes/后端-java-02-面向对象-继承与多态.md",
+      "file": "/notes/后端-Java-02-面向对象-继承与多态.md",
       "relativePath": "后端/Java/02-面向对象/继承与多态.md"
     },
     {
-      "slug": "后端-java-集合-List",
+      "slug": "后端-Java-03-高级特性-集合-List",
       "title": "集合-List",
       "wordCount": 285,
       "category": "后端",
-      "file": "/notes/后端-java-集合-List.md",
+      "file": "/notes/后端-Java-03-高级特性-集合-List.md",
       "relativePath": "后端/Java/03-高级特性/集合-List.md"
     },
     {
-      "slug": "后端-java-07-数据库操作-jdbc基础",
+      "slug": "后端-Java-07-数据库操作-JDBC基础",
       "title": "JDBC基础",
       "description": "JDBC 基础 JDBC 概述 JDBC（Java Database Connectivity）是 Java 程序与数据库交互的标准 API。 快速开始 使用 try with resources PreparedStatement（防止 SQL 注入） CallableStatement（存储过程） 批量操作 获取元数据 数据库连接池 JDBC 工具类 常见数据库驱动 下一篇 连接池",
       "wordCount": 194,
       "category": "后端",
-      "file": "/notes/后端-java-07-数据库操作-jdbc基础.md",
+      "file": "/notes/后端-Java-07-数据库操作-JDBC基础.md",
       "relativePath": "后端/Java/07-数据库操作/JDBC基础.md"
     },
     {
-      "slug": "后端-java-07-数据库操作-mybatis入门",
+      "slug": "后端-Java-07-数据库操作-MyBatis入门",
       "title": "MyBatis入门",
       "description": "MyBatis 入门 MyBatis 概述 MyBatis 是一款优秀的持久层框架，支持自定义 SQL、存储过程和高级映射。 快速开始 1. 添加依赖 2. 配置文件 3. 实体类 4. Mapper 接口 5. Mapper XML 6. 使用示例 注解方式 动态 SQL 关联查询 下一篇 动态SQL",
       "wordCount": 152,
       "category": "后端",
-      "file": "/notes/后端-java-07-数据库操作-mybatis入门.md",
+      "file": "/notes/后端-Java-07-数据库操作-MyBatis入门.md",
       "relativePath": "后端/Java/07-数据库操作/MyBatis入门.md"
     },
     {
-      "slug": "后端-java-moc-java",
+      "slug": "后端-Java-!MOC-Java",
       "title": "!MOC-Java",
       "wordCount": 1523,
       "category": "后端",
-      "file": "/notes/后端-java-moc-java.md",
+      "file": "/notes/后端-Java-!MOC-Java.md",
       "relativePath": "后端/Java/!MOC-Java.md"
     },
     {
-      "slug": "开发经验-ai辅助开发一年体验总结",
+      "slug": "开发经验-AI辅助开发一年体验总结",
       "title": "AI辅助开发一年体验总结",
       "wordCount": 816,
       "category": "开发经验",
-      "file": "/notes/开发经验-ai辅助开发一年体验总结.md",
+      "file": "/notes/开发经验-AI辅助开发一年体验总结.md",
       "relativePath": "开发经验/AI辅助开发一年体验总结.md"
     },
     {
-      "slug": "开发经验-css现代布局containerqueries真香",
+      "slug": "开发经验-CSS现代布局ContainerQueries真香",
       "title": "CSS现代布局ContainerQueries真香",
       "wordCount": 731,
       "category": "开发经验",
-      "file": "/notes/开发经验-css现代布局containerqueries真香.md",
+      "file": "/notes/开发经验-CSS现代布局ContainerQueries真香.md",
       "relativePath": "开发经验/CSS现代布局ContainerQueries真香.md"
     },
     {
-      "slug": "服务器-docker部署前端项目教程",
+      "slug": "开发经验-Docker部署前端项目教程",
       "title": "Docker部署前端项目教程",
       "wordCount": 657,
       "category": "开发经验",
-      "file": "/notes/服务器-docker部署前端项目教程.md",
+      "file": "/notes/开发经验-Docker部署前端项目教程.md",
       "relativePath": "开发经验/Docker部署前端项目教程.md"
     },
     {
-      "slug": "开发经验-react性能优化从理论到实战",
+      "slug": "开发经验-React性能优化从理论到实战",
       "title": "React性能优化从理论到实战",
       "wordCount": 1086,
       "category": "开发经验",
-      "file": "/notes/开发经验-react性能优化从理论到实战.md",
+      "file": "/notes/开发经验-React性能优化从理论到实战.md",
       "relativePath": "开发经验/React性能优化从理论到实战.md"
     },
     {
-      "slug": "开发经验-typescript进阶用好类型体操提升代码质量",
+      "slug": "开发经验-TypeScript进阶用好类型体操提升代码质量",
       "title": "TypeScript进阶用好类型体操提升代码质量",
       "wordCount": 870,
       "category": "开发经验",
-      "file": "/notes/开发经验-typescript进阶用好类型体操提升代码质量.md",
+      "file": "/notes/开发经验-TypeScript进阶用好类型体操提升代码质量.md",
       "relativePath": "开发经验/TypeScript进阶用好类型体操提升代码质量.md"
     },
     {
-      "slug": "开发经验-vibecoding我是如何用ai写代码的",
+      "slug": "开发经验-VibeCoding我是如何用AI写代码的",
       "title": "VibeCoding我是如何用AI写代码的",
       "wordCount": 943,
       "category": "开发经验",
-      "file": "/notes/开发经验-vibecoding我是如何用ai写代码的.md",
+      "file": "/notes/开发经验-VibeCoding我是如何用AI写代码的.md",
       "relativePath": "开发经验/VibeCoding我是如何用AI写代码的.md"
     },
     {
@@ -1585,409 +1499,409 @@
       "relativePath": "开发经验/网址书签收集.md"
     },
     {
-      "slug": "前端-js-01-闭包和作用域",
+      "slug": "前端-JS-01-闭包和作用域",
       "title": "01-闭包和作用域",
       "wordCount": 707,
       "category": "前端",
-      "file": "/notes/前端-js-01-闭包和作用域.md",
+      "file": "/notes/前端-JS-01-闭包和作用域.md",
       "relativePath": "前端/JS/01-闭包和作用域.md"
     },
     {
-      "slug": "前端-js-02-this绑定和上下文",
+      "slug": "前端-JS-02-this绑定和上下文",
       "title": "02-this绑定和上下文",
       "wordCount": 766,
       "category": "前端",
-      "file": "/notes/前端-js-02-this绑定和上下文.md",
+      "file": "/notes/前端-JS-02-this绑定和上下文.md",
       "relativePath": "前端/JS/02-this绑定和上下文.md"
     },
     {
-      "slug": "前端-js-03-原型和继承",
+      "slug": "前端-JS-03-原型和继承",
       "title": "03-原型和继承",
       "wordCount": 739,
       "category": "前端",
-      "file": "/notes/前端-js-03-原型和继承.md",
+      "file": "/notes/前端-JS-03-原型和继承.md",
       "relativePath": "前端/JS/03-原型和继承.md"
     },
     {
-      "slug": "前端-js-04-异步编程详解",
+      "slug": "前端-JS-04-异步编程详解",
       "title": "04-异步编程详解",
       "wordCount": 678,
       "category": "前端",
-      "file": "/notes/前端-js-04-异步编程详解.md",
+      "file": "/notes/前端-JS-04-异步编程详解.md",
       "relativePath": "前端/JS/04-异步编程详解.md"
     },
     {
-      "slug": "前端-js-05-事件循环和并发",
+      "slug": "前端-JS-05-事件循环和并发",
       "title": "05-事件循环和并发",
       "wordCount": 586,
       "category": "前端",
-      "file": "/notes/前端-js-05-事件循环和并发.md",
+      "file": "/notes/前端-JS-05-事件循环和并发.md",
       "relativePath": "前端/JS/05-事件循环和并发.md"
     },
     {
-      "slug": "前端-js-06-函数式编程",
+      "slug": "前端-JS-06-函数式编程",
       "title": "06-函数式编程",
       "wordCount": 716,
       "category": "前端",
-      "file": "/notes/前端-js-06-函数式编程.md",
+      "file": "/notes/前端-JS-06-函数式编程.md",
       "relativePath": "前端/JS/06-函数式编程.md"
     },
     {
-      "slug": "07-es6+新特性详解",
+      "slug": "前端-JS-07-ES6+新特性详解",
       "title": "07-ES6+新特性详解",
       "wordCount": 879,
       "category": "前端",
-      "file": "/notes/07-es6+新特性详解.md",
+      "file": "/notes/前端-JS-07-ES6+新特性详解.md",
       "relativePath": "前端/JS/07-ES6+新特性详解.md"
     },
     {
-      "slug": "前端-js-08-元编程和反射",
+      "slug": "前端-JS-08-元编程和反射",
       "title": "08-元编程和反射",
       "wordCount": 585,
       "category": "前端",
-      "file": "/notes/前端-js-08-元编程和反射.md",
+      "file": "/notes/前端-JS-08-元编程和反射.md",
       "relativePath": "前端/JS/08-元编程和反射.md"
     },
     {
-      "slug": "前端-js-09-设计模式",
+      "slug": "前端-JS-09-设计模式",
       "title": "09-设计模式",
       "wordCount": 594,
       "category": "前端",
-      "file": "/notes/前端-js-09-设计模式.md",
+      "file": "/notes/前端-JS-09-设计模式.md",
       "relativePath": "前端/JS/09-设计模式.md"
     },
     {
-      "slug": "前端-js-10-内存管理和性能优化",
+      "slug": "前端-JS-10-内存管理和性能优化",
       "title": "10-内存管理和性能优化",
       "wordCount": 545,
       "category": "前端",
-      "file": "/notes/前端-js-10-内存管理和性能优化.md",
+      "file": "/notes/前端-JS-10-内存管理和性能优化.md",
       "relativePath": "前端/JS/10-内存管理和性能优化.md"
     },
     {
-      "slug": "前端-js-11-模块化和打包",
+      "slug": "前端-JS-11-模块化和打包",
       "title": "11-模块化和打包",
       "wordCount": 870,
       "category": "前端",
-      "file": "/notes/前端-js-11-模块化和打包.md",
+      "file": "/notes/前端-JS-11-模块化和打包.md",
       "relativePath": "前端/JS/11-模块化和打包.md"
     },
     {
-      "slug": "前端-js-12-错误处理和调试",
+      "slug": "前端-JS-12-错误处理和调试",
       "title": "12-错误处理和调试",
       "wordCount": 655,
       "category": "前端",
-      "file": "/notes/前端-js-12-错误处理和调试.md",
+      "file": "/notes/前端-JS-12-错误处理和调试.md",
       "relativePath": "前端/JS/12-错误处理和调试.md"
     },
     {
-      "slug": "readme",
+      "slug": "前端-JS-README",
       "title": "README",
       "wordCount": 714,
       "category": "前端",
-      "file": "/notes/readme.md",
+      "file": "/notes/前端-JS-README.md",
       "relativePath": "前端/JS/README.md"
     },
     {
-      "slug": "前端-vue-01-基础入门",
+      "slug": "前端-React-01-基础入门",
       "title": "01-基础入门",
       "wordCount": 438,
       "category": "前端",
-      "file": "/notes/前端-vue-01-基础入门.md",
+      "file": "/notes/前端-React-01-基础入门.md",
       "relativePath": "前端/React/01-基础入门.md"
     },
     {
-      "slug": "前端-react-Hooks",
+      "slug": "前端-React-02-Hooks",
       "title": "02-Hooks",
       "wordCount": 413,
       "category": "前端",
-      "file": "/notes/前端-react-Hooks.md",
+      "file": "/notes/前端-React-02-Hooks.md",
       "relativePath": "前端/React/02-Hooks.md"
     },
     {
-      "slug": "前端-react-03-状态管理",
+      "slug": "前端-React-03-状态管理",
       "title": "03-状态管理",
       "wordCount": 328,
       "category": "前端",
-      "file": "/notes/前端-react-03-状态管理.md",
+      "file": "/notes/前端-React-03-状态管理.md",
       "relativePath": "前端/React/03-状态管理.md"
     },
     {
-      "slug": "前端-react-04-路由管理",
+      "slug": "前端-React-04-路由管理",
       "title": "04-路由管理",
       "wordCount": 388,
       "category": "前端",
-      "file": "/notes/前端-react-04-路由管理.md",
+      "file": "/notes/前端-React-04-路由管理.md",
       "relativePath": "前端/React/04-路由管理.md"
     },
     {
-      "slug": "前端-react-05-性能优化",
+      "slug": "前端-React-05-性能优化",
       "title": "05-性能优化",
       "wordCount": 406,
       "category": "前端",
-      "file": "/notes/前端-react-05-性能优化.md",
+      "file": "/notes/前端-React-05-性能优化.md",
       "relativePath": "前端/React/05-性能优化.md"
     },
     {
-      "slug": "前端-react-06-最佳实践",
+      "slug": "前端-React-06-最佳实践",
       "title": "06-最佳实践",
       "wordCount": 363,
       "category": "前端",
-      "file": "/notes/前端-react-06-最佳实践.md",
+      "file": "/notes/前端-React-06-最佳实践.md",
       "relativePath": "前端/React/06-最佳实践.md"
     },
     {
-      "slug": "前端-react-readme",
+      "slug": "前端-React-README",
       "title": "README",
       "wordCount": 413,
       "category": "前端",
-      "file": "/notes/前端-react-readme.md",
+      "file": "/notes/前端-React-README.md",
       "relativePath": "前端/React/README.md"
     },
     {
-      "slug": "前端-vue-01-基础入门",
+      "slug": "前端-Vue-01-基础入门",
       "title": "01-基础入门",
       "wordCount": 248,
       "category": "前端",
-      "file": "/notes/前端-vue-01-基础入门.md",
+      "file": "/notes/前端-Vue-01-基础入门.md",
       "relativePath": "前端/Vue/01-基础入门.md"
     },
     {
-      "slug": "前端-vue-02-组件系统",
+      "slug": "前端-Vue-02-组件系统",
       "title": "02-组件系统",
       "wordCount": 286,
       "category": "前端",
-      "file": "/notes/前端-vue-02-组件系统.md",
+      "file": "/notes/前端-Vue-02-组件系统.md",
       "relativePath": "前端/Vue/02-组件系统.md"
     },
     {
-      "slug": "前端-vue-03-响应式原理",
+      "slug": "前端-Vue-03-响应式原理",
       "title": "03-响应式原理",
       "wordCount": 291,
       "category": "前端",
-      "file": "/notes/前端-vue-03-响应式原理.md",
+      "file": "/notes/前端-Vue-03-响应式原理.md",
       "relativePath": "前端/Vue/03-响应式原理.md"
     },
     {
-      "slug": "前端-vue-Composition-API",
+      "slug": "前端-Vue-04-Composition-API",
       "title": "04-Composition-API",
       "wordCount": 374,
       "category": "前端",
-      "file": "/notes/前端-vue-Composition-API.md",
+      "file": "/notes/前端-Vue-04-Composition-API.md",
       "relativePath": "前端/Vue/04-Composition-API.md"
     },
     {
-      "slug": "前端-vue-05-路由管理",
+      "slug": "前端-Vue-05-路由管理",
       "title": "05-路由管理",
       "wordCount": 377,
       "category": "前端",
-      "file": "/notes/前端-vue-05-路由管理.md",
+      "file": "/notes/前端-Vue-05-路由管理.md",
       "relativePath": "前端/Vue/05-路由管理.md"
     },
     {
-      "slug": "前端-vue-06-状态管理",
+      "slug": "前端-Vue-06-状态管理",
       "title": "06-状态管理",
       "wordCount": 447,
       "category": "前端",
-      "file": "/notes/前端-vue-06-状态管理.md",
+      "file": "/notes/前端-Vue-06-状态管理.md",
       "relativePath": "前端/Vue/06-状态管理.md"
     },
     {
-      "slug": "前端-vue-07-最佳实践",
+      "slug": "前端-Vue-07-最佳实践",
       "title": "07-最佳实践",
       "wordCount": 442,
       "category": "前端",
-      "file": "/notes/前端-vue-07-最佳实践.md",
+      "file": "/notes/前端-Vue-07-最佳实践.md",
       "relativePath": "前端/Vue/07-最佳实践.md"
     },
     {
-      "slug": "前端-vue-readme",
+      "slug": "前端-Vue-README",
       "title": "README",
       "wordCount": 406,
       "category": "前端",
-      "file": "/notes/前端-vue-readme.md",
+      "file": "/notes/前端-Vue-README.md",
       "relativePath": "前端/Vue/README.md"
     },
     {
-      "slug": "工具函数",
+      "slug": "CodeBlock-工具函数",
       "title": "工具函数",
       "description": "前端实用工具函数集合 1. 异步错误处理 2. 防抖与节流 3. 深拷贝 4. 日期格式化 5. 数字格式化 6. 数组处理 7. 对象处理 8. URL 和查询参数 9. 本地存储 10. 表单验证 11. DOM 操作 12. 其他实用函数 13. 函数组合",
       "wordCount": 131,
       "category": "CodeBlock",
-      "file": "/notes/工具函数.md",
+      "file": "/notes/CodeBlock-工具函数.md",
       "relativePath": "CodeBlock/工具函数.md"
     },
     {
-      "slug": "01-快速开始",
+      "slug": "Nest-01-快速开始",
       "title": "01-快速开始",
       "description": "Nest.js 快速开始 安装 使用 CLI 创建项目 手动安装 项目结构 第一个应用 1. 创建模块 (Module) 2. 创建控制器 (Controller) 3. 创建服务 (Service) 4. 启动应用 常用命令 访问应用 启动后访问:",
       "wordCount": 125,
       "category": "Nest",
-      "file": "/notes/01-快速开始.md",
+      "file": "/notes/Nest-01-快速开始.md",
       "relativePath": "Nest/01-快速开始.md"
     },
     {
-      "slug": "02-核心概念",
+      "slug": "Nest-02-核心概念",
       "title": "02-核心概念",
       "wordCount": 260,
       "category": "Nest",
-      "file": "/notes/02-核心概念.md",
+      "file": "/notes/Nest-02-核心概念.md",
       "relativePath": "Nest/02-核心概念.md"
     },
     {
-      "slug": "03-依赖注入",
+      "slug": "Nest-03-依赖注入",
       "title": "03-依赖注入",
       "wordCount": 252,
       "category": "Nest",
-      "file": "/notes/03-依赖注入.md",
+      "file": "/notes/Nest-03-依赖注入.md",
       "relativePath": "Nest/03-依赖注入.md"
     },
     {
-      "slug": "04-中间件",
+      "slug": "Nest-04-中间件",
       "title": "04-中间件",
       "description": "Nest.js 中间件 什么是中间件 中间件是在路由处理器之前执行的函数，可以访问请求和响应对象。 创建中间件 1. 函数式中间件 2. 类中间件 应用中间件 在模块中应用 路由匹配 多个中间件 全局中间件 功能中间件 异步中间件 常见中间件示例 日志中间件 CORS 中间件 认证中间件",
       "wordCount": 144,
       "category": "Nest",
-      "file": "/notes/04-中间件.md",
+      "file": "/notes/Nest-04-中间件.md",
       "relativePath": "Nest/04-中间件.md"
     },
     {
-      "slug": "05-异常处理",
+      "slug": "Nest-05-异常处理",
       "title": "05-异常处理",
       "description": "Nest.js 异常处理 内置异常 Nest.js 提供了内置的异常类： 自定义异常 异常过滤器 异常过滤器可以捕获和处理异常。 创建异常过滤器 捕获特定异常 应用异常过滤器 方法级别 控制器级别 全局级别 模块级别 继承异常 常见异常处理示例 业务异常 验证异常 日志记录异常",
       "wordCount": 139,
       "category": "Nest",
-      "file": "/notes/05-异常处理.md",
+      "file": "/notes/Nest-05-异常处理.md",
       "relativePath": "Nest/05-异常处理.md"
     },
     {
-      "slug": "06-管道",
+      "slug": "Nest-06-管道",
       "title": "06-管道",
       "wordCount": 292,
       "category": "Nest",
-      "file": "/notes/06-管道.md",
+      "file": "/notes/Nest-06-管道.md",
       "relativePath": "Nest/06-管道.md"
     },
     {
-      "slug": "07-守卫",
+      "slug": "Nest-07-守卫",
       "title": "07-守卫",
       "description": "Nest.js 守卫 什么是守卫 守卫是一个使用 装饰器的类，实现了 接口。守卫在中间件之后、拦截器之前执行。 创建守卫 使用守卫 控制器级别 方法级别 全局守卫 模块级别 认证守卫示例 角色守卫 自定义装饰器 角色装饰器 使用 组合多个守卫 执行上下文 用户装饰器 常见守卫模式 JWT 认证守卫 API Key 守卫",
       "wordCount": 160,
       "category": "Nest",
-      "file": "/notes/07-守卫.md",
+      "file": "/notes/Nest-07-守卫.md",
       "relativePath": "Nest/07-守卫.md"
     },
     {
-      "slug": "08-拦截器",
+      "slug": "Nest-08-拦截器",
       "title": "08-拦截器",
       "wordCount": 216,
       "category": "Nest",
-      "file": "/notes/08-拦截器.md",
+      "file": "/notes/Nest-08-拦截器.md",
       "relativePath": "Nest/08-拦截器.md"
     },
     {
-      "slug": "09-typeorm集成",
+      "slug": "Nest-09-TypeORM集成",
       "title": "09-TypeORM集成",
       "description": "Nest.js TypeORM 集成 安装 配置 在模块中配置 使用配置文件 创建实体 在模块中注册实体 在服务中使用 Repository 关系 一对一 一对多 多对多 查询构建器 事务 迁移 生成迁移 运行迁移 回滚迁移 订阅者（Subscribers）",
       "wordCount": 129,
       "category": "Nest",
-      "file": "/notes/09-typeorm集成.md",
+      "file": "/notes/Nest-09-TypeORM集成.md",
       "relativePath": "Nest/09-TypeORM集成.md"
     },
     {
-      "slug": "10-mongodb集成",
+      "slug": "Nest-10-MongoDB集成",
       "title": "10-MongoDB集成",
       "description": "Nest.js MongoDB 集成 安装 配置 在模块中配置 使用配置文件 定义 Schema 在模块中注册 Schema 在服务中使用 Model Schema 选项 嵌套 Schema 数组类型 查询方法 索引 虚拟属性 中间件（Hooks） 连接事件",
       "wordCount": 129,
       "category": "Nest",
-      "file": "/notes/10-mongodb集成.md",
+      "file": "/notes/Nest-10-MongoDB集成.md",
       "relativePath": "Nest/10-MongoDB集成.md"
     },
     {
-      "slug": "11-restful-api",
+      "slug": "Nest-11-RESTful-API",
       "title": "11-RESTful-API",
       "description": "Nest.js RESTful API 基本 CRUD 操作 Controller DTO（数据传输对象） 创建 DTO 更新 DTO 分页查询 DTO Service 查询过滤 DTO Service 响应格式统一 拦截器 状态码 自定义响应头 重定向 路由参数验证 文件上传 多文件上传 API 版本控制 Swagger 文档 安装 配置 使用装饰器",
       "wordCount": 177,
       "category": "Nest",
-      "file": "/notes/11-restful-api.md",
+      "file": "/notes/Nest-11-RESTful-API.md",
       "relativePath": "Nest/11-RESTful-API.md"
     },
     {
-      "slug": "12-websocket",
+      "slug": "Nest-12-WebSocket",
       "title": "12-WebSocket",
       "description": "Nest.js WebSocket 安装 创建 Gateway 在模块中注册 消息处理 发送消息 广播消息 发送给特定房间 认证 JWT 认证 使用守卫 使用拦截器 使用管道 命名空间 适配器 Redis 适配器（多服务器） 客户端连接 JavaScript/TypeScript 示例：聊天应用",
       "wordCount": 148,
       "category": "Nest",
-      "file": "/notes/12-websocket.md",
+      "file": "/notes/Nest-12-WebSocket.md",
       "relativePath": "Nest/12-WebSocket.md"
     },
     {
-      "slug": "13-微服务",
+      "slug": "Nest-13-微服务",
       "title": "13-微服务",
       "description": "Nest.js 微服务 安装 创建微服务应用 主应用（API Gateway） 微服务应用 传输层 TCP Redis RabbitMQ Kafka 消息模式 请求 响应 事件（发布 订阅） 连接微服务 在模块中连接 异步配置 消息序列化 异常处理 超时 示例：用户服务 用户微服务 API Gateway",
       "wordCount": 153,
       "category": "Nest",
-      "file": "/notes/13-微服务.md",
+      "file": "/notes/Nest-13-微服务.md",
       "relativePath": "Nest/13-微服务.md"
     },
     {
-      "slug": "14-认证授权",
+      "slug": "Nest-14-认证授权",
       "title": "14-认证授权",
       "description": "Nest.js 认证授权 JWT 认证 安装 配置 JWT 模块 使用配置服务 Passport 策略 JWT 策略 本地策略（用户名密码） 认证服务 认证守卫 JWT 守卫 本地守卫 控制器 角色授权 角色装饰器 角色守卫 使用 密码加密 刷新 Token 用户装饰器 完整示例 Auth Module 保护路由",
       "wordCount": 157,
       "category": "Nest",
-      "file": "/notes/14-认证授权.md",
+      "file": "/notes/Nest-14-认证授权.md",
       "relativePath": "Nest/14-认证授权.md"
     },
     {
-      "slug": "15-文件上传",
+      "slug": "Nest-15-文件上传",
       "title": "15-文件上传",
       "description": "Nest.js 文件上传 安装 单文件上传 多文件上传 文件验证 内存存储 上传到云存储 AWS S3 文件下载 图片处理 文件服务封装 使用示例",
       "wordCount": 73,
       "category": "Nest",
-      "file": "/notes/15-文件上传.md",
+      "file": "/notes/Nest-15-文件上传.md",
       "relativePath": "Nest/15-文件上传.md"
     },
     {
-      "slug": "16-项目结构",
+      "slug": "Nest-16-项目结构",
       "title": "16-项目结构",
       "wordCount": 317,
       "category": "Nest",
-      "file": "/notes/16-项目结构.md",
+      "file": "/notes/Nest-16-项目结构.md",
       "relativePath": "Nest/16-项目结构.md"
     },
     {
-      "slug": "17-配置管理",
+      "slug": "Nest-17-配置管理",
       "title": "17-配置管理",
       "description": "Nest.js 配置管理 安装 基本使用 在根模块中导入 环境变量文件 .env 使用 ConfigService 配置验证 安装 使用 自定义配置文件 创建配置文件 加载配置文件 使用嵌套配置 命名空间配置 定义命名空间 使用命名空间 异步配置 多环境配置 环境特定文件 加载环境特定配置 配置优先级 1. 环境变量 2. 3. 4. 5. 类型安全配置 定义接口 使用类型 示例：完整配置",
       "wordCount": 196,
       "category": "Nest",
-      "file": "/notes/17-配置管理.md",
+      "file": "/notes/Nest-17-配置管理.md",
       "relativePath": "Nest/17-配置管理.md"
     },
     {
-      "slug": "18-测试",
+      "slug": "Nest-18-测试",
       "title": "18-测试",
       "description": "Nest.js 测试 安装测试依赖 单元测试 测试服务 测试控制器 E2E 测试 基本 E2E 测试 用户模块 E2E 测试 测试数据库 使用测试数据库 模拟依赖 模拟服务 模拟 Repository 测试守卫 测试管道 Jest 配置 运行测试",
       "wordCount": 123,
       "category": "Nest",
-      "file": "/notes/18-测试.md",
+      "file": "/notes/Nest-18-测试.md",
       "relativePath": "Nest/18-测试.md"
     },
     {
-      "slug": "19-部署",
+      "slug": "Nest-19-部署",
       "title": "19-部署",
       "wordCount": 499,
       "category": "Nest",
-      "file": "/notes/19-部署.md",
+      "file": "/notes/Nest-19-部署.md",
       "relativePath": "Nest/19-部署.md"
     },
     {
-      "slug": "readme",
+      "slug": "Nest-README",
       "title": "README",
       "wordCount": 642,
       "category": "Nest",
-      "file": "/notes/readme.md",
+      "file": "/notes/Nest-README.md",
       "relativePath": "Nest/README.md"
     }
   ]
