@@ -34,17 +34,17 @@ Front-End-Notes/
 │   ├── 前端/              # JavaScript / React / Vue
 │   ├── 后端/              # Go / Java
 │   ├── Nest/              # NestJS 全栈框架
-│   ├── 📝Notes/           # 计算机网络 / 零散知识点
 │   ├── 开发经验/           # 实战总结与架构思考
+│   ├── Agent学习/         # AFM 课程模板（网站同步时跳过）
 │   └── ...
 ├── scripts/
-│   └── sync-notes.js      # 🔄 同步脚本：生成索引 + 转换 slug
+│   └── sync-notes.js      # 扫描 all-notes，用相对路径生成唯一 slug + 菜单树
 ├── src/                    # ⚛️ React 网站源码
 │   ├── components/        # 布局 / 导航 / 渲染 / 3D背景
 │   ├── pages/             # 首页 / 列表 / 详情 / 404
 │   └── styles/            # 复古 CRT 样式
 ├── public/                 # 静态资源 (同步输出)
-│   ├── notes/             # slug 化的 md 文件
+│   ├── notes/             # 路径化的 md 文件
 │   └── all-notes-tree.json # 自动生成的笔记索引树
 ├── .obsidian/             # Obsidian 配置 (已忽略构建目录)
 ├── .github/workflows/
@@ -67,9 +67,9 @@ graph LR
 ```
 
 **本地使用**（记笔记）:
-1. 用 Obsidian 打开项目根目录
-2. 在 `all-notes/` 下创建/编辑 Markdown 笔记
-3. Obsidian 已经配置好忽略 `node_modules/` `dist/` `public/` 等目录，只看得到笔记
+1. 用 Obsidian 打开项目根目录（不是 `all-notes` 本身）
+2. 在 `all-notes/` 下创建/编辑 Markdown 笔记；Agent 课程写在 `all-notes/Agent学习/`
+3. Obsidian 已经配置好忽略 `node_modules/` `dist/` `public/` 等目录。公开站菜单直接扫 `all-notes/`，slug 来自相对路径（如 `前端/React/01-基础入门.md` → `前端-React-01-基础入门`），不再手写映射表。`Agent学习` 会被跳过，避免 74 份空模板灌进 CRT 站点。
 
 **网站构建**（发布）:
 ```bash

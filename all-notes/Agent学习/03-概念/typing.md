@@ -1,0 +1,21 @@
+---
+type: concept
+concept: typing
+tags:
+  - agent
+  - concept
+---
+
+# typing
+
+<!-- AFM:USER -->
+## 一句话
+
+## 我的例子
+
+## 易混点
+<!-- /AFM:USER -->
+
+## 出现在
+
+- [[all-notes/Agent学习/02-每日/D05-py-module-pkg|D05 模块、包与类型注解]]

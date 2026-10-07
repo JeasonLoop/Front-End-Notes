@@ -1,0 +1,21 @@
+---
+type: concept
+concept: tenacity
+tags:
+  - agent
+  - concept
+---
+
+# tenacity
+
+<!-- AFM:USER -->
+## 一句话
+
+## 我的例子
+
+## 易混点
+<!-- /AFM:USER -->
+
+## 出现在
+
+- [[02-每日/D20-agent-errors|D20 错误处理与降级]]
