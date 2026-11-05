@@ -1036,6 +1036,153 @@
       "path": "/category/04-ai-agent",
       "children": [
         {
+          "id": "04-ai-agent--ios快捷指令ai开发",
+          "name": "iOS快捷指令AI开发",
+          "type": "folder",
+          "path": "/category/04-ai-agent--ios快捷指令ai开发",
+          "children": [
+            {
+              "id": "04-ai-agent--ios快捷指令ai开发--01-地图与选型",
+              "name": "01-地图与选型",
+              "type": "folder",
+              "path": "/category/04-ai-agent--ios快捷指令ai开发--01-地图与选型",
+              "children": [
+                {
+                  "id": "04-AI-Agent-iOS快捷指令AI开发-01-地图与选型-三层能力怎么选",
+                  "name": "三层能力怎么选",
+                  "type": "file",
+                  "path": "/notes/04-AI-Agent-iOS快捷指令AI开发-01-地图与选型-三层能力怎么选",
+                  "slug": "04-AI-Agent-iOS快捷指令AI开发-01-地图与选型-三层能力怎么选",
+                  "wordCount": 1598,
+                  "relativePath": "04-AI-Agent/iOS快捷指令AI开发/01-地图与选型/三层能力怎么选.md"
+                }
+              ]
+            },
+            {
+              "id": "04-ai-agent--ios快捷指令ai开发--02-app-intents",
+              "name": "02-App-Intents",
+              "type": "folder",
+              "path": "/category/04-ai-agent--ios快捷指令ai开发--02-app-intents",
+              "children": [
+                {
+                  "id": "04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-01-意图与快捷指令入口",
+                  "name": "01-意图与快捷指令入口",
+                  "type": "file",
+                  "path": "/notes/04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-01-意图与快捷指令入口",
+                  "slug": "04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-01-意图与快捷指令入口",
+                  "wordCount": 1280,
+                  "relativePath": "04-AI-Agent/iOS快捷指令AI开发/02-App-Intents/01-意图与快捷指令入口.md"
+                },
+                {
+                  "id": "04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-02-实体查询与屏幕上下文",
+                  "name": "02-实体查询与屏幕上下文",
+                  "type": "file",
+                  "path": "/notes/04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-02-实体查询与屏幕上下文",
+                  "slug": "04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-02-实体查询与屏幕上下文",
+                  "wordCount": 1334,
+                  "relativePath": "04-AI-Agent/iOS快捷指令AI开发/02-App-Intents/02-实体查询与屏幕上下文.md"
+                },
+                {
+                  "id": "04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-03-Apple-Intelligence与Use-Model",
+                  "name": "03-Apple-Intelligence与Use-Model",
+                  "type": "file",
+                  "path": "/notes/04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-03-Apple-Intelligence与Use-Model",
+                  "slug": "04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-03-Apple-Intelligence与Use-Model",
+                  "wordCount": 1262,
+                  "relativePath": "04-AI-Agent/iOS快捷指令AI开发/02-App-Intents/03-Apple-Intelligence与Use-Model.md"
+                },
+                {
+                  "id": "04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-04-常见翻车",
+                  "name": "04-常见翻车",
+                  "type": "file",
+                  "path": "/notes/04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-04-常见翻车",
+                  "slug": "04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-04-常见翻车",
+                  "wordCount": 990,
+                  "relativePath": "04-AI-Agent/iOS快捷指令AI开发/02-App-Intents/04-常见翻车.md"
+                }
+              ]
+            },
+            {
+              "id": "04-ai-agent--ios快捷指令ai开发--03-快捷指令文件",
+              "name": "03-快捷指令文件",
+              "type": "folder",
+              "path": "/category/04-ai-agent--ios快捷指令ai开发--03-快捷指令文件",
+              "children": [
+                {
+                  "id": "04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-01-plist结构与控制流",
+                  "name": "01-plist结构与控制流",
+                  "type": "file",
+                  "path": "/notes/04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-01-plist结构与控制流",
+                  "slug": "04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-01-plist结构与控制流",
+                  "wordCount": 868,
+                  "relativePath": "04-AI-Agent/iOS快捷指令AI开发/03-快捷指令文件/01-plist结构与控制流.md"
+                },
+                {
+                  "id": "04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-02-从电脑交到iPhone",
+                  "name": "02-从电脑交到iPhone",
+                  "type": "file",
+                  "path": "/notes/04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-02-从电脑交到iPhone",
+                  "slug": "04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-02-从电脑交到iPhone",
+                  "wordCount": 1118,
+                  "relativePath": "04-AI-Agent/iOS快捷指令AI开发/03-快捷指令文件/02-从电脑交到iPhone.md"
+                },
+                {
+                  "id": "04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-03-Ask-LLM与执行AppIntent",
+                  "name": "03-Ask-LLM与执行AppIntent",
+                  "type": "file",
+                  "path": "/notes/04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-03-Ask-LLM与执行AppIntent",
+                  "slug": "04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-03-Ask-LLM与执行AppIntent",
+                  "wordCount": 922,
+                  "relativePath": "04-AI-Agent/iOS快捷指令AI开发/03-快捷指令文件/03-Ask-LLM与执行AppIntent.md"
+                }
+              ]
+            },
+            {
+              "id": "04-ai-agent--ios快捷指令ai开发--04-alarmkit",
+              "name": "04-AlarmKit",
+              "type": "folder",
+              "path": "/category/04-ai-agent--ios快捷指令ai开发--04-alarmkit",
+              "children": [
+                {
+                  "id": "04-AI-Agent-iOS快捷指令AI开发-04-AlarmKit-01-调度与alarmUpdates",
+                  "name": "01-调度与alarmUpdates",
+                  "type": "file",
+                  "path": "/notes/04-AI-Agent-iOS快捷指令AI开发-04-AlarmKit-01-调度与alarmUpdates",
+                  "slug": "04-AI-Agent-iOS快捷指令AI开发-04-AlarmKit-01-调度与alarmUpdates",
+                  "wordCount": 1309,
+                  "relativePath": "04-AI-Agent/iOS快捷指令AI开发/04-AlarmKit/01-调度与alarmUpdates.md"
+                }
+              ]
+            },
+            {
+              "id": "04-ai-agent--ios快捷指令ai开发--05-agent工作流",
+              "name": "05-Agent工作流",
+              "type": "folder",
+              "path": "/category/04-ai-agent--ios快捷指令ai开发--05-agent工作流",
+              "children": [
+                {
+                  "id": "04-AI-Agent-iOS快捷指令AI开发-05-Agent工作流-01-怎么让AI写对",
+                  "name": "01-怎么让AI写对",
+                  "type": "file",
+                  "path": "/notes/04-AI-Agent-iOS快捷指令AI开发-05-Agent工作流-01-怎么让AI写对",
+                  "slug": "04-AI-Agent-iOS快捷指令AI开发-05-Agent工作流-01-怎么让AI写对",
+                  "wordCount": 1203,
+                  "relativePath": "04-AI-Agent/iOS快捷指令AI开发/05-Agent工作流/01-怎么让AI写对.md"
+                }
+              ]
+            },
+            {
+              "id": "04-AI-Agent-iOS快捷指令AI开发-README",
+              "name": "README",
+              "type": "file",
+              "path": "/notes/04-AI-Agent-iOS快捷指令AI开发-README",
+              "slug": "04-AI-Agent-iOS快捷指令AI开发-README",
+              "wordCount": 872,
+              "relativePath": "04-AI-Agent/iOS快捷指令AI开发/README.md"
+            }
+          ]
+        },
+        {
           "id": "04-ai-agent--skill推荐",
           "name": "skill推荐",
           "type": "folder",
@@ -1049,6 +1196,86 @@
               "slug": "04-AI-Agent-skill推荐-自用高频Skill",
               "wordCount": 2853,
               "relativePath": "04-AI-Agent/skill推荐/自用高频Skill.md"
+            }
+          ]
+        },
+        {
+          "id": "04-ai-agent--vibecoding高效能秘籍",
+          "name": "VibeCoding高效能秘籍",
+          "type": "folder",
+          "path": "/category/04-ai-agent--vibecoding高效能秘籍",
+          "children": [
+            {
+              "id": "04-AI-Agent-VibeCoding高效能秘籍-01-认知重建-角色转变与幻觉控制",
+              "name": "01-认知重建-角色转变与幻觉控制",
+              "type": "file",
+              "path": "/notes/04-AI-Agent-VibeCoding高效能秘籍-01-认知重建-角色转变与幻觉控制",
+              "slug": "04-AI-Agent-VibeCoding高效能秘籍-01-认知重建-角色转变与幻觉控制",
+              "wordCount": 1665,
+              "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/01-认知重建-角色转变与幻觉控制.md"
+            },
+            {
+              "id": "04-AI-Agent-VibeCoding高效能秘籍-02-上下文工程-CLAUDEmd与会话管理",
+              "name": "02-上下文工程-CLAUDEmd与会话管理",
+              "type": "file",
+              "path": "/notes/04-AI-Agent-VibeCoding高效能秘籍-02-上下文工程-CLAUDEmd与会话管理",
+              "slug": "04-AI-Agent-VibeCoding高效能秘籍-02-上下文工程-CLAUDEmd与会话管理",
+              "wordCount": 2765,
+              "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/02-上下文工程-CLAUDEmd与会话管理.md"
+            },
+            {
+              "id": "04-AI-Agent-VibeCoding高效能秘籍-03-验收闭环-从代码到UI",
+              "name": "03-验收闭环-从代码到UI",
+              "type": "file",
+              "path": "/notes/04-AI-Agent-VibeCoding高效能秘籍-03-验收闭环-从代码到UI",
+              "slug": "04-AI-Agent-VibeCoding高效能秘籍-03-验收闭环-从代码到UI",
+              "wordCount": 2554,
+              "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/03-验收闭环-从代码到UI.md"
+            },
+            {
+              "id": "04-AI-Agent-VibeCoding高效能秘籍-04-需求规划与UI设计-SDD与Impeccable",
+              "name": "04-需求规划与UI设计-SDD与Impeccable",
+              "type": "file",
+              "path": "/notes/04-AI-Agent-VibeCoding高效能秘籍-04-需求规划与UI设计-SDD与Impeccable",
+              "slug": "04-AI-Agent-VibeCoding高效能秘籍-04-需求规划与UI设计-SDD与Impeccable",
+              "wordCount": 2486,
+              "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/04-需求规划与UI设计-SDD与Impeccable.md"
+            },
+            {
+              "id": "04-AI-Agent-VibeCoding高效能秘籍-05-沉淀复利-Skill开发与工作流",
+              "name": "05-沉淀复利-Skill开发与工作流",
+              "type": "file",
+              "path": "/notes/04-AI-Agent-VibeCoding高效能秘籍-05-沉淀复利-Skill开发与工作流",
+              "slug": "04-AI-Agent-VibeCoding高效能秘籍-05-沉淀复利-Skill开发与工作流",
+              "wordCount": 2032,
+              "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/05-沉淀复利-Skill开发与工作流.md"
+            },
+            {
+              "id": "04-AI-Agent-VibeCoding高效能秘籍-06-升维-全自动化与判断力",
+              "name": "06-升维-全自动化与判断力",
+              "type": "file",
+              "path": "/notes/04-AI-Agent-VibeCoding高效能秘籍-06-升维-全自动化与判断力",
+              "slug": "04-AI-Agent-VibeCoding高效能秘籍-06-升维-全自动化与判断力",
+              "wordCount": 2069,
+              "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/06-升维-全自动化与判断力.md"
+            },
+            {
+              "id": "04-AI-Agent-VibeCoding高效能秘籍-07-终极心法-四种认知状态",
+              "name": "07-终极心法-四种认知状态",
+              "type": "file",
+              "path": "/notes/04-AI-Agent-VibeCoding高效能秘籍-07-终极心法-四种认知状态",
+              "slug": "04-AI-Agent-VibeCoding高效能秘籍-07-终极心法-四种认知状态",
+              "wordCount": 1283,
+              "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/07-终极心法-四种认知状态.md"
+            },
+            {
+              "id": "04-AI-Agent-VibeCoding高效能秘籍-README",
+              "name": "README",
+              "type": "file",
+              "path": "/notes/04-AI-Agent-VibeCoding高效能秘籍-README",
+              "slug": "04-AI-Agent-VibeCoding高效能秘籍-README",
+              "wordCount": 752,
+              "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/README.md"
             }
           ]
         }
@@ -1850,12 +2077,164 @@
       "relativePath": "02-后端/Nest/README.md"
     },
     {
+      "slug": "04-AI-Agent-iOS快捷指令AI开发-01-地图与选型-三层能力怎么选",
+      "title": "三层能力怎么选",
+      "wordCount": 1598,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-iOS快捷指令AI开发-01-地图与选型-三层能力怎么选.md",
+      "relativePath": "04-AI-Agent/iOS快捷指令AI开发/01-地图与选型/三层能力怎么选.md"
+    },
+    {
+      "slug": "04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-01-意图与快捷指令入口",
+      "title": "01-意图与快捷指令入口",
+      "wordCount": 1280,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-01-意图与快捷指令入口.md",
+      "relativePath": "04-AI-Agent/iOS快捷指令AI开发/02-App-Intents/01-意图与快捷指令入口.md"
+    },
+    {
+      "slug": "04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-02-实体查询与屏幕上下文",
+      "title": "02-实体查询与屏幕上下文",
+      "wordCount": 1334,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-02-实体查询与屏幕上下文.md",
+      "relativePath": "04-AI-Agent/iOS快捷指令AI开发/02-App-Intents/02-实体查询与屏幕上下文.md"
+    },
+    {
+      "slug": "04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-03-Apple-Intelligence与Use-Model",
+      "title": "03-Apple-Intelligence与Use-Model",
+      "wordCount": 1262,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-03-Apple-Intelligence与Use-Model.md",
+      "relativePath": "04-AI-Agent/iOS快捷指令AI开发/02-App-Intents/03-Apple-Intelligence与Use-Model.md"
+    },
+    {
+      "slug": "04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-04-常见翻车",
+      "title": "04-常见翻车",
+      "wordCount": 990,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-iOS快捷指令AI开发-02-App-Intents-04-常见翻车.md",
+      "relativePath": "04-AI-Agent/iOS快捷指令AI开发/02-App-Intents/04-常见翻车.md"
+    },
+    {
+      "slug": "04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-01-plist结构与控制流",
+      "title": "01-plist结构与控制流",
+      "wordCount": 868,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-01-plist结构与控制流.md",
+      "relativePath": "04-AI-Agent/iOS快捷指令AI开发/03-快捷指令文件/01-plist结构与控制流.md"
+    },
+    {
+      "slug": "04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-02-从电脑交到iPhone",
+      "title": "02-从电脑交到iPhone",
+      "wordCount": 1118,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-02-从电脑交到iPhone.md",
+      "relativePath": "04-AI-Agent/iOS快捷指令AI开发/03-快捷指令文件/02-从电脑交到iPhone.md"
+    },
+    {
+      "slug": "04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-03-Ask-LLM与执行AppIntent",
+      "title": "03-Ask-LLM与执行AppIntent",
+      "wordCount": 922,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-iOS快捷指令AI开发-03-快捷指令文件-03-Ask-LLM与执行AppIntent.md",
+      "relativePath": "04-AI-Agent/iOS快捷指令AI开发/03-快捷指令文件/03-Ask-LLM与执行AppIntent.md"
+    },
+    {
+      "slug": "04-AI-Agent-iOS快捷指令AI开发-04-AlarmKit-01-调度与alarmUpdates",
+      "title": "01-调度与alarmUpdates",
+      "wordCount": 1309,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-iOS快捷指令AI开发-04-AlarmKit-01-调度与alarmUpdates.md",
+      "relativePath": "04-AI-Agent/iOS快捷指令AI开发/04-AlarmKit/01-调度与alarmUpdates.md"
+    },
+    {
+      "slug": "04-AI-Agent-iOS快捷指令AI开发-05-Agent工作流-01-怎么让AI写对",
+      "title": "01-怎么让AI写对",
+      "wordCount": 1203,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-iOS快捷指令AI开发-05-Agent工作流-01-怎么让AI写对.md",
+      "relativePath": "04-AI-Agent/iOS快捷指令AI开发/05-Agent工作流/01-怎么让AI写对.md"
+    },
+    {
+      "slug": "04-AI-Agent-iOS快捷指令AI开发-README",
+      "title": "README",
+      "wordCount": 872,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-iOS快捷指令AI开发-README.md",
+      "relativePath": "04-AI-Agent/iOS快捷指令AI开发/README.md"
+    },
+    {
       "slug": "04-AI-Agent-skill推荐-自用高频Skill",
       "title": "自用高频Skill",
       "wordCount": 2853,
       "category": "04-AI-Agent",
       "file": "/notes/04-AI-Agent-skill推荐-自用高频Skill.md",
       "relativePath": "04-AI-Agent/skill推荐/自用高频Skill.md"
+    },
+    {
+      "slug": "04-AI-Agent-VibeCoding高效能秘籍-01-认知重建-角色转变与幻觉控制",
+      "title": "01-认知重建-角色转变与幻觉控制",
+      "wordCount": 1665,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-VibeCoding高效能秘籍-01-认知重建-角色转变与幻觉控制.md",
+      "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/01-认知重建-角色转变与幻觉控制.md"
+    },
+    {
+      "slug": "04-AI-Agent-VibeCoding高效能秘籍-02-上下文工程-CLAUDEmd与会话管理",
+      "title": "02-上下文工程-CLAUDEmd与会话管理",
+      "wordCount": 2765,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-VibeCoding高效能秘籍-02-上下文工程-CLAUDEmd与会话管理.md",
+      "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/02-上下文工程-CLAUDEmd与会话管理.md"
+    },
+    {
+      "slug": "04-AI-Agent-VibeCoding高效能秘籍-03-验收闭环-从代码到UI",
+      "title": "03-验收闭环-从代码到UI",
+      "wordCount": 2554,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-VibeCoding高效能秘籍-03-验收闭环-从代码到UI.md",
+      "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/03-验收闭环-从代码到UI.md"
+    },
+    {
+      "slug": "04-AI-Agent-VibeCoding高效能秘籍-04-需求规划与UI设计-SDD与Impeccable",
+      "title": "04-需求规划与UI设计-SDD与Impeccable",
+      "wordCount": 2486,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-VibeCoding高效能秘籍-04-需求规划与UI设计-SDD与Impeccable.md",
+      "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/04-需求规划与UI设计-SDD与Impeccable.md"
+    },
+    {
+      "slug": "04-AI-Agent-VibeCoding高效能秘籍-05-沉淀复利-Skill开发与工作流",
+      "title": "05-沉淀复利-Skill开发与工作流",
+      "wordCount": 2032,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-VibeCoding高效能秘籍-05-沉淀复利-Skill开发与工作流.md",
+      "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/05-沉淀复利-Skill开发与工作流.md"
+    },
+    {
+      "slug": "04-AI-Agent-VibeCoding高效能秘籍-06-升维-全自动化与判断力",
+      "title": "06-升维-全自动化与判断力",
+      "wordCount": 2069,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-VibeCoding高效能秘籍-06-升维-全自动化与判断力.md",
+      "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/06-升维-全自动化与判断力.md"
+    },
+    {
+      "slug": "04-AI-Agent-VibeCoding高效能秘籍-07-终极心法-四种认知状态",
+      "title": "07-终极心法-四种认知状态",
+      "wordCount": 1283,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-VibeCoding高效能秘籍-07-终极心法-四种认知状态.md",
+      "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/07-终极心法-四种认知状态.md"
+    },
+    {
+      "slug": "04-AI-Agent-VibeCoding高效能秘籍-README",
+      "title": "README",
+      "wordCount": 752,
+      "category": "04-AI-Agent",
+      "file": "/notes/04-AI-Agent-VibeCoding高效能秘籍-README.md",
+      "relativePath": "04-AI-Agent/VibeCoding高效能秘籍/README.md"
     }
   ]
 }
